@@ -113,11 +113,13 @@ let ShareMenuItems = ({
   }
 
   const showExternalShareButtons = useShowExternalShareButtons()
-  const isBridgyPost = !!post.record.bridgyOriginalUrl
-  const bridgyOriginalUrl = post.record.bridgyOriginalUrl as string | undefined
+  const isBridgedPost =
+    !!post.record.bridgyOriginalUrl || !!post.record.fediverseId
+  const originalPostUrl = (post.record.bridgyOriginalUrl ||
+    post.record.fediverseId) as string | undefined
 
   const onOpenOriginalPost = () => {
-    bridgyOriginalUrl && openLink(bridgyOriginalUrl, true)
+    originalPostUrl && openLink(originalPostUrl, true)
   }
 
   const onOpenPostInPdsls = () => {
@@ -149,7 +151,7 @@ let ShareMenuItems = ({
 
         {showExternalShareButtons && (
           <Menu.Group>
-            {isBridgyPost && (
+            {isBridgedPost && (
               <Menu.Item
                 testID="postDropdownOpenOriginalPost"
                 label={_(msg`Open original post`)}
