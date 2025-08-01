@@ -148,10 +148,10 @@ let ShareMenuItems = ({
         {showExternalShareButtons && (
           <Menu.Item
             testID="postDropdownOpenInPdsls"
-            label={_(msg`Open post in pdsls`)}
+            label={_(msg`Open post in PDSls`)}
             onPress={onOpenPostInPdsls}>
             <Menu.ItemText>
-              <Trans>Open post in pdsls</Trans>
+              <Trans>Open post in PDSls</Trans>
             </Menu.ItemText>
             <Menu.ItemIcon icon={ExternalIcon} position="right" />
           </Menu.Item>
