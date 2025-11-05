@@ -1,6 +1,6 @@
 # Bitchsky Social App
 
-Hey, bitches! This is the codebase for the Bitchsky Social app, based on [social.daniela.lol](https://github.com/danielah05/deer-social/) based on [deer.social](https://github.com/a-viv-a/deer-social).
+Hey, bitches! This is the codebase for the Bitchsky Social app, based on [social.daniela.lol](https://github.com/kittibytess/deer-social) based on [deer.social](https://github.com/a-viv-a/deer-social).
 
 Get the app itself:
 
