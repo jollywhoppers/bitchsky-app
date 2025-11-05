@@ -1,27 +1,27 @@
-# Bitchsky Social App
+# Bitchsky Social App 🐶
 
 Hey, bitches! This is the codebase for the Bitchsky Social app, based on [social.daniela.lol](https://github.com/kittibytess/deer-social) based on [deer.social](https://github.com/a-viv-a/deer-social).
-It's basically Bluesky, but we had an itch for a few more powerful features.
 
 Get the app itself:
 
 - **Web: [bitchsky.app](https://bitchsky.app)**
 - **iOS: [Soon™](https://large-type.com/#%F0%9F%99%80)?**
 - **Android: [Github Releases](github.com/devxan/bitch-social/releases/latest)**
+
 <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/devxan/bitch-social/">
 <img src="https://github.com/ImranR98/Obtainium/blob/main/assets/graphics/badge_obtainium.png?raw=true"
 alt="Get it on Obtainium" align="center" height="54" /></a>
 
-## Improvements over Bluesky
+## Improvements on Bluesky
 
-- Better name (added an itch; lue no longer)
+- Better name (still love you tho bsky!)
 - Nicer colors (based on ...)
 - Ignores `!no-unauthenticated` labels
 - Share links to bitchsky.app or bsky.app
 
 ### Experiments
 
-These are all available as options in a subpage of the app's settings.
+These are all available as options in a sub-page of the app's settings.
 
 - Toggle go.bsky.app link proxying for analytics
 - Toggle to see skeets in quotes through blocks and detachments
