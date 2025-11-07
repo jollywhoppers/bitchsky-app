@@ -60,18 +60,18 @@ You can disable the visiblity of all skeet metrics individually, including the l
 ### TODO: Xan
 
 - [ ] Update branding (especially colors and app icon) to Bitchsky
-  - [ ] ./src/view/icons/Logomark.tsx
-  - [ ] ./src/view/icons/Logo.tsx
-  - [ ] ./src/view/icons/Logotype.tsx
+  - [ ] ./src/view/icons/
   - [ ] ./src/components/WelcomeModal.tsx
   - [ ] ./assets/
 - [ ] Setup App Linking for Android (.well-known w/ app package fingerprint)
 - [ ] Remove broken Experiments (constellation instance and TODO note)
 - [ ] Replace instances of `group.app.bsky` with `group.app.bitchsky`
-- [ ] Add a toggle to replace "New Post" with "Skeet" (and other instances of "Post" in English)
+- [ ] Add an experimental toggle to replace posts with skeets
 - [ ] [Coffee](https://git.ari.lt/coffee) for colors in actual themes
 - [ ] Automatic PDS detection like other social-app forks
 - [ ] Like of or repost of repost icons from blacksky
+- [ ] Change followed accounts [on onboarding](https://github.com/blacksky-algorithms/blacksky.community/commit/e36ee43efb4999f070860d7f70122e45b28c1e2b)
+- [ ] stream.place [embeds](https://github.com/streamplace/deer-social/tree/eli/streamplace-embed)
 - [ ] Bitchsky PDS and .social site
 
 ### Even more wishful or far off
