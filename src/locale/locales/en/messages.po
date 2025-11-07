@@ -5555,7 +5555,7 @@ msgstr ""
 #: src/view/shell/desktop/LeftNav.tsx:581
 msgctxt "action"
 msgid "New Post"
-msgstr ""
+msgstr "Skeet"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:542
 msgid "New posts from {firstAuthorLink} and <0>{additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}}</0>"

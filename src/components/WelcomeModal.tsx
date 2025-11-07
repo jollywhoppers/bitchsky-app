@@ -13,7 +13,7 @@ import {Button, ButtonText} from '#/components/Button'
 import {TimesLarge_Stroke2_Corner0_Rounded as XIcon} from '#/components/icons/Times'
 import {Text} from '#/components/Typography'
 
-const welcomeModalBg = require('../../assets/images/welcome-modal-bg.jpg')
+const welcomeModalBg = require('../../assets/images/welcome-modal-bg.jpg') // TODO: Xan: Change background to something cuter
 
 interface WelcomeModalProps {
   control: {
@@ -112,7 +112,7 @@ export function WelcomeModal({control}: WelcomeModalProps) {
                       a.user_select_none,
                       {color: '#354358', letterSpacing: -0.5},
                     ]}>
-                    Bluesky
+                    Bitchsky
                   </Text>
                 </View>
               </View>
@@ -141,11 +141,11 @@ export function WelcomeModal({control}: WelcomeModalProps) {
                       letterSpacing: -0.5,
                     }),
                   ]}>
-                  <Trans>Real people.</Trans>
+                  <Trans>Real creatures.</Trans>
                   {'\n'}
-                  <Trans>Real conversations.</Trans>
+                  <Trans>Real talk (Meow! Woof).</Trans>
                   {'\n'}
-                  <Trans>Social media you control.</Trans>
+                  <Trans>Social media if it was good.</Trans>
                 </Text>
               </View>
               <View style={[a.gap_md, a.align_center]}>
@@ -157,7 +157,7 @@ export function WelcomeModal({control}: WelcomeModalProps) {
                     color="primary"
                     style={{
                       width: 200,
-                      backgroundColor: '#006AFF',
+                      backgroundColor: '#006AFF', // TODO: Xan: WHY ARE THE COLORS HARDCODED? Make these all coffee flavored
                     }}>
                     <ButtonText>
                       <Trans>Create account</Trans>

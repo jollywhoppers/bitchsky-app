@@ -59,6 +59,10 @@ You can disable the visiblity of all skeet metrics individually, including the l
 ### TODO: Xan
 
 - [ ] Update branding (especially colors and app icon) to Bitchsky
+  - [ ] ./src/view/icons/Logomark.tsx
+  - [ ] ./src/view/icons/Logo.tsx
+  - [ ] ./src/view/icons/Logotype.tsx
+  - [ ] ./assets/
 - [ ] Setup App Linking for Android (.well-known w/ app package fingerprint)
 - [ ] Remove broken Experiments (constellation instance and TODO note)
 - [ ] Replace instances of `group.app.bsky` with `group.app.bitchsky`
