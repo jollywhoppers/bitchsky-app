@@ -428,7 +428,7 @@ module.exports = function (_config) {
                 //     bundleIdentifier: 'xyz.blueskyweb.app.Share-with-Bluesky',
                 //     entitlements: {
                 //       'com.apple.security.application-groups': [
-                //         'group.app.bsky',
+                //         'group.app.bitchsky',
                 //       ],
                 //     },
                 //   },
@@ -437,7 +437,7 @@ module.exports = function (_config) {
                 //     bundleIdentifier: 'xyz.blueskyweb.app.BlueskyNSE',
                 //     entitlements: {
                 //       'com.apple.security.application-groups': [
-                //         'group.app.bsky',
+                //         'group.app.bitchsky',
                 //       ],
                 //     },
                 //   },
