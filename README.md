@@ -19,6 +19,7 @@ alt="Get it on Obtainium" align="center" height="54" /></a>
 - We call them skeets (at least for English users)
 - Ignores `!no-unauthenticated` labels
 - Share links to bitchsky.app or bsky.app
+- Embed player works with [stream.place](https://stream.place/) links!
 
 ### Experiments
 
@@ -65,12 +66,10 @@ You can disable the visiblity of all skeet metrics individually, including the l
   - [ ] ./assets/
 - [ ] Setup App Linking for Android (.well-known w/ app package fingerprint)
 - [ ] Remove broken Experiments (constellation instance and TODO note)
-- [ ] Replace instances of `group.app.bsky` with `group.app.bitchsky` ([see](https://github.com/a-viv-a/deer-social/pull/40))
 - [ ] [Coffee](https://git.ari.lt/coffee) for colors in actual themes
 - [ ] Automatic PDS detection like other social-app forks
 - [ ] Like of or repost of repost icons from blacksky
 - [ ] Change followed accounts [on onboarding](https://github.com/blacksky-algorithms/blacksky.community/commit/e36ee43efb4999f070860d7f70122e45b28c1e2b)
-- [ ] stream.place [embeds](https://github.com/streamplace/deer-social/tree/eli/streamplace-embed)
 - [ ] Change ChatEmptyPill things for English locale
 - [ ] Bitchsky PDS and .social site
 
