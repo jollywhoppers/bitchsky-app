@@ -300,9 +300,7 @@ export function MessagesList({
   }))
 
   const animatedStickyViewStyle = useAnimatedStyle(() => ({
-    transform: [
-      {translateY: -Math.max(keyboardHeight.get(), footerHeight.get())},
-    ],
+    // Removed negative translateY to prevent input from hovering over messages
   }))
 
   // -- Message sending
