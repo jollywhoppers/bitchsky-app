@@ -1064,7 +1064,7 @@ function ComposerTopBar({
           <>
             <Text style={pal.textLight}>{publishingStage}</Text>
             <View style={styles.postBtn}>
-              <ActivityIndicator />
+              <ActivityIndicator color={t.palette.primary_500} />
             </View>
           </>
         ) : (
