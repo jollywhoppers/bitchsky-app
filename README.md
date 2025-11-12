@@ -15,21 +15,20 @@ alt="Get it on Obtainium" align="center" height="54" /></a>
 ## Improvements on Bluesky
 
 - Funner name (still love you tho bsky!)
-- Nicer colors (kinda like gruvbox? not quite)
+- Nicer colors (kinda like gruvbox? not really)
 - We call them skeets (at least for English users)
 - Attempts to ignore `!no-unauthenticated` labels
 - Share links to bitchsky.app or bsky.app
 - Embed player works with [stream.place](https://stream.place/) links!
 - No push notifications (may be added later)
-- Kept super up-to-date (sporadically unstable as a result)
+- Kept as up-to-date as possible (sporadically unstable as a result)
 
 ### Experiments
 
 These are all available as options in a sub-page of the app's settings.
 
 - Toggle go.bsky.app link proxying for analytics
-- Toggle to see skeets in quotes through blocks and detachments
-- <img src="https://github.com/user-attachments/assets/e5084afd-b17e-43a7-9622-f6d7f19f53ca" width="300px" alt="example quote post removed by author, but still shown" />
+- Toggle to see skeets in quotes through blocks and detachments (broken 💔)
 - Toggle to trust your own preferred verifiers (and to operate as one yourself)
 - Toggle to disable the default app labeler
 
@@ -45,7 +44,7 @@ These are all available as options in a sub-page of the app's settings.
 
 #### Metrics
 
-You can disable the visiblity of all metrics individually, including the number of:
+You can completely disable the visiblity of all metrics individually, including the number of:
 
 - likes
 - reskeets
@@ -58,6 +57,7 @@ You can disable the visiblity of all metrics individually, including the number 
 - Toggle for an alternate share icon
 - Toggle to show feed context for debugging
 - Toggle to hide the 'show latest' button
+- Toggle to make reply button open thread from feeds
 - More may be available in developer mode
   - (Accessible by holding the version in the About settings screen)
 
@@ -65,7 +65,7 @@ You can disable the visiblity of all metrics individually, including the number 
 
 - Better OpenGraph support for sharing profiles & skeets (including videos)
 - Selecting a custom AppView
-- Seeing past blocks in threads (the nuclear block for reply chains)
+- Seeing past blocks in threads (the nuclear block in reply chains)
 - Configure the location used to determine regional labelers
 
 ### TODO: Xan
@@ -76,20 +76,18 @@ You can disable the visiblity of all metrics individually, including the number 
   - [ ] ./src/lib/styles.ts (change likes color, remove gradient from new skeet button)
   - [ ] ./src/style.css (change links color)
   - [ ] ./assets/app-icons/ (change new bksy logos to fit Bitchsky -remove from social embed!)
-  - [ ] social embed stuff (bitchsky logo in image with jollywhoppers logo, use bitchsky logo)
+  - [ ] social embed stuff (bitchsky logo in image with jollywhoppers logo, use bitchsky icon)
 - [ ] Setup App Linking for Android (.well-known w/ app package fingerprint)
 - [ ] Automatic PDS detection like other social-app forks (fallback/email addresses to use bitchsky.social)
-- [ ] Like of or repost of repost icons from blacksky
+- [ ] Like of or repost of repost icons in notifications
 - [ ] Change followed accounts [on onboarding](https://github.com/blacksky-algorithms/blacksky.community/commit/e36ee43efb4999f070860d7f70122e45b28c1e2b)
-- [ ] Change ChatEmptyPill things for English locale
-- [ ] stuff from forks like [deer.aylac.top](https://github.com/ayla6/deer-social-test) for pronouns+
-- [ ] Visual replies indicator like the [Firmament userstyle](https://bitchsky.app/profile/did:plc:jwhxcrf5uvl3vyw7nurecgt5/post/3m4rr3vzmak2a)
+- [ ] Change ChatEmptyPill strings for English locale
+- [ ] Pronouns+ from forks like [deer.aylac.top](https://github.com/ayla6/deer-social-test)
+- [ ] Visual replies indicator like the [Firmament userstyle](https://bitchsky.app/profile/did:plc:jwhxcrf5uvl3vyw7nurecgt5/post/3m4rr3vzmak2a) (and likes?)
 - [ ] Additional translation service providers + setting (Deepl, Kagi)
-- [ ] Collapse labels past the 1st (or 2nd,...; customizable) from the same labeler into a labeler clip of the same style "(+)"
 - [ ] Move Mutuals label to the follow button
-- [ ] New fun language/locale(s) like Minecraft
-- [ ] Change defaults (alt text nation, non-bsky handles, autoplay OFF, )
-- [ ] Bitchsky PDS and .social site (list songs with 'bitch' in the title)
+- [ ] Change defaults (alt text nation, link non-bsky handles, autoplay OFF, hide similar account recommendations)
+- [ ] Bitchsky PDS and .social site (list good songs containing 'bitch' in their titles)
 
 #### Bugs
 
@@ -98,11 +96,14 @@ You can disable the visiblity of all metrics individually, including the number 
 
 ### Even more wishful or far off
 
-- [ ] iOS app IPA?
+- [ ] Collapse labels past a customizable number (from the same labeler?) into a labeler clip "(+)"
+- [ ] Submit releases to the Google Play Store and iOS App Store
 - [ ] Likes tab on profiles for other users
 - [ ] Move from GitHub to Tangled?
 - [ ] Experimental toggle between handle and DID in share links?
+- [ ] New fun language/locale(s) like Minecraft
 - [ ] Move TOS and privacy policy to Jollywhoppers website?
+- [ ] Rewrite ALF for M3 Expressive (with in-app color slider like red dwarf, for web?)
 
 ## Development Resources
 
