@@ -73,6 +73,7 @@ export function HomeHeader(
         items={items}
         dragProgress={props.dragProgress}
         dragState={props.dragState}
+        transparent
       />
     </HomeHeaderLayout>
   )

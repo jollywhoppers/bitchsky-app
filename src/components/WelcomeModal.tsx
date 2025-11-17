@@ -84,7 +84,7 @@ export function WelcomeModal({control}: WelcomeModalProps) {
               maxHeight: 600,
               width: '90%',
               height: '90%',
-              backgroundColor: '#C0DCF0',
+              backgroundColor: '#d6c0f0ff',
             },
             a.rounded_lg,
             a.overflow_hidden,
@@ -132,7 +132,7 @@ export function WelcomeModal({control}: WelcomeModalProps) {
                     {color: '#354358'},
                     web({
                       backgroundImage:
-                        'linear-gradient(180deg, #313F54 0%, #667B99 83.65%, rgba(102, 123, 153, 0.50) 100%)',
+                        'linear-gradient(180deg, #453154ff 0%, #866699ff 83.65%rgba(134, 102, 153, 0.5)0) 100%)',
                       backgroundClip: 'text',
                       WebkitBackgroundClip: 'text',
                       WebkitTextFillColor: 'transparent',
@@ -184,7 +184,7 @@ export function WelcomeModal({control}: WelcomeModalProps) {
                     style={[
                       a.text_md,
                       a.text_center,
-                      {color: '#405168', lineHeight: 24},
+                      {color: '#564068ff', lineHeight: 24},
                     ]}>
                     <Trans>Already have an account?</Trans>{' '}
                     <Pressable
@@ -233,7 +233,7 @@ export function WelcomeModal({control}: WelcomeModalProps) {
                 <XIcon
                   size="md"
                   style={{
-                    color: '#354358',
+                    color: '#443558ff',
                     opacity: hovered || pressed || focused ? 1 : 0.7,
                   }}
                 />

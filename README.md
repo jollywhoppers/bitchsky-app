@@ -75,6 +75,7 @@ You can completely disable the visiblity of all metrics individually, including 
   - [ ] ./src/alf/themes.ts (improve contrast, esp. of links)
   - [ ] ./src/lib/styles.ts (change likes color, remove gradient from new skeet button)
   - [ ] ./src/style.css (change links color)
+  - [ ] ./src/view/com/util/UserAvatar.tsx (change #0070FF)
   - [ ] ./assets/app-icons/ (change new bksy logos to fit Bitchsky -remove from social embed!)
   - [ ] social embed stuff (bitchsky logo in image with jollywhoppers logo, use bitchsky icon)
 - [ ] Setup App Linking for Android (.well-known w/ app package fingerprint)
