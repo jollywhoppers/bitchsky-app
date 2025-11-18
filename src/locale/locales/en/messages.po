@@ -499,7 +499,7 @@ msgid "<0>{date}</0> at {time}"
 msgstr ""
 
 #: src/screens/Hashtag.tsx:223
-#: src/screens/Search/SearchResults.tsx:257
+#: src/screens/Search/SearchResults.tsx:259
 msgid "<0>Sign in</0><1> or </1><2>create an account</2><3> </3><4>to search for news, sports, politics, and everything else happening on Bluesky.</4>"
 msgstr ""
 
@@ -590,15 +590,10 @@ msgstr ""
 
 #: src/Navigation.tsx:384
 msgid "Accessibility Settings"
-msgstr ""
+msgstr "<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/Navigation.tsx:408
-#: src/screens/Login/LoginForm.tsx:194
-=======
-#: src/Navigation.tsx:399
 #: src/screens/Login/LoginForm.tsx:197
->>>>>>> upstream/main
 #: src/screens/Settings/AccountSettings.tsx:51
 #: src/screens/Settings/Settings.tsx:175
 #: src/screens/Settings/Settings.tsx:178
@@ -634,17 +629,13 @@ msgstr ""
 
 #: src/screens/Settings/Settings.tsx:633
 msgid "Account options"
-msgstr ""
+msgstr "<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/screens/Settings/Settings.tsx:669
-=======
 #: src/components/dialogs/ServerInput.tsx:141
 msgid "Account provider"
 msgstr ""
 
-#: src/screens/Settings/Settings.tsx:662
->>>>>>> upstream/main
+#: src/screens/Settings/Settings.tsx:669
 msgid "Account removed from quick access"
 msgstr ""
 
@@ -739,7 +730,7 @@ msgstr ""
 msgid "Add another post"
 msgstr ""
 
-#: src/view/com/composer/Composer.tsx:1491
+#: src/view/com/composer/Composer.tsx:1492
 msgid "Add another post to thread"
 msgstr ""
 
@@ -1193,15 +1184,10 @@ msgstr ""
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:71
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:74
 msgid "App passwords"
-msgstr ""
+msgstr "<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/Navigation.tsx:352
-#: src/screens/Settings/AppPasswords.tsx:51
-=======
-#: src/Navigation.tsx:351
 #: src/screens/Settings/AppPasswords.tsx:49
->>>>>>> upstream/main
 msgid "App Passwords"
 msgstr ""
 
@@ -1234,19 +1220,12 @@ msgstr ""
 #: src/screens/Messages/components/ChatDisabled.tsx:111
 #: src/screens/Messages/components/ChatDisabled.tsx:113
 msgid "Appeal this decision"
-msgstr ""
+msgstr "<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/Navigation.tsx:400
-#: src/screens/Settings/AppearanceSettings.tsx:86
+#: src/screens/Settings/AppearanceSettings.tsx:73
 #: src/screens/Settings/Settings.tsx:213
 #: src/screens/Settings/Settings.tsx:216
-=======
-#: src/Navigation.tsx:391
-#: src/screens/Settings/AppearanceSettings.tsx:73
-#: src/screens/Settings/Settings.tsx:212
-#: src/screens/Settings/Settings.tsx:215
->>>>>>> upstream/main
 msgid "Appearance"
 msgstr ""
 
@@ -1362,7 +1341,7 @@ msgstr ""
 #: src/screens/Login/SetNewPasswordForm.tsx:174
 #: src/screens/Messages/components/ChatDisabled.tsx:145
 #: src/screens/Messages/components/ChatDisabled.tsx:146
-#: src/screens/Profile/Header/Shell.tsx:158
+#: src/screens/Profile/Header/Shell.tsx:214
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:272
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:281
 #: src/screens/Signup/BackNextButtons.tsx:41
@@ -1483,18 +1462,14 @@ msgstr ""
 
 #: src/components/dms/AfterReportDialog.tsx:151
 msgid "Block User"
-msgstr ""
+msgstr "<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/components/Post/Embed/index.tsx:207
-#: src/components/Post/Embed/index.tsx:214
-=======
 #: src/components/dms/AfterReportDialog.tsx:180
 msgid "Block user and/or delete this conversation"
 msgstr ""
 
-#: src/components/Post/Embed/index.tsx:186
->>>>>>> upstream/main
+#: src/components/Post/Embed/index.tsx:207
+#: src/components/Post/Embed/index.tsx:214
 msgid "Blocked"
 msgstr ""
 
@@ -1526,36 +1501,18 @@ msgstr ""
 
 #: src/view/com/profile/ProfileMenu.tsx:548
 msgid "Blocking will not prevent labels from being applied on your account, but it will stop this account from replying in your threads or interacting with you."
-msgstr ""
-
-<<<<<<< HEAD
-#: src/view/com/auth/server-input/index.tsx:136
-#: src/view/com/auth/server-input/index.tsx:137
-=======
-#: src/view/com/auth/SplashScreen.web.tsx:179
-msgid "Blog"
-msgstr ""
+msgstr "<<<<<<< HEAD"
 
 #: src/components/dialogs/ServerInput.tsx:147
 #: src/components/dialogs/ServerInput.tsx:149
->>>>>>> upstream/main
 msgid "Bluesky"
 msgstr "Bitchsky"
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:705
 msgid "Bluesky cannot confirm the authenticity of the claimed date."
-msgstr ""
-
-<<<<<<< HEAD
-#: src/view/com/auth/server-input/index.tsx:212
-=======
-#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:165
-msgctxt "Name of app icon variant"
-msgid "Bluesky Classic™"
-msgstr ""
+msgstr "<<<<<<< HEAD"
 
 #: src/components/dialogs/ServerInput.tsx:217
->>>>>>> upstream/main
 msgid "Bluesky is an open network where you can choose your hosting provider. If you're a developer, you can host your own server."
 msgstr ""
 
@@ -1720,19 +1677,13 @@ msgstr ""
 #: src/screens/Settings/AppIconSettings/index.tsx:230
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:78
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:85
-<<<<<<< HEAD
-#: src/screens/Settings/components/ChangePasswordDialog.tsx:246
-#: src/screens/Settings/components/ChangePasswordDialog.tsx:252
-#: src/screens/Settings/Settings.tsx:296
-=======
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:247
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:253
-#: src/screens/Settings/Settings.tsx:289
->>>>>>> upstream/main
+#: src/screens/Settings/Settings.tsx:296
 #: src/screens/Takendown.tsx:108
 #: src/screens/Takendown.tsx:111
-#: src/view/com/composer/Composer.tsx:1048
-#: src/view/com/composer/Composer.tsx:1059
+#: src/view/com/composer/Composer.tsx:1049
+#: src/view/com/composer/Composer.tsx:1060
 #: src/view/com/composer/photos/EditImageDialog.web.tsx:43
 #: src/view/com/composer/photos/EditImageDialog.web.tsx:52
 #: src/view/shell/desktop/LeftNav.tsx:213
@@ -1995,19 +1946,8 @@ msgstr ""
 
 #: src/components/dialogs/EmailDialog/screens/Verify.tsx:275
 msgid "Click here to update your email"
-msgstr ""
+msgstr "<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:348
-msgid "Click to disable quote posts of this post."
-msgstr "Click to disable quote skeets of this post."
-
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:349
-msgid "Click to enable quote posts of this post."
-msgstr "Click to enable quote skeets of this post."
-
-=======
->>>>>>> upstream/main
 #: src/components/RichTextTag.tsx:54
 msgid "Click to open tag menu for {tag}"
 msgstr ""
@@ -2051,19 +1991,11 @@ msgstr ""
 #: src/components/StarterPack/Wizard/WizardEditListDialog.tsx:118
 #: src/components/StarterPack/Wizard/WizardEditListDialog.tsx:124
 #: src/components/verification/VerificationsDialog.tsx:144
-<<<<<<< HEAD
 #: src/components/verification/VerifierDialog.tsx:155
-#: src/components/WhoCanReply.tsx:202
-#: src/components/WhoCanReply.tsx:209
-#: src/screens/Settings/components/ChangePasswordDialog.tsx:286
-#: src/screens/Settings/components/ChangePasswordDialog.tsx:291
-=======
-#: src/components/verification/VerifierDialog.tsx:150
 #: src/components/WhoCanReply.tsx:234
 #: src/components/WhoCanReply.tsx:241
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:287
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:292
->>>>>>> upstream/main
 #: src/view/com/composer/select-language/PostLanguageSelectDialog.tsx:335
 #: src/view/com/feeds/MissingFeed.tsx:210
 #: src/view/com/feeds/MissingFeed.tsx:217
@@ -2133,7 +2065,7 @@ msgstr ""
 msgid "Closes password update alert"
 msgstr ""
 
-#: src/view/com/composer/Composer.tsx:1056
+#: src/view/com/composer/Composer.tsx:1057
 msgid "Closes post composer and discards post draft"
 msgstr ""
 
@@ -2205,7 +2137,7 @@ msgstr "Compose skeets up to {0, plural, other {# characters}} in length"
 msgid "Compose reply"
 msgstr ""
 
-#: src/view/com/composer/Composer.tsx:1886
+#: src/view/com/composer/Composer.tsx:1887
 msgid "Compressing video..."
 msgstr ""
 
@@ -2435,17 +2367,11 @@ msgstr ""
 #: src/components/dialogs/Embed.tsx:190
 #: src/components/dialogs/Embed.tsx:207
 msgid "Copy code"
-msgstr ""
+msgstr "<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/screens/Settings/components/ChangeHandleDialog.tsx:501
+#: src/screens/Settings/components/ChangeHandleDialog.tsx:502
 #: src/view/com/profile/ProfileMenu.tsx:508
 #: src/view/com/profile/ProfileMenu.tsx:511
-=======
-#: src/screens/Settings/components/ChangeHandleDialog.tsx:502
-#: src/view/com/profile/ProfileMenu.tsx:447
-#: src/view/com/profile/ProfileMenu.tsx:450
->>>>>>> upstream/main
 msgid "Copy DID"
 msgstr ""
 
@@ -2607,7 +2533,7 @@ msgstr ""
 #: src/components/dialogs/Signin.tsx:86
 #: src/components/dialogs/Signin.tsx:88
 #: src/screens/Hashtag.tsx:232
-#: src/screens/Search/SearchResults.tsx:268
+#: src/screens/Search/SearchResults.tsx:270
 msgid "Create an account"
 msgstr ""
 
@@ -2668,15 +2594,8 @@ msgstr ""
 
 #: src/components/dialogs/Embed.tsx:144
 msgid "Customization options"
-msgstr ""
+msgstr "<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:111
-msgid "Customize who can interact with this post."
-msgstr "Customize who can interact with this skeet."
-
-=======
->>>>>>> upstream/main
 #: src/screens/Onboarding/Layout.tsx:60
 msgid "Customizes your Bluesky experience"
 msgstr ""
@@ -2729,17 +2648,13 @@ msgstr ""
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:84
 msgid "Deepfake adult content"
-msgstr ""
+msgstr "<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/screens/Settings/Settings.tsx:219
 msgid "Deer"
 msgstr ""
 
-#: src/screens/Settings/AppearanceSettings.tsx:169
-=======
 #: src/screens/Settings/AppearanceSettings.tsx:156
->>>>>>> upstream/main
 msgid "Default"
 msgstr ""
 
@@ -2914,18 +2829,24 @@ msgstr ""
 #: src/screens/Settings/AccessibilitySettings.tsx:89
 #: src/screens/Settings/AccessibilitySettings.tsx:94
 msgid "Disable haptic feedback"
-msgstr ""
+msgstr "<<<<<<< HEAD<<<<<<< HEAD"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 #: src/screens/Settings/DeerSettings.tsx:521
 #: src/screens/Settings/DeerSettings.tsx:526
 msgid "Disable Likes Metrics"
 msgstr ""
 
+#: src/components/dialogs/PostInteractionSettingsDialog.tsx:622
+msgid "Disable quote posts of this post"
+msgstr ""
+
 #: src/screens/Settings/DeerSettings.tsx:545
 #: src/screens/Settings/DeerSettings.tsx:550
 msgid "Disable Quotes Metrics"
+msgstr ""
+
+#: src/components/dialogs/PostInteractionSettingsDialog.tsx:459
+msgid "Disable replies entirely"
 msgstr ""
 
 #: src/screens/Settings/DeerSettings.tsx:569
@@ -2941,17 +2862,6 @@ msgstr ""
 #: src/screens/Settings/DeerSettings.tsx:557
 #: src/screens/Settings/DeerSettings.tsx:562
 msgid "Disable Saves Metrics"
-=======
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:608
-=======
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:622
->>>>>>> upstream/main
-msgid "Disable quote posts of this post"
-msgstr ""
-
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:459
-msgid "Disable replies entirely"
->>>>>>> upstream/main
 msgstr ""
 
 #: src/components/Post/Embed/VideoEmbed/VideoEmbedInner/web-controls/VideoControls.tsx:388
@@ -3011,7 +2921,7 @@ msgstr ""
 msgid "Dismiss"
 msgstr ""
 
-#: src/view/com/composer/Composer.tsx:1810
+#: src/view/com/composer/Composer.tsx:1811
 msgid "Dismiss error"
 msgstr ""
 
@@ -3233,7 +3143,7 @@ msgid "Edit"
 msgstr ""
 
 #: src/view/com/util/UserAvatar.tsx:451
-#: src/view/com/util/UserBanner.tsx:169
+#: src/view/com/util/UserBanner.tsx:124
 msgid "Edit avatar"
 msgstr ""
 
@@ -3508,7 +3418,7 @@ msgstr ""
 msgid "Entertainment"
 msgstr ""
 
-#: src/view/com/composer/Composer.tsx:1895
+#: src/view/com/composer/Composer.tsx:1896
 #: src/view/com/util/error/ErrorScreen.tsx:42
 msgid "Error"
 msgstr ""
@@ -3529,11 +3439,11 @@ msgstr ""
 msgid "Error occurred while saving file"
 msgstr ""
 
-#: src/screens/Signup/StepCaptcha/index.tsx:123
+#: src/screens/Signup/StepCaptcha/index.tsx:124
 msgid "Error receiving captcha response."
 msgstr ""
 
-#: src/screens/Search/SearchResults.tsx:146
+#: src/screens/Search/SearchResults.tsx:148
 msgid "Error: {error}"
 msgstr ""
 
@@ -4228,15 +4138,8 @@ msgstr ""
 
 #: src/screens/Onboarding/StepFinished/ValuePropositionPager.shared.tsx:12
 msgid "Free your feed"
-msgstr ""
+msgstr "<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/lib/moderation/useReportOptions.ts:54
-msgid "Frequently Posts Unwanted Content"
-msgstr "Frequently Skeets Unwanted Content"
-
-=======
->>>>>>> upstream/main
 #: src/screens/Settings/NotificationSettings/components/PreferenceControls.tsx:157
 msgid "From"
 msgstr ""
@@ -4578,23 +4481,14 @@ msgstr ""
 
 #: src/components/dialogs/Embed.tsx:128
 msgid "Hide customization options"
-msgstr ""
+msgstr "<<<<<<< HEAD<<<<<<< HEAD"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:676
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:682
-=======
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:513
-=======
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:527
->>>>>>> upstream/main
 msgid "Hide lists"
 msgstr ""
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:578
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:584
->>>>>>> upstream/main
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:676
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:682
 msgid "Hide post for me"
 msgstr "Hide skeet for me"
 
@@ -4778,17 +4672,9 @@ msgstr ""
 
 #: src/screens/Settings/components/DeactivateAccountDialog.tsx:92
 msgid "If you're trying to change your handle or email, do so before you deactivate."
-msgstr ""
-
-<<<<<<< HEAD
-#: src/lib/moderation/useReportOptions.ts:38
-msgid "Illegal and Urgent"
-msgstr ""
+msgstr "<<<<<<< HEAD"
 
 #: src/view/com/util/images/Gallery.tsx:80
-=======
-#: src/view/com/util/images/Gallery.tsx:75
->>>>>>> upstream/main
 msgid "Image"
 msgstr ""
 
@@ -4873,21 +4759,13 @@ msgstr ""
 
 #: src/screens/Login/LoginForm.tsx:302
 msgid "Input the code which has been emailed to you"
-msgstr ""
+msgstr "<<<<<<< HEAD<<<<<<< HEAD"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 #: src/screens/Settings/DeerSettings.tsx:158
 msgid "Input the url of the constellations instance to use"
 msgstr ""
 
-#: src/view/com/composer/threadgate/ThreadgateBtn.tsx:49
-=======
-#: src/view/com/composer/threadgate/ThreadgateBtn.tsx:130
->>>>>>> upstream/main
-=======
 #: src/view/com/composer/threadgate/ThreadgateBtn.tsx:135
->>>>>>> upstream/main
 msgid "Interaction limited"
 msgstr ""
 
@@ -4961,7 +4839,7 @@ msgstr ""
 msgid "It's just you right now! Add more people to your starter pack by searching above."
 msgstr ""
 
-#: src/view/com/composer/Composer.tsx:1829
+#: src/view/com/composer/Composer.tsx:1830
 msgid "Job ID: {0}"
 msgstr ""
 
@@ -5004,17 +4882,13 @@ msgstr ""
 
 #: src/components/moderation/ContentHider.tsx:237
 msgid "Labeled by the author."
-msgstr ""
+msgstr "<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/screens/Settings/DeerSettings.tsx:618
 msgid "Labelers"
 msgstr ""
 
-#: src/view/com/composer/labels/LabelsBtn.tsx:75
-=======
 #: src/view/com/composer/labels/LabelsBtn.tsx:69
->>>>>>> upstream/main
 #: src/view/screens/Profile.tsx:223
 msgid "Labels"
 msgstr ""
@@ -5079,17 +4953,9 @@ msgstr ""
 
 #: src/components/ageAssurance/AgeAssuranceDismissibleFeedBanner.tsx:74
 msgid "Learn more about age assurance"
-msgstr ""
-
-<<<<<<< HEAD
-#: src/view/com/auth/server-input/index.tsx:218
-=======
-#: src/view/com/auth/SplashScreen.web.tsx:172
-msgid "Learn more about Bluesky"
-msgstr ""
+msgstr "<<<<<<< HEAD"
 
 #: src/components/dialogs/ServerInput.tsx:223
->>>>>>> upstream/main
 msgid "Learn more about self hosting your PDS."
 msgstr ""
 
@@ -5576,21 +5442,9 @@ msgstr ""
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:35
 msgid "Misleading"
-msgstr ""
-
-<<<<<<< HEAD
-#: src/lib/moderation/useReportOptions.ts:47
-msgid "Misleading Account"
-msgstr ""
-
-#: src/lib/moderation/useReportOptions.ts:67
-msgid "Misleading Post"
-msgstr "Misleading Skeet"
+msgstr "<<<<<<< HEAD"
 
 #: src/Navigation.tsx:178
-=======
-#: src/Navigation.tsx:177
->>>>>>> upstream/main
 #: src/screens/Moderation/index.tsx:100
 #: src/screens/Settings/Settings.tsx:189
 #: src/screens/Settings/Settings.tsx:192
@@ -6014,7 +5868,7 @@ msgstr ""
 msgid "No more doomscrolling junk-filled algorithms. Find feeds that work for you, not against you."
 msgstr ""
 
-#: src/view/com/notifications/NotificationFeed.tsx:122
+#: src/view/com/notifications/NotificationFeed.tsx:124
 msgid "No notifications yet!"
 msgstr ""
 
@@ -6068,9 +5922,9 @@ msgstr ""
 msgid "No results found for \"{query}\""
 msgstr ""
 
-#: src/screens/Search/SearchResults.tsx:313
-#: src/screens/Search/SearchResults.tsx:349
-#: src/screens/Search/SearchResults.tsx:394
+#: src/screens/Search/SearchResults.tsx:315
+#: src/screens/Search/SearchResults.tsx:351
+#: src/screens/Search/SearchResults.tsx:396
 msgid "No results found for {query}"
 msgstr ""
 
@@ -6328,7 +6182,7 @@ msgid "Open drawer menu"
 msgstr ""
 
 #: src/screens/Messages/components/MessageInput.web.tsx:181
-#: src/view/com/composer/Composer.tsx:1476
+#: src/view/com/composer/Composer.tsx:1477
 msgid "Open emoji picker"
 msgstr ""
 
@@ -6428,7 +6282,7 @@ msgstr ""
 msgid "Opens device gallery to select up to {MAX_IMAGES, plural, other {# images}}, or a single video or GIF."
 msgstr ""
 
-#: src/view/com/composer/Composer.tsx:1477
+#: src/view/com/composer/Composer.tsx:1478
 msgid "Opens emoji picker"
 msgstr ""
 
@@ -6468,15 +6322,10 @@ msgstr ""
 
 #: src/view/com/composer/select-language/PostLanguageSelect.tsx:129
 msgid "Opens post language settings"
-msgstr "Opens skeet language settings"
+msgstr "Opens skeet language settings<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/view/com/notifications/NotificationFeedItem.tsx:906
-#: src/view/com/util/UserAvatar.tsx:613
-=======
 #: src/view/com/notifications/NotificationFeedItem.tsx:1021
-#: src/view/com/util/UserAvatar.tsx:599
->>>>>>> upstream/main
+#: src/view/com/util/UserAvatar.tsx:613
 msgid "Opens this profile"
 msgstr ""
 
@@ -6886,12 +6735,12 @@ msgctxt "description"
 msgid "Post"
 msgstr "Skeet"
 
-#: src/view/com/composer/Composer.tsx:1119
+#: src/view/com/composer/Composer.tsx:1120
 msgctxt "action"
 msgid "Post"
 msgstr "Skeet"
 
-#: src/view/com/composer/Composer.tsx:1117
+#: src/view/com/composer/Composer.tsx:1118
 msgctxt "action"
 msgid "Post All"
 msgstr "Skeet All"
@@ -7055,7 +6904,7 @@ msgstr ""
 msgid "Privacy violation of a minor"
 msgstr ""
 
-#: src/view/com/composer/Composer.tsx:1892
+#: src/view/com/composer/Composer.tsx:1893
 msgid "Processing video..."
 msgstr ""
 
@@ -7102,22 +6951,22 @@ msgid "Public, sharable lists which can be used to drive feeds."
 msgstr ""
 
 #. Accessibility label for button to publish a single post
-#: src/view/com/composer/Composer.tsx:1099
+#: src/view/com/composer/Composer.tsx:1100
 msgid "Publish post"
 msgstr "Publish skeet"
 
 #. Accessibility label for button to publish multiple posts in a thread
-#: src/view/com/composer/Composer.tsx:1092
+#: src/view/com/composer/Composer.tsx:1093
 msgid "Publish posts"
 msgstr "Publish skeets"
 
 #. Accessibility label for button to publish multiple replies in a thread
-#: src/view/com/composer/Composer.tsx:1077
+#: src/view/com/composer/Composer.tsx:1078
 msgid "Publish replies"
 msgstr ""
 
 #. Accessibility label for button to publish a single reply
-#: src/view/com/composer/Composer.tsx:1084
+#: src/view/com/composer/Composer.tsx:1085
 msgid "Publish reply"
 msgstr ""
 
@@ -7243,12 +7092,12 @@ msgstr ""
 msgid "Read the patches and contribute"
 msgstr ""
 
-#: src/components/WelcomeModal.tsx:144
+#: src/components/WelcomeModal.tsx:146
 msgid "Real creatures."
 msgstr ""
 
-#: src/components/WelcomeModal.tsx:146
-msgid "Real talk. (Meow! Woof?)"
+#: src/components/WelcomeModal.tsx:144
+msgid "Real talk."
 msgstr ""
 
 #: src/screens/Takendown.tsx:171
@@ -7339,8 +7188,8 @@ msgstr ""
 msgid "Remove Avatar"
 msgstr ""
 
-#: src/view/com/util/UserBanner.tsx:241
-#: src/view/com/util/UserBanner.tsx:244
+#: src/view/com/util/UserBanner.tsx:196
+#: src/view/com/util/UserBanner.tsx:199
 msgid "Remove Banner"
 msgstr ""
 
@@ -7514,7 +7363,7 @@ msgstr ""
 msgid "Replies to this post are disabled."
 msgstr "Replies to this skeet are disabled."
 
-#: src/view/com/composer/Composer.tsx:1115
+#: src/view/com/composer/Composer.tsx:1116
 msgctxt "action"
 msgid "Reply"
 msgstr ""
@@ -7756,17 +7605,13 @@ msgstr ""
 
 #: src/screens/Login/ForgotPasswordForm.tsx:80
 msgid "Reset password"
-msgstr ""
+msgstr "<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/screens/Settings/DeerSettings.tsx:635
 msgid "Restart the app after changing this setting."
 msgstr ""
 
-#: src/screens/Login/LoginForm.tsx:324
-=======
 #: src/screens/Login/LoginForm.tsx:337
->>>>>>> upstream/main
 msgid "Retries signing in"
 msgstr ""
 
@@ -7978,11 +7823,11 @@ msgstr ""
 msgid "Search for \"{interestsDisplayName}\" (active)"
 msgstr ""
 
-#: src/view/shell/desktop/Search.tsx:131
+#: src/view/shell/desktop/Search.tsx:132
 msgid "Search for \"{query}\""
 msgstr ""
 
-#: src/screens/Search/components/AutocompleteResults.tsx:45
+#: src/screens/Search/components/AutocompleteResults.tsx:46
 msgid "Search for \"{searchText}\""
 msgstr ""
 
@@ -8007,7 +7852,7 @@ msgid "Search GIFs"
 msgstr ""
 
 #: src/screens/Hashtag.tsx:221
-#: src/screens/Search/SearchResults.tsx:255
+#: src/screens/Search/SearchResults.tsx:257
 msgid "Search is currently unavailable when logged out"
 msgstr ""
 
@@ -8596,7 +8441,7 @@ msgstr ""
 #: src/screens/Login/index.tsx:136
 #: src/screens/Login/index.tsx:157
 #: src/screens/Login/LoginForm.tsx:184
-#: src/screens/Search/SearchResults.tsx:260
+#: src/screens/Search/SearchResults.tsx:262
 #: src/view/com/auth/SplashScreen.tsx:81
 #: src/view/com/auth/SplashScreen.tsx:89
 #: src/view/com/auth/SplashScreen.web.tsx:127
@@ -9265,17 +9110,12 @@ msgstr ""
 msgid "There was an issue contacting the server, please check your internet connection and try again."
 msgstr ""
 
-#: src/view/com/notifications/NotificationFeed.tsx:130
+#: src/view/com/notifications/NotificationFeed.tsx:132
 msgid "There was an issue fetching notifications. Tap here to try again."
-msgstr ""
+msgstr "<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/screens/Search/Explore.tsx:993
-#: src/view/com/posts/PostFeed.tsx:798
-=======
 #: src/screens/Search/Explore.tsx:992
-#: src/view/com/posts/PostFeed.tsx:712
->>>>>>> upstream/main
+#: src/view/com/posts/PostFeed.tsx:798
 msgid "There was an issue fetching posts. Tap here to try again."
 msgstr "There was an issue fetching skeets. Tap here to try again."
 
@@ -9344,19 +9184,14 @@ msgstr ""
 
 #: src/screens/SignupQueued.tsx:130
 msgid "There's been a rush of new users to Bluesky! We'll activate your account as soon as we can."
+msgstr "<<<<<<< HEAD<<<<<<< HEAD"
+
+#: src/components/dialogs/PostInteractionSettingsDialog.tsx:654
+msgid "These are your default settings"
 msgstr ""
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 #: src/screens/Settings/DeerSettings.tsx:608
 msgid "These settings might summon nasal demons! Restart the app after changing if anything breaks."
-=======
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:640
-=======
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:654
->>>>>>> upstream/main
-msgid "These are your default settings"
->>>>>>> upstream/main
 msgstr ""
 
 #: src/screens/Settings/FollowingFeedPreferences.tsx:65
@@ -10034,20 +9869,20 @@ msgstr ""
 
 #: src/view/com/util/UserAvatar.tsx:483
 #: src/view/com/util/UserAvatar.tsx:486
-#: src/view/com/util/UserBanner.tsx:212
-#: src/view/com/util/UserBanner.tsx:215
+#: src/view/com/util/UserBanner.tsx:167
+#: src/view/com/util/UserBanner.tsx:170
 msgid "Upload from Camera"
 msgstr ""
 
 #: src/view/com/util/UserAvatar.tsx:500
-#: src/view/com/util/UserBanner.tsx:229
+#: src/view/com/util/UserBanner.tsx:184
 msgid "Upload from Files"
 msgstr ""
 
 #: src/view/com/util/UserAvatar.tsx:494
 #: src/view/com/util/UserAvatar.tsx:498
-#: src/view/com/util/UserBanner.tsx:223
-#: src/view/com/util/UserBanner.tsx:227
+#: src/view/com/util/UserBanner.tsx:178
+#: src/view/com/util/UserBanner.tsx:182
 msgid "Upload from Library"
 msgstr ""
 
@@ -10060,7 +9895,7 @@ msgstr ""
 msgid "Uploading link thumbnail..."
 msgstr ""
 
-#: src/view/com/composer/Composer.tsx:1889
+#: src/view/com/composer/Composer.tsx:1890
 msgid "Uploading video..."
 msgstr ""
 
@@ -10314,7 +10149,7 @@ msgstr ""
 msgid "Video settings"
 msgstr ""
 
-#: src/view/com/composer/Composer.tsx:1899
+#: src/view/com/composer/Composer.tsx:1900
 msgid "Video uploaded"
 msgstr ""
 
@@ -10339,8 +10174,12 @@ msgctxt "Action to view the post the user just created"
 msgid "View"
 msgstr ""
 
-#: src/screens/Profile/Header/Shell.tsx:241
+#: src/screens/Profile/Header/Shell.tsx:309
 msgid "View {0}'s avatar"
+msgstr ""
+
+#: src/screens/Profile/Header/Shell.tsx:261
+msgid "View {0}'s banner"
 msgstr ""
 
 #: src/components/ProfileCard.tsx:136
@@ -10404,10 +10243,6 @@ msgstr "View skeet"
 msgid "View profile"
 msgstr ""
 
-#: src/view/com/util/UserBanner.tsx:268
-msgid "View profile banner"
-msgstr ""
-
 #: src/view/com/profile/ProfileSubpageHeader.tsx:123
 msgid "View the avatar"
 msgstr ""
@@ -10451,15 +10286,10 @@ msgstr ""
 
 #: src/components/verification/VerificationCheckButton.tsx:98
 msgid "View your verifications"
-msgstr ""
+msgstr "<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/view/com/util/images/AutoSizedImage.tsx:212
-#: src/view/com/util/images/AutoSizedImage.tsx:239
-=======
-#: src/view/com/util/images/AutoSizedImage.tsx:205
-#: src/view/com/util/images/AutoSizedImage.tsx:232
->>>>>>> upstream/main
+#: src/view/com/util/images/AutoSizedImage.tsx:210
+#: src/view/com/util/images/AutoSizedImage.tsx:237
 msgid "Views full image"
 msgstr ""
 
@@ -10628,7 +10458,7 @@ msgstr ""
 msgid "We're sorry, but we weren't able to load your muted words at this time. Please try again."
 msgstr ""
 
-#: src/screens/Search/SearchResults.tsx:287
+#: src/screens/Search/SearchResults.tsx:289
 msgid "We're sorry, but your search could not be completed. Please try again in a few minutes."
 msgstr ""
 

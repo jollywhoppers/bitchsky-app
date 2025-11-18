@@ -98,21 +98,16 @@ msgstr "{0, plural, one {urmăritor} few {urmăritori} other {de urmăritori}}"
 #: src/components/ProfileHoverCard/index.web.tsx:448
 #: src/screens/Profile/Header/Metrics.tsx:26
 msgid "{0, plural, one {following} other {following}}"
-msgstr "{0, plural, one {urmărit} few {urmăriți} other {de urmăriți}}"
+msgstr "{0, plural, one {urmărit} few {urmăriți} other {de urmăriți}}<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:492
-=======
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:477
->>>>>>> upstream/main
 msgid "{0, plural, one {like} other {likes}}"
 msgstr "{0, plural, one {apreciere} few {aprecieri} other {de aprecieri}}"
 
 #: src/screens/Profile/Header/Metrics.tsx:58
 msgid "{0, plural, one {post} other {posts}}"
-msgstr "{0, plural, one {postare} few {postări} other {de postări}}"
+msgstr "{0, plural, one {postare} few {postări} other {de postări}}<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:474
 msgid "{0, plural, one {quote} other {quotes}}"
 msgstr "{0, plural, one {citat} few {citate} other {de citate}}"
@@ -123,17 +118,6 @@ msgid "{0, plural, one {repost} other {reposts}}"
 msgstr "{0, plural, one {repostare} few {repostări} other {de repostări}}"
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:505
-=======
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:461
-msgid "{0, plural, one {quote} other {quotes}}"
-msgstr "{0, plural, one {citat} few {citate} other {de citate}}"
-
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:443
-msgid "{0, plural, one {repost} other {reposts}}"
-msgstr "{0, plural, one {repostare} few {repostări} other {de repostări}}"
-
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:488
->>>>>>> upstream/main
 msgid "{0, plural, one {save} other {saves}}"
 msgstr "{0, plural, one {salvare} few {salvări} other {de salvări}}"
 
@@ -152,11 +136,7 @@ msgstr "{0, plural, one {} few {+încă #}other {+încă #}}"
 
 #: src/components/moderation/ContentHider.tsx:89
 msgid "{0} (Account)"
-<<<<<<< HEAD
 msgstr ""
-=======
-msgstr "{0} (Cont)"
->>>>>>> upstream/main
 
 #. Pattern: {wordValue} in tags
 #: src/components/dialogs/MutedWords.tsx:481
@@ -524,7 +504,7 @@ msgid "<0>{date}</0> at {time}"
 msgstr "<0>{date}</0> la {time}"
 
 #: src/screens/Hashtag.tsx:223
-#: src/screens/Search/SearchResults.tsx:257
+#: src/screens/Search/SearchResults.tsx:259
 msgid "<0>Sign in</0><1> or </1><2>create an account</2><3> </3><4>to search for news, sports, politics, and everything else happening on Bluesky.</4>"
 msgstr "<0>Conectați-vă</0><1> sau </1><2>creați un cont</2><3> </3><4>pentru a căuta știri, sport, politică și tot ce se întâmplă pe Bluesky.</4>"
 
@@ -587,11 +567,7 @@ msgstr "Despre"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:100
 msgid "Abusive or discriminatory behavior"
-<<<<<<< HEAD
 msgstr ""
-=======
-msgstr "Comportament abuziv sau discriminatoriu"
->>>>>>> upstream/main
 
 #. Accept a chat request
 #: src/screens/Messages/components/RequestButtons.tsx:269
@@ -619,30 +595,19 @@ msgstr "Accesibilitate"
 
 #: src/Navigation.tsx:384
 msgid "Accessibility Settings"
-msgstr "Setări de accesibilitate"
+msgstr "Setări de accesibilitate<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/Navigation.tsx:408
-#: src/screens/Login/LoginForm.tsx:194
-=======
-#: src/Navigation.tsx:399
 #: src/screens/Login/LoginForm.tsx:197
->>>>>>> upstream/main
 #: src/screens/Settings/AccountSettings.tsx:51
 #: src/screens/Settings/Settings.tsx:175
 #: src/screens/Settings/Settings.tsx:178
 msgid "Account"
-msgstr "Cont"
+msgstr "Cont<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:461
 #: src/screens/Messages/components/RequestButtons.tsx:91
 #: src/view/com/profile/ProfileMenu.tsx:179
-=======
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:393
-#: src/screens/Messages/components/RequestButtons.tsx:91
-#: src/view/com/profile/ProfileMenu.tsx:166
->>>>>>> upstream/main
 msgctxt "toast"
 msgid "Account blocked"
 msgstr "Cont blocat"
@@ -669,26 +634,18 @@ msgstr "Cont amuțit de listă"
 
 #: src/screens/Settings/Settings.tsx:633
 msgid "Account options"
-msgstr "Opțiuni cont"
+msgstr "Opțiuni cont<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/screens/Settings/Settings.tsx:669
-=======
 #: src/components/dialogs/ServerInput.tsx:141
 msgid "Account provider"
 msgstr "Furnizor cont"
 
-#: src/screens/Settings/Settings.tsx:662
->>>>>>> upstream/main
+#: src/screens/Settings/Settings.tsx:669
 msgid "Account removed from quick access"
 msgstr "Cont eliminat din acces rapid"
 
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:138
-<<<<<<< HEAD
 #: src/view/com/profile/ProfileMenu.tsx:169
-=======
-#: src/view/com/profile/ProfileMenu.tsx:156
->>>>>>> upstream/main
 msgctxt "toast"
 msgid "Account unblocked"
 msgstr "Cont deblocat"
@@ -778,7 +735,7 @@ msgstr "Adăugați un alt cont"
 msgid "Add another post"
 msgstr "Adăugați o altă postare"
 
-#: src/view/com/composer/Composer.tsx:1491
+#: src/view/com/composer/Composer.tsx:1492
 msgid "Add another post to thread"
 msgstr "Adăugați o altă postare firului"
 
@@ -889,20 +846,12 @@ msgstr "Adulți"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:66
 msgid "Adult content"
-<<<<<<< HEAD
 msgstr ""
-=======
-msgstr "Conținut pentru adulți"
->>>>>>> upstream/main
 
 #: src/components/moderation/ContentHider.tsx:120
 #: src/lib/moderation/useGlobalLabelStrings.ts:34
 #: src/lib/moderation/useModerationCauseDescription.ts:149
-<<<<<<< HEAD
-#: src/view/com/composer/labels/LabelsBtn.tsx:127
-=======
 #: src/view/com/composer/labels/LabelsBtn.tsx:122
->>>>>>> upstream/main
 msgid "Adult Content"
 msgstr "Conținut pentru adulți"
 
@@ -921,11 +870,7 @@ msgstr "Etichete conținut pentru adulți"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:76
 msgid "Adult sexual abuse content"
-<<<<<<< HEAD
 msgstr ""
-=======
-msgstr "Abuz sexual asupra adulților"
->>>>>>> upstream/main
 
 #: src/screens/Moderation/index.tsx:468
 msgid "Advanced"
@@ -1132,10 +1077,6 @@ msgid "An illustration showing that Bluesky selects trusted verifiers, and trust
 msgstr "O ilustrație care arată că Bluesky selectează verificatori de încredere, iar verificatorii de încredere verifică la rândul lor conturile de utilizator individuale."
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:239
-<<<<<<< HEAD
-#: src/lib/moderation/useReportOptions.ts:28
-=======
->>>>>>> upstream/main
 msgid "An issue not included in these options"
 msgstr "O problemă care nu este inclusă în aceste opțiuni"
 
@@ -1171,19 +1112,11 @@ msgstr "și"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:88
 msgid "Animal sexual abuse"
-<<<<<<< HEAD
 msgstr ""
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:130
 msgid "Animal welfare"
-msgstr ""
-=======
-msgstr "Abuz sexual asupra animalelor"
-
-#: src/components/moderation/ReportDialog/utils/useReportOptions.ts:130
-msgid "Animal welfare"
-msgstr "Bunăstarea animalelor"
->>>>>>> upstream/main
+msgstr "Bunăstarea animalelor>>>>>>> upstream/main"
 
 #: src/lib/interests.ts:52
 #: src/screens/Onboarding/index.tsx:60
@@ -1201,21 +1134,11 @@ msgstr "Anunț"
 
 #: src/components/dialogs/nuxs/InitialVerificationAnnouncement.tsx:37
 msgid "Announcing verification on Bluesky"
-msgstr "Anunțăm verificarea pe Bluesky"
+msgstr "Anunțăm verificarea pe Bluesky<<<<<<< HEAD<<<<<<< HEAD"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-#: src/lib/moderation/useReportOptions.ts:33
-msgid "Anti-Social Behavior"
-msgstr "Comportament anti-social"
-=======
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:437
-=======
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:451
->>>>>>> upstream/main
 msgid "Anyone"
-msgstr "Oricine"
->>>>>>> upstream/main
+msgstr "Oricine>>>>>>> upstream/main"
 
 #: src/view/com/composer/threadgate/ThreadgateBtn.tsx:134
 msgid "Anyone can interact"
@@ -1266,15 +1189,10 @@ msgstr "Numele parolelor de aplicație trebuie să aibă cel puțin 4 caractere"
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:71
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:74
 msgid "App passwords"
-msgstr "Parole de aplicații"
+msgstr "Parole de aplicații<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/Navigation.tsx:352
-#: src/screens/Settings/AppPasswords.tsx:51
-=======
-#: src/Navigation.tsx:351
 #: src/screens/Settings/AppPasswords.tsx:49
->>>>>>> upstream/main
 msgid "App Passwords"
 msgstr "Parole de aplicație"
 
@@ -1307,19 +1225,12 @@ msgstr "Contestare suspendare"
 #: src/screens/Messages/components/ChatDisabled.tsx:111
 #: src/screens/Messages/components/ChatDisabled.tsx:113
 msgid "Appeal this decision"
-msgstr "Contestați această decizie"
+msgstr "Contestați această decizie<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/Navigation.tsx:400
-#: src/screens/Settings/AppearanceSettings.tsx:86
+#: src/screens/Settings/AppearanceSettings.tsx:73
 #: src/screens/Settings/Settings.tsx:213
 #: src/screens/Settings/Settings.tsx:216
-=======
-#: src/Navigation.tsx:391
-#: src/screens/Settings/AppearanceSettings.tsx:73
-#: src/screens/Settings/Settings.tsx:212
-#: src/screens/Settings/Settings.tsx:215
->>>>>>> upstream/main
 msgid "Appearance"
 msgstr "Aspect vizual"
 
@@ -1331,23 +1242,14 @@ msgstr "Aplicați fluxurile recomandate implicit"
 #: src/screens/Settings/Settings.tsx:505
 #: src/screens/Settings/Settings.tsx:507
 msgid "Apply Pull Request"
-msgstr "Aplicați solicitarea de tragere"
+msgstr "Aplicați solicitarea de tragere<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:675
 msgid "Archived from {0}"
 msgstr "Arhivat de la {0}"
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:644
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:683
-=======
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:658
-msgid "Archived from {0}"
-msgstr "Arhivat de la {0}"
-
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:627
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:666
->>>>>>> upstream/main
 msgid "Archived post"
 msgstr "Postare arhivată"
 
@@ -1416,18 +1318,11 @@ msgstr "Atribuiți subiectul pentru algoritm"
 
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:208
 msgid "At least 8 characters"
-msgstr "Cel puțin 8 caractere"
+msgstr "Cel puțin 8 caractere<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/screens/Signup/StepInfo/index.tsx:176
 msgid "ATmosphere"
-msgstr ""
-=======
-#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:48
-msgctxt "Name of app icon variant"
-msgid "Aurora"
-msgstr "Aurora"
->>>>>>> upstream/main
+msgstr "======="
 
 #: src/screens/Settings/ContentAndMediaSettings.tsx:116
 #: src/screens/Settings/ContentAndMediaSettings.tsx:122
@@ -1441,13 +1336,8 @@ msgstr "Disponibil"
 
 #: src/components/moderation/LabelsOnMeDialog.tsx:333
 #: src/components/moderation/LabelsOnMeDialog.tsx:334
-<<<<<<< HEAD
-#: src/screens/Login/ChooseAccountForm.tsx:90
-#: src/screens/Login/ChooseAccountForm.tsx:95
-=======
 #: src/screens/Login/ChooseAccountForm.tsx:91
 #: src/screens/Login/ChooseAccountForm.tsx:96
->>>>>>> upstream/main
 #: src/screens/Login/ForgotPasswordForm.tsx:123
 #: src/screens/Login/ForgotPasswordForm.tsx:129
 #: src/screens/Login/LoginForm.tsx:323
@@ -1456,7 +1346,7 @@ msgstr "Disponibil"
 #: src/screens/Login/SetNewPasswordForm.tsx:174
 #: src/screens/Messages/components/ChatDisabled.tsx:145
 #: src/screens/Messages/components/ChatDisabled.tsx:146
-#: src/screens/Profile/Header/Shell.tsx:158
+#: src/screens/Profile/Header/Shell.tsx:214
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:272
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:281
 #: src/screens/Signup/BackNextButtons.tsx:41
@@ -1470,19 +1360,11 @@ msgstr "Înapoi la conversații"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:216
 msgid "Banned activities or security violations"
-<<<<<<< HEAD
 msgstr ""
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:227
 msgid "Banned user returning"
-msgstr ""
-=======
-msgstr "Activități interzise sau încălcări ale securității"
-
-#: src/components/moderation/ReportDialog/utils/useReportOptions.ts:227
-msgid "Banned user returning"
-msgstr "Utilizator interzis care s-a întoarce"
->>>>>>> upstream/main
+msgstr "Utilizator interzis care s-a întoarce>>>>>>> upstream/main"
 
 #: src/view/screens/Lists.tsx:42
 #: src/view/screens/ModerationModlists.tsx:42
@@ -1529,9 +1411,8 @@ msgstr "Începeți procesul de verificare a vârstei completând câmpurile de m
 #: src/components/dialogs/BirthDateSettings.tsx:115
 #: src/screens/Settings/AccountSettings.tsx:142
 msgid "Birthday"
-msgstr "Zi de naștere"
+msgstr "Zi de naștere<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/screens/Signup/StepInfo/index.tsx:172
 msgid "Bitchsky is part of the <0>ATmosphere</0>—the network of apps, services, and accounts built on the AT Protocol."
 msgstr ""
@@ -1539,31 +1420,17 @@ msgstr ""
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:890
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:336
 #: src/view/com/profile/ProfileMenu.tsx:556
-=======
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:792
-#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:336
-#: src/view/com/profile/ProfileMenu.tsx:495
->>>>>>> upstream/main
 msgid "Block"
 msgstr "Blocare"
 
 #: src/components/dms/ConvoMenu.tsx:261
 #: src/components/dms/ConvoMenu.tsx:264
-<<<<<<< HEAD
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:775
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:777
 #: src/screens/Messages/components/RequestButtons.tsx:144
 #: src/screens/Messages/components/RequestButtons.tsx:146
 #: src/view/com/profile/ProfileMenu.tsx:462
 #: src/view/com/profile/ProfileMenu.tsx:469
-=======
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:677
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:679
-#: src/screens/Messages/components/RequestButtons.tsx:144
-#: src/screens/Messages/components/RequestButtons.tsx:146
-#: src/view/com/profile/ProfileMenu.tsx:401
-#: src/view/com/profile/ProfileMenu.tsx:408
->>>>>>> upstream/main
 msgid "Block account"
 msgstr "Blocare cont"
 
@@ -1579,15 +1446,8 @@ msgstr "Blocare conturi"
 
 #: src/components/dms/AfterReportDialog.tsx:145
 msgid "Block and Delete"
-msgstr "Blocare și ștergere"
+msgstr "Blocare și ștergere<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/components/dms/AfterReportDialog.tsx:180
-msgid "Block and/or delete this conversation"
-msgstr "Blocați și/sau ștergeți această conversație"
-
-=======
->>>>>>> upstream/main
 #: src/screens/ProfileList/components/SubscribeMenu.tsx:125
 msgid "Block list"
 msgstr "Listă de blocări"
@@ -1607,18 +1467,14 @@ msgstr "Blocare utilizator"
 
 #: src/components/dms/AfterReportDialog.tsx:151
 msgid "Block User"
-msgstr "Blocare utilizator"
+msgstr "Blocare utilizator<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/components/Post/Embed/index.tsx:207
-#: src/components/Post/Embed/index.tsx:214
-=======
 #: src/components/dms/AfterReportDialog.tsx:180
 msgid "Block user and/or delete this conversation"
 msgstr "Blocați utilizatorul și/sau ștergeți această conversație"
 
-#: src/components/Post/Embed/index.tsx:186
->>>>>>> upstream/main
+#: src/components/Post/Embed/index.tsx:207
+#: src/components/Post/Embed/index.tsx:214
 msgid "Blocked"
 msgstr "Blocat"
 
@@ -1650,11 +1506,10 @@ msgstr "Blocarea este publică. Conturile blocate nu pot răspunde în firele dv
 
 #: src/view/com/profile/ProfileMenu.tsx:548
 msgid "Blocking will not prevent labels from being applied on your account, but it will stop this account from replying in your threads or interacting with you."
-msgstr "Blocarea nu va împiedica aplicarea etichetelor pe contul dvs., dar va împiedica acest cont să răspundă în firele dvs. sau să interacționeze cu dvs."
+msgstr "Blocarea nu va împiedica aplicarea etichetelor pe contul dvs., dar va împiedica acest cont să răspundă în firele dvs. sau să interacționeze cu dvs.<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/view/com/auth/server-input/index.tsx:136
-#: src/view/com/auth/server-input/index.tsx:137
+#: src/components/dialogs/ServerInput.tsx:147
+#: src/components/dialogs/ServerInput.tsx:149
 msgid "Bluesky"
 msgstr "Bluesky"
 
@@ -1662,28 +1517,7 @@ msgstr "Bluesky"
 msgid "Bluesky cannot confirm the authenticity of the claimed date."
 msgstr "Bluesky nu poate confirma autenticitatea datei revendicate."
 
-#: src/view/com/auth/server-input/index.tsx:212
-=======
-#: src/view/com/auth/SplashScreen.web.tsx:179
-msgid "Blog"
-msgstr "Blog"
-
-#: src/components/dialogs/ServerInput.tsx:147
-#: src/components/dialogs/ServerInput.tsx:149
-msgid "Bluesky"
-msgstr "Bluesky"
-
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:688
-msgid "Bluesky cannot confirm the authenticity of the claimed date."
-msgstr "Bluesky nu poate confirma autenticitatea datei revendicate."
-
-#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:165
-msgctxt "Name of app icon variant"
-msgid "Bluesky Classic™"
-msgstr "Bluesky Classic™"
-
 #: src/components/dialogs/ServerInput.tsx:217
->>>>>>> upstream/main
 msgid "Bluesky is an open network where you can choose your hosting provider. If you're a developer, you can host your own server."
 msgstr "Bluesky este o rețea deschisă unde vă puteți alege furnizorul de găzduire. Dacă sunteți un dezvoltator, puteți să vă găzduiți propriul dvs. server."
 
@@ -1735,15 +1569,9 @@ msgstr "Cărți"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:215
 msgid "Breaking site rules"
-<<<<<<< HEAD
 msgstr ""
 
 #: src/components/FeedInterstitials.tsx:442
-=======
-msgstr "Încălcarea regulilor site-ului"
-
-#: src/components/FeedInterstitials.tsx:436
->>>>>>> upstream/main
 msgid "Browse more accounts on the Explore page"
 msgstr "Răsfoiți mai multe conturi pe pagina Explorare"
 
@@ -1854,19 +1682,13 @@ msgstr "Cameră"
 #: src/screens/Settings/AppIconSettings/index.tsx:230
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:78
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:85
-<<<<<<< HEAD
-#: src/screens/Settings/components/ChangePasswordDialog.tsx:246
-#: src/screens/Settings/components/ChangePasswordDialog.tsx:252
-#: src/screens/Settings/Settings.tsx:296
-=======
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:247
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:253
-#: src/screens/Settings/Settings.tsx:289
->>>>>>> upstream/main
+#: src/screens/Settings/Settings.tsx:296
 #: src/screens/Takendown.tsx:108
 #: src/screens/Takendown.tsx:111
-#: src/view/com/composer/Composer.tsx:1048
-#: src/view/com/composer/Composer.tsx:1059
+#: src/view/com/composer/Composer.tsx:1049
+#: src/view/com/composer/Composer.tsx:1060
 #: src/view/com/composer/photos/EditImageDialog.web.tsx:43
 #: src/view/com/composer/photos/EditImageDialog.web.tsx:52
 #: src/view/shell/desktop/LeftNav.tsx:213
@@ -1894,17 +1716,11 @@ msgstr "Anulați reactivarea și deconectați-vă"
 
 #: src/screens/Search/Shell.tsx:361
 msgid "Cancel search"
-msgstr "Anulare căutare"
+msgstr "Anulare căutare<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/components/PostControls/index.tsx:114
 #: src/components/PostControls/index.tsx:145
 #: src/components/PostControls/index.tsx:173
-=======
-#: src/components/PostControls/index.tsx:106
-#: src/components/PostControls/index.tsx:137
-#: src/components/PostControls/index.tsx:165
->>>>>>> upstream/main
 #: src/state/shell/composer/index.tsx:94
 msgid "Cannot interact with a blocked user"
 msgstr "Nu se poate interacționa cu un utilizator blocat"
@@ -1955,11 +1771,7 @@ msgstr "Dialog modificare parolă"
 
 #: src/components/moderation/ReportDialog/index.tsx:289
 msgid "Change report category"
-<<<<<<< HEAD
 msgstr ""
-=======
-msgstr "Modificați categoria raportului"
->>>>>>> upstream/main
 
 #: src/components/moderation/ReportDialog/index.tsx:369
 msgid "Change report reason"
@@ -2021,11 +1833,7 @@ msgid "Chat requests"
 msgstr "Cereri de conversație"
 
 #: src/components/dms/ConvoMenu.tsx:78
-<<<<<<< HEAD
 #: src/Navigation.tsx:563
-=======
-#: src/Navigation.tsx:554
->>>>>>> upstream/main
 #: src/screens/Messages/ChatList.tsx:81
 #: src/screens/Messages/ChatList.tsx:85
 #: src/screens/Messages/ChatList.tsx:380
@@ -2062,19 +1870,11 @@ msgstr "Verificați-vă inbox-ul pentru un e-mail cu codul de confirmare pentru 
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:161
 msgid "Child safety"
-<<<<<<< HEAD
 msgstr ""
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:165
 msgid "Child Sexual Abuse Material (CSAM)"
-msgstr ""
-=======
-msgstr "Siguranța copiilor"
-
-#: src/components/moderation/ReportDialog/utils/useReportOptions.ts:165
-msgid "Child Sexual Abuse Material (CSAM)"
-msgstr "Conținut cu abuz sexual asupra minorilor"
->>>>>>> upstream/main
+msgstr "Conținut cu abuz sexual asupra minorilor>>>>>>> upstream/main"
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:399
 msgid "Choose domain verification method"
@@ -2196,19 +1996,11 @@ msgstr "Clip 🐴 clop 🐴"
 #: src/components/StarterPack/Wizard/WizardEditListDialog.tsx:118
 #: src/components/StarterPack/Wizard/WizardEditListDialog.tsx:124
 #: src/components/verification/VerificationsDialog.tsx:144
-<<<<<<< HEAD
 #: src/components/verification/VerifierDialog.tsx:155
-#: src/components/WhoCanReply.tsx:202
-#: src/components/WhoCanReply.tsx:209
-#: src/screens/Settings/components/ChangePasswordDialog.tsx:286
-#: src/screens/Settings/components/ChangePasswordDialog.tsx:291
-=======
-#: src/components/verification/VerifierDialog.tsx:150
 #: src/components/WhoCanReply.tsx:234
 #: src/components/WhoCanReply.tsx:241
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:287
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:292
->>>>>>> upstream/main
 #: src/view/com/composer/select-language/PostLanguageSelectDialog.tsx:335
 #: src/view/com/feeds/MissingFeed.tsx:210
 #: src/view/com/feeds/MissingFeed.tsx:217
@@ -2278,7 +2070,7 @@ msgstr "Închideți fereastra de bun venit"
 msgid "Closes password update alert"
 msgstr "Închideți alerta pentru actualizarea parolei"
 
-#: src/view/com/composer/Composer.tsx:1056
+#: src/view/com/composer/Composer.tsx:1057
 msgid "Closes post composer and discards post draft"
 msgstr "Închide compozitorul de postări și elimină ciorna"
 
@@ -2350,7 +2142,7 @@ msgstr "Compuneți postări de până la {0, plural, one {} few {# caractere}oth
 msgid "Compose reply"
 msgstr "Compunere răspuns"
 
-#: src/view/com/composer/Composer.tsx:1886
+#: src/view/com/composer/Composer.tsx:1887
 msgid "Compressing video..."
 msgstr "Se comprimă videoclipul..."
 
@@ -2472,11 +2264,7 @@ msgstr "Conținut indisponibil"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:192
 msgid "Content promoting or depicting self-harm"
-<<<<<<< HEAD
 msgstr ""
-=======
-msgstr "Conținut care promovează sau prezintă autovătămarea"
->>>>>>> upstream/main
 
 #: src/components/moderation/ModerationDetailsDialog.tsx:52
 #: src/components/moderation/ScreenHider.tsx:99
@@ -2584,17 +2372,11 @@ msgstr "Copiere DID autor"
 #: src/components/dialogs/Embed.tsx:190
 #: src/components/dialogs/Embed.tsx:207
 msgid "Copy code"
-msgstr "Copiere cod"
+msgstr "Copiere cod<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/screens/Settings/components/ChangeHandleDialog.tsx:501
+#: src/screens/Settings/components/ChangeHandleDialog.tsx:502
 #: src/view/com/profile/ProfileMenu.tsx:508
 #: src/view/com/profile/ProfileMenu.tsx:511
-=======
-#: src/screens/Settings/components/ChangeHandleDialog.tsx:502
-#: src/view/com/profile/ProfileMenu.tsx:447
-#: src/view/com/profile/ProfileMenu.tsx:450
->>>>>>> upstream/main
 msgid "Copy DID"
 msgstr "Copiere DID"
 
@@ -2756,7 +2538,7 @@ msgstr "Creare cont"
 #: src/components/dialogs/Signin.tsx:86
 #: src/components/dialogs/Signin.tsx:88
 #: src/screens/Hashtag.tsx:232
-#: src/screens/Search/SearchResults.tsx:268
+#: src/screens/Search/SearchResults.tsx:270
 msgid "Create an account"
 msgstr "Creați un cont"
 
@@ -2817,34 +2599,15 @@ msgstr "Particularizat"
 
 #: src/components/dialogs/Embed.tsx:144
 msgid "Customization options"
-msgstr "Opțiuni de personalizare"
+msgstr "Opțiuni de personalizare<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:111
-msgid "Customize who can interact with this post."
-msgstr "Personalizați cine poate interacționa cu această postare."
-
-=======
->>>>>>> upstream/main
 #: src/screens/Onboarding/Layout.tsx:60
 msgid "Customizes your Bluesky experience"
 msgstr "Personalizați-vă experiența Bluesky"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:200
 msgid "Dangerous challenges or activities"
-<<<<<<< HEAD
 msgstr ""
-
-#: src/components/moderation/ReportDialog/utils/useReportOptions.ts:204
-msgid "Dangerous substances or drug abuse"
-msgstr ""
-
-#: src/components/dialogs/Embed.tsx:167
-#: src/components/dialogs/Embed.tsx:169
-#: src/screens/Settings/AppearanceSettings.tsx:106
-#: src/screens/Settings/AppearanceSettings.tsx:127
-=======
-msgstr "Provocări sau activități periculoase"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:204
 msgid "Dangerous substances or drug abuse"
@@ -2854,7 +2617,6 @@ msgstr "Substanțe periculoase sau abuz de droguri"
 #: src/components/dialogs/Embed.tsx:170
 #: src/screens/Settings/AppearanceSettings.tsx:93
 #: src/screens/Settings/AppearanceSettings.tsx:114
->>>>>>> upstream/main
 msgid "Dark"
 msgstr "Întunecată"
 
@@ -2891,19 +2653,13 @@ msgstr "Panou de depanare"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:84
 msgid "Deepfake adult content"
-<<<<<<< HEAD
 msgstr ""
 
 #: src/screens/Settings/Settings.tsx:219
 msgid "Deer"
 msgstr ""
 
-#: src/screens/Settings/AppearanceSettings.tsx:169
-=======
-msgstr "Conținut pentru adulți Deepfake"
-
 #: src/screens/Settings/AppearanceSettings.tsx:156
->>>>>>> upstream/main
 msgid "Default"
 msgstr "Implicit"
 
@@ -2912,17 +2668,10 @@ msgid "Default icons"
 msgstr "Pictograme implicite"
 
 #: src/components/dms/MessageContextMenu.tsx:202
-<<<<<<< HEAD
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:834
 #: src/screens/Messages/components/ChatStatusInfo.tsx:55
 #: src/screens/ProfileList/components/MoreOptionsMenu.tsx:280
-#: src/screens/Settings/AppPasswords.tsx:212
-=======
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:736
-#: src/screens/Messages/components/ChatStatusInfo.tsx:55
-#: src/screens/ProfileList/components/MoreOptionsMenu.tsx:280
 #: src/screens/Settings/AppPasswords.tsx:211
->>>>>>> upstream/main
 #: src/screens/StarterPack/StarterPackScreen.tsx:601
 #: src/screens/StarterPack/StarterPackScreen.tsx:690
 #: src/screens/StarterPack/StarterPackScreen.tsx:762
@@ -3085,19 +2834,25 @@ msgstr "Dezactivare A2F prin e-mail"
 #: src/screens/Settings/AccessibilitySettings.tsx:89
 #: src/screens/Settings/AccessibilitySettings.tsx:94
 msgid "Disable haptic feedback"
-msgstr "Dezactivați feedback-ul haptic"
+msgstr "Dezactivați feedback-ul haptic<<<<<<< HEAD<<<<<<< HEAD"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 #: src/screens/Settings/DeerSettings.tsx:521
 #: src/screens/Settings/DeerSettings.tsx:526
 msgid "Disable Likes Metrics"
+msgstr ""
+
+#: src/components/dialogs/PostInteractionSettingsDialog.tsx:622
+msgid "Disable quote posts of this post"
 msgstr ""
 
 #: src/screens/Settings/DeerSettings.tsx:545
 #: src/screens/Settings/DeerSettings.tsx:550
 msgid "Disable Quotes Metrics"
 msgstr ""
+
+#: src/components/dialogs/PostInteractionSettingsDialog.tsx:459
+msgid "Disable replies entirely"
+msgstr "Dezactivați răspunsurile în întregime>>>>>>> upstream/main"
 
 #: src/screens/Settings/DeerSettings.tsx:569
 #: src/screens/Settings/DeerSettings.tsx:574
@@ -3112,19 +2867,7 @@ msgstr ""
 #: src/screens/Settings/DeerSettings.tsx:557
 #: src/screens/Settings/DeerSettings.tsx:562
 msgid "Disable Saves Metrics"
-msgstr ""
-=======
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:608
-=======
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:622
->>>>>>> upstream/main
-msgid "Disable quote posts of this post"
-msgstr ""
-
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:459
-msgid "Disable replies entirely"
-msgstr "Dezactivați răspunsurile în întregime"
->>>>>>> upstream/main
+msgstr "======="
 
 #: src/components/Post/Embed/VideoEmbed/VideoEmbedInner/web-controls/VideoControls.tsx:388
 msgid "Disable subtitles"
@@ -3183,7 +2926,7 @@ msgstr "Descoperiți fluxuri noi"
 msgid "Dismiss"
 msgstr "Închidere"
 
-#: src/view/com/composer/Composer.tsx:1810
+#: src/view/com/composer/Composer.tsx:1811
 msgid "Dismiss error"
 msgstr "Închidere eroare"
 
@@ -3271,11 +3014,8 @@ msgstr "Nu vă faceți griji! Toate mesajele existente și setările sunt salvat
 
 #: src/components/dialogs/BirthDateSettings.tsx:149
 #: src/components/dialogs/BirthDateSettings.tsx:156
-<<<<<<< HEAD
-=======
 #: src/components/dialogs/ServerInput.tsx:240
 #: src/components/dialogs/ServerInput.tsx:242
->>>>>>> upstream/main
 #: src/components/dms/AfterReportDialog.tsx:142
 #: src/components/forms/DateField/index.tsx:103
 #: src/components/forms/DateField/index.tsx:109
@@ -3323,9 +3063,8 @@ msgstr "Descărcați Bluesky"
 #: src/screens/Settings/components/ExportCarDialog.tsx:78
 #: src/screens/Settings/components/ExportCarDialog.tsx:83
 msgid "Download CAR file"
-msgstr "Descărcare fișier CAR"
+msgstr "Descărcare fișier CAR<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:559
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:561
 msgid "Download GIF"
@@ -3348,12 +3087,7 @@ msgstr ""
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:115
 msgid "Doxxing"
-msgstr ""
-=======
-#: src/components/moderation/ReportDialog/utils/useReportOptions.ts:115
-msgid "Doxxing"
-msgstr "Doxxing"
->>>>>>> upstream/main
+msgstr "Doxxing>>>>>>> upstream/main"
 
 #: src/view/com/composer/text-input/TextInput.web.tsx:375
 msgid "Drop to add images"
@@ -3397,11 +3131,7 @@ msgstr "de ex. Utilizatori care răspund în mod repetat cu reclame."
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:196
 msgid "Eating disorders"
-<<<<<<< HEAD
 msgstr ""
-=======
-msgstr "Tulburări de alimentație"
->>>>>>> upstream/main
 
 #: src/screens/Settings/AccountSettings.tsx:145
 #: src/screens/Settings/NotificationSettings/ActivityNotificationSettings.tsx:252
@@ -3418,7 +3148,7 @@ msgid "Edit"
 msgstr "Editare"
 
 #: src/view/com/util/UserAvatar.tsx:451
-#: src/view/com/util/UserBanner.tsx:169
+#: src/view/com/util/UserBanner.tsx:124
 msgid "Edit avatar"
 msgstr "Editare avatar"
 
@@ -3693,7 +3423,7 @@ msgstr "Intrați în modul Ecran complet"
 msgid "Entertainment"
 msgstr "Divertisment"
 
-#: src/view/com/composer/Composer.tsx:1895
+#: src/view/com/composer/Composer.tsx:1896
 #: src/view/com/util/error/ErrorScreen.tsx:42
 msgid "Error"
 msgstr "Eroare"
@@ -3714,11 +3444,11 @@ msgstr "Mesaj de eroare"
 msgid "Error occurred while saving file"
 msgstr "A apărut o eroare la salvarea fișierului"
 
-#: src/screens/Signup/StepCaptcha/index.tsx:123
+#: src/screens/Signup/StepCaptcha/index.tsx:124
 msgid "Error receiving captcha response."
 msgstr "Eroare la primirea răspunsului captcha."
 
-#: src/screens/Search/SearchResults.tsx:146
+#: src/screens/Search/SearchResults.tsx:148
 msgid "Error: {error}"
 msgstr "Eroare: {error}"
 
@@ -3740,19 +3470,8 @@ msgstr "Toți"
 #: src/screens/Settings/NotificationSettings/index.tsx:235
 #: src/screens/Settings/NotificationSettings/MiscellaneousNotificationSettings.tsx:41
 msgid "Everything else"
-msgstr "Toate celelalte"
+msgstr "Toate celelalte<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/lib/moderation/useReportOptions.ts:73
-msgid "Excessive mentions or replies"
-msgstr "Mențiuni sau răspunsuri excesive"
-
-#: src/lib/moderation/useReportOptions.ts:86
-msgid "Excessive or unwanted messages"
-msgstr "Mesaje excesive sau nedorite"
-
-=======
->>>>>>> upstream/main
 #: src/components/dialogs/MutedWords.tsx:316
 msgid "Exclude users you follow"
 msgstr "Excludeți utilizatorii pe care îi urmăriți"
@@ -3876,11 +3595,7 @@ msgstr "Preferințe conținut media extern"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:146
 msgid "Extremist content"
-<<<<<<< HEAD
 msgstr ""
-=======
-msgstr "Conținut extremist"
->>>>>>> upstream/main
 
 #: src/screens/Messages/components/RequestButtons.tsx:231
 msgctxt "toast"
@@ -4084,23 +3799,13 @@ msgstr "Nu s-a putut verifica identificatorul. Vă rugăm să încercați din no
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:47
 msgid "Fake account or bot"
-<<<<<<< HEAD
 msgstr ""
-
-#: src/components/moderation/ReportDialog/utils/useReportOptions.ts:55
-msgid "False information about elections"
-msgstr ""
-
-#: src/Navigation.tsx:292
-=======
-msgstr "Cont fals sau bot"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:55
 msgid "False information about elections"
 msgstr "Informații false despre alegeri"
 
-#: src/Navigation.tsx:291
->>>>>>> upstream/main
+#: src/Navigation.tsx:292
 msgid "Feed"
 msgstr "Flux"
 
@@ -4241,26 +3946,8 @@ msgstr "Finalizare"
 
 #: src/screens/Onboarding/index.tsx:66
 msgid "Fitness"
-msgstr "Fitness"
+msgstr "Fitness<<<<<<< HEAD======="
 
-<<<<<<< HEAD
-=======
-#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:149
-msgctxt "Name of app icon variant"
-msgid "Flat Black"
-msgstr "Negru Plat"
-
-#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:117
-msgctxt "Name of app icon variant"
-msgid "Flat Blue"
-msgstr "Albastru Plat"
-
-#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:133
-msgctxt "Name of app icon variant"
-msgid "Flat White"
-msgstr "Alb Plat"
-
->>>>>>> upstream/main
 #: src/screens/Onboarding/StepFinished/index.tsx:421
 msgid "Flexible"
 msgstr "Flexibil"
@@ -4271,16 +3958,7 @@ msgstr "Flexibil"
 #: src/components/ProfileHoverCard/index.web.tsx:507
 #: src/screens/PostThread/components/ThreadItemAnchorFollowButton.tsx:131
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:258
-<<<<<<< HEAD
-#: src/screens/VideoFeed/index.tsx:856
-msgid "Follow"
-msgstr "Urmărire"
-
-#: src/view/com/profile/FollowButton.tsx:72
-msgctxt "action"
-=======
 #: src/screens/VideoFeed/index.tsx:857
->>>>>>> upstream/main
 msgid "Follow"
 msgstr "Urmărire"
 
@@ -4323,16 +4001,8 @@ msgstr "Urmăriți toate conturile"
 #: src/components/ProfileCard.tsx:536
 #: src/screens/PostThread/components/ThreadItemAnchorFollowButton.tsx:129
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:256
-<<<<<<< HEAD
-msgid "Follow back"
-msgstr "Urmăriți înapoi"
-
-#: src/view/com/profile/FollowButton.tsx:81
-msgctxt "action"
-=======
 #: src/view/com/notifications/NotificationFeedItem.tsx:835
 #: src/view/com/notifications/NotificationFeedItem.tsx:842
->>>>>>> upstream/main
 msgid "Follow back"
 msgstr "Urmăriți înapoi"
 
@@ -4372,13 +4042,9 @@ msgstr "Urmăritori pe care îi știți"
 #: src/components/ProfileHoverCard/index.web.tsx:506
 #: src/screens/PostThread/components/ThreadItemAnchorFollowButton.tsx:134
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:254
-<<<<<<< HEAD
-#: src/screens/VideoFeed/index.tsx:854
-=======
 #: src/screens/VideoFeed/index.tsx:855
 #: src/view/com/notifications/NotificationFeedItem.tsx:813
 #: src/view/com/notifications/NotificationFeedItem.tsx:830
->>>>>>> upstream/main
 msgid "Following"
 msgstr "Urmăriți"
 
@@ -4386,16 +4052,11 @@ msgstr "Urmăriți"
 #: src/view/screens/Feeds.tsx:603
 msgctxt "feed-name"
 msgid "Following"
-msgstr "Urmăriți"
+msgstr "Urmăriți<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/components/ProfileCard.tsx:474
-#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:96
-=======
 #: src/components/ProfileCard.tsx:492
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:96
 #: src/view/com/notifications/NotificationFeedItem.tsx:767
->>>>>>> upstream/main
 msgid "Following {0}"
 msgstr "Urmăriți pe {0}"
 
@@ -4482,15 +4143,8 @@ msgstr "Ați uitat parola?"
 
 #: src/screens/Onboarding/StepFinished/ValuePropositionPager.shared.tsx:12
 msgid "Free your feed"
-msgstr "Eliberați-vă fluxul"
+msgstr "Eliberați-vă fluxul<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/lib/moderation/useReportOptions.ts:54
-msgid "Frequently Posts Unwanted Content"
-msgstr "Postează frecvent conținut nedorit"
-
-=======
->>>>>>> upstream/main
 #: src/screens/Settings/NotificationSettings/components/PreferenceControls.tsx:157
 msgid "From"
 msgstr "De la"
@@ -4591,17 +4245,7 @@ msgstr ""
 
 #: src/screens/Onboarding/StepProfile/index.tsx:235
 msgid "Give your profile a face"
-msgstr "Oferiți profilului dvs. o față"
-
-<<<<<<< HEAD
-#: src/lib/moderation/useReportOptions.ts:39
-msgid "Glaring violations of law or terms of service"
-msgstr "Încălcări flagrante ale legii sau ale termenilor de serviciu"
-=======
-#: src/components/moderation/ReportDialog/utils/useReportOptions.ts:142
-msgid "Glorification of violence"
-msgstr "Glorificarea violenței"
->>>>>>> upstream/main
+msgstr "Oferiți profilului dvs. o față<<<<<<< HEAD"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:142
 msgid "Glorification of violence"
@@ -4712,18 +4356,7 @@ msgstr "Conținut media grafic"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:138
 msgid "Graphic violent content"
-<<<<<<< HEAD
 msgstr ""
-
-#: src/components/moderation/ReportDialog/utils/useReportOptions.ts:169
-msgid "Grooming or predatory behavior"
-msgstr ""
-
-#: src/components/moderation/ReportDialog/utils/useReportOptions.ts:219
-msgid "Hacking or system attacks"
-msgstr ""
-=======
-msgstr "Conținut violent grafic"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:169
 msgid "Grooming or predatory behavior"
@@ -4731,8 +4364,7 @@ msgstr "Comportament de seducere și manipulare a minorilor (grooming)"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:219
 msgid "Hacking or system attacks"
-msgstr "Hacking sau atacuri de sistem"
->>>>>>> upstream/main
+msgstr "Hacking sau atacuri de sistem>>>>>>> upstream/main"
 
 #: src/state/shell/progress-guide.tsx:220
 #: src/state/shell/progress-guide.tsx:230
@@ -4763,23 +4395,7 @@ msgstr "Vibrații"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:99
 msgid "Harassment or hate"
-<<<<<<< HEAD
 msgstr ""
-
-#: src/lib/moderation/useReportOptions.ts:34
-msgid "Harassment, trolling, or intolerance"
-msgstr "Hărțuire, trolling sau intoleranță"
-=======
-msgstr "Hărțuire sau ură"
-
-#: src/components/moderation/ReportDialog/utils/useReportOptions.ts:189
-msgid "Harmful or high-risk activities"
-msgstr "Activități dăunătoare sau cu risc ridicat"
-
-#: src/components/moderation/ReportDialog/utils/useReportOptions.ts:162
-msgid "Harming or endangering minors"
-msgstr "Exploatarea minorilor sau punerea lor în pericol"
->>>>>>> upstream/main
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:189
 msgid "Harmful or high-risk activities"
@@ -4799,11 +4415,7 @@ msgstr "Hashtag {tag}"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:111
 msgid "Hate speech"
-<<<<<<< HEAD
 msgstr ""
-=======
-msgstr "Discurs de ură"
->>>>>>> upstream/main
 
 #: src/components/dialogs/EmailDialog/screens/Manage2FA/Disable.tsx:198
 #: src/components/dialogs/EmailDialog/screens/Verify.tsx:317
@@ -4812,15 +4424,10 @@ msgstr "Aveți un cod? <0>Faceți clic aici.</0>"
 
 #: src/screens/Signup/index.tsx:229
 msgid "Having trouble?"
-msgstr "Aveți dificultăți?"
+msgstr "Aveți dificultăți?<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/screens/Settings/Settings.tsx:243
 #: src/screens/Settings/Settings.tsx:247
-=======
-#: src/screens/Settings/Settings.tsx:236
-#: src/screens/Settings/Settings.tsx:240
->>>>>>> upstream/main
 #: src/view/shell/desktop/RightNav.tsx:123
 #: src/view/shell/desktop/RightNav.tsx:124
 #: src/view/shell/Drawer.tsx:381
@@ -4879,23 +4486,14 @@ msgstr ""
 
 #: src/components/dialogs/Embed.tsx:128
 msgid "Hide customization options"
-msgstr "Ascundere opțiuni de personalizare"
+msgstr "Ascundere opțiuni de personalizare<<<<<<< HEAD<<<<<<< HEAD"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:676
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:682
-=======
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:513
-=======
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:527
->>>>>>> upstream/main
 msgid "Hide lists"
 msgstr "Ascundere liste"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:578
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:584
->>>>>>> upstream/main
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:676
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:682
 msgid "Hide post for me"
 msgstr "Ascundere postare pentru mine"
 
@@ -5015,11 +4613,7 @@ msgstr "Cum ar trebui să deschidem acest link?"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:150
 msgid "Human trafficking"
-<<<<<<< HEAD
 msgstr ""
-=======
-msgstr "Trafic de persoane"
->>>>>>> upstream/main
 
 #: src/screens/Settings/components/DisableEmail2FADialog.tsx:133
 #: src/screens/Settings/components/DisableEmail2FADialog.tsx:136
@@ -5083,17 +4677,9 @@ msgstr "Dacă sunteți dezvoltator, vă puteți găzdui propriul server."
 
 #: src/screens/Settings/components/DeactivateAccountDialog.tsx:92
 msgid "If you're trying to change your handle or email, do so before you deactivate."
-msgstr "Dacă încercați să vă modificați identificatorul sau adresa de e-mail, faceți acest lucru înainte de a dezactiva."
-
-<<<<<<< HEAD
-#: src/lib/moderation/useReportOptions.ts:38
-msgid "Illegal and Urgent"
-msgstr "Ilegal și urgent"
+msgstr "Dacă încercați să vă modificați identificatorul sau adresa de e-mail, faceți acest lucru înainte de a dezactiva.<<<<<<< HEAD"
 
 #: src/view/com/util/images/Gallery.tsx:80
-=======
-#: src/view/com/util/images/Gallery.tsx:75
->>>>>>> upstream/main
 msgid "Image"
 msgstr "Imagine"
 
@@ -5113,29 +4699,15 @@ msgstr "Imagine salvată"
 
 #: src/lib/media/save-image.ts:51
 msgid "Images cannot be saved unless permission is granted to access your photo library."
-msgstr "Imaginile nu pot fi salvate decât dacă se acordă permisiunea de a accesa biblioteca dvs. de fotografii."
+msgstr "Imaginile nu pot fi salvate decât dacă se acordă permisiunea de a accesa biblioteca dvs. de fotografii.<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/screens/Settings/DeerSettings.tsx:462
 msgid "Images will be served as PNG instead of JPEG. Images will take longer to load and use more bandwidth."
 msgstr ""
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:51
 msgid "Impersonation"
-msgstr ""
-
-#: src/lib/moderation/useReportOptions.ts:49
-msgid "Impersonation or false claims about identity or affiliation"
-msgstr "Impersonare sau afirmații false despre identitate sau afiliere"
-
-#: src/lib/moderation/useReportOptions.ts:68
-msgid "Impersonation, misinformation, or false claims"
-msgstr "Impersonare, dezinformare sau afirmații false"
-=======
-#: src/components/moderation/ReportDialog/utils/useReportOptions.ts:51
-msgid "Impersonation"
-msgstr "Impersonare"
->>>>>>> upstream/main
+msgstr "Impersonare>>>>>>> upstream/main"
 
 #: src/screens/Settings/NotificationSettings/index.tsx:284
 msgid "In-app"
@@ -5163,15 +4735,8 @@ msgstr "În aplicație, Push, Toată lumea"
 
 #: src/screens/Settings/NotificationSettings/index.tsx:273
 msgid "In-app, Push, People you follow"
-msgstr "În aplicație, Push, Persoane pe care le urmăriți"
+msgstr "În aplicație, Push, Persoane pe care le urmăriți<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/lib/moderation/useReportOptions.ts:91
-msgid "Inappropriate messages or explicit links"
-msgstr "Mesaje neadecvate sau link-uri explicite"
-
-=======
->>>>>>> upstream/main
 #. Title message shown in chat requests inbox when it's empty
 #: src/screens/Messages/Inbox.tsx:231
 msgid "Inbox zero!"
@@ -5199,21 +4764,13 @@ msgstr "Introduceți parola pentru ștergerea contului"
 
 #: src/screens/Login/LoginForm.tsx:302
 msgid "Input the code which has been emailed to you"
-msgstr "Introduceți codul care v-a fost trimis prin e-mail"
+msgstr "Introduceți codul care v-a fost trimis prin e-mail<<<<<<< HEAD<<<<<<< HEAD"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 #: src/screens/Settings/DeerSettings.tsx:158
 msgid "Input the url of the constellations instance to use"
 msgstr ""
 
-#: src/view/com/composer/threadgate/ThreadgateBtn.tsx:49
-=======
-#: src/view/com/composer/threadgate/ThreadgateBtn.tsx:130
->>>>>>> upstream/main
-=======
 #: src/view/com/composer/threadgate/ThreadgateBtn.tsx:135
->>>>>>> upstream/main
 msgid "Interaction limited"
 msgstr "Interacțiune limitată"
 
@@ -5287,7 +4844,7 @@ msgstr "Acum doar <0>{0} </0> e aici! Adăugați mai multe persoane la pachetul 
 msgid "It's just you right now! Add more people to your starter pack by searching above."
 msgstr "Sunteți doar dvs. acum! Adăugați mai multe persoane la pachetul dvs. de pornire căutând mai sus."
 
-#: src/view/com/composer/Composer.tsx:1829
+#: src/view/com/composer/Composer.tsx:1830
 msgid "Job ID: {0}"
 msgstr "ID loc de muncă: {0}"
 
@@ -5330,17 +4887,13 @@ msgstr "Etichetat de {0}."
 
 #: src/components/moderation/ContentHider.tsx:237
 msgid "Labeled by the author."
-msgstr "Etichetat de autor."
+msgstr "Etichetat de autor.<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/screens/Settings/DeerSettings.tsx:618
 msgid "Labelers"
 msgstr ""
 
-#: src/view/com/composer/labels/LabelsBtn.tsx:75
-=======
 #: src/view/com/composer/labels/LabelsBtn.tsx:69
->>>>>>> upstream/main
 #: src/view/screens/Profile.tsx:223
 msgid "Labels"
 msgstr "Etichete"
@@ -5405,17 +4958,9 @@ msgstr "Aflați mai multe"
 
 #: src/components/ageAssurance/AgeAssuranceDismissibleFeedBanner.tsx:74
 msgid "Learn more about age assurance"
-msgstr "Aflați mai multe despre verificarea vârstei"
-
-<<<<<<< HEAD
-#: src/view/com/auth/server-input/index.tsx:218
-=======
-#: src/view/com/auth/SplashScreen.web.tsx:172
-msgid "Learn more about Bluesky"
-msgstr "Află mai multe despre Bluesky"
+msgstr "Aflați mai multe despre verificarea vârstei<<<<<<< HEAD"
 
 #: src/components/dialogs/ServerInput.tsx:223
->>>>>>> upstream/main
 msgid "Learn more about self hosting your PDS."
 msgstr "Aflați mai multe despre găzduirea automată a SDP-ului dvs."
 
@@ -5450,15 +4995,10 @@ msgstr "Aflați mai multe despre ce este public pe Bluesky."
 
 #: src/components/ageAssurance/AgeAssuranceAdmonition.tsx:86
 msgid "Learn more in your <0>account settings.</0>"
-msgstr "Aflați mai multe în <0>setările contului.</0>"
+msgstr "Aflați mai multe în <0>setările contului.</0><<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/components/moderation/ContentHider.tsx:247
-#: src/view/com/auth/server-input/index.tsx:220
-=======
 #: src/components/dialogs/ServerInput.tsx:225
 #: src/components/moderation/ContentHider.tsx:247
->>>>>>> upstream/main
 msgid "Learn more."
 msgstr "Aflați mai multe."
 
@@ -5522,11 +5062,7 @@ msgid "Like"
 msgstr "Apreciere"
 
 #. Accessibility label for the like button when the post has not been liked, verb form followed by number of likes and noun form
-<<<<<<< HEAD
 #: src/components/PostControls/index.tsx:284
-=======
-#: src/components/PostControls/index.tsx:270
->>>>>>> upstream/main
 msgid "Like ({0, plural, one {# like} other {# likes}})"
 msgstr "Apreciere ({0, plural, one {o apreciere} few {# aprecieri} other {# de aprecieri}})"
 
@@ -5589,13 +5125,9 @@ msgstr "Aprecieri pentru repostările dvs."
 
 #: src/Navigation.tsx:485
 msgid "Likes of your reposts notifications"
-msgstr "Notificări privind aprecierile postărilor dvs."
+msgstr "Notificări privind aprecierile postărilor dvs.<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:485
-=======
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:470
->>>>>>> upstream/main
 msgid "Likes on this post"
 msgstr "Aprecieri la această postare"
 
@@ -5899,48 +5431,23 @@ msgstr "Opțiuni mesaj"
 
 #: src/Navigation.tsx:778
 msgid "Messages"
-msgstr "Mesaje"
+msgstr "Mesaje<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/screens/Settings/DeerSettings.tsx:516
 msgid "Metrics"
 msgstr ""
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:177
 msgid "Minor harassment or bullying"
-msgstr ""
-
-#: src/Navigation.tsx:509
-=======
-#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:101
-msgctxt "Name of app icon variant"
-msgid "Midnight"
-msgstr "Miezul nopții"
-
-#: src/components/moderation/ReportDialog/utils/useReportOptions.ts:177
-msgid "Minor harassment or bullying"
 msgstr "Hărțuire minoră sau bullying"
 
-#: src/Navigation.tsx:500
->>>>>>> upstream/main
+#: src/Navigation.tsx:509
 msgid "Miscellaneous notifications"
 msgstr "Notificări diverse"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:35
 msgid "Misleading"
-<<<<<<< HEAD
 msgstr ""
-
-#: src/lib/moderation/useReportOptions.ts:47
-msgid "Misleading Account"
-msgstr "Cont înșelător"
-
-#: src/lib/moderation/useReportOptions.ts:67
-msgid "Misleading Post"
-msgstr "Postare înșelătoare"
-=======
-msgstr "Conținut înșelător"
->>>>>>> upstream/main
 
 #: src/Navigation.tsx:178
 #: src/screens/Moderation/index.tsx:100
@@ -6001,15 +5508,10 @@ msgstr "Instrumente de moderare"
 #: src/components/moderation/ModerationDetailsDialog.tsx:54
 #: src/lib/moderation/useModerationCauseDescription.ts:48
 msgid "Moderator has chosen to set a general warning on the content."
-msgstr "Moderatorul a decis să seteze un avertisment general asupra acestui conținutului."
+msgstr "Moderatorul a decis să seteze un avertisment general asupra acestui conținutului.<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/view/shell/desktop/Feeds.tsx:104
-#: src/view/shell/desktop/Feeds.tsx:114
-=======
 #: src/view/shell/desktop/Feeds.tsx:113
 #: src/view/shell/desktop/Feeds.tsx:123
->>>>>>> upstream/main
 msgid "More feeds"
 msgstr "Mai multe fluxuri"
 
@@ -6150,18 +5652,8 @@ msgstr "Fluxurile mele"
 
 #: src/components/dialogs/lists/CreateOrEditListDialog.tsx:399
 msgid "Name"
-msgstr "Nume"
+msgstr "Nume<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/lib/moderation/useReportOptions.ts:59
-#: src/lib/moderation/useReportOptions.ts:98
-#: src/lib/moderation/useReportOptions.ts:106
-#: src/lib/moderation/useReportOptions.ts:114
-msgid "Name or Description Violates Community Standards"
-msgstr "Numele sau descrierea încalcă Standardele Comunități"
-
-=======
->>>>>>> upstream/main
 #: src/lib/interests.ts:66
 #: src/screens/Onboarding/index.tsx:53
 msgid "Nature"
@@ -6365,16 +5857,11 @@ msgstr "Nici o imagine"
 #: src/components/LikedByList.tsx:84
 #: src/view/com/post-thread/PostLikedBy.tsx:84
 msgid "No likes yet"
-msgstr "Încă nu există aprecieri"
+msgstr "Încă nu există aprecieri<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/components/ProfileCard.tsx:496
-#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:119
-=======
 #: src/components/ProfileCard.tsx:514
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:119
 #: src/view/com/notifications/NotificationFeedItem.tsx:787
->>>>>>> upstream/main
 msgid "No longer following {0}"
 msgstr "Nu mai urmăriți pe {0}"
 
@@ -6386,7 +5873,7 @@ msgstr "Niciun mesaj încă"
 msgid "No more doomscrolling junk-filled algorithms. Find feeds that work for you, not against you."
 msgstr "Gata cu algoritmii plini cu informații inutile. Găsiți fluxuri care funcționează pentru dvs., nu împotriva dvs."
 
-#: src/view/com/notifications/NotificationFeed.tsx:122
+#: src/view/com/notifications/NotificationFeed.tsx:124
 msgid "No notifications yet!"
 msgstr "Nu există notificări încă!"
 
@@ -6440,9 +5927,9 @@ msgstr "Nu s-au găsit rezultate"
 msgid "No results found for \"{query}\""
 msgstr "Niciun rezultat găsit pentru „{query}”"
 
-#: src/screens/Search/SearchResults.tsx:313
-#: src/screens/Search/SearchResults.tsx:349
-#: src/screens/Search/SearchResults.tsx:394
+#: src/screens/Search/SearchResults.tsx:315
+#: src/screens/Search/SearchResults.tsx:351
+#: src/screens/Search/SearchResults.tsx:396
 msgid "No results found for {query}"
 msgstr "Niciun rezultat găsit pentru „{query}”"
 
@@ -6482,11 +5969,7 @@ msgstr "Nimeni nu a fost găsit. Încercați să căutați pe altcineva."
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:80
 msgid "Non-consensual intimate imagery"
-<<<<<<< HEAD
 msgstr ""
-=======
-msgstr "Imagini intime neconsensuale"
->>>>>>> upstream/main
 
 #: src/lib/moderation/useGlobalLabelStrings.ts:42
 msgid "Non-sexual Nudity"
@@ -6581,15 +6064,8 @@ msgstr "Acum"
 #: src/view/com/composer/labels/LabelsBtn.tsx:145
 #: src/view/com/composer/labels/LabelsBtn.tsx:148
 msgid "Nudity"
-msgstr "Nuditate"
+msgstr "Nuditate<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/lib/moderation/useReportOptions.ts:78
-msgid "Nudity or adult content not labeled as such"
-msgstr "Nuditate sau conținut pentru adulți care nu este etichetat ca atare"
-
-=======
->>>>>>> upstream/main
 #: src/lib/moderation/useLabelBehaviorDescription.ts:14
 #: src/screens/Settings/NotificationSettings/index.tsx:291
 msgid "Off"
@@ -6610,11 +6086,7 @@ msgid "OK"
 msgstr "OK"
 
 #: src/screens/Login/PasswordUpdatedForm.tsx:37
-<<<<<<< HEAD
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:710
-=======
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:693
->>>>>>> upstream/main
 msgid "Okay"
 msgstr "Okay"
 
@@ -6715,7 +6187,7 @@ msgid "Open drawer menu"
 msgstr "Deschideți meniul sertar"
 
 #: src/screens/Messages/components/MessageInput.web.tsx:181
-#: src/view/com/composer/Composer.tsx:1476
+#: src/view/com/composer/Composer.tsx:1477
 msgid "Open emoji picker"
 msgstr "Deschideți selectorul de emoji"
 
@@ -6815,7 +6287,7 @@ msgstr "Deschide compozitorul"
 msgid "Opens device gallery to select up to {MAX_IMAGES, plural, other {# images}}, or a single video or GIF."
 msgstr "Deschide galeria dispozitivului pentru a selecta până la {MAX_IMAGES, plural, one {} few {# imagini}other {# de imagini}}, sau un singur videoclip sau GIF."
 
-#: src/view/com/composer/Composer.tsx:1477
+#: src/view/com/composer/Composer.tsx:1478
 msgid "Opens emoji picker"
 msgstr "Deschide selectorul de emoji"
 
@@ -6855,15 +6327,10 @@ msgstr "Deschide formularul de resetare a parolei"
 
 #: src/view/com/composer/select-language/PostLanguageSelect.tsx:129
 msgid "Opens post language settings"
-msgstr "Deschide setările de limbă pentru postări"
+msgstr "Deschide setările de limbă pentru postări<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/view/com/notifications/NotificationFeedItem.tsx:906
-#: src/view/com/util/UserAvatar.tsx:613
-=======
 #: src/view/com/notifications/NotificationFeedItem.tsx:1021
-#: src/view/com/util/UserAvatar.tsx:599
->>>>>>> upstream/main
+#: src/view/com/util/UserAvatar.tsx:613
 msgid "Opens this profile"
 msgstr "Deschide acest profil"
 
@@ -6897,12 +6364,7 @@ msgstr "Status OTA: Nimic disponibil"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:238
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:242
-<<<<<<< HEAD
-#: src/lib/moderation/useReportOptions.ts:27
-#: src/view/com/composer/labels/LabelsBtn.tsx:185
-=======
 #: src/view/com/composer/labels/LabelsBtn.tsx:180
->>>>>>> upstream/main
 msgid "Other"
 msgstr "Alt ceva"
 
@@ -6912,34 +6374,7 @@ msgstr "Alt cont"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:181
 msgid "Other child safety issue"
-<<<<<<< HEAD
 msgstr ""
-
-#: src/components/moderation/ReportDialog/utils/useReportOptions.ts:208
-msgid "Other dangerous content"
-msgstr ""
-
-#: src/components/moderation/ReportDialog/utils/useReportOptions.ts:119
-msgid "Other harassing or hateful content"
-msgstr ""
-
-#: src/components/moderation/ReportDialog/utils/useReportOptions.ts:59
-msgid "Other misleading content"
-msgstr ""
-
-#: src/components/moderation/ReportDialog/utils/useReportOptions.ts:231
-msgid "Other network rule-breaking"
-msgstr ""
-
-#: src/components/moderation/ReportDialog/utils/useReportOptions.ts:92
-msgid "Other sexual violence content"
-msgstr ""
-
-#: src/components/moderation/ReportDialog/utils/useReportOptions.ts:154
-msgid "Other violent content"
-msgstr ""
-=======
-msgstr "Alte probleme legate de siguranța copiilor"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:208
 msgid "Other dangerous content"
@@ -6963,8 +6398,7 @@ msgstr "Alte conținuturi privind violența sexuală"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:154
 msgid "Other violent content"
-msgstr "Alt conținut violent"
->>>>>>> upstream/main
+msgstr "Alt conținut violent>>>>>>> upstream/main"
 
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:50
 msgid "Our blog post"
@@ -7040,23 +6474,16 @@ msgstr "Persoane care urmăresc @{0}"
 #: src/screens/Settings/NotificationSettings/components/PreferenceControls.tsx:181
 #: src/screens/Settings/NotificationSettings/components/PreferenceControls.tsx:191
 msgid "People I follow"
-msgstr "Persoane pe care le urmăriți"
+msgstr "Persoane pe care le urmăriți<<<<<<< HEAD<<<<<<< HEAD======="
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:490
-=======
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:504
->>>>>>> upstream/main
 msgid "People you follow"
 msgstr "Persoane pe care le urmăriți"
 
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:518
 msgid "People you mention"
-msgstr "Persoane pe care le menționați"
+msgstr "Persoane pe care le menționați>>>>>>> upstream/main"
 
->>>>>>> upstream/main
 #: src/lib/media/save-image.ts:59
 msgid "Permission to access your photo library was denied. Please enable it in your system settings."
 msgstr "Permisiunea de a vă accesa biblioteca de fotografii a fost refuzată. Vă rugăm să o activați în setările sistemului."
@@ -7313,12 +6740,12 @@ msgctxt "description"
 msgid "Post"
 msgstr "Postare"
 
-#: src/view/com/composer/Composer.tsx:1119
+#: src/view/com/composer/Composer.tsx:1120
 msgctxt "action"
 msgid "Post"
 msgstr "Postare"
 
-#: src/view/com/composer/Composer.tsx:1117
+#: src/view/com/composer/Composer.tsx:1118
 msgctxt "action"
 msgid "Post All"
 msgstr "Postați-le pe toate"
@@ -7341,19 +6768,12 @@ msgstr "Postare ștearsă"
 
 #: src/lib/api/index.ts:186
 msgid "Post failed to upload. Please check your Internet connection and try again."
-msgstr "Postarea nu a putut fi încărcată. Vă rugăm să vă verificați conexiunea la internet și să încercați din nou."
+msgstr "Postarea nu a putut fi încărcată. Vă rugăm să vă verificați conexiunea la internet și să încercați din nou.<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:138
 #: src/screens/PostThread/components/ThreadItemPost.tsx:112
 #: src/screens/PostThread/components/ThreadItemTreePost.tsx:108
-#: src/screens/VideoFeed/index.tsx:534
-=======
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:134
-#: src/screens/PostThread/components/ThreadItemPost.tsx:112
-#: src/screens/PostThread/components/ThreadItemTreePost.tsx:108
 #: src/screens/VideoFeed/index.tsx:535
->>>>>>> upstream/main
 msgid "Post has been deleted"
 msgstr "Postarea a fost ștearsă"
 
@@ -7487,13 +6907,9 @@ msgstr "Politica de Confidențialitate"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:173
 msgid "Privacy violation of a minor"
-<<<<<<< HEAD
 msgstr ""
-=======
-msgstr "Încălcarea confidențialității unui minor"
->>>>>>> upstream/main
 
-#: src/view/com/composer/Composer.tsx:1892
+#: src/view/com/composer/Composer.tsx:1893
 msgid "Processing video..."
 msgstr "Se procesează videoclipul..."
 
@@ -7521,15 +6937,11 @@ msgstr "Profil actualizat"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:223
 msgid "Promoting or selling prohibited items or services"
-<<<<<<< HEAD
 msgstr ""
-=======
-msgstr "Promovarea sau vânzarea de articole sau servicii interzise"
 
 #: src/view/com/composer/threadgate/ThreadgateBtn.tsx:160
 msgid "Psst! You can edit who can interact with this post."
-msgstr "Psst! Puteți edita cine poate interacționa cu această postare."
->>>>>>> upstream/main
+msgstr "Psst! Puteți edita cine poate interacționa cu această postare.>>>>>>> upstream/main"
 
 #: src/screens/Onboarding/StepFinished/index.tsx:391
 msgid "Public"
@@ -7544,22 +6956,22 @@ msgid "Public, sharable lists which can be used to drive feeds."
 msgstr "Liste publice, care pot fi folosite pentru a dirija fluxuri."
 
 #. Accessibility label for button to publish a single post
-#: src/view/com/composer/Composer.tsx:1099
+#: src/view/com/composer/Composer.tsx:1100
 msgid "Publish post"
 msgstr "Publicați postarea"
 
 #. Accessibility label for button to publish multiple posts in a thread
-#: src/view/com/composer/Composer.tsx:1092
+#: src/view/com/composer/Composer.tsx:1093
 msgid "Publish posts"
 msgstr "Publicați postările"
 
 #. Accessibility label for button to publish multiple replies in a thread
-#: src/view/com/composer/Composer.tsx:1077
+#: src/view/com/composer/Composer.tsx:1078
 msgid "Publish replies"
 msgstr "Publicați răspunsurile"
 
 #. Accessibility label for button to publish a single reply
-#: src/view/com/composer/Composer.tsx:1084
+#: src/view/com/composer/Composer.tsx:1085
 msgid "Publish reply"
 msgstr "Publicați răspunsul"
 
@@ -7622,13 +7034,9 @@ msgstr "Postări citat dezactivate"
 #: src/screens/Settings/NotificationSettings/index.tsx:170
 #: src/screens/Settings/NotificationSettings/QuoteNotificationSettings.tsx:41
 msgid "Quotes"
-msgstr "Citate"
+msgstr "Citate<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:467
-=======
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:454
->>>>>>> upstream/main
 msgid "Quotes of this post"
 msgstr "Citatele acestei postări"
 
@@ -7689,12 +7097,12 @@ msgstr "Citiți Termenii de Serviciu Bluesky"
 msgid "Read the patches and contribute"
 msgstr ""
 
-#: src/components/WelcomeModal.tsx:144
+#: src/components/WelcomeModal.tsx:146
 msgid "Real creatures."
 msgstr ""
 
-#: src/components/WelcomeModal.tsx:146
-msgid "Real talk. (Meow! Woof?)"
+#: src/components/WelcomeModal.tsx:144
+msgid "Real talk."
 msgstr ""
 
 #: src/screens/Takendown.tsx:171
@@ -7785,8 +7193,8 @@ msgstr "Eliminare atașament"
 msgid "Remove Avatar"
 msgstr "Eliminare avatar"
 
-#: src/view/com/util/UserBanner.tsx:241
-#: src/view/com/util/UserBanner.tsx:244
+#: src/view/com/util/UserBanner.tsx:196
+#: src/view/com/util/UserBanner.tsx:199
 msgid "Remove Banner"
 msgstr "Eliminare banner"
 
@@ -7960,17 +7368,13 @@ msgstr "Răspunsuri dezactivate"
 msgid "Replies to this post are disabled."
 msgstr "Răspunsurile la această postare sunt dezactivate."
 
-#: src/view/com/composer/Composer.tsx:1115
+#: src/view/com/composer/Composer.tsx:1116
 msgctxt "action"
 msgid "Reply"
 msgstr "Răspundeți"
 
 #. Accessibility label for the reply button, verb form followed by number of replies and noun form
-<<<<<<< HEAD
 #: src/components/PostControls/index.tsx:232
-=======
-#: src/components/PostControls/index.tsx:224
->>>>>>> upstream/main
 msgid "Reply ({0, plural, one {# reply} other {# replies}})"
 msgstr "Răspundeți ({0, plural, one {# răspuns} few {# răspunsuri} other {# de răspunsuri}})"
 
@@ -8060,11 +7464,7 @@ msgstr "Raport trimis"
 
 #: src/components/moderation/ReportDialog/copy.ts:45
 msgid "Report this conversation"
-<<<<<<< HEAD
 msgstr ""
-=======
-msgstr "Raportați această conversație"
->>>>>>> upstream/main
 
 #: src/components/moderation/ReportDialog/copy.ts:31
 msgid "Report this feed"
@@ -8135,13 +7535,9 @@ msgstr "Repostat de dvs."
 #: src/screens/Settings/NotificationSettings/index.tsx:181
 #: src/screens/Settings/NotificationSettings/RepostNotificationSettings.tsx:41
 msgid "Reposts"
-msgstr "Repostări"
+msgstr "Repostări<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:448
-=======
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:436
->>>>>>> upstream/main
 msgid "Reposts of this post"
 msgstr "Repostări ale acestei postări"
 
@@ -8214,17 +7610,13 @@ msgstr "Resetare stare înregistrare"
 
 #: src/screens/Login/ForgotPasswordForm.tsx:80
 msgid "Reset password"
-msgstr "Resetați parola"
+msgstr "Resetați parola<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/screens/Settings/DeerSettings.tsx:635
 msgid "Restart the app after changing this setting."
 msgstr ""
 
-#: src/screens/Login/LoginForm.tsx:324
-=======
 #: src/screens/Login/LoginForm.tsx:337
->>>>>>> upstream/main
 msgid "Retries signing in"
 msgstr "Reîncearcă conectarea"
 
@@ -8377,32 +7769,21 @@ msgstr "Spuneți salut!"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:43
 msgid "Scam"
-<<<<<<< HEAD
-<<<<<<< HEAD
 msgstr ""
-=======
-msgstr "Scam"
->>>>>>> upstream/main
-=======
-msgstr "Înșelătorie"
->>>>>>> upstream/main
 
 #: src/lib/interests.ts:71
 #: src/screens/Onboarding/index.tsx:64
 msgid "Science"
-msgstr "Știință"
+msgstr "Știință<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/view/com/posts/PostFeedItemCarousel.tsx:67
 msgid "Scroll carousel left"
 msgstr ""
 
 #: src/view/com/posts/PostFeedItemCarousel.tsx:76
 msgid "Scroll carousel right"
-msgstr ""
+msgstr "=======>>>>>>> upstream/main"
 
-=======
->>>>>>> upstream/main
 #: src/components/InterestTabs.tsx:255
 msgid "Scroll left"
 msgstr "Derulați spre stânga"
@@ -8447,11 +7828,11 @@ msgstr "Căutați „{interestsDisplayName}”"
 msgid "Search for \"{interestsDisplayName}\" (active)"
 msgstr "Căutați „{interestsDisplayName}”(activ)"
 
-#: src/view/shell/desktop/Search.tsx:131
+#: src/view/shell/desktop/Search.tsx:132
 msgid "Search for \"{query}\""
 msgstr "Căutați „{query}”"
 
-#: src/screens/Search/components/AutocompleteResults.tsx:45
+#: src/screens/Search/components/AutocompleteResults.tsx:46
 msgid "Search for \"{searchText}\""
 msgstr "Căutați „{searchText}”"
 
@@ -8476,7 +7857,7 @@ msgid "Search GIFs"
 msgstr "Căutați GIF-uri"
 
 #: src/screens/Hashtag.tsx:221
-#: src/screens/Search/SearchResults.tsx:255
+#: src/screens/Search/SearchResults.tsx:257
 msgid "Search is currently unavailable when logged out"
 msgstr "Căutarea nu este disponibilă în prezent când sunteți deconectat"
 
@@ -8569,11 +7950,7 @@ msgstr "Selectați o culoare"
 
 #: src/components/moderation/ReportDialog/index.tsx:359
 msgid "Select a reason"
-<<<<<<< HEAD
 msgstr ""
-=======
-msgstr "Selectați un motiv"
->>>>>>> upstream/main
 
 #: src/screens/Login/ChooseAccountForm.tsx:77
 msgid "Select account"
@@ -8710,11 +8087,7 @@ msgstr "Selectarea mai multor tipuri de conținut media nu este acceptată."
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:188
 msgid "Self-harm or dangerous behaviors"
-<<<<<<< HEAD
 msgstr ""
-=======
-msgstr "Comportamente periculoase sau autovătămare"
->>>>>>> upstream/main
 
 #: src/components/dms/ChatEmptyPill.tsx:38
 msgid "Send a neat website!"
@@ -8784,19 +8157,12 @@ msgstr "Setați data nașterii"
 
 #: src/screens/Login/SetNewPasswordForm.tsx:106
 msgid "Set new password"
-msgstr "Setați parola nouă"
+msgstr "Setați parola nouă<<<<<<< HEAD<<<<<<< HEAD======="
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:461
-=======
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:475
->>>>>>> upstream/main
 msgid "Set precisely which groups of people can reply to your post"
-msgstr "Stabiliți cu precizie grupurile de persoane care pot răspunde la postarea dvs."
+msgstr "Stabiliți cu precizie grupurile de persoane care pot răspunde la postarea dvs.>>>>>>> upstream/main"
 
->>>>>>> upstream/main
 #: src/screens/Onboarding/Layout.tsx:49
 msgid "Set up your account"
 msgstr "Configurați-vă contul"
@@ -8948,10 +8314,6 @@ msgstr ""
 #: src/screens/ProfileList/components/MoreOptionsMenu.tsx:171
 #: src/screens/StarterPack/StarterPackScreen.tsx:613
 #: src/screens/StarterPack/StarterPackScreen.tsx:621
-<<<<<<< HEAD
-=======
-#: src/view/com/profile/ProfileMenu.tsx:251
->>>>>>> upstream/main
 #: src/view/com/profile/ProfileMenu.tsx:264
 #: src/view/com/profile/ProfileMenu.tsx:277
 msgid "Share via..."
@@ -9038,15 +8400,10 @@ msgstr "Afișați răspunsurile"
 
 #: src/screens/PostThread/components/HeaderDropdown.tsx:43
 msgid "Show replies as"
-msgstr "Afișați răspunsurile ca"
+msgstr "Afișați răspunsurile ca<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:692
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:702
-=======
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:594
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:604
->>>>>>> upstream/main
 msgid "Show reply for everyone"
 msgstr "Afișați răspunsul pentru toată lumea"
 
@@ -9066,13 +8423,9 @@ msgstr "Afișare avertisment"
 
 #: src/lib/moderation/useLabelBehaviorDescription.ts:59
 msgid "Show warning and filter from feeds"
-msgstr "Afișează avertismente și filtrează din fluxuri"
+msgstr "Afișează avertismente și filtrează din fluxuri<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:646
-=======
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:629
->>>>>>> upstream/main
 msgid "Shows information about when this post was created"
 msgstr "Afișează informații despre când a fost creată această postare"
 
@@ -9093,7 +8446,7 @@ msgstr "Afișează conținutul"
 #: src/screens/Login/index.tsx:136
 #: src/screens/Login/index.tsx:157
 #: src/screens/Login/LoginForm.tsx:184
-#: src/screens/Search/SearchResults.tsx:260
+#: src/screens/Search/SearchResults.tsx:262
 #: src/view/com/auth/SplashScreen.tsx:81
 #: src/view/com/auth/SplashScreen.tsx:89
 #: src/view/com/auth/SplashScreen.web.tsx:127
@@ -9300,25 +8653,12 @@ msgid "Source: <0>{sourceName}</0>"
 msgstr "Sursa: <0>{sourceName}</0>"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:39
-<<<<<<< HEAD
-#: src/lib/moderation/useReportOptions.ts:72
-#: src/lib/moderation/useReportOptions.ts:85
-=======
->>>>>>> upstream/main
 msgid "Spam"
 msgstr "Spam"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:36
 msgid "Spam or other inauthentic behavior or deception"
-<<<<<<< HEAD
 msgstr ""
-
-#: src/lib/moderation/useReportOptions.ts:55
-msgid "Spam; excessive mentions or replies"
-msgstr "Spam; mențiuni sau răspunsuri excesive"
-=======
-msgstr "Spam sau alt comportament inautentic sau înșelăciune"
->>>>>>> upstream/main
 
 #: src/lib/interests.ts:72
 #: src/screens/Onboarding/index.tsx:58
@@ -9473,23 +8813,9 @@ msgstr "Sugerat pentru dvs."
 #: src/view/com/composer/labels/LabelsBtn.tsx:139
 #: src/view/com/composer/labels/LabelsBtn.tsx:142
 msgid "Suggestive"
-msgstr "Sugestiv"
+msgstr "Sugestiv<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/Navigation.tsx:327
-=======
-#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:72
-msgctxt "Name of app icon variant"
-msgid "Sunrise"
-msgstr "Răsărit"
-
-#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:86
-msgctxt "Name of app icon variant"
-msgid "Sunset"
-msgstr "Apus de soare"
-
-#: src/Navigation.tsx:326
->>>>>>> upstream/main
 #: src/view/screens/Support.tsx:34
 #: src/view/screens/Support.tsx:37
 msgid "Support"
@@ -9561,11 +8887,7 @@ msgstr "Atingeți pentru a închide"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:107
 msgid "Targeted harassment"
-<<<<<<< HEAD
 msgstr ""
-=======
-msgstr "Hărțuire vizată"
->>>>>>> upstream/main
 
 #: src/state/shell/progress-guide.tsx:235
 msgid "Task complete - 10 follows!"
@@ -9611,18 +8933,8 @@ msgstr "Termeni"
 #: src/view/shell/Drawer.tsx:697
 #: src/view/shell/Drawer.tsx:699
 msgid "Terms of Service"
-msgstr "Termenii de Serviciu"
+msgstr "Termenii de Serviciu<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/lib/moderation/useReportOptions.ts:60
-#: src/lib/moderation/useReportOptions.ts:99
-#: src/lib/moderation/useReportOptions.ts:107
-#: src/lib/moderation/useReportOptions.ts:115
-msgid "Terms used violate community standards"
-msgstr "Termenii folosiți încalcă standardele comunității"
-
-=======
->>>>>>> upstream/main
 #: src/components/dialogs/MutedWords.tsx:271
 msgid "Text & tags"
 msgstr "Text & etichete"
@@ -9671,11 +8983,7 @@ msgid "That's everything!"
 msgstr "Asta e tot!"
 
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:332
-<<<<<<< HEAD
 #: src/view/com/profile/ProfileMenu.tsx:544
-=======
-#: src/view/com/profile/ProfileMenu.tsx:483
->>>>>>> upstream/main
 msgid "The account will be able to interact with you after unblocking."
 msgstr "Contul va putea interacționa cu dvs. după deblocare."
 
@@ -9807,17 +9115,12 @@ msgstr "A apărut o problemă la contactarea serverului"
 msgid "There was an issue contacting the server, please check your internet connection and try again."
 msgstr "A apărut o problemă la contactarea serverului, vă rugăm să vă verificați conexiunea la internet și încercați din nou."
 
-#: src/view/com/notifications/NotificationFeed.tsx:130
+#: src/view/com/notifications/NotificationFeed.tsx:132
 msgid "There was an issue fetching notifications. Tap here to try again."
-msgstr "A apărut o problemă la preluarea notificărilor. Atingeți aici pentru a încerca din nou."
+msgstr "A apărut o problemă la preluarea notificărilor. Atingeți aici pentru a încerca din nou.<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/screens/Search/Explore.tsx:993
-#: src/view/com/posts/PostFeed.tsx:798
-=======
 #: src/screens/Search/Explore.tsx:992
-#: src/view/com/posts/PostFeed.tsx:712
->>>>>>> upstream/main
+#: src/view/com/posts/PostFeed.tsx:798
 msgid "There was an issue fetching posts. Tap here to try again."
 msgstr "A apărut o problemă la preluarea postărilor. Atingeți aici pentru a încerca din nou."
 
@@ -9856,16 +9159,9 @@ msgstr "A apărut o problemă la actualizarea fluxurilor dvs., vă rugăm să v�
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:105
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:128
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:142
-<<<<<<< HEAD
 #: src/view/com/profile/ProfileMenu.tsx:149
 #: src/view/com/profile/ProfileMenu.tsx:159
 #: src/view/com/profile/ProfileMenu.tsx:173
-=======
-#: src/view/com/profile/ProfileMenu.tsx:136
-#: src/view/com/profile/ProfileMenu.tsx:146
-#: src/view/com/profile/ProfileMenu.tsx:160
-#: src/view/com/profile/ProfileMenu.tsx:170
->>>>>>> upstream/main
 #: src/view/com/profile/ProfileMenu.tsx:183
 #: src/view/com/profile/ProfileMenu.tsx:196
 #: src/view/com/profile/ProfileMenu.tsx:208
@@ -9893,21 +9189,15 @@ msgstr "A apărut o problemă neașteptată în aplicație. Vă rugăm să ne sp
 
 #: src/screens/SignupQueued.tsx:130
 msgid "There's been a rush of new users to Bluesky! We'll activate your account as soon as we can."
-msgstr "Au fost o grămadă de utilizatori noi pe Bluesky! Vă vom activa contul cât mai curând posibil."
+msgstr "Au fost o grămadă de utilizatori noi pe Bluesky! Vă vom activa contul cât mai curând posibil.<<<<<<< HEAD<<<<<<< HEAD"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+#: src/components/dialogs/PostInteractionSettingsDialog.tsx:654
+msgid "These are your default settings"
+msgstr "Acestea sunt setările dvs. implicite>>>>>>> upstream/main"
+
 #: src/screens/Settings/DeerSettings.tsx:608
 msgid "These settings might summon nasal demons! Restart the app after changing if anything breaks."
-msgstr ""
-=======
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:640
-=======
-#: src/components/dialogs/PostInteractionSettingsDialog.tsx:654
->>>>>>> upstream/main
-msgid "These are your default settings"
-msgstr "Acestea sunt setările dvs. implicite"
->>>>>>> upstream/main
+msgstr "======="
 
 #: src/screens/Settings/FollowingFeedPreferences.tsx:65
 msgid "These settings only apply to the Following feed."
@@ -10059,13 +9349,9 @@ msgstr "Această listă este goală."
 
 #: src/screens/Profile/ErrorState.tsx:40
 msgid "This moderation service is unavailable. See below for more details. If this issue persists, contact us."
-msgstr "Acest serviciu de moderare nu este disponibil. Consultați mai jos pentru mai multe detalii. Dacă problema persistă, contactați-ne."
+msgstr "Acest serviciu de moderare nu este disponibil. Consultați mai jos pentru mai multe detalii. Dacă problema persistă, contactați-ne.<<<<<<< HEAD"
 
-<<<<<<< HEAD
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:686
-=======
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:669
->>>>>>> upstream/main
 msgid "This post claims to have been created on <0>{0}</0>, but was first seen by Bluesky on <1>{1}</1>."
 msgstr "Această postare pretinde că a fost creată pe <0>{0}</0>, dar a fost văzută prima dată de Bluesky pe <1>{1}</1>."
 
@@ -10183,11 +9469,7 @@ msgstr "Preferințe fire"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:134
 msgid "Threats or incitement"
-<<<<<<< HEAD
 msgstr ""
-=======
-msgstr "Amenințări sau incitări"
->>>>>>> upstream/main
 
 #: src/components/Post/Embed/VideoEmbed/VideoEmbedInner/TimeIndicator.tsx:34
 msgid "Time remaining: {0, plural, one {# second} other {# seconds}}"
@@ -10237,17 +9519,10 @@ msgstr "Subiect"
 
 #: src/components/dms/MessageContextMenu.tsx:139
 #: src/components/dms/MessageContextMenu.tsx:141
-<<<<<<< HEAD
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:574
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:576
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:608
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:611
-=======
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:476
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:478
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:591
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:594
->>>>>>> upstream/main
 msgid "Translate"
 msgstr "Traducere"
 
@@ -10266,11 +9541,7 @@ msgstr "Videoclipuri în tendințe"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:103
 msgid "Trolling"
-<<<<<<< HEAD
 msgstr ""
-=======
-msgstr "Trolling"
->>>>>>> upstream/main
 
 #: src/components/dialogs/nuxs/InitialVerificationAnnouncement.tsx:138
 msgid "Trust emerges from relationships, communities, and shared context, so we’re also enabling <0>trusted verifiers</0>: organizations that can directly issue verification."
@@ -10373,22 +9644,13 @@ msgstr "Deblocare"
 
 #: src/components/dms/ConvoMenu.tsx:261
 #: src/components/dms/ConvoMenu.tsx:264
-<<<<<<< HEAD
 #: src/view/com/profile/ProfileMenu.tsx:461
 #: src/view/com/profile/ProfileMenu.tsx:467
-=======
-#: src/view/com/profile/ProfileMenu.tsx:400
-#: src/view/com/profile/ProfileMenu.tsx:406
->>>>>>> upstream/main
 msgid "Unblock account"
 msgstr "Deblocare cont"
 
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:330
-<<<<<<< HEAD
 #: src/view/com/profile/ProfileMenu.tsx:538
-=======
-#: src/view/com/profile/ProfileMenu.tsx:477
->>>>>>> upstream/main
 msgid "Unblock Account?"
 msgstr "Deblocare cont?"
 
@@ -10410,16 +9672,8 @@ msgstr "Anulare repostare"
 #. Accessibility label for the repost button when the post has been reposted, verb followed by number of reposts and noun
 #: src/components/PostControls/RepostButton.tsx:67
 msgid "Undo repost ({0, plural, one {# repost} other {# reposts}})"
-msgstr "Refacere repostare ({0, plural, one {o repostare} few {# repostări} other {# de repostări}})"
+msgstr "Refacere repostare ({0, plural, one {o repostare} few {# repostări} other {# de repostări}})<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/view/com/profile/FollowButton.tsx:63
-msgctxt "action"
-msgid "Unfollow"
-msgstr "Nu mai urmăriți"
-
-=======
->>>>>>> upstream/main
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:242
 msgid "Unfollow {0}"
 msgstr "Nu mai urmăriți pe {0}"
@@ -10447,32 +9701,18 @@ msgstr "Verificator necunoscut"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:72
 msgid "Unlabeled adult content"
-<<<<<<< HEAD
 msgstr ""
-
-#: src/components/moderation/ReportDialog/utils/useReportOptions.ts:68
-msgid "Unlabeled, abusive, or non-consensual adult content"
-msgstr ""
-
-#: src/screens/Profile/components/ProfileFeedHeader.tsx:518
-=======
-msgstr "Conținut pentru adulți care nu este etichetat ca atare"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:68
 msgid "Unlabeled, abusive, or non-consensual adult content"
 msgstr "Conținut pentru adulți care nu este etichetat ca atare, abuziv sau neconsensual"
 
 #: src/screens/Profile/components/ProfileFeedHeader.tsx:515
->>>>>>> upstream/main
 msgid "Unlike"
 msgstr "Nu mai apreciați"
 
 #. Accessibility label for the like button when the post has been liked, verb followed by number of likes and noun
-<<<<<<< HEAD
 #: src/components/PostControls/index.tsx:274
-=======
-#: src/components/PostControls/index.tsx:260
->>>>>>> upstream/main
 msgid "Unlike ({0, plural, one {# like} other {# likes}})"
 msgstr "Nu mai apreciați ({0, plural, one {o apreciere} few {# aprecieri} other {# de aprecieri}})"
 
@@ -10583,16 +9823,8 @@ msgstr "Dezabonat de la listă"
 
 #: src/view/com/composer/Composer.tsx:895
 msgid "Unsupported video type: {mimeType}"
-msgstr "Tip videoclip neacceptat: {mimeType}"
+msgstr "Tip videoclip neacceptat: {mimeType}<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/lib/moderation/useReportOptions.ts:77
-#: src/lib/moderation/useReportOptions.ts:90
-msgid "Unwanted Sexual Content"
-msgstr "Conținut sexual nedorit"
-
-=======
->>>>>>> upstream/main
 #: src/screens/Settings/components/OTAInfo.tsx:58
 #: src/screens/Settings/components/OTAInfo.tsx:74
 msgid "Update"
@@ -10642,20 +9874,20 @@ msgstr "Încărcați un fișier text la:"
 
 #: src/view/com/util/UserAvatar.tsx:483
 #: src/view/com/util/UserAvatar.tsx:486
-#: src/view/com/util/UserBanner.tsx:212
-#: src/view/com/util/UserBanner.tsx:215
+#: src/view/com/util/UserBanner.tsx:167
+#: src/view/com/util/UserBanner.tsx:170
 msgid "Upload from Camera"
 msgstr "Încărcați de la cameră"
 
 #: src/view/com/util/UserAvatar.tsx:500
-#: src/view/com/util/UserBanner.tsx:229
+#: src/view/com/util/UserBanner.tsx:184
 msgid "Upload from Files"
 msgstr "Încărcați din fișiere"
 
 #: src/view/com/util/UserAvatar.tsx:494
 #: src/view/com/util/UserAvatar.tsx:498
-#: src/view/com/util/UserBanner.tsx:223
-#: src/view/com/util/UserBanner.tsx:227
+#: src/view/com/util/UserBanner.tsx:178
+#: src/view/com/util/UserBanner.tsx:182
 msgid "Upload from Library"
 msgstr "Încărcați din bibliotecă"
 
@@ -10668,7 +9900,7 @@ msgstr "Se încarcă imaginile..."
 msgid "Uploading link thumbnail..."
 msgstr "Se încarcă miniatura link-ului..."
 
-#: src/view/com/composer/Composer.tsx:1889
+#: src/view/com/composer/Composer.tsx:1890
 msgid "Uploading video..."
 msgstr "Se încarcă videoclipul..."
 
@@ -10922,7 +10154,7 @@ msgstr "Videoclipul nu a fost găsit."
 msgid "Video settings"
 msgstr "Setări videoclip"
 
-#: src/view/com/composer/Composer.tsx:1899
+#: src/view/com/composer/Composer.tsx:1900
 msgid "Video uploaded"
 msgstr "Videoclip încărcat"
 
@@ -10947,9 +10179,13 @@ msgctxt "Action to view the post the user just created"
 msgid "View"
 msgstr "Vizualizare"
 
-#: src/screens/Profile/Header/Shell.tsx:241
+#: src/screens/Profile/Header/Shell.tsx:309
 msgid "View {0}'s avatar"
 msgstr "Vizualizați avatarul lui {0}"
+
+#: src/screens/Profile/Header/Shell.tsx:261
+msgid "View {0}'s banner"
+msgstr ""
 
 #: src/components/ProfileCard.tsx:136
 #: src/screens/Profile/components/ProfileFeedHeader.tsx:456
@@ -10973,15 +10209,10 @@ msgstr "Vizualizați postarea pe blog pentru mai multe detalii"
 
 #: src/screens/Log.tsx:81
 msgid "View debug entry"
-msgstr "Vizualizați intrarea de depanare"
+msgstr "Vizualizați intrarea de depanare<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/screens/VideoFeed/index.tsx:661
-#: src/screens/VideoFeed/index.tsx:679
-=======
 #: src/screens/VideoFeed/index.tsx:662
 #: src/screens/VideoFeed/index.tsx:680
->>>>>>> upstream/main
 msgid "View details"
 msgstr "Vizualizare detalii"
 
@@ -11016,10 +10247,6 @@ msgstr "Vizualizare postare"
 #: src/view/com/util/PostMeta.tsx:127
 msgid "View profile"
 msgstr "Vizualizați profilul"
-
-#: src/view/com/util/UserBanner.tsx:268
-msgid "View profile banner"
-msgstr ""
 
 #: src/view/com/profile/ProfileSubpageHeader.tsx:123
 msgid "View the avatar"
@@ -11064,15 +10291,10 @@ msgstr "Vizualizați conturile dvs. amuțite"
 
 #: src/components/verification/VerificationCheckButton.tsx:98
 msgid "View your verifications"
-msgstr "Vizualizați-vă verificările"
+msgstr "Vizualizați-vă verificările<<<<<<< HEAD"
 
-<<<<<<< HEAD
-#: src/view/com/util/images/AutoSizedImage.tsx:212
-#: src/view/com/util/images/AutoSizedImage.tsx:239
-=======
-#: src/view/com/util/images/AutoSizedImage.tsx:205
-#: src/view/com/util/images/AutoSizedImage.tsx:232
->>>>>>> upstream/main
+#: src/view/com/util/images/AutoSizedImage.tsx:210
+#: src/view/com/util/images/AutoSizedImage.tsx:237
 msgid "Views full image"
 msgstr "Vizualizează imaginea completă"
 
@@ -11082,23 +10304,15 @@ msgstr "Vizualizează videoclipul în modul imersiv"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:126
 msgid "Violence"
-<<<<<<< HEAD
 msgstr ""
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:127
 msgid "Violent or threatening content"
-msgstr ""
+msgstr "Conținut violent sau amenințător>>>>>>> upstream/main"
 
 #: src/screens/Settings/DeerSettings.tsx:337
 msgid "Visibility"
-msgstr ""
-=======
 msgstr "Violență"
-
-#: src/components/moderation/ReportDialog/utils/useReportOptions.ts:127
-msgid "Violent or threatening content"
-msgstr "Conținut violent sau amenințător"
->>>>>>> upstream/main
 
 #: src/components/dialogs/LinkWarning.tsx:96
 #: src/components/dialogs/LinkWarning.tsx:106
@@ -11249,7 +10463,7 @@ msgstr "Ne pare rău, dar nu am reușit să rezolvăm această listă. Dacă pro
 msgid "We're sorry, but we weren't able to load your muted words at this time. Please try again."
 msgstr "Ne pare rău, dar nu am putut încărca cuvintele dvs. amuțite în acest moment. Vă rugăm să încercați din nou."
 
-#: src/screens/Search/SearchResults.tsx:287
+#: src/screens/Search/SearchResults.tsx:289
 msgid "We're sorry, but your search could not be completed. Please try again in a few minutes."
 msgstr "Ne pare rău, dar căutarea dvs. nu a putut fi finalizată. Vă rugăm să încercați din nou în câteva minute."
 
@@ -11350,11 +10564,7 @@ msgstr "De ce faceți contestație?"
 
 #: src/components/moderation/ReportDialog/copy.ts:46
 msgid "Why should this conversation be reviewed?"
-<<<<<<< HEAD
 msgstr ""
-=======
-msgstr "De ce ar trebui revizuită acestă conversație?"
->>>>>>> upstream/main
 
 #: src/components/moderation/ReportDialog/copy.ts:32
 msgid "Why should this feed be reviewed?"
@@ -11381,13 +10591,8 @@ msgid "Why should this user be reviewed?"
 msgstr "De ce ar trebui revizuit acest utilizator?"
 
 #: src/components/dms/AfterReportDialog.tsx:49
-<<<<<<< HEAD
-msgid "Would you like to block this account or delete this conversation?"
-msgstr ""
-=======
 msgid "Would you like to block this user and/or delete this conversation?"
-msgstr "Doriți să blocați acest utilizator sau/și să ștergeți această conversație?"
->>>>>>> upstream/main
+msgstr "Doriți să blocați acest utilizator sau/și să ștergeți această conversație?>>>>>>> upstream/main"
 
 #: src/screens/Messages/components/MessageInput.tsx:154
 #: src/screens/Messages/components/MessageInput.web.tsx:214
@@ -11821,11 +11026,7 @@ msgstr "V-ați conectat cu o Parolă pentru Aplicație. Vă rugăm să vă conec
 
 #: src/components/moderation/LabelsOnMeDialog.tsx:261
 msgid "You've already appealed this label and it's being reviewed by our moderation team."
-<<<<<<< HEAD
 msgstr ""
-=======
-msgstr "Ați depus deja o contestație împotriva acestei etichete, iar aceasta este analizată de echipa noastră de moderare."
->>>>>>> upstream/main
 
 #: src/components/moderation/ModerationDetailsDialog.tsx:110
 #: src/lib/moderation/useModerationCauseDescription.ts:109
