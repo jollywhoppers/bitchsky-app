@@ -4,6 +4,7 @@ import {msg, Trans} from '@lingui/macro'
 import {useLingui} from '@lingui/react'
 import {useNavigation} from '@react-navigation/native'
 
+import {useOpenLink} from '#/lib/hooks/useOpenLink'
 import {makeProfileLink} from '#/lib/routes/links'
 import {type NavigationProp} from '#/lib/routes/types'
 import {shareText, shareUrl} from '#/lib/sharing'
@@ -12,6 +13,7 @@ import {logger} from '#/logger'
 import {isWeb} from '#/platform/detection'
 import {useAgeAssurance} from '#/state/ageAssurance/useAgeAssurance'
 import {useProfileShadow} from '#/state/cache/profile-shadow'
+import {useShowExternalShareButtons} from '#/state/preferences/external-share-buttons'
 import {useSession} from '#/state/session'
 import {useBreakpoints} from '#/alf'
 import {useDialogControl} from '#/components/Dialog'
@@ -21,6 +23,7 @@ import {ChainLink_Stroke2_Corner0_Rounded as ChainLinkIcon} from '#/components/i
 import {Clipboard_Stroke2_Corner2_Rounded as ClipboardIcon} from '#/components/icons/Clipboard'
 import {CodeBrackets_Stroke2_Corner0_Rounded as CodeBracketsIcon} from '#/components/icons/CodeBrackets'
 import {PaperPlane_Stroke2_Corner0_Rounded as Send} from '#/components/icons/PaperPlane'
+import {SquareArrowTopRight_Stroke2_Corner0_Rounded as ExternalIcon} from '#/components/icons/SquareArrowTopRight'
 import * as Menu from '#/components/Menu'
 import {useDevMode} from '#/storage/hooks/dev-mode'
 import {type ShareMenuItemsProps} from './ShareMenuItems.types'
@@ -39,6 +42,7 @@ let ShareMenuItems = ({
   const sendViaChatControl = useDialogControl()
   const [devModeEnabled] = useDevMode()
   const {isAgeRestricted} = useAgeAssurance()
+  const openLink = useOpenLink()
 
   const postUri = post.uri
   const postCid = post.cid
@@ -87,6 +91,20 @@ let ShareMenuItems = ({
     shareText(postAuthor.did)
   }
 
+  const showExternalShareButtons = useShowExternalShareButtons()
+  const isBridgedPost =
+    !!post.record.bridgyOriginalUrl || !!post.record.fediverseId
+  const originalPostUrl = (post.record.bridgyOriginalUrl ||
+    post.record.fediverseId) as string | undefined
+
+  const onOpenOriginalPost = () => {
+    originalPostUrl && openLink(originalPostUrl, true)
+  }
+
+  const onOpenPostInPdsls = () => {
+    openLink(`https://pdsls.dev/${post.uri}`, true)
+  }
+
   const copyLinkItem = (
     <Menu.Group>
       <Menu.Item
@@ -114,6 +132,30 @@ let ShareMenuItems = ({
     <>
       <Menu.Outer>
         {copyLinkItem}
+
+        {showExternalShareButtons && isBridgedPost && (
+          <Menu.Item
+            testID="postDropdownOpenOriginalPost"
+            label={_(msg`Open original post`)}
+            onPress={onOpenOriginalPost}>
+            <Menu.ItemText>
+              <Trans>Open original post</Trans>
+            </Menu.ItemText>
+            <Menu.ItemIcon icon={ExternalIcon} position="right" />
+          </Menu.Item>
+        )}
+
+        {showExternalShareButtons && (
+          <Menu.Item
+            testID="postDropdownOpenInPdsls"
+            label={_(msg`Open post in PDSls`)}
+            onPress={onOpenPostInPdsls}>
+            <Menu.ItemText>
+              <Trans>Open post in PDSls</Trans>
+            </Menu.ItemText>
+            <Menu.ItemIcon icon={ExternalIcon} position="right" />
+          </Menu.Item>
+        )}
 
         {hasSession && !isAgeRestricted && (
           <Menu.Item

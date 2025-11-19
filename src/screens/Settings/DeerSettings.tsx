@@ -87,6 +87,10 @@ import {
   useShowLinkInHandle,
 } from '#/state/preferences/show-link-in-handle.tsx'
 import {useProfilesQuery} from '#/state/queries/profile'
+import {
+  useSetShowExternalShareButtons,
+  useShowExternalShareButtons,
+} from '#/state/preferences/external-share-buttons'
 import * as SettingsList from '#/screens/Settings/components/SettingsList'
 import {atoms as a, useBreakpoints} from '#/alf'
 import {Admonition} from '#/components/Admonition'
@@ -94,6 +98,7 @@ import {Button, ButtonText} from '#/components/Button'
 import * as Dialog from '#/components/Dialog'
 import * as Toggle from '#/components/forms/Toggle'
 import {Atom_Stroke2_Corner0_Rounded as DeerIcon} from '#/components/icons/Atom'
+import {ChainLink_Stroke2_Corner0_Rounded as ChainLinkIcon} from '#/components/icons/ChainLink'
 import {Eye_Stroke2_Corner0_Rounded as VisibilityIcon} from '#/components/icons/Eye'
 import {Lab_Stroke2_Corner0_Rounded as BeakerIcon} from '#/components/icons/Lab'
 import {PaintRoller_Stroke2_Corner2_Rounded as PaintRollerIcon} from '#/components/icons/PaintRoller'
@@ -243,6 +248,9 @@ export function DeerSettingsScreen({}: Props) {
   const directFetchRecords = useDirectFetchRecords()
   const setDirectFetchRecords = useSetDirectFetchRecords()
 
+  const showExternalShareButtons = useShowExternalShareButtons()
+  const setShowExternalShareButtons = useSetShowExternalShareButtons()
+
   const noAppLabelers = useNoAppLabelers()
   const setNoAppLabelers = useSetNoAppLabelers()
 
@@ -348,6 +356,28 @@ export function DeerSettingsScreen({}: Props) {
                 <Trans>
                   Fetch records directly from PDS to see contents of blocked and
                   detatched quotes
+                </Trans>
+              </Toggle.LabelText>
+              <Toggle.Platform />
+            </Toggle.Item>
+          </SettingsList.Group>
+
+          <SettingsList.Group contentContainerStyle={[a.gap_sm]}>
+            <SettingsList.ItemIcon icon={ChainLinkIcon} />
+            <SettingsList.ItemText>
+              <Trans>Bridging and Fediverse</Trans>
+            </SettingsList.ItemText>
+            <Toggle.Item
+              name="external_share_buttons"
+              label={_(
+                msg`Show "Open original post" and "Open post in PDSls" buttons`,
+              )}
+              value={showExternalShareButtons}
+              onChange={value => setShowExternalShareButtons(value)}
+              style={[a.w_full]}>
+              <Toggle.LabelText style={[a.flex_1]}>
+                <Trans>
+                  Show "Open original post" and "Open post in PDSls" buttons
                 </Trans>
               </Toggle.LabelText>
               <Toggle.Platform />

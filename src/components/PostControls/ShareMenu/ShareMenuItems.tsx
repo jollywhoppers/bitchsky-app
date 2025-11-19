@@ -5,6 +5,7 @@ import {msg, Trans} from '@lingui/macro'
 import {useLingui} from '@lingui/react'
 import {useNavigation} from '@react-navigation/native'
 
+import {useOpenLink} from '#/lib/hooks/useOpenLink'
 import {makeProfileLink} from '#/lib/routes/links'
 import {type NavigationProp} from '#/lib/routes/types'
 import {shareText, shareUrl} from '#/lib/sharing'
@@ -13,6 +14,7 @@ import {logger} from '#/logger'
 import {isIOS} from '#/platform/detection'
 import {useAgeAssurance} from '#/state/ageAssurance/useAgeAssurance'
 import {useProfileShadow} from '#/state/cache/profile-shadow'
+import {useShowExternalShareButtons} from '#/state/preferences/external-share-buttons'
 import {useSession} from '#/state/session'
 import * as Toast from '#/view/com/util/Toast'
 import {atoms as a} from '#/alf'
@@ -23,6 +25,7 @@ import {ArrowOutOfBoxModified_Stroke2_Corner2_Rounded as ArrowOutOfBoxIcon} from
 import {ChainLink_Stroke2_Corner0_Rounded as ChainLinkIcon} from '#/components/icons/ChainLink'
 import {Clipboard_Stroke2_Corner2_Rounded as ClipboardIcon} from '#/components/icons/Clipboard'
 import {PaperPlane_Stroke2_Corner0_Rounded as PaperPlaneIcon} from '#/components/icons/PaperPlane'
+import {SquareArrowTopRight_Stroke2_Corner0_Rounded as ExternalIcon} from '#/components/icons/SquareArrowTopRight'
 import * as Menu from '#/components/Menu'
 import {useDevMode} from '#/storage/hooks/dev-mode'
 import {RecentChats} from './RecentChats'
@@ -38,6 +41,7 @@ let ShareMenuItems = ({
   const sendViaChatControl = useDialogControl()
   const [devModeEnabled] = useDevMode()
   const {isAgeRestricted} = useAgeAssurance()
+  const openLink = useOpenLink()
 
   const postUri = post.uri
   const postAuthor = useProfileShadow(post.author)
@@ -108,6 +112,20 @@ let ShareMenuItems = ({
     shareText(postAuthor.did)
   }
 
+  const showExternalShareButtons = useShowExternalShareButtons()
+  const isBridgedPost =
+    !!post.record.bridgyOriginalUrl || !!post.record.fediverseId
+  const originalPostUrl = (post.record.bridgyOriginalUrl ||
+    post.record.fediverseId) as string | undefined
+
+  const onOpenOriginalPost = () => {
+    originalPostUrl && openLink(originalPostUrl, true)
+  }
+
+  const onOpenPostInPdsls = () => {
+    openLink(`https://pdsls.dev/${post.uri}`, true)
+  }
+
   return (
     <>
       <Menu.Outer>
@@ -127,6 +145,32 @@ let ShareMenuItems = ({
                 <Trans>Send via direct message</Trans>
               </Menu.ItemText>
               <Menu.ItemIcon icon={PaperPlaneIcon} position="right" />
+            </Menu.Item>
+          </Menu.Group>
+        )}
+
+        {showExternalShareButtons && (
+          <Menu.Group>
+            {isBridgedPost && (
+              <Menu.Item
+                testID="postDropdownOpenOriginalPost"
+                label={_(msg`Open original post`)}
+                onPress={onOpenOriginalPost}>
+                <Menu.ItemText>
+                  <Trans>Open original post</Trans>
+                </Menu.ItemText>
+                <Menu.ItemIcon icon={ExternalIcon} position="right" />
+              </Menu.Item>
+            )}
+
+            <Menu.Item
+              testID="postDropdownOpenInPdsls"
+              label={_(msg`Open post in PDSls`)}
+              onPress={onOpenPostInPdsls}>
+              <Menu.ItemText>
+                <Trans>Open post in PDSls</Trans>
+              </Menu.ItemText>
+              <Menu.ItemIcon icon={ExternalIcon} position="right" />
             </Menu.Item>
           </Menu.Group>
         )}

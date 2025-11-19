@@ -149,6 +149,8 @@ const schema = z.object({
     .optional(),
   highQualityImages: z.boolean().optional(),
 
+  showExternalShareButtons: z.boolean().optional(),
+
   /** @deprecated */
   mutedThreads: z.array(z.string()),
   trendingDisabled: z.boolean().optional(),
@@ -240,6 +242,7 @@ export const defaults: Schema = {
     ],
   },
   highQualityImages: false,
+  showExternalShareButtons: false,
 }
 
 export function tryParse(rawData: string): Schema | undefined {

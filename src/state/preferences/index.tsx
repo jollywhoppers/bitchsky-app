@@ -14,6 +14,7 @@ import {Provider as DisableRepostsMetricsProvider} from './disable-reposts-metri
 import {Provider as DisableSavesMetricsProvider} from './disable-saves-metrics'
 import {Provider as DisableViaRepostNotificationProvider} from './disable-via-repost-notification'
 import {Provider as ExternalEmbedsProvider} from './external-embeds-prefs'
+import {Provider as ExternalShareButtonsProvider} from './external-share-buttons'
 import {Provider as GoLinksProvider} from './go-links-enabled'
 import {Provider as HiddenPostsProvider} from './hidden-posts'
 import {Provider as HideFeedsPromoTabProvider} from './hide-feeds-promo-tab'
@@ -55,25 +56,26 @@ export function Provider({children}: React.PropsWithChildren<{}>) {
   return (
     <LanguagesProvider>
       <AltTextRequiredProvider>
-        <GoLinksProvider>
+        <ExternalShareButtonsProvider>
+          <GoLinksProvider>
           <NoAppLabelersProvider>
-            <DirectFetchRecordsProvider>
-              <ConstellationProvider>
+              <DirectFetchRecordsProvider>
+                <ConstellationProvider>
                 <ConstellationInstanceProvider>
                   <DeerVerificationProvider>
                     <NoDiscoverProvider>
                       <ShowLinkInHandleProvider>
-                        <LargeAltBadgeProvider>
-                          <ExternalEmbedsProvider>
-                            <HiddenPostsProvider>
+                          <LargeAltBadgeProvider>
+                            <ExternalEmbedsProvider>
+                              <HiddenPostsProvider>
                               <HighQualityImagesProvider>
-                                <InAppBrowserProvider>
-                                  <DisableHapticsProvider>
-                                    <AutoplayProvider>
-                                      <UsedStarterPacksProvider>
-                                        <SubtitlesProvider>
-                                          <TrendingSettingsProvider>
-                                            <RepostCarouselProvider>
+                                  <InAppBrowserProvider>
+                                    <DisableHapticsProvider>
+                                      <AutoplayProvider>
+                                        <UsedStarterPacksProvider>
+                                          <SubtitlesProvider>
+                                            <TrendingSettingsProvider>
+                                              <RepostCarouselProvider>
                                               <KawaiiProvider>
                                                 <HideFeedsPromoTabProvider>
                                                   <DisableViaRepostNotificationProvider>
@@ -94,24 +96,25 @@ export function Provider({children}: React.PropsWithChildren<{}>) {
                                                 </HideFeedsPromoTabProvider>
                                               </KawaiiProvider>
                                             </RepostCarouselProvider>
-                                          </TrendingSettingsProvider>
-                                        </SubtitlesProvider>
-                                      </UsedStarterPacksProvider>
-                                    </AutoplayProvider>
-                                  </DisableHapticsProvider>
-                                </InAppBrowserProvider>
+                                            </TrendingSettingsProvider>
+                                          </SubtitlesProvider>
+                                        </UsedStarterPacksProvider>
+                                      </AutoplayProvider>
+                                    </DisableHapticsProvider>
+                                  </InAppBrowserProvider>
                               </HighQualityImagesProvider>
-                            </HiddenPostsProvider>
-                          </ExternalEmbedsProvider>
-                        </LargeAltBadgeProvider>
+                              </HiddenPostsProvider>
+                            </ExternalEmbedsProvider>
+                          </LargeAltBadgeProvider>
                       </ShowLinkInHandleProvider>
                     </NoDiscoverProvider>
                   </DeerVerificationProvider>
                 </ConstellationInstanceProvider>
-              </ConstellationProvider>
-            </DirectFetchRecordsProvider>
+                </ConstellationProvider>
+              </DirectFetchRecordsProvider>
           </NoAppLabelersProvider>
-        </GoLinksProvider>
+          </GoLinksProvider>
+        </ExternalShareButtonsProvider>
       </AltTextRequiredProvider>
     </LanguagesProvider>
   )
