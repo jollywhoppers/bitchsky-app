@@ -98,7 +98,7 @@ msgstr "{0, plural, one {ακόλουθος} other {ακόλουθοι}}"
 #: src/components/ProfileHoverCard/index.web.tsx:448
 #: src/screens/Profile/Header/Metrics.tsx:26
 msgid "{0, plural, one {following} other {following}}"
-msgstr "{0, plural, one {ακολουθεί} other {ακολουθούν}}<<<<<<< HEAD"
+msgstr "{0, plural, one {ακολουθεί} other {ακολουθούν}}"
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:492
 msgid "{0, plural, one {like} other {likes}}"
@@ -106,7 +106,7 @@ msgstr "{0, plural, one {Μου αρέσει} other {Μου αρέσει}}"
 
 #: src/screens/Profile/Header/Metrics.tsx:58
 msgid "{0, plural, one {post} other {posts}}"
-msgstr "{0, plural, one {ανάρτηση} other {αναρτήσεις}}<<<<<<< HEAD"
+msgstr "{0, plural, one {ανάρτηση} other {αναρτήσεις}}"
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:474
 msgid "{0, plural, one {quote} other {quotes}}"
@@ -595,7 +595,7 @@ msgstr "Προσβασιμότητα"
 
 #: src/Navigation.tsx:384
 msgid "Accessibility Settings"
-msgstr "Ρυθμίσεις Προσβασιμότητας<<<<<<< HEAD"
+msgstr "Ρυθμίσεις Προσβασιμότητας"
 
 #: src/Navigation.tsx:408
 #: src/screens/Login/LoginForm.tsx:197
@@ -603,7 +603,7 @@ msgstr "Ρυθμίσεις Προσβασιμότητας<<<<<<< HEAD"
 #: src/screens/Settings/Settings.tsx:175
 #: src/screens/Settings/Settings.tsx:178
 msgid "Account"
-msgstr "Λογαριασμός<<<<<<< HEAD"
+msgstr "Λογαριασμός"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:461
 #: src/screens/Messages/components/RequestButtons.tsx:91
@@ -634,7 +634,7 @@ msgstr "Λογαριασμός σε σίγαση από λίστα"
 
 #: src/screens/Settings/Settings.tsx:633
 msgid "Account options"
-msgstr "Επιλογές λογαριασμού<<<<<<< HEAD"
+msgstr "Επιλογές λογαριασμού"
 
 #: src/components/dialogs/ServerInput.tsx:141
 msgid "Account provider"
@@ -1134,11 +1134,11 @@ msgstr ""
 
 #: src/components/dialogs/nuxs/InitialVerificationAnnouncement.tsx:37
 msgid "Announcing verification on Bluesky"
-msgstr "<<<<<<< HEAD<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:451
 msgid "Anyone"
-msgstr ">>>>>>> upstream/main"
+msgstr ""
 
 #: src/view/com/composer/threadgate/ThreadgateBtn.tsx:134
 msgid "Anyone can interact"
@@ -1189,7 +1189,7 @@ msgstr "Τα ονόματα κωδικών πρόσβασης εφαρμογής
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:71
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:74
 msgid "App passwords"
-msgstr "Κωδικοί πρόσβασης εφαρμογής<<<<<<< HEAD"
+msgstr "Κωδικοί πρόσβασης εφαρμογής"
 
 #: src/Navigation.tsx:352
 #: src/screens/Settings/AppPasswords.tsx:49
@@ -1225,7 +1225,7 @@ msgstr ""
 #: src/screens/Messages/components/ChatDisabled.tsx:111
 #: src/screens/Messages/components/ChatDisabled.tsx:113
 msgid "Appeal this decision"
-msgstr "Εφεση σε αυτήν την απόφαση<<<<<<< HEAD"
+msgstr "Εφεση σε αυτήν την απόφαση"
 
 #: src/Navigation.tsx:400
 #: src/screens/Settings/AppearanceSettings.tsx:73
@@ -1242,7 +1242,7 @@ msgstr "Εφαρμογή προεπιλεγμένων προτεινόμενων
 #: src/screens/Settings/Settings.tsx:505
 #: src/screens/Settings/Settings.tsx:507
 msgid "Apply Pull Request"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:675
 msgid "Archived from {0}"
@@ -1318,7 +1318,7 @@ msgstr ""
 
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:208
 msgid "At least 8 characters"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Signup/StepInfo/index.tsx:176
 msgid "ATmosphere"
@@ -1411,7 +1411,7 @@ msgstr ""
 #: src/components/dialogs/BirthDateSettings.tsx:115
 #: src/screens/Settings/AccountSettings.tsx:142
 msgid "Birthday"
-msgstr "Ημερομηνία γέννησης<<<<<<< HEAD"
+msgstr "Ημερομηνία γέννησης"
 
 #: src/screens/Signup/StepInfo/index.tsx:172
 msgid "Bitchsky is part of the <0>ATmosphere</0>—the network of apps, services, and accounts built on the AT Protocol."
@@ -1446,7 +1446,7 @@ msgstr "Αποκλεισμός λογαριασμών"
 
 #: src/components/dms/AfterReportDialog.tsx:145
 msgid "Block and Delete"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/ProfileList/components/SubscribeMenu.tsx:125
 msgid "Block list"
@@ -1467,7 +1467,7 @@ msgstr ""
 
 #: src/components/dms/AfterReportDialog.tsx:151
 msgid "Block User"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/dms/AfterReportDialog.tsx:180
 msgid "Block user and/or delete this conversation"
@@ -1506,7 +1506,7 @@ msgstr "Ο αποκλεισμός είναι δημόσιος. Οι αποκλε
 
 #: src/view/com/profile/ProfileMenu.tsx:548
 msgid "Blocking will not prevent labels from being applied on your account, but it will stop this account from replying in your threads or interacting with you."
-msgstr "Ο αποκλεισμός δεν θα εμποδίσει την εφαρμογή ετικετών στον λογαριασμό σας, αλλά θα σταματήσει αυτόν τον λογαριασμό από το να απαντά στις συζητήσεις σας ή να αλληλεπιδρά μαζί σας.<<<<<<< HEAD"
+msgstr "Ο αποκλεισμός δεν θα εμποδίσει την εφαρμογή ετικετών στον λογαριασμό σας, αλλά θα σταματήσει αυτόν τον λογαριασμό από το να απαντά στις συζητήσεις σας ή να αλληλεπιδρά μαζί σας."
 
 #: src/components/dialogs/ServerInput.tsx:147
 #: src/components/dialogs/ServerInput.tsx:149
@@ -1569,7 +1569,7 @@ msgstr "Βιβλία"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:215
 msgid "Breaking site rules"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/FeedInterstitials.tsx:442
 msgid "Browse more accounts on the Explore page"
@@ -1716,7 +1716,7 @@ msgstr ""
 
 #: src/screens/Search/Shell.tsx:361
 msgid "Cancel search"
-msgstr "Ακύρωση αναζήτησης<<<<<<< HEAD"
+msgstr "Ακύρωση αναζήτησης"
 
 #: src/components/PostControls/index.tsx:114
 #: src/components/PostControls/index.tsx:145
@@ -2372,7 +2372,7 @@ msgstr ""
 #: src/components/dialogs/Embed.tsx:190
 #: src/components/dialogs/Embed.tsx:207
 msgid "Copy code"
-msgstr "Αντιγραφή κωδικού<<<<<<< HEAD"
+msgstr "Αντιγραφή κωδικού"
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:502
 #: src/view/com/profile/ProfileMenu.tsx:508
@@ -2599,7 +2599,7 @@ msgstr "Προσαρμοσμένο"
 
 #: src/components/dialogs/Embed.tsx:144
 msgid "Customization options"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Onboarding/Layout.tsx:60
 msgid "Customizes your Bluesky experience"
@@ -2611,7 +2611,7 @@ msgstr ""
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:204
 msgid "Dangerous substances or drug abuse"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/dialogs/Embed.tsx:168
 #: src/components/dialogs/Embed.tsx:170
@@ -2653,7 +2653,7 @@ msgstr "Πίνακας Debug"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:84
 msgid "Deepfake adult content"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Settings/Settings.tsx:219
 msgid "Deer"
@@ -2834,7 +2834,7 @@ msgstr "Απενεργοποίηση Email 2FA"
 #: src/screens/Settings/AccessibilitySettings.tsx:89
 #: src/screens/Settings/AccessibilitySettings.tsx:94
 msgid "Disable haptic feedback"
-msgstr "Απενεργοποίηση ανάδρασης αφής<<<<<<< HEAD<<<<<<< HEAD"
+msgstr "Απενεργοποίηση ανάδρασης αφής"
 
 #: src/screens/Settings/DeerSettings.tsx:521
 #: src/screens/Settings/DeerSettings.tsx:526
@@ -3063,7 +3063,7 @@ msgstr "Κατεβάστε το Bluesky"
 #: src/screens/Settings/components/ExportCarDialog.tsx:78
 #: src/screens/Settings/components/ExportCarDialog.tsx:83
 msgid "Download CAR file"
-msgstr "Κατεβάστε το αρχείο CAR<<<<<<< HEAD"
+msgstr "Κατεβάστε το αρχείο CAR"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:559
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:561
@@ -3083,7 +3083,7 @@ msgstr ""
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:428
 msgctxt "toast"
 msgid "Downloading video..."
-msgstr "=======>>>>>>> upstream/main"
+msgstr ""
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:115
 msgid "Doxxing"
@@ -3470,7 +3470,7 @@ msgstr "Όλοι"
 #: src/screens/Settings/NotificationSettings/index.tsx:235
 #: src/screens/Settings/NotificationSettings/MiscellaneousNotificationSettings.tsx:41
 msgid "Everything else"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/dialogs/MutedWords.tsx:316
 msgid "Exclude users you follow"
@@ -3803,7 +3803,7 @@ msgstr ""
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:55
 msgid "False information about elections"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/Navigation.tsx:292
 msgid "Feed"
@@ -3946,7 +3946,7 @@ msgstr "Τέλος"
 
 #: src/screens/Onboarding/index.tsx:66
 msgid "Fitness"
-msgstr "Φυσική κατάσταση<<<<<<< HEAD======="
+msgstr "Φυσική κατάσταση"
 
 #: src/screens/Onboarding/StepFinished/index.tsx:421
 msgid "Flexible"
@@ -4052,7 +4052,7 @@ msgstr "Ακολουθείτε"
 #: src/view/screens/Feeds.tsx:603
 msgctxt "feed-name"
 msgid "Following"
-msgstr "Ακολουθείτε<<<<<<< HEAD"
+msgstr "Ακολουθείτε"
 
 #: src/components/ProfileCard.tsx:492
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:96
@@ -4143,7 +4143,7 @@ msgstr "Ξεχάσατε;"
 
 #: src/screens/Onboarding/StepFinished/ValuePropositionPager.shared.tsx:12
 msgid "Free your feed"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Settings/NotificationSettings/components/PreferenceControls.tsx:157
 msgid "From"
@@ -4245,7 +4245,7 @@ msgstr ""
 
 #: src/screens/Onboarding/StepProfile/index.tsx:235
 msgid "Give your profile a face"
-msgstr "Δώστε στο προφίλ σας ένα πρόσωπο<<<<<<< HEAD"
+msgstr "Δώστε στο προφίλ σας ένα πρόσωπο"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:142
 msgid "Glorification of violence"
@@ -4395,7 +4395,7 @@ msgstr "Απτικές αντιδράσεις"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:99
 msgid "Harassment or hate"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:189
 msgid "Harmful or high-risk activities"
@@ -4424,7 +4424,7 @@ msgstr ""
 
 #: src/screens/Signup/index.tsx:229
 msgid "Having trouble?"
-msgstr "Έχετε πρόβλημα;<<<<<<< HEAD"
+msgstr "Έχετε πρόβλημα;"
 
 #: src/screens/Settings/Settings.tsx:243
 #: src/screens/Settings/Settings.tsx:247
@@ -4486,7 +4486,7 @@ msgstr ""
 
 #: src/components/dialogs/Embed.tsx:128
 msgid "Hide customization options"
-msgstr "<<<<<<< HEAD<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:527
 msgid "Hide lists"
@@ -4677,7 +4677,7 @@ msgstr ""
 
 #: src/screens/Settings/components/DeactivateAccountDialog.tsx:92
 msgid "If you're trying to change your handle or email, do so before you deactivate."
-msgstr "Εάν προσπαθείτε να αλλάξετε το όνομα χρήστη ή το email σας, κάντε το πριν απενεργοποιήσετε τον λογαριασμό σας.<<<<<<< HEAD"
+msgstr "Εάν προσπαθείτε να αλλάξετε το όνομα χρήστη ή το email σας, κάντε το πριν απενεργοποιήσετε τον λογαριασμό σας."
 
 #: src/view/com/util/images/Gallery.tsx:80
 msgid "Image"
@@ -4699,7 +4699,7 @@ msgstr ""
 
 #: src/lib/media/save-image.ts:51
 msgid "Images cannot be saved unless permission is granted to access your photo library."
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Settings/DeerSettings.tsx:462
 msgid "Images will be served as PNG instead of JPEG. Images will take longer to load and use more bandwidth."
@@ -4707,7 +4707,7 @@ msgstr ""
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:51
 msgid "Impersonation"
-msgstr ">>>>>>> upstream/main"
+msgstr ""
 
 #: src/screens/Settings/NotificationSettings/index.tsx:284
 msgid "In-app"
@@ -4735,7 +4735,7 @@ msgstr ""
 
 #: src/screens/Settings/NotificationSettings/index.tsx:273
 msgid "In-app, Push, People you follow"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #. Title message shown in chat requests inbox when it's empty
 #: src/screens/Messages/Inbox.tsx:231
@@ -4764,7 +4764,7 @@ msgstr "Εισαγάγετε τον κωδικό πρόσβασης για δι�
 
 #: src/screens/Login/LoginForm.tsx:302
 msgid "Input the code which has been emailed to you"
-msgstr "Εισαγάγετε τον κωδικό που σας στάλθηκε μέσω email<<<<<<< HEAD<<<<<<< HEAD"
+msgstr "Εισαγάγετε τον κωδικό που σας στάλθηκε μέσω email"
 
 #: src/screens/Settings/DeerSettings.tsx:158
 msgid "Input the url of the constellations instance to use"
@@ -4887,7 +4887,7 @@ msgstr "Επισημασμένο από {0}."
 
 #: src/components/moderation/ContentHider.tsx:237
 msgid "Labeled by the author."
-msgstr "Επισημασμένο από τον/την συγγραφέα.<<<<<<< HEAD"
+msgstr "Επισημασμένο από τον/την συγγραφέα."
 
 #: src/screens/Settings/DeerSettings.tsx:618
 msgid "Labelers"
@@ -4958,7 +4958,7 @@ msgstr "Μάθετε περισσότερα"
 
 #: src/components/ageAssurance/AgeAssuranceDismissibleFeedBanner.tsx:74
 msgid "Learn more about age assurance"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/dialogs/ServerInput.tsx:223
 msgid "Learn more about self hosting your PDS."
@@ -4995,7 +4995,7 @@ msgstr "Μάθετε περισσότερα για το τι είναι δημό
 
 #: src/components/ageAssurance/AgeAssuranceAdmonition.tsx:86
 msgid "Learn more in your <0>account settings.</0>"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/dialogs/ServerInput.tsx:225
 #: src/components/moderation/ContentHider.tsx:247
@@ -5125,7 +5125,7 @@ msgstr ""
 
 #: src/Navigation.tsx:485
 msgid "Likes of your reposts notifications"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:485
 msgid "Likes on this post"
@@ -5431,7 +5431,7 @@ msgstr ""
 
 #: src/Navigation.tsx:778
 msgid "Messages"
-msgstr "Μηνύματα<<<<<<< HEAD"
+msgstr "Μηνύματα"
 
 #: src/screens/Settings/DeerSettings.tsx:516
 msgid "Metrics"
@@ -5439,7 +5439,7 @@ msgstr ""
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:177
 msgid "Minor harassment or bullying"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/Navigation.tsx:509
 msgid "Miscellaneous notifications"
@@ -5447,7 +5447,7 @@ msgstr ""
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:35
 msgid "Misleading"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/Navigation.tsx:178
 #: src/screens/Moderation/index.tsx:100
@@ -5508,7 +5508,7 @@ msgstr "Εργαλεία διαχείρισης"
 #: src/components/moderation/ModerationDetailsDialog.tsx:54
 #: src/lib/moderation/useModerationCauseDescription.ts:48
 msgid "Moderator has chosen to set a general warning on the content."
-msgstr "Ο/η διαχειριστής επέλεξε να θέσει μια γενική προειδοποίηση στο περιεχόμενο.<<<<<<< HEAD"
+msgstr "Ο/η διαχειριστής επέλεξε να θέσει μια γενική προειδοποίηση στο περιεχόμενο."
 
 #: src/view/shell/desktop/Feeds.tsx:113
 #: src/view/shell/desktop/Feeds.tsx:123
@@ -5652,7 +5652,7 @@ msgstr "Οι Ροές μου"
 
 #: src/components/dialogs/lists/CreateOrEditListDialog.tsx:399
 msgid "Name"
-msgstr "Όνομα<<<<<<< HEAD"
+msgstr "Όνομα"
 
 #: src/lib/interests.ts:66
 #: src/screens/Onboarding/index.tsx:53
@@ -5857,7 +5857,7 @@ msgstr ""
 #: src/components/LikedByList.tsx:84
 #: src/view/com/post-thread/PostLikedBy.tsx:84
 msgid "No likes yet"
-msgstr "Δεν υπάρχουν ακόμη \"Μου αρέσει\"<<<<<<< HEAD"
+msgstr "Δεν υπάρχουν ακόμη \"Μου αρέσει\""
 
 #: src/components/ProfileCard.tsx:514
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:119
@@ -6064,7 +6064,7 @@ msgstr "Τώρα"
 #: src/view/com/composer/labels/LabelsBtn.tsx:145
 #: src/view/com/composer/labels/LabelsBtn.tsx:148
 msgid "Nudity"
-msgstr "Γύμνια<<<<<<< HEAD"
+msgstr "Γύμνια"
 
 #: src/lib/moderation/useLabelBehaviorDescription.ts:14
 #: src/screens/Settings/NotificationSettings/index.tsx:291
@@ -6327,7 +6327,7 @@ msgstr "Ανοίγει τη φόρμα επαναφοράς κωδικού πρ�
 
 #: src/view/com/composer/select-language/PostLanguageSelect.tsx:129
 msgid "Opens post language settings"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:1021
 #: src/view/com/util/UserAvatar.tsx:613
@@ -6474,7 +6474,7 @@ msgstr "Άτομα που ακολουθούνται από τον/την @{0}"
 #: src/screens/Settings/NotificationSettings/components/PreferenceControls.tsx:181
 #: src/screens/Settings/NotificationSettings/components/PreferenceControls.tsx:191
 msgid "People I follow"
-msgstr "<<<<<<< HEAD<<<<<<< HEAD======="
+msgstr ""
 
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:504
 msgid "People you follow"
@@ -6482,7 +6482,7 @@ msgstr ""
 
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:518
 msgid "People you mention"
-msgstr ">>>>>>> upstream/main"
+msgstr ""
 
 #: src/lib/media/save-image.ts:59
 msgid "Permission to access your photo library was denied. Please enable it in your system settings."
@@ -6768,7 +6768,7 @@ msgstr "Η δημοσίευση διαγράφηκε"
 
 #: src/lib/api/index.ts:186
 msgid "Post failed to upload. Please check your Internet connection and try again."
-msgstr "Η δημοσίευση απέτυχε να μεταφορτωθεί. Παρακαλώ ελέγξτε τη σύνδεση στο internet και προσπαθήστε ξανά.<<<<<<< HEAD"
+msgstr "Η δημοσίευση απέτυχε να μεταφορτωθεί. Παρακαλώ ελέγξτε τη σύνδεση στο internet και προσπαθήστε ξανά."
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:138
 #: src/screens/PostThread/components/ThreadItemPost.tsx:112
@@ -6937,11 +6937,11 @@ msgstr "Προφίλ ενημερωμένο"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:223
 msgid "Promoting or selling prohibited items or services"
-msgstr "<<<<<<< HEAD<<<<<<< HEAD======="
+msgstr ""
 
 #: src/view/com/composer/threadgate/ThreadgateBtn.tsx:160
 msgid "Psst! You can edit who can interact with this post."
-msgstr ">>>>>>> upstream/main"
+msgstr ""
 
 #: src/screens/Onboarding/StepFinished/index.tsx:391
 msgid "Public"
@@ -7034,7 +7034,7 @@ msgstr "Οι παραθέσεις δημοσιεύσεων είναι απενε
 #: src/screens/Settings/NotificationSettings/index.tsx:170
 #: src/screens/Settings/NotificationSettings/QuoteNotificationSettings.tsx:41
 msgid "Quotes"
-msgstr "Παραθέσεις<<<<<<< HEAD"
+msgstr "Παραθέσεις"
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:467
 msgid "Quotes of this post"
@@ -7535,7 +7535,7 @@ msgstr "Αναδημοσίευση από εσάς"
 #: src/screens/Settings/NotificationSettings/index.tsx:181
 #: src/screens/Settings/NotificationSettings/RepostNotificationSettings.tsx:41
 msgid "Reposts"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:448
 msgid "Reposts of this post"
@@ -7610,7 +7610,7 @@ msgstr ""
 
 #: src/screens/Login/ForgotPasswordForm.tsx:80
 msgid "Reset password"
-msgstr "Επαναφορά κωδικού πρόσβασης<<<<<<< HEAD"
+msgstr "Επαναφορά κωδικού πρόσβασης"
 
 #: src/screens/Settings/DeerSettings.tsx:635
 msgid "Restart the app after changing this setting."
@@ -7774,7 +7774,7 @@ msgstr ""
 #: src/lib/interests.ts:71
 #: src/screens/Onboarding/index.tsx:64
 msgid "Science"
-msgstr "Επιστήμη<<<<<<< HEAD"
+msgstr "Επιστήμη"
 
 #: src/view/com/posts/PostFeedItemCarousel.tsx:67
 msgid "Scroll carousel left"
@@ -7782,7 +7782,7 @@ msgstr ""
 
 #: src/view/com/posts/PostFeedItemCarousel.tsx:76
 msgid "Scroll carousel right"
-msgstr "=======>>>>>>> upstream/main"
+msgstr ""
 
 #: src/components/InterestTabs.tsx:255
 msgid "Scroll left"
@@ -8157,11 +8157,11 @@ msgstr "Ορισμός ημερομηνίας γέννησης"
 
 #: src/screens/Login/SetNewPasswordForm.tsx:106
 msgid "Set new password"
-msgstr "Ορισμός νέου κωδικού πρόσβασης<<<<<<< HEAD<<<<<<< HEAD======="
+msgstr "Ορισμός νέου κωδικού πρόσβασης"
 
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:475
 msgid "Set precisely which groups of people can reply to your post"
-msgstr ">>>>>>> upstream/main"
+msgstr ""
 
 #: src/screens/Onboarding/Layout.tsx:49
 msgid "Set up your account"
@@ -8400,7 +8400,7 @@ msgstr "Εμφάνιση απαντήσεων"
 
 #: src/screens/PostThread/components/HeaderDropdown.tsx:43
 msgid "Show replies as"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:692
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:702
@@ -8423,7 +8423,7 @@ msgstr "Εμφάνιση προειδοποίησης"
 
 #: src/lib/moderation/useLabelBehaviorDescription.ts:59
 msgid "Show warning and filter from feeds"
-msgstr "Εμφάνιση προειδοποίησης και φιλτράρισμα από τις ροές<<<<<<< HEAD"
+msgstr "Εμφάνιση προειδοποίησης και φιλτράρισμα από τις ροές"
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:646
 msgid "Shows information about when this post was created"
@@ -8658,7 +8658,7 @@ msgstr ""
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:36
 msgid "Spam or other inauthentic behavior or deception"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/lib/interests.ts:72
 #: src/screens/Onboarding/index.tsx:58
@@ -8813,7 +8813,7 @@ msgstr "Προτεινόμενα για εσάς"
 #: src/view/com/composer/labels/LabelsBtn.tsx:139
 #: src/view/com/composer/labels/LabelsBtn.tsx:142
 msgid "Suggestive"
-msgstr "Προκλητικό<<<<<<< HEAD"
+msgstr "Προκλητικό"
 
 #: src/Navigation.tsx:327
 #: src/view/screens/Support.tsx:34
@@ -8933,7 +8933,7 @@ msgstr "Όροι"
 #: src/view/shell/Drawer.tsx:697
 #: src/view/shell/Drawer.tsx:699
 msgid "Terms of Service"
-msgstr "Όροι Χρήσης<<<<<<< HEAD"
+msgstr "Όροι Χρήσης"
 
 #: src/components/dialogs/MutedWords.tsx:271
 msgid "Text & tags"
@@ -9117,7 +9117,7 @@ msgstr "Παρουσιάστηκε πρόβλημα επικοινωνίας μ�
 
 #: src/view/com/notifications/NotificationFeed.tsx:132
 msgid "There was an issue fetching notifications. Tap here to try again."
-msgstr "Παρουσιάστηκε πρόβλημα λήψης ειδοποιήσεων. Πατήστε εδώ για να δοκιμάσετε ξανά.<<<<<<< HEAD"
+msgstr "Παρουσιάστηκε πρόβλημα λήψης ειδοποιήσεων. Πατήστε εδώ για να δοκιμάσετε ξανά."
 
 #: src/screens/Search/Explore.tsx:992
 #: src/view/com/posts/PostFeed.tsx:798
@@ -9189,7 +9189,7 @@ msgstr "Παρουσιάστηκε ένα απροσδόκητο πρόβλημ�
 
 #: src/screens/SignupQueued.tsx:130
 msgid "There's been a rush of new users to Bluesky! We'll activate your account as soon as we can."
-msgstr "Υπήρξε μια έξαρση νέων χρηστών στο Bluesky! Θα ενεργοποιήσουμε τον λογαριασμό σας το συντομότερο δυνατόν.<<<<<<< HEAD<<<<<<< HEAD"
+msgstr "Υπήρξε μια έξαρση νέων χρηστών στο Bluesky! Θα ενεργοποιήσουμε τον λογαριασμό σας το συντομότερο δυνατόν."
 
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:654
 msgid "These are your default settings"
@@ -9349,7 +9349,7 @@ msgstr ""
 
 #: src/screens/Profile/ErrorState.tsx:40
 msgid "This moderation service is unavailable. See below for more details. If this issue persists, contact us."
-msgstr "Η υπηρεσία διαχείρισης δεν είναι διαθέσιμη. Δείτε παρακάτω για περισσότερες λεπτομέρειες. Εάν το πρόβλημα παραμένει, επικοινωνήστε μαζί μας.<<<<<<< HEAD"
+msgstr "Η υπηρεσία διαχείρισης δεν είναι διαθέσιμη. Δείτε παρακάτω για περισσότερες λεπτομέρειες. Εάν το πρόβλημα παραμένει, επικοινωνήστε μαζί μας."
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:686
 msgid "This post claims to have been created on <0>{0}</0>, but was first seen by Bluesky on <1>{1}</1>."
@@ -9672,7 +9672,7 @@ msgstr "Αναίρεση αναδημοσίευσης"
 #. Accessibility label for the repost button when the post has been reposted, verb followed by number of reposts and noun
 #: src/components/PostControls/RepostButton.tsx:67
 msgid "Undo repost ({0, plural, one {# repost} other {# reposts}})"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:242
 msgid "Unfollow {0}"
@@ -9705,7 +9705,7 @@ msgstr ""
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:68
 msgid "Unlabeled, abusive, or non-consensual adult content"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Profile/components/ProfileFeedHeader.tsx:515
 msgid "Unlike"
@@ -9823,7 +9823,7 @@ msgstr "Απεγγραφή από αυτήν την λίστα"
 
 #: src/view/com/composer/Composer.tsx:895
 msgid "Unsupported video type: {mimeType}"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Settings/components/OTAInfo.tsx:58
 #: src/screens/Settings/components/OTAInfo.tsx:74
@@ -10209,7 +10209,7 @@ msgstr "Δείτε την ανάρτηση ιστολογίου για περι�
 
 #: src/screens/Log.tsx:81
 msgid "View debug entry"
-msgstr "Προβολή καταχώρησης εντοπισμού σφαλμάτων<<<<<<< HEAD"
+msgstr "Προβολή καταχώρησης εντοπισμού σφαλμάτων"
 
 #: src/screens/VideoFeed/index.tsx:662
 #: src/screens/VideoFeed/index.tsx:680
@@ -10291,7 +10291,7 @@ msgstr "Προβολή των λογαριασμών που έχετε σε σί
 
 #: src/components/verification/VerificationCheckButton.tsx:98
 msgid "View your verifications"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/view/com/util/images/AutoSizedImage.tsx:210
 #: src/view/com/util/images/AutoSizedImage.tsx:237
@@ -10308,11 +10308,11 @@ msgstr ""
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:127
 msgid "Violent or threatening content"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Settings/DeerSettings.tsx:337
 msgid "Visibility"
-msgstr "=======>>>>>>> upstream/main"
+msgstr ""
 
 #: src/components/dialogs/LinkWarning.tsx:96
 #: src/components/dialogs/LinkWarning.tsx:106

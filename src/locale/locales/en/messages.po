@@ -590,7 +590,7 @@ msgstr ""
 
 #: src/Navigation.tsx:384
 msgid "Accessibility Settings"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/Navigation.tsx:408
 #: src/screens/Login/LoginForm.tsx:197
@@ -629,7 +629,7 @@ msgstr ""
 
 #: src/screens/Settings/Settings.tsx:633
 msgid "Account options"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/dialogs/ServerInput.tsx:141
 msgid "Account provider"
@@ -1184,7 +1184,7 @@ msgstr ""
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:71
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:74
 msgid "App passwords"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/Navigation.tsx:352
 #: src/screens/Settings/AppPasswords.tsx:49
@@ -1220,7 +1220,7 @@ msgstr ""
 #: src/screens/Messages/components/ChatDisabled.tsx:111
 #: src/screens/Messages/components/ChatDisabled.tsx:113
 msgid "Appeal this decision"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/Navigation.tsx:400
 #: src/screens/Settings/AppearanceSettings.tsx:73
@@ -1462,7 +1462,7 @@ msgstr ""
 
 #: src/components/dms/AfterReportDialog.tsx:151
 msgid "Block User"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/dms/AfterReportDialog.tsx:180
 msgid "Block user and/or delete this conversation"
@@ -1501,7 +1501,7 @@ msgstr ""
 
 #: src/view/com/profile/ProfileMenu.tsx:548
 msgid "Blocking will not prevent labels from being applied on your account, but it will stop this account from replying in your threads or interacting with you."
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/dialogs/ServerInput.tsx:147
 #: src/components/dialogs/ServerInput.tsx:149
@@ -1510,7 +1510,7 @@ msgstr "Bitchsky"
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:705
 msgid "Bluesky cannot confirm the authenticity of the claimed date."
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/dialogs/ServerInput.tsx:217
 msgid "Bluesky is an open network where you can choose your hosting provider. If you're a developer, you can host your own server."
@@ -1946,7 +1946,7 @@ msgstr ""
 
 #: src/components/dialogs/EmailDialog/screens/Verify.tsx:275
 msgid "Click here to update your email"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/RichTextTag.tsx:54
 msgid "Click to open tag menu for {tag}"
@@ -2367,7 +2367,7 @@ msgstr ""
 #: src/components/dialogs/Embed.tsx:190
 #: src/components/dialogs/Embed.tsx:207
 msgid "Copy code"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:502
 #: src/view/com/profile/ProfileMenu.tsx:508
@@ -2594,7 +2594,7 @@ msgstr ""
 
 #: src/components/dialogs/Embed.tsx:144
 msgid "Customization options"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Onboarding/Layout.tsx:60
 msgid "Customizes your Bluesky experience"
@@ -2648,7 +2648,7 @@ msgstr ""
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:84
 msgid "Deepfake adult content"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Settings/Settings.tsx:219
 msgid "Deer"
@@ -2829,7 +2829,7 @@ msgstr ""
 #: src/screens/Settings/AccessibilitySettings.tsx:89
 #: src/screens/Settings/AccessibilitySettings.tsx:94
 msgid "Disable haptic feedback"
-msgstr "<<<<<<< HEAD<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Settings/DeerSettings.tsx:521
 #: src/screens/Settings/DeerSettings.tsx:526
@@ -4138,7 +4138,7 @@ msgstr ""
 
 #: src/screens/Onboarding/StepFinished/ValuePropositionPager.shared.tsx:12
 msgid "Free your feed"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Settings/NotificationSettings/components/PreferenceControls.tsx:157
 msgid "From"
@@ -4481,7 +4481,7 @@ msgstr ""
 
 #: src/components/dialogs/Embed.tsx:128
 msgid "Hide customization options"
-msgstr "<<<<<<< HEAD<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:527
 msgid "Hide lists"
@@ -4672,7 +4672,7 @@ msgstr ""
 
 #: src/screens/Settings/components/DeactivateAccountDialog.tsx:92
 msgid "If you're trying to change your handle or email, do so before you deactivate."
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/view/com/util/images/Gallery.tsx:80
 msgid "Image"
@@ -4759,7 +4759,7 @@ msgstr ""
 
 #: src/screens/Login/LoginForm.tsx:302
 msgid "Input the code which has been emailed to you"
-msgstr "<<<<<<< HEAD<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Settings/DeerSettings.tsx:158
 msgid "Input the url of the constellations instance to use"
@@ -4882,7 +4882,7 @@ msgstr ""
 
 #: src/components/moderation/ContentHider.tsx:237
 msgid "Labeled by the author."
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Settings/DeerSettings.tsx:618
 msgid "Labelers"
@@ -4953,7 +4953,7 @@ msgstr ""
 
 #: src/components/ageAssurance/AgeAssuranceDismissibleFeedBanner.tsx:74
 msgid "Learn more about age assurance"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/dialogs/ServerInput.tsx:223
 msgid "Learn more about self hosting your PDS."
@@ -5442,7 +5442,7 @@ msgstr ""
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:35
 msgid "Misleading"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/Navigation.tsx:178
 #: src/screens/Moderation/index.tsx:100
@@ -6322,7 +6322,7 @@ msgstr ""
 
 #: src/view/com/composer/select-language/PostLanguageSelect.tsx:129
 msgid "Opens post language settings"
-msgstr "Opens skeet language settings<<<<<<< HEAD"
+msgstr "Opens skeet language settings"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:1021
 #: src/view/com/util/UserAvatar.tsx:613
@@ -7605,7 +7605,7 @@ msgstr ""
 
 #: src/screens/Login/ForgotPasswordForm.tsx:80
 msgid "Reset password"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Settings/DeerSettings.tsx:635
 msgid "Restart the app after changing this setting."
@@ -9112,7 +9112,7 @@ msgstr ""
 
 #: src/view/com/notifications/NotificationFeed.tsx:132
 msgid "There was an issue fetching notifications. Tap here to try again."
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/screens/Search/Explore.tsx:992
 #: src/view/com/posts/PostFeed.tsx:798
@@ -9184,7 +9184,7 @@ msgstr ""
 
 #: src/screens/SignupQueued.tsx:130
 msgid "There's been a rush of new users to Bluesky! We'll activate your account as soon as we can."
-msgstr "<<<<<<< HEAD<<<<<<< HEAD"
+msgstr ""
 
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:654
 msgid "These are your default settings"
@@ -10286,7 +10286,7 @@ msgstr ""
 
 #: src/components/verification/VerificationCheckButton.tsx:98
 msgid "View your verifications"
-msgstr "<<<<<<< HEAD"
+msgstr ""
 
 #: src/view/com/util/images/AutoSizedImage.tsx:210
 #: src/view/com/util/images/AutoSizedImage.tsx:237
