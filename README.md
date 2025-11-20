@@ -21,6 +21,7 @@ alt="Get it on Obtainium" align="center" height="54" /></a>
 - Embed player works with [stream.place](https://stream.place/) links!
 - Open skeets in PDSls and original pages from bridged posts
 - Better defaults (alt text required 😉)
+- More unique repost icons
 - No push notifications (may be added later)
 - Kept as up-to-date as possible (sporadically unstable as a result)
 
