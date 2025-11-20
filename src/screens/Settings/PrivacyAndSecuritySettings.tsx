@@ -81,14 +81,14 @@ export function PrivacyAndSecuritySettingsScreen({}: Props) {
           </SettingsList.LinkItem>
           <SettingsList.LinkItem
             label={_(
-              msg`Settings for allowing others to be notified of your posts`,
+              msg`Settings for allowing others to be notified of your skeets`,
             )}
             to={{screen: 'ActivityPrivacySettings'}}
             contentContainerStyle={[a.align_start]}>
             <SettingsList.ItemIcon icon={BellRingingIcon} />
             <ItemTextWithSubtitle
               titleText={
-                <Trans>Allow others to be notified of your posts</Trans>
+                <Trans>Allow others to be notified of your skeets</Trans>
               }
               subtitleText={
                 <NotificationDeclaration

@@ -105,12 +105,12 @@ function EmbedDialogInner({
       <View style={[a.gap_lg]}>
         <View style={[a.gap_sm]}>
           <Text style={[a.text_2xl, a.font_bold]}>
-            <Trans>Embed post</Trans>
+            <Trans>Embed skeet</Trans>
           </Text>
           <Text
             style={[a.text_md, t.atoms.text_contrast_medium, a.leading_normal]}>
             <Trans>
-              Embed this post in your website. Simply copy the following snippet
+              Embed this skeet in your website. Simply copy the following snippet
               and paste it into the HTML code of your website.
             </Trans>
           </Text>

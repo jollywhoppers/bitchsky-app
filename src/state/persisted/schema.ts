@@ -202,12 +202,12 @@ export const defaults: Schema = {
   kawaii: false,
   hasCheckedForStarterPack: false,
   subtitlesEnabled: true,
-  trendingDisabled: false,
-  trendingVideoDisabled: false,
+  trendingDisabled: true,
+  trendingVideoDisabled: true,
 
   // deer
   goLinksEnabled: true,
-  constellationEnabled: false,
+  constellationEnabled: true,
   directFetchRecords: true,
   noAppLabelers: false,
   noDiscoverFallback: false,
@@ -221,7 +221,7 @@ export const defaults: Schema = {
   disableQuotesMetrics: false,
   disableSavesMetrics: false,
   disableReplyMetrics: false,
-  hideSimilarAccountsRecomm: false,
+  hideSimilarAccountsRecomm: true,
   enableSquareAvatars: false,
   deerVerification: {
     enabled: false,

@@ -112,7 +112,7 @@ let ShareMenuItems = ({
         label={_(msg`Copy link to post`)}
         onPress={onCopyLink}>
         <Menu.ItemText>
-          <Trans>Copy link to post</Trans>
+          <Trans>Copy link to skeet</Trans>
         </Menu.ItemText>
         <Menu.ItemIcon icon={ChainLinkIcon} position="right" />
       </Menu.Item>
@@ -139,7 +139,7 @@ let ShareMenuItems = ({
             label={_(msg`Open original post`)}
             onPress={onOpenOriginalPost}>
             <Menu.ItemText>
-              <Trans>Open original post</Trans>
+              <Trans>Open original skeet</Trans>
             </Menu.ItemText>
             <Menu.ItemIcon icon={ExternalIcon} position="right" />
           </Menu.Item>
@@ -151,7 +151,7 @@ let ShareMenuItems = ({
             label={_(msg`Open post in PDSls`)}
             onPress={onOpenPostInPdsls}>
             <Menu.ItemText>
-              <Trans>Open post in PDSls</Trans>
+              <Trans>Open skeet in PDSls</Trans>
             </Menu.ItemText>
             <Menu.ItemIcon icon={ExternalIcon} position="right" />
           </Menu.Item>
@@ -180,7 +180,7 @@ let ShareMenuItems = ({
               logger.metric('share:press:embed', {}, {statsig: true})
               embedPostControl.open()
             }}>
-            <Menu.ItemText>{_(msg`Embed post`)}</Menu.ItemText>
+            <Menu.ItemText>{_(msg`Embed skeet`)}</Menu.ItemText>
             <Menu.ItemIcon icon={CodeBracketsIcon} position="right" />
           </Menu.Item>
         )}
@@ -190,7 +190,7 @@ let ShareMenuItems = ({
             {hasSession && <Menu.Divider />}
             {copyLinkItem}
             <Menu.LabelText style={{maxWidth: 220}}>
-              <Trans>Note: This post is only visible to logged-in users.</Trans>
+              <Trans>Note: This skeet is only visible to logged-in users.</Trans>
             </Menu.LabelText>
           </>
         )}
@@ -203,7 +203,7 @@ let ShareMenuItems = ({
               label={_(msg`Copy post at:// URI`)}
               onPress={onShareATURI}>
               <Menu.ItemText>
-                <Trans>Copy post at:// URI</Trans>
+                <Trans>Copy skeet at:// URI</Trans>
               </Menu.ItemText>
               <Menu.ItemIcon icon={ClipboardIcon} position="right" />
             </Menu.Item>

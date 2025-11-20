@@ -109,7 +109,7 @@ export function SubscribeMenu({list}: {list: AppBskyGraphDefs.ListView}) {
         control={subscribeMutePromptControl}
         title={_(msg`Mute these accounts?`)}
         description={_(
-          msg`Muting is private. Muted accounts can interact with you, but you will not see their posts or receive notifications from them.`,
+          msg`Muting is private. Muted accounts can interact with you, but you will not see their skeets or receive notifications from them.`,
         )}
         onConfirm={onSubscribeMute}
         confirmButtonCta={_(msg`Mute list`)}

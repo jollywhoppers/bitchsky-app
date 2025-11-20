@@ -507,10 +507,10 @@ export const ComposePost = ({
       let err = cleanError(e.message)
       if (err.includes('not locate record')) {
         err = _(
-          msg`We're sorry! The post you are replying to has been deleted.`,
+          msg`We're sorry! The skeet you are replying to has been deleted.`,
         )
       } else if (e instanceof EmbeddingDisabledError) {
-        err = _(msg`This post's author has disabled quote posts.`)
+        err = _(msg`This skeet's author has disabled quote skeets.`)
       }
       setError(err)
       setIsPublishing(false)
@@ -570,19 +570,19 @@ export const ComposePost = ({
           <Toast.Icon />
           <Toast.Text>
             {thread.posts.length > 1
-              ? _(msg`Your posts were sent`)
+              ? _(msg`Your skeets were sent`)
               : replyTo
                 ? _(msg`Your reply was sent`)
-                : _(msg`Your post was sent`)}
+                : _(msg`Your skeet was sent`)}
           </Toast.Text>
           {postUri && (
             <Toast.Action
-              label={_(msg`View post`)}
+              label={_(msg`View skeet`)}
               onPress={() => {
                 const {host: name, rkey} = new AtUri(postUri)
                 navigation.navigate('PostThread', {name, rkey})
               }}>
-              <Trans context="Action to view the post the user just created">
+              <Trans context="Action to view the skeet the user just created">
                 View
               </Trans>
             </Toast.Action>
@@ -851,8 +851,8 @@ let ComposerPost = React.memo(function ComposerPost({
   const selectTextInputPlaceholder = isReply
     ? isFirstPost
       ? _(msg`Write your reply`)
-      : _(msg`Add another post`)
-    : _(msg`What's up?`)
+      : _(msg`Add another skeet`)
+    : _(msg`Anything but skeet`)
   const discardPromptControl = Prompt.usePromptControl()
 
   const dispatchPost = useCallback(
@@ -964,7 +964,7 @@ let ComposerPost = React.memo(function ComposerPost({
       {canRemovePost && isActive && (
         <>
           <Button
-            label={_(msg`Delete post`)}
+            label={_(msg`Delete skeet`)}
             size="small"
             color="secondary"
             variant="ghost"
@@ -989,8 +989,8 @@ let ComposerPost = React.memo(function ComposerPost({
           </Button>
           <Prompt.Basic
             control={discardPromptControl}
-            title={_(msg`Discard post?`)}
-            description={_(msg`Are you sure you'd like to discard this post?`)}
+            title={_(msg`Discard skeet?`)}
+            description={_(msg`Are you sure you'd like to discard this skeet?`)}
             onConfirm={() => {
               dispatch({
                 type: 'remove_post',
@@ -1115,9 +1115,9 @@ function ComposerTopBar({
               {isReply ? (
                 <Trans context="action">Reply</Trans>
               ) : isThread ? (
-                <Trans context="action">Post All</Trans>
+                <Trans context="action">Skeet All</Trans>
               ) : (
-                <Trans context="action">Post</Trans>
+                <Trans context="action">Skeet</Trans>
               )}
             </ButtonText>
           </Button>

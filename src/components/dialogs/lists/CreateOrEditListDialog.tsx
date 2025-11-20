@@ -350,11 +350,11 @@ function DialogInner({
       : _(msg`Create moderation list`)
 
   const displayNamePlaceholder = isCurateList
-    ? _(msg`e.g. Great Posters`)
+    ? _(msg`e.g. Great Skeeters`)
     : _(msg`e.g. Spammers`)
 
   const descriptionPlaceholder = isCurateList
-    ? _(msg`e.g. The posters who never miss.`)
+    ? _(msg`e.g. The skeeters who never miss.`)
     : _(msg`e.g. Users that repeatedly reply with ads.`)
 
   return (

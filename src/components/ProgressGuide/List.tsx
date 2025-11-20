@@ -60,7 +60,7 @@ export function ProgressGuideList({style}: {style?: StyleProp<ViewStyle>}) {
             <ProgressGuideTask
               current={guide.numLikes + 1}
               total={10 + 1}
-              title={_(msg`Like 10 posts`)}
+              title={_(msg`Like 10 skeets`)}
               subtitle={_(msg`Teach our algorithm what you like`)}
             />
             <ProgressGuideTask

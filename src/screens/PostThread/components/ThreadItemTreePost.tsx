@@ -105,7 +105,7 @@ function ThreadItemTreePostDeleted({
           ]}>
           <TrashIcon style={[t.atoms.text]} width={14} />
           <Text style={[t.atoms.text_contrast_medium, a.mt_2xs]}>
-            <Trans>Post has been deleted</Trans>
+            <Trans>Skeet has been deleted</Trans>
           </Text>
         </View>
         {item.ui.isLastChild && !item.ui.precedesChildReadMore && (

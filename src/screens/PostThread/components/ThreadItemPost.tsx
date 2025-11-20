@@ -109,7 +109,7 @@ function ThreadItemPostDeleted({
         </View>
         <Text
           style={[a.text_md, a.font_semi_bold, t.atoms.text_contrast_medium]}>
-          <Trans>Post has been deleted</Trans>
+          <Trans>Skeet has been deleted</Trans>
         </Text>
       </View>
 

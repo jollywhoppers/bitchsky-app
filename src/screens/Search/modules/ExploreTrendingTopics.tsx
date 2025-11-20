@@ -80,7 +80,7 @@ export function TrendRow({
   const postCount = trend.postCount
     ? _(
         plural(trend.postCount, {
-          other: `${formatCount(i18n, trend.postCount)} posts`,
+          other: `${formatCount(i18n, trend.postCount)} skeets`,
         }),
       )
     : null

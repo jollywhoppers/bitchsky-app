@@ -41,7 +41,7 @@ export function ReplyNotificationSettingsScreen({}: Props) {
               titleText={<Trans>Replies</Trans>}
               subtitleText={
                 <Trans>
-                  Get notifications when people reply to your posts.
+                  Get notifications when people reply to your skeets.
                 </Trans>
               }
             />

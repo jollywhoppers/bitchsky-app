@@ -38,9 +38,9 @@ export function RepostNotificationSettingsScreen({}: Props) {
             <SettingsList.ItemIcon icon={RepostIcon} />
             <ItemTextWithSubtitle
               bold
-              titleText={<Trans>Reposts</Trans>}
+              titleText={<Trans>Reskeets</Trans>}
               subtitleText={
-                <Trans>Get notifications when people repost your posts.</Trans>
+                <Trans>Get notifications when people reskeet your skeets.</Trans>
               }
             />
           </SettingsList.Item>

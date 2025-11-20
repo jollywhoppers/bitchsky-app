@@ -59,7 +59,7 @@ function SendViaChatDialogInner({
 
   return (
     <SearchablePeopleList
-      title={_(msg`Send post to...`)}
+      title={_(msg`Send skeet to...`)}
       onSelectChat={onCreateChat}
       showRecentConvos
       sortByMessageDeclaration

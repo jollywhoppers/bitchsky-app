@@ -181,7 +181,7 @@ export function DialogInner({
               a.text_xl,
               a.mb_sm,
             ]}>
-            <Trans>Choose Post Languages</Trans>
+            <Trans>Choose Skeet Languages</Trans>
           </Text>
           <Text
             nativeID="dialog-description"
@@ -191,7 +191,7 @@ export function DialogInner({
               a.text_md,
               a.mb_lg,
             ]}>
-            <Trans>Select up to 3 languages used in this post</Trans>
+            <Trans>Select up to 3 languages used in this skeet</Trans>
           </Text>
         </View>
 

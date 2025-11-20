@@ -35,7 +35,7 @@ export function NotificationsActivityListScreen({
         feed={`posts|${uris}`}
         disablePoll
         renderEmptyState={() => (
-          <EmptyState icon="growth" message={_(msg`No posts here`)} />
+          <EmptyState icon="growth" message={_(msg`No skeets here`)} />
         )}
         renderEndOfFeed={() => <ListFooter />}
       />

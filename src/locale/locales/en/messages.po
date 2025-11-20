@@ -10519,7 +10519,7 @@ msgstr ""
 #: src/view/com/auth/SplashScreen.web.tsx:103
 #: src/view/com/composer/Composer.tsx:855
 msgid "What's up?"
-msgstr "Skeet yo shit! 🗣️"
+msgstr ""
 
 #: src/components/dialogs/nuxs/InitialVerificationAnnouncement.tsx:146
 msgid "When you tap on a check, you’ll see which organizations have granted verification."

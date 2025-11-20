@@ -16,10 +16,11 @@ alt="Get it on Obtainium" align="center" height="54" /></a>
 
 - Funner name (still love you tho bsky!)
 - Nicer colors (kinda like gruvbox? not really)
-- We call them skeets (at least for English users)
-- Attempts to ignore `!no-unauthenticated` labels
+- Posts are called Skeets
 - Share links to bitchsky.app or bsky.app
 - Embed player works with [stream.place](https://stream.place/) links!
+- Open skeets in PDSls and original pages from bridged posts
+- Better defaults (alt text required 😉)
 - No push notifications (may be added later)
 - Kept as up-to-date as possible (sporadically unstable as a result)
 
@@ -28,9 +29,9 @@ alt="Get it on Obtainium" align="center" height="54" /></a>
 These are all available as options in a sub-page of the app's settings.
 
 - Toggle go.bsky.app link proxying for analytics
-- Toggle to see skeets in quotes through blocks and detachments (broken 💔)
+- Toggle to see skeets in quotes through blocks and detachments
 - Toggle to trust your own preferred verifiers (and to operate as one yourself)
-- Toggle to disable the default app labeler
+- Toggle to disable the default app labeler(s)
 
 #### Tweaks
 
@@ -41,6 +42,7 @@ These are all available as options in a sub-page of the app's settings.
 - Toggle to only show a single tab if only one feed is pinned
 - Toggle to prevent others from getting notified when you interact with their reskeets
 - Toggle similar account recommendations
+- Toggle to make all user avatars square (like labelers)
 
 #### Metrics
 
@@ -58,7 +60,7 @@ You can completely disable the visiblity of all metrics individually, including 
 - Toggle to show feed context for debugging
 - Toggle to hide the 'show latest' button
 - Toggle to make reply button open thread from feeds
-- More may be available in developer mode
+- More may be available in developer mode?
   - (Accessible by holding the version in the About settings screen)
 
 ## Upcoming or wishful features
@@ -82,28 +84,25 @@ You can completely disable the visiblity of all metrics individually, including 
 - [ ] Automatic PDS detection like other social-app forks (fallback/email addresses to use bitchsky.social)
 - [ ] Like of or repost of repost icons in notifications
 - [ ] Change followed accounts [on onboarding](https://github.com/blacksky-algorithms/blacksky.community/commit/e36ee43efb4999f070860d7f70122e45b28c1e2b)
-- [ ] Change ChatEmptyPill strings for English locale
-- [ ] Pronouns+ from forks like [deer.aylac.top](https://github.com/ayla6/deer-social-test)
+- [ ] Join date & switch accounts from composer from a fork like [deer.aylac.top](https://github.com/ayla6/deer-social-test)
 - [ ] Visual replies indicator like the [Firmament userstyle](https://bitchsky.app/profile/did:plc:jwhxcrf5uvl3vyw7nurecgt5/post/3m4rr3vzmak2a) (and likes?)
 - [ ] Additional translation service providers + setting (Deepl, Kagi)
 - [ ] Move Mutuals label to the follow button
-- [ ] Change defaults (alt text nation, link non-bsky handles, autoplay OFF, hide similar account recommendations)
+- [ ] Put DeerSettings into separate subpages
+- [ ] After subpages for options, add [Outlinks page](https://bitchsky.app/profile/did:plc:q7suwaz53ztc4mbiqyygbn43/post/3m5zjhhshic2g) &
+  - [ ] ShareMenuItems.tsx, ShareMenuItems.web.tsx
+- [ ] For profile meatball button, Open profile in PDSls & Open bridged OG fedi account page
+  - [ ] ProfileMenu.tsx
 - [ ] Bitchsky PDS and .social site (list good songs containing 'bitch' in their titles)
-
-#### Bugs
-
-- [ ] Fix app crash on tapping profile header (./src/view/com/util/UserBanner.tsx)
-- [ ] Fix regression causing zooming in to break on image lightboxes
 
 ### Even more wishful or far off
 
 - [ ] Collapse labels past a customizable number (from the same labeler?) into a labeler clip "(+)"
 - [ ] Submit releases to the Google Play Store and iOS App Store
-- [ ] Likes tab on profiles for other users
-- [ ] Move from GitHub to Tangled?
-- [ ] Experimental toggle between handle and DID in share links?
-- [ ] New fun language/locale(s) like Minecraft
+- [ ] Move from GitHub to Tangled (and Cloudflare Pages to wisp.place)?
+- [ ] Toggle between handle and DID in share links
 - [ ] Move TOS and privacy policy to Jollywhoppers website?
+- [ ] Ignore `!no-unauthenticated` labels
 - [ ] Rewrite ALF for M3 Expressive (with in-app color slider like red dwarf, for web?)
 
 ## Development Resources

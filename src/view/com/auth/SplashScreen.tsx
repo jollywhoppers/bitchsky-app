@@ -48,7 +48,7 @@ export const SplashScreen = ({
                 t.atoms.text_contrast_medium,
                 a.text_center,
               ]}>
-              <Trans>What's up?</Trans>
+              <Trans>Skeet yo stuff! 🗣️</Trans>
             </Text>
           </View>
 

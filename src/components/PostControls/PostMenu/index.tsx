@@ -61,7 +61,7 @@ let PostMenuButton = ({
   return (
     <EventStopper onKeyDown={false}>
       <Menu.Root control={lazyMenuControl}>
-        <Menu.Trigger label={_(msg`Open post options menu`)}>
+        <Menu.Trigger label={_(msg`Open skeet options menu`)}>
           {({props}) => {
             return (
               <PostControlButton

@@ -183,7 +183,7 @@ export async function post(
     })
     if (isNetworkError(e)) {
       throw new Error(
-        t`Post failed to upload. Please check your Internet connection and try again.`,
+        t`Skeet failed to upload. Please check your Internet connection and try again.`,
       )
     } else {
       throw e

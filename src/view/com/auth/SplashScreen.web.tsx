@@ -100,7 +100,7 @@ export const SplashScreen = ({
                   a.font_semi_bold,
                   t.atoms.text_contrast_medium,
                 ]}>
-                <Trans>What's up?</Trans>
+                <Trans>Skeet yo shit! 🗣️</Trans>
               </Text>
             </View>
 

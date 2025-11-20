@@ -135,7 +135,7 @@ function ThreadItemAnchorDeleted({isRoot}: {isRoot: boolean}) {
           </View>
           <Text
             style={[a.text_md, a.font_semi_bold, t.atoms.text_contrast_medium]}>
-            <Trans>Post has been deleted</Trans>
+            <Trans>Skeet has been deleted</Trans>
           </Text>
         </View>
       </View>
@@ -445,7 +445,7 @@ const ThreadItemAnchorInner = memo(function ThreadItemAnchorInner({
               {post.repostCount != null &&
               post.repostCount !== 0 &&
               !disableRepostsMetrics ? (
-                <Link to={repostsHref} label={_(msg`Reposts of this post`)}>
+                <Link to={repostsHref} label={_(msg`Reskeets of this skeet`)}>
                   <Text
                     testID="repostCount-expanded"
                     style={[a.text_md, t.atoms.text_contrast_medium]}>
@@ -454,8 +454,8 @@ const ThreadItemAnchorInner = memo(function ThreadItemAnchorInner({
                     </Text>{' '}
                     <Plural
                       value={post.repostCount}
-                      one="repost"
-                      other="reposts"
+                      one="reskeet"
+                      other="reskeets"
                     />
                   </Text>
                 </Link>
@@ -464,7 +464,7 @@ const ThreadItemAnchorInner = memo(function ThreadItemAnchorInner({
               post.quoteCount !== 0 &&
               !post.viewer?.embeddingDisabled &&
               !disableQuotesMetrics ? (
-                <Link to={quotesHref} label={_(msg`Quotes of this post`)}>
+                <Link to={quotesHref} label={_(msg`Quotes of this skeet`)}>
                   <Text
                     testID="quoteCount-expanded"
                     style={[a.text_md, t.atoms.text_contrast_medium]}>
@@ -482,7 +482,7 @@ const ThreadItemAnchorInner = memo(function ThreadItemAnchorInner({
               {post.likeCount != null &&
               post.likeCount !== 0 &&
               !disableLikesMetrics ? (
-                <Link to={likesHref} label={_(msg`Likes on this post`)}>
+                <Link to={likesHref} label={_(msg`Likes on this skeet`)}>
                   <Text
                     testID="likeCount-expanded"
                     style={[a.text_md, t.atoms.text_contrast_medium]}>
@@ -643,7 +643,7 @@ function BackdatedPostIndicator({post}: {post: AppBskyFeedDefs.PostView}) {
       <Button
         label={_(msg`Archived post`)}
         accessibilityHint={_(
-          msg`Shows information about when this post was created`,
+          msg`Shows information about when this skeet was created`,
         )}
         onPress={e => {
           e.preventDefault()
@@ -684,7 +684,7 @@ function BackdatedPostIndicator({post}: {post: AppBskyFeedDefs.PostView}) {
         </Prompt.TitleText>
         <Prompt.DescriptionText>
           <Trans>
-            This post claims to have been created on{' '}
+            This skeet claims to have been created on{' '}
             <RNText style={[a.font_semi_bold]}>
               {niceDate(i18n, createdAt)}
             </RNText>

@@ -102,7 +102,7 @@ export function FeedSection({
       {(isScrolledDown || hasNew) && (
         <LoadLatestBtn
           onPress={onScrollToTop}
-          label={_(msg`Load new posts`)}
+          label={_(msg`Load new skeets`)}
           showIndicator={hasNew}
         />
       )}

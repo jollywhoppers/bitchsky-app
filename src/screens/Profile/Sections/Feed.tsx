@@ -59,7 +59,7 @@ export function ProfileFeedSection({
   }))
 
   const renderPostsEmpty = useCallback(() => {
-    return <EmptyState icon="growth" message={_(msg`No posts yet.`)} />
+    return <EmptyState icon="growth" message={_(msg`No skeets yet.`)} />
   }, [_])
 
   useEffect(() => {
@@ -91,7 +91,7 @@ export function ProfileFeedSection({
       {(isScrolledDown || hasNew) && (
         <LoadLatestBtn
           onPress={onScrollToTop}
-          label={_(msg`Load new posts`)}
+          label={_(msg`Load new skeets`)}
           showIndicator={hasNew}
         />
       )}

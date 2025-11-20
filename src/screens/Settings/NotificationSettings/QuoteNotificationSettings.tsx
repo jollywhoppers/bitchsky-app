@@ -40,7 +40,7 @@ export function QuoteNotificationSettingsScreen({}: Props) {
               bold
               titleText={<Trans>Quotes</Trans>}
               subtitleText={
-                <Trans>Get notifications when people quote your posts.</Trans>
+                <Trans>Get notifications when people quote your skeets.</Trans>
               }
             />
           </SettingsList.Item>

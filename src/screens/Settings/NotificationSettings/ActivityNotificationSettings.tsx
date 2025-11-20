@@ -102,7 +102,7 @@ export function ActivityNotificationSettingsScreen({}: Props) {
                 titleText={<Trans>Activity from others</Trans>}
                 subtitleText={
                   <Trans>
-                    Get notified about posts and replies from accounts you
+                    Get notified about skeets and replies from accounts you
                     choose.
                   </Trans>
                 }
@@ -211,9 +211,9 @@ function ActivitySubscriptionCard({
   const preview = useMemo(() => {
     const actSub = profile.viewer?.activitySubscription
     if (actSub?.post && actSub?.reply) {
-      return _(msg`Posts, Replies`)
+      return _(msg`Skeets, Replies`)
     } else if (actSub?.post) {
-      return _(msg`Posts`)
+      return _(msg`Skeets`)
     } else if (actSub?.reply) {
       return _(msg`Replies`)
     }

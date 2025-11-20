@@ -31,7 +31,7 @@ export function Screen() {
         <Layout.Header.BackButton />
         <Layout.Header.Content>
           <Layout.Header.TitleText>
-            <Trans>Post Interaction Settings</Trans>
+            <Trans>Skeet Interaction Settings</Trans>
           </Layout.Header.TitleText>
         </Layout.Header.Content>
         <Layout.Header.Slot />
@@ -41,7 +41,7 @@ export function Screen() {
           <Admonition type="tip">
             <Trans>
               The following settings will be used as your defaults when creating
-              new posts. You can edit these for a specific post from the
+              new skeets. You can edit these for a specific skeet from the
               composer.
             </Trans>
           </Admonition>

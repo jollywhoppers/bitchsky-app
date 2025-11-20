@@ -106,11 +106,11 @@ function ModerationDetailsDialogInner({
       description = _(msg`You have muted this account.`)
     }
   } else if (modcause.type === 'mute-word') {
-    name = _(msg`Post Hidden by Muted Word`)
-    description = _(msg`You've chosen to hide a word or tag within this post.`)
+    name = _(msg`Skeet Hidden by Muted Word`)
+    description = _(msg`You've chosen to hide a word or tag within this skeet.`)
   } else if (modcause.type === 'hidden') {
-    name = _(msg`Post Hidden by You`)
-    description = _(msg`You have hidden this post.`)
+    name = _(msg`Skeet Hidden by You`)
+    description = _(msg`You have hidden this skeet.`)
   } else if (modcause.type === 'reply-hidden') {
     const isYou = currentAccount?.did === modcause.source.did
     name = isYou

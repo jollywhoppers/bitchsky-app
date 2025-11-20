@@ -257,7 +257,7 @@ export function PostInteractionSettingsDialogControlledInner(
 
   return (
     <Dialog.ScrollableInner
-      label={_(msg`Edit post interaction settings`)}
+      label={_(msg`Edit skeet interaction settings`)}
       style={[web({maxWidth: 400}), a.w_full]}>
       {isLoading ? (
         <View
@@ -270,7 +270,7 @@ export function PostInteractionSettingsDialogControlledInner(
           ]}>
           <Loader size="xl" />
           <Text style={[a.italic, a.text_center]}>
-            <Trans>Loading post interaction settings...</Trans>
+            <Trans>Loading skeet interaction settings...</Trans>
           </Text>
         </View>
       ) : (
@@ -627,7 +627,7 @@ export function PostInteractionSettingsForm({
         {({selected}) => (
           <Toggle.Panel active={selected}>
             <Toggle.PanelText icon={QuoteIcon}>
-              <Trans>Allow quote posts</Trans>
+              <Trans>Allow quote skeets</Trans>
             </Toggle.PanelText>
             <Toggle.Switch />
           </Toggle.Panel>
@@ -676,7 +676,7 @@ function Header() {
   return (
     <View style={[a.pb_lg]}>
       <Text style={[a.text_2xl, a.font_bold]}>
-        <Trans>Post interaction settings</Trans>
+        <Trans>Skeet interaction settings</Trans>
       </Text>
     </View>
   )

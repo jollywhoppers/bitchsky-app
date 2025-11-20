@@ -173,12 +173,12 @@ export function NotificationSettingsScreen({}: Props) {
               />
             </SettingsList.LinkItem>
             <SettingsList.LinkItem
-              label={_(msg`Settings for repost notifications`)}
+              label={_(msg`Settings for reskeet notifications`)}
               to={{screen: 'RepostNotificationSettings'}}
               contentContainerStyle={[a.align_start]}>
               <SettingsList.ItemIcon icon={RepostIcon} />
               <ItemTextWithSubtitle
-                titleText={<Trans>Reposts</Trans>}
+                titleText={<Trans>Reskeets</Trans>}
                 subtitleText={<SettingPreview preference={settings?.repost} />}
                 showSkeleton={!settings}
               />
@@ -204,7 +204,7 @@ export function NotificationSettingsScreen({}: Props) {
               contentContainerStyle={[a.align_start]}>
               <SettingsList.ItemIcon icon={LikeRepostIcon} />
               <ItemTextWithSubtitle
-                titleText={<Trans>Likes of your reposts</Trans>}
+                titleText={<Trans>Likes of your reskeets</Trans>}
                 subtitleText={
                   <SettingPreview preference={settings?.likeViaRepost} />
                 }
@@ -219,7 +219,7 @@ export function NotificationSettingsScreen({}: Props) {
               contentContainerStyle={[a.align_start]}>
               <SettingsList.ItemIcon icon={RepostRepostIcon} />
               <ItemTextWithSubtitle
-                titleText={<Trans>Reposts of your reposts</Trans>}
+                titleText={<Trans>Reskeets of your reskeets</Trans>}
                 subtitleText={
                   <SettingPreview preference={settings?.repostViaRepost} />
                 }

@@ -130,7 +130,7 @@ export function useNotificationsHandler() {
     Notifications.setNotificationChannelAsync(
       'repost' satisfies NotificationReason,
       {
-        name: _(msg`Reposts`),
+        name: _(msg`Reskeets`),
         importance: Notifications.AndroidImportance.HIGH,
       },
     )
@@ -165,14 +165,14 @@ export function useNotificationsHandler() {
     Notifications.setNotificationChannelAsync(
       'like-via-repost' satisfies NotificationReason,
       {
-        name: _(msg`Likes of your reposts`),
+        name: _(msg`Likes of your reskeets`),
         importance: Notifications.AndroidImportance.HIGH,
       },
     )
     Notifications.setNotificationChannelAsync(
       'repost-via-repost' satisfies NotificationReason,
       {
-        name: _(msg`Reposts of your reposts`),
+        name: _(msg`Reskeets of your reskeets`),
         importance: Notifications.AndroidImportance.HIGH,
       },
     )

@@ -69,7 +69,7 @@ export function PostFeedErrorMessage({
     return (
       <EmptyState
         icon="ban"
-        message={_l(msgLingui`Posts hidden`)}
+        message={_l(msgLingui`Skeets hidden`)}
         style={{paddingVertical: 40}}
       />
     )

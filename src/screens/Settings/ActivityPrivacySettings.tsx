@@ -49,12 +49,12 @@ export function ActivityPrivacySettingsScreen({}: Props) {
             <ItemTextWithSubtitle
               bold
               titleText={
-                <Trans>Allow others to be notified of your posts</Trans>
+                <Trans>Allow others to be notified of your skeets</Trans>
               }
               subtitleText={
                 <Trans>
                   This feature allows users to receive notifications for your
-                  new posts and replies. Who do you want to enable this for?
+                  new skeets and replies. Who do you want to enable this for?
                 </Trans>
               }
             />

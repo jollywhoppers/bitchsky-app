@@ -163,7 +163,7 @@ function ProfileListScreenLoaded({
   const isOwner = currentAccount?.did === list.creator.did
   const scrollElRef = useAnimatedRef()
   const addUserDialogControl = useDialogControl()
-  const sectionTitlesCurate = [_(msg`Posts`), _(msg`People`)]
+  const sectionTitlesCurate = [_(msg`Skeets`), _(msg`People`)]
 
   const moderation = useMemo(() => {
     return moderateUserList(list, moderationOpts)

@@ -117,7 +117,7 @@ export function SuggestedLanguage({
         label={
           <RNText>
             <Trans>
-              The post you're replying to was marked as being written in{' '}
+              The skeet you're replying to was marked as being written in{' '}
               {suggestedLanguageName} by its author. Would you like to reply in{' '}
               <Text style={[a.font_bold]}>{suggestedLanguageName}</Text>?
             </Trans>

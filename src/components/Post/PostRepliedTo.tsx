@@ -25,9 +25,9 @@ export function PostRepliedTo({
 
   let label
   if (isParentBlocked) {
-    label = <Trans context="description">Replied to a blocked post</Trans>
+    label = <Trans context="description">Replied to a blocked skeet</Trans>
   } else if (isParentNotFound) {
-    label = <Trans context="description">Replied to a post</Trans>
+    label = <Trans context="description">Replied to a skeet</Trans>
   } else if (parentAuthor) {
     const did =
       typeof parentAuthor === 'string' ? parentAuthor : parentAuthor.did

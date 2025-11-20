@@ -795,7 +795,7 @@ let PostFeed = ({
         return (
           <LoadMoreRetryBtn
             label={_(
-              msg`There was an issue fetching posts. Tap here to try again.`,
+              msg`There was an issue fetching skeets. Tap here to try again.`,
             )}
             onPress={onPressRetryLoadMore}
           />

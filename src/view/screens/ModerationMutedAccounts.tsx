@@ -200,7 +200,7 @@ function Info({style}: {style?: StyleProp<ViewStyle>}) {
       ]}>
       <Text style={[a.text_center, a.text_sm, t.atoms.text_contrast_high]}>
         <Trans>
-          Muted accounts have their posts removed from your feed and from your
+          Muted accounts have their skeets removed from your feed and from your
           notifications. Mutes are completely private.
         </Trans>
       </Text>

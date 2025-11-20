@@ -45,7 +45,7 @@ export function ThreadPreferencesScreen({}: Props) {
             </SettingsList.ItemText>
             <View style={[a.w_full, a.gap_md]}>
               <Text style={[a.flex_1, t.atoms.text_contrast_medium]}>
-                <Trans>Sort replies to the same post by:</Trans>
+                <Trans>Sort replies to the same skeet by:</Trans>
               </Text>
               <Toggle.Group
                 label={_(msg`Sort replies by`)}
@@ -95,7 +95,7 @@ export function ThreadPreferencesScreen({}: Props) {
               }
               style={[a.w_full, a.gap_md]}>
               <Toggle.LabelText style={[a.flex_1]}>
-                <Trans>Show post replies in a threaded tree view</Trans>
+                <Trans>Show skeet replies in a threaded tree view</Trans>
               </Toggle.LabelText>
               <Toggle.Platform />
             </Toggle.Item>

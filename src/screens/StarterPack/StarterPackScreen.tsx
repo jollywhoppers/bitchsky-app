@@ -188,7 +188,7 @@ function StarterPackScreenLoaded({
   const tabs = [
     ...(showPeopleTab ? [_(msg`People`)] : []),
     ...(showFeedsTab ? [_(msg`Feeds`)] : []),
-    ...(showPostsTab ? [_(msg`Posts`)] : []),
+    ...(showPostsTab ? [_(msg`Skeets`)] : []),
   ]
 
   const qrCodeDialogControl = useDialogControl()
@@ -560,7 +560,7 @@ function OverflowMenu({
   return (
     <>
       <Menu.Root>
-        <Menu.Trigger label={_(msg`Repost or quote post`)}>
+        <Menu.Trigger label={_(msg`Reskeet or quote skeet`)}>
           {({props}) => (
             <Button
               {...props}

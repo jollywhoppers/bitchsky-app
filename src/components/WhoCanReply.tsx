@@ -221,7 +221,7 @@ function WhoCanReplyDialog({
         style={web({maxWidth: 400})}>
         <View style={[a.gap_sm]}>
           <Text style={[a.font_semi_bold, a.text_xl, a.pb_sm]}>
-            <Trans>Who can interact with this post?</Trans>
+            <Trans>Who can interact with this skeet?</Trans>
           </Text>
           <Rules
             post={post}
@@ -270,13 +270,13 @@ function Rules({
         ]}>
         {settings.length === 0 ? (
           <Trans>
-            This post has an unknown type of threadgate on it. Your app may be
+            This skeet has an unknown type of threadgate on it. Your app may be
             out of date.
           </Trans>
         ) : settings[0].type === 'everybody' ? (
-          <Trans>Everybody can reply to this post.</Trans>
+          <Trans>Everybody can reply to this skeet.</Trans>
         ) : settings[0].type === 'nobody' ? (
-          <Trans>Replies to this post are disabled.</Trans>
+          <Trans>Replies to this skeet are disabled.</Trans>
         ) : (
           <Trans>
             Only{' '}
@@ -298,7 +298,7 @@ function Rules({
             a.flex_wrap,
             t.atoms.text_contrast_medium,
           ]}>
-          <Trans>No one but the author can quote this post.</Trans>
+          <Trans>No one but the author can quote this skeet.</Trans>
         </Text>
       )}
     </>

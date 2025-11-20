@@ -109,20 +109,20 @@ export function RichTextTag({
       <Menu.Outer>
         <Menu.Group>
           <Menu.Item
-            label={_(msg`See ${tag} posts`)}
+            label={_(msg`See ${tag} skeets`)}
             onPress={() => {
               navigation.push('Hashtag', {
                 tag: encodeURIComponent(tag),
               })
             }}>
             <Menu.ItemText>
-              <Trans>See #{tag} posts</Trans>
+              <Trans>See #{tag} skeets</Trans>
             </Menu.ItemText>
             <Menu.ItemIcon icon={Search} />
           </Menu.Item>
           {authorHandle && !isInvalidHandle(authorHandle) && (
             <Menu.Item
-              label={_(msg`See ${tag} posts by user`)}
+              label={_(msg`See ${tag} skeets by user`)}
               onPress={() => {
                 navigation.push('Hashtag', {
                   tag: encodeURIComponent(tag),
@@ -130,7 +130,7 @@ export function RichTextTag({
                 })
               }}>
               <Menu.ItemText>
-                <Trans>See #{tag} posts by user</Trans>
+                <Trans>See #{tag} skeets by user</Trans>
               </Menu.ItemText>
               <Menu.ItemIcon icon={Person} />
             </Menu.Item>

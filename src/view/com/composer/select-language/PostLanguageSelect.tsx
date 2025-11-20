@@ -54,7 +54,7 @@ export function PostLanguageSelect({
   return (
     <>
       <Menu.Root>
-        <Menu.Trigger label={_(msg`Select post language`)}>
+        <Menu.Trigger label={_(msg`Select skeet language`)}>
           {({props}) => (
             <LanguageBtn currentLanguages={currentLanguages} {...props} />
           )}
@@ -122,7 +122,7 @@ function LanguageBtn(
       hitSlop={LANG_DROPDOWN_HITSLOP}
       label={_(
         msg({
-          message: `Post language selection`,
+          message: `Skeet language selection`,
           comment: `Accessibility label for button that opens dialog to choose post language settings`,
         }),
       )}

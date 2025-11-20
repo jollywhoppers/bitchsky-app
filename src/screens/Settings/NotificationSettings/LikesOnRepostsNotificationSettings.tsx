@@ -38,10 +38,10 @@ export function LikesOnRepostsNotificationSettingsScreen({}: Props) {
             <SettingsList.ItemIcon icon={LikeRepostIcon} />
             <ItemTextWithSubtitle
               bold
-              titleText={<Trans>Likes of your reposts</Trans>}
+              titleText={<Trans>Likes of your reskeets</Trans>}
               subtitleText={
                 <Trans>
-                  Get notifications when people like posts that you've reposted.
+                  Get notifications when people like skeets that you've reskeeted.
                 </Trans>
               }
             />

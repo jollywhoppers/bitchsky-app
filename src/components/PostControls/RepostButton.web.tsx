@@ -65,15 +65,15 @@ export const RepostButton = ({
           <Menu.Item
             label={
               isReposted
-                ? _(msg`Undo repost`)
-                : _(msg({message: `Repost`, context: `action`}))
+                ? _(msg`Undo reskeet`)
+                : _(msg({message: `Reskeet`, context: `action`}))
             }
             testID="repostDropdownRepostBtn"
             onPress={onRepost}>
             <Menu.ItemText>
               {isReposted
-                ? _(msg`Undo repost`)
-                : _(msg({message: `Repost`, context: `action`}))}
+                ? _(msg`Undo reskeet`)
+                : _(msg({message: `Reskeet`, context: `action`}))}
             </Menu.ItemText>
             <Menu.ItemIcon icon={Repost} position="right" />
           </Menu.Item>
@@ -81,15 +81,15 @@ export const RepostButton = ({
             disabled={embeddingDisabled}
             label={
               embeddingDisabled
-                ? _(msg`Quote posts disabled`)
-                : _(msg`Quote post`)
+                ? _(msg`Quote skeets disabled`)
+                : _(msg`Quote skeet`)
             }
             testID="repostDropdownQuoteBtn"
             onPress={onQuote}>
             <Menu.ItemText>
               {embeddingDisabled
-                ? _(msg`Quote posts disabled`)
-                : _(msg`Quote post`)}
+                ? _(msg`Quote skeets disabled`)
+                : _(msg`Quote skeet`)}
             </Menu.ItemText>
             <Menu.ItemIcon icon={Quote} position="right" />
           </Menu.Item>
@@ -101,7 +101,7 @@ export const RepostButton = ({
       onPress={() => requireAuth(() => {})}
       active={isReposted}
       activeColor={t.palette.positive_500}
-      label={_(msg`Repost or quote post`)}
+      label={_(msg`Reskeet or quote skeet`)}
       big={big}>
       <PostControlButtonIcon icon={Repost} />
       {typeof repostCount !== 'undefined' && repostCount > 0 && (

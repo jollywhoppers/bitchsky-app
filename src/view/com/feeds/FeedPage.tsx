@@ -166,7 +166,7 @@ export function FeedPage({
       {(isScrolledDown || hasNew) && (
         <LoadLatestBtn
           onPress={onPressLoadLatest}
-          label={_(msg`Load new posts`)}
+          label={_(msg`Load new skeets`)}
           showIndicator={hasNew}
         />
       )}
