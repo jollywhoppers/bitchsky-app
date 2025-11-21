@@ -8,7 +8,7 @@ msgstr ""
 "Language: fy\n"
 "Project-Id-Version: 49a8cb746fbc2ae5707392ee41ddec4c\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-11-17 16:09\n"
+"PO-Revision-Date: 2025-11-20 18:09\n"
 "Last-Translator: \n"
 "Language-Team: Frisian\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -100,7 +100,7 @@ msgstr "{0, plural, one {folger} other {folgers}}"
 msgid "{0, plural, one {following} other {following}}"
 msgstr "{0, plural, one {folgjend} other {folgjend}}"
 
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:492
+#: src/screens/PostThread/components/ThreadItemAnchor.tsx:477
 msgid "{0, plural, one {like} other {likes}}"
 msgstr "{0, plural, one {mei-’k-wol-oer} other {mei-’k-wol-oers}}"
 
@@ -108,16 +108,15 @@ msgstr "{0, plural, one {mei-’k-wol-oer} other {mei-’k-wol-oers}}"
 msgid "{0, plural, one {post} other {posts}}"
 msgstr "{0, plural, one {berjocht} other {berjochten}}"
 
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:474
+#: src/screens/PostThread/components/ThreadItemAnchor.tsx:461
 msgid "{0, plural, one {quote} other {quotes}}"
 msgstr "{0, plural, one {sitaat} other {sitaten}}"
 
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:455
-#: src/view/com/posts/PostFeedItemCarousel.tsx:63
+#: src/screens/PostThread/components/ThreadItemAnchor.tsx:443
 msgid "{0, plural, one {repost} other {reposts}}"
 msgstr "{0, plural, one {opnij pleatsing} other {opnij pleatsingen}}"
 
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:505
+#: src/screens/PostThread/components/ThreadItemAnchor.tsx:488
 msgid "{0, plural, one {save} other {saves}}"
 msgstr ""
 
@@ -193,8 +192,8 @@ msgstr "{0}, in feed fan {1}, {2} mei der wol oer"
 msgid "{0}, a list by {1}"
 msgstr "{0}, in list fan {1}"
 
-#: src/view/com/util/UserAvatar.tsx:591
-#: src/view/com/util/UserAvatar.tsx:609
+#: src/view/com/util/UserAvatar.tsx:577
+#: src/view/com/util/UserAvatar.tsx:595
 msgid "{0}'s avatar"
 msgstr "Avatar fan {0}"
 
@@ -226,7 +225,7 @@ msgstr "{0}m"
 msgid "{0}s"
 msgstr "{0}s"
 
-#: src/view/shell/desktop/LeftNav.tsx:456
+#: src/view/shell/desktop/LeftNav.tsx:454
 msgid "{count, plural, one {# unread item} other {# unread items}}"
 msgstr "{count, plural, one {# net-lêzen item} other {# net-lêzen items}}"
 
@@ -450,7 +449,7 @@ msgstr "{rank}."
 msgid "{type}h ago"
 msgstr "{type}o lyn"
 
-#: src/components/verification/VerifierDialog.tsx:61
+#: src/components/verification/VerifierDialog.tsx:60
 msgid "{userName} is a trusted verifier"
 msgstr "{userName} is in fertroude ferifiearder"
 
@@ -504,7 +503,7 @@ msgid "<0>{date}</0> at {time}"
 msgstr "<0>{date}</0> om {time}"
 
 #: src/screens/Hashtag.tsx:223
-#: src/screens/Search/SearchResults.tsx:259
+#: src/screens/Search/SearchResults.tsx:292
 msgid "<0>Sign in</0><1> or </1><2>create an account</2><3> </3><4>to search for news, sports, politics, and everything else happening on Bluesky.</4>"
 msgstr "<0>Meld dy oan</0><1>of </1><2>meitsje in account oan</2><3></3><4>om te sykjen nei nijs, sport, polityk en al wat der op Bluesky bart.</4>"
 
@@ -512,7 +511,7 @@ msgstr "<0>Meld dy oan</0><1>of </1><2>meitsje in account oan</2><3></3><4>om te
 msgid "<0>You</0> and<1> </1><2>{0} </2>are included in your starter pack"
 msgstr "<0>Do</0> en<1> </1><2>{0} </2>binne ynbegrepen yn dyn startpakket"
 
-#: src/screens/Profile/Header/Handle.tsx:67
+#: src/screens/Profile/Header/Handle.tsx:57
 msgid "⚠Invalid Handle"
 msgstr "⚠Unjildige handle"
 
@@ -520,7 +519,7 @@ msgstr "⚠Unjildige handle"
 msgid "24 hours"
 msgstr "24 oeren"
 
-#: src/screens/Login/LoginForm.tsx:281
+#: src/screens/Login/LoginForm.tsx:278
 msgid "2FA Confirmation"
 msgstr "2FA-befêstiging"
 
@@ -558,10 +557,10 @@ msgstr ""
 msgid "A screenshot of a profile page with a bell icon next to the follow button, indicating the new activity notifications feature."
 msgstr "In skermôfdruk fan in profylside mei in belpiktogram njonken de folch-knop, wêrmei’t de nije funksje foar aktiviteitsmeldingen oanjûn wurdt."
 
-#: src/Navigation.tsx:533
-#: src/screens/Settings/AboutSettings.tsx:73
-#: src/screens/Settings/Settings.tsx:251
-#: src/screens/Settings/Settings.tsx:254
+#: src/Navigation.tsx:524
+#: src/screens/Settings/AboutSettings.tsx:75
+#: src/screens/Settings/Settings.tsx:244
+#: src/screens/Settings/Settings.tsx:247
 msgid "About"
 msgstr "Oer"
 
@@ -588,37 +587,37 @@ msgid "Accept this language suggestion"
 msgstr ""
 
 #: src/screens/Settings/AccessibilitySettings.tsx:44
-#: src/screens/Settings/Settings.tsx:227
-#: src/screens/Settings/Settings.tsx:230
+#: src/screens/Settings/Settings.tsx:220
+#: src/screens/Settings/Settings.tsx:223
 msgid "Accessibility"
 msgstr "Tagonklikheid"
 
-#: src/Navigation.tsx:384
+#: src/Navigation.tsx:383
 msgid "Accessibility Settings"
 msgstr "Tagonklikheidsynstellingen"
 
-#: src/Navigation.tsx:408
-#: src/screens/Login/LoginForm.tsx:197
+#: src/Navigation.tsx:399
+#: src/screens/Login/LoginForm.tsx:194
 #: src/screens/Settings/AccountSettings.tsx:51
-#: src/screens/Settings/Settings.tsx:175
-#: src/screens/Settings/Settings.tsx:178
+#: src/screens/Settings/Settings.tsx:174
+#: src/screens/Settings/Settings.tsx:177
 msgid "Account"
 msgstr "Account"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:461
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:393
 #: src/screens/Messages/components/RequestButtons.tsx:91
-#: src/view/com/profile/ProfileMenu.tsx:179
+#: src/view/com/profile/ProfileMenu.tsx:166
 msgctxt "toast"
 msgid "Account blocked"
 msgstr "Account blokkearre"
 
-#: src/view/com/profile/ProfileMenu.tsx:192
+#: src/view/com/profile/ProfileMenu.tsx:179
 msgctxt "toast"
 msgid "Account followed"
 msgstr "Account folge"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:484
-#: src/view/com/profile/ProfileMenu.tsx:155
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:416
+#: src/view/com/profile/ProfileMenu.tsx:142
 msgctxt "toast"
 msgid "Account muted"
 msgstr "Account negearre"
@@ -632,7 +631,7 @@ msgstr "Account negearre"
 msgid "Account Muted by List"
 msgstr "Account negearre troch list"
 
-#: src/screens/Settings/Settings.tsx:633
+#: src/screens/Settings/Settings.tsx:626
 msgid "Account options"
 msgstr "Accountopsjes"
 
@@ -640,30 +639,31 @@ msgstr "Accountopsjes"
 msgid "Account provider"
 msgstr ""
 
-#: src/screens/Settings/Settings.tsx:669
+#: src/screens/Settings/Settings.tsx:662
 msgid "Account removed from quick access"
 msgstr "Account út flugge tagong fuortsmiten"
 
-#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:138
-#: src/view/com/profile/ProfileMenu.tsx:169
+#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:84
+#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:290
+#: src/view/com/profile/ProfileMenu.tsx:156
 msgctxt "toast"
 msgid "Account unblocked"
 msgstr "Account deblokkearre"
 
-#: src/view/com/profile/ProfileMenu.tsx:204
+#: src/view/com/profile/ProfileMenu.tsx:191
 msgctxt "toast"
 msgid "Account unfollowed"
 msgstr "Account ûntfolge"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:474
-#: src/view/com/profile/ProfileMenu.tsx:145
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:406
+#: src/view/com/profile/ProfileMenu.tsx:132
 msgctxt "toast"
 msgid "Account unmuted"
 msgstr "Account negearre opheven"
 
-#: src/components/verification/VerifierDialog.tsx:102
-msgid "Accounts with a scalloped blue check mark <0><1/></0> can verify others. These trusted verifiers are selected by {0}."
-msgstr ""
+#: src/components/verification/VerifierDialog.tsx:97
+msgid "Accounts with a scalloped blue check mark <0><1/></0> can verify others. These trusted verifiers are selected by Bluesky."
+msgstr "Accounts mei in skulpe blau finkje <0><1/></0> kinne oaren ferifiearje. Dizze fertroude ferifiearders binne troch Bluesky selektearre."
 
 #: src/lib/hooks/useNotificationHandler.ts:182
 #: src/screens/Settings/NotificationSettings/ActivityNotificationSettings.tsx:102
@@ -671,7 +671,7 @@ msgstr ""
 msgid "Activity from others"
 msgstr "Aktiviteiten fan oaren"
 
-#: src/Navigation.tsx:501
+#: src/Navigation.tsx:492
 msgid "Activity notifications"
 msgstr "Aktiviteitsmeldingen"
 
@@ -724,8 +724,8 @@ msgstr "Alt-tekst tafoegje"
 msgid "Add alt text (optional)"
 msgstr "Alt-tekst tafoegje (opsjoneel)"
 
-#: src/screens/Settings/Settings.tsx:573
-#: src/screens/Settings/Settings.tsx:576
+#: src/screens/Settings/Settings.tsx:566
+#: src/screens/Settings/Settings.tsx:569
 #: src/view/shell/desktop/LeftNav.tsx:262
 #: src/view/shell/desktop/LeftNav.tsx:266
 msgid "Add another account"
@@ -735,7 +735,7 @@ msgstr "Noch in account tafoegje"
 msgid "Add another post"
 msgstr "Noch in berjocht tafoegje"
 
-#: src/view/com/composer/Composer.tsx:1492
+#: src/view/com/composer/Composer.tsx:1491
 msgid "Add another post to thread"
 msgstr ""
 
@@ -804,8 +804,8 @@ msgstr "Foegje it folgjende DNS-record ta oan dyn domein:"
 msgid "Add this feed to your feeds"
 msgstr "Dizze feed oan dyn feeds tafoegje"
 
-#: src/view/com/profile/ProfileMenu.tsx:358
-#: src/view/com/profile/ProfileMenu.tsx:361
+#: src/view/com/profile/ProfileMenu.tsx:322
+#: src/view/com/profile/ProfileMenu.tsx:325
 msgid "Add to lists"
 msgstr "Oan listen tafoegje"
 
@@ -814,8 +814,8 @@ msgid "Add to saved posts"
 msgstr ""
 
 #: src/components/dialogs/StarterPackDialog.tsx:176
-#: src/view/com/profile/ProfileMenu.tsx:349
-#: src/view/com/profile/ProfileMenu.tsx:352
+#: src/view/com/profile/ProfileMenu.tsx:313
+#: src/view/com/profile/ProfileMenu.tsx:316
 msgid "Add to starter packs"
 msgstr ""
 
@@ -1072,7 +1072,7 @@ msgid "An illustration of several Bluesky posts alongside repost, like, and comm
 msgstr ""
 
 #: src/components/dialogs/nuxs/InitialVerificationAnnouncement.tsx:84
-#: src/components/verification/VerifierDialog.tsx:90
+#: src/components/verification/VerifierDialog.tsx:86
 msgid "An illustration showing that Bluesky selects trusted verifiers, and trusted verifiers in turn verify individual user accounts."
 msgstr "In yllustraasje, dy’t toant dat Bluesky fertroude ferifiearders selektearret en dizze wer inkelde brûkersaccounts ferifiearje."
 
@@ -1090,8 +1090,8 @@ msgstr "Der is in flater bard by it iepenjen fan de chat"
 
 #: src/components/hooks/useFollowMethods.ts:35
 #: src/components/hooks/useFollowMethods.ts:50
-#: src/components/ProfileCard.tsx:502
-#: src/components/ProfileCard.tsx:523
+#: src/components/ProfileCard.tsx:513
+#: src/components/ProfileCard.tsx:534
 #: src/view/com/notifications/NotificationFeedItem.tsx:774
 #: src/view/com/notifications/NotificationFeedItem.tsx:794
 msgid "An issue occurred, please try again."
@@ -1142,7 +1142,7 @@ msgstr ""
 
 #: src/view/com/composer/threadgate/ThreadgateBtn.tsx:134
 msgid "Anyone can interact"
-msgstr ""
+msgstr "Elkenien kin reagearje"
 
 #: src/screens/Settings/ActivityPrivacySettings.tsx:111
 #: src/screens/Settings/ActivityPrivacySettings.tsx:116
@@ -1150,16 +1150,12 @@ msgstr ""
 msgid "Anyone who follows me"
 msgstr "Elkenien dy’t my folget"
 
-#: src/Navigation.tsx:541
+#: src/Navigation.tsx:532
 #: src/screens/Settings/AppIconSettings/index.tsx:67
 #: src/screens/Settings/AppIconSettings/SettingsListItem.tsx:18
 #: src/screens/Settings/AppIconSettings/SettingsListItem.tsx:23
 msgid "App Icon"
 msgstr "App-piktogram"
-
-#: src/screens/Settings/DeerSettings.tsx:649
-msgid "App labelers are mandatory top-level labelers that can perform \"takedowns\". This setting does not influence geolocation-based labelers."
-msgstr ""
 
 #: src/screens/Settings/LanguageSettings.tsx:87
 msgid "App Language"
@@ -1191,7 +1187,7 @@ msgstr "App-wachtwurdnammen moatte minimaal 4 tekens lang wêze"
 msgid "App passwords"
 msgstr "App-wachtwurden"
 
-#: src/Navigation.tsx:352
+#: src/Navigation.tsx:351
 #: src/screens/Settings/AppPasswords.tsx:49
 msgid "App Passwords"
 msgstr "App-wachtwurden"
@@ -1227,10 +1223,10 @@ msgstr "Beswier tsjin skorsing meitsje"
 msgid "Appeal this decision"
 msgstr "Beswier tsjin dizze beslissing meitsje"
 
-#: src/Navigation.tsx:400
+#: src/Navigation.tsx:391
 #: src/screens/Settings/AppearanceSettings.tsx:73
-#: src/screens/Settings/Settings.tsx:213
-#: src/screens/Settings/Settings.tsx:216
+#: src/screens/Settings/Settings.tsx:212
+#: src/screens/Settings/Settings.tsx:215
 msgid "Appearance"
 msgstr "Werjefte"
 
@@ -1239,17 +1235,17 @@ msgstr "Werjefte"
 msgid "Apply default recommended feeds"
 msgstr "Standert oanrekommandearre feeds brûke"
 
-#: src/screens/Settings/Settings.tsx:505
-#: src/screens/Settings/Settings.tsx:507
+#: src/screens/Settings/Settings.tsx:498
+#: src/screens/Settings/Settings.tsx:500
 msgid "Apply Pull Request"
 msgstr "Pull-fersyk tapasse"
 
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:675
+#: src/screens/PostThread/components/ThreadItemAnchor.tsx:658
 msgid "Archived from {0}"
 msgstr "Argivearre fan {0}"
 
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:644
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:683
+#: src/screens/PostThread/components/ThreadItemAnchor.tsx:627
+#: src/screens/PostThread/components/ThreadItemAnchor.tsx:666
 msgid "Archived post"
 msgstr "Argivearre berjocht"
 
@@ -1311,8 +1307,8 @@ msgstr "Artistike of net-erotyske neakenbylden."
 msgid "As a small team, we cannot justify building the expensive infrastructure this requirement demands while legal challenges to this law are pending."
 msgstr ""
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:627
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:629
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:529
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:531
 msgid "Assign topic for algo"
 msgstr "Underwerp foar algoritme tawize"
 
@@ -1320,9 +1316,10 @@ msgstr "Underwerp foar algoritme tawize"
 msgid "At least 8 characters"
 msgstr ""
 
-#: src/screens/Signup/StepInfo/index.tsx:176
-msgid "ATmosphere"
-msgstr ""
+#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:48
+msgctxt "Name of app icon variant"
+msgid "Aurora"
+msgstr "Aurora"
 
 #: src/screens/Settings/ContentAndMediaSettings.tsx:116
 #: src/screens/Settings/ContentAndMediaSettings.tsx:122
@@ -1340,13 +1337,13 @@ msgstr "Beskikber"
 #: src/screens/Login/ChooseAccountForm.tsx:96
 #: src/screens/Login/ForgotPasswordForm.tsx:123
 #: src/screens/Login/ForgotPasswordForm.tsx:129
-#: src/screens/Login/LoginForm.tsx:323
-#: src/screens/Login/LoginForm.tsx:329
+#: src/screens/Login/LoginForm.tsx:313
+#: src/screens/Login/LoginForm.tsx:319
 #: src/screens/Login/SetNewPasswordForm.tsx:168
 #: src/screens/Login/SetNewPasswordForm.tsx:174
 #: src/screens/Messages/components/ChatDisabled.tsx:145
 #: src/screens/Messages/components/ChatDisabled.tsx:146
-#: src/screens/Profile/Header/Shell.tsx:214
+#: src/screens/Profile/Header/Shell.tsx:158
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:272
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:281
 #: src/screens/Signup/BackNextButtons.tsx:41
@@ -1385,7 +1382,7 @@ msgstr "Do moatst earst dyn e-mailadres befêstigje eardatsto in startpakket mak
 msgid "Before you can accept this chat request, you must first verify your email."
 msgstr "Do moatst earst dyn e-mailadres befêstigje eardatsto in petearfersyk akseptearje kinst."
 
-#: src/components/activity-notifications/SubscribeProfileButton.tsx:56
+#: src/components/activity-notifications/SubscribeProfileButton.tsx:58
 msgid "Before you can get notifications for {name}'s posts, you must first verify your email."
 msgstr "Eardatsto meldingen ûntfange kinst foar berjochten fan {name}, moatsto earst dyn e-mailadres ferifiearje."
 
@@ -1413,29 +1410,25 @@ msgstr "Start it leeftiidsferifikaasjeproses troch de ûndersteande fjilden yn t
 msgid "Birthday"
 msgstr "Jierdei"
 
-#: src/screens/Signup/StepInfo/index.tsx:172
-msgid "Bitchsky is part of the <0>ATmosphere</0>—the network of apps, services, and accounts built on the AT Protocol."
-msgstr ""
-
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:890
-#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:336
-#: src/view/com/profile/ProfileMenu.tsx:556
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:792
+#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:190
+#: src/view/com/profile/ProfileMenu.tsx:495
 msgid "Block"
 msgstr "Blokkearje"
 
 #: src/components/dms/ConvoMenu.tsx:261
 #: src/components/dms/ConvoMenu.tsx:264
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:775
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:777
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:677
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:679
 #: src/screens/Messages/components/RequestButtons.tsx:144
 #: src/screens/Messages/components/RequestButtons.tsx:146
-#: src/view/com/profile/ProfileMenu.tsx:462
-#: src/view/com/profile/ProfileMenu.tsx:469
+#: src/view/com/profile/ProfileMenu.tsx:401
+#: src/view/com/profile/ProfileMenu.tsx:408
 msgid "Block account"
 msgstr "Account blokkearje"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:885
-#: src/view/com/profile/ProfileMenu.tsx:539
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:787
+#: src/view/com/profile/ProfileMenu.tsx:478
 msgid "Block Account?"
 msgstr "Account blokkearje?"
 
@@ -1473,8 +1466,7 @@ msgstr "Brûker blokkearje"
 msgid "Block user and/or delete this conversation"
 msgstr ""
 
-#: src/components/Post/Embed/index.tsx:207
-#: src/components/Post/Embed/index.tsx:214
+#: src/components/Post/Embed/index.tsx:186
 msgid "Blocked"
 msgstr "Blokkearre"
 
@@ -1482,13 +1474,13 @@ msgstr "Blokkearre"
 msgid "Blocked accounts"
 msgstr "Blokkearre accounts"
 
-#: src/Navigation.tsx:193
+#: src/Navigation.tsx:192
 #: src/view/screens/ModerationBlockedAccounts.tsx:104
 msgid "Blocked Accounts"
 msgstr "Blokkearre accounts"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:887
-#: src/view/com/profile/ProfileMenu.tsx:551
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:789
+#: src/view/com/profile/ProfileMenu.tsx:490
 msgid "Blocked accounts cannot reply in your threads, mention you, or otherwise interact with you."
 msgstr "Blokkearre accounts kinne net reagearje op dyn petearen, dy net fermelde en net op in oare manier mei dy kommunisearje."
 
@@ -1504,18 +1496,27 @@ msgstr "Blokkearjen wjerhâld dizze labeler der net fan om labels op dyn account
 msgid "Blocking is public. Blocked accounts cannot reply in your threads, mention you, or otherwise interact with you."
 msgstr "Blokkearjen is iepenbier. Blokkearre accounts kinne net reagearje op dyn petearen, dy net fermelde en net op in oare manier mei dy kommunisearje."
 
-#: src/view/com/profile/ProfileMenu.tsx:548
+#: src/view/com/profile/ProfileMenu.tsx:487
 msgid "Blocking will not prevent labels from being applied on your account, but it will stop this account from replying in your threads or interacting with you."
 msgstr "Blokkearjen sil dizze labels net fan dyn account ôfhelje, mar it soarget der wol foar dat dizze brûker net mear op dyn petearen reagearje kin of op oare wize mei dy yn kommunisearje kin."
+
+#: src/view/com/auth/SplashScreen.web.tsx:179
+msgid "Blog"
+msgstr "Blog"
 
 #: src/components/dialogs/ServerInput.tsx:147
 #: src/components/dialogs/ServerInput.tsx:149
 msgid "Bluesky"
 msgstr "Bluesky"
 
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:705
+#: src/screens/PostThread/components/ThreadItemAnchor.tsx:688
 msgid "Bluesky cannot confirm the authenticity of the claimed date."
 msgstr "Bluesky kin de wierheid fan dizze datum net befêstigje."
+
+#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:165
+msgctxt "Name of app icon variant"
+msgid "Bluesky Classic™"
+msgstr "Bluesky Classic™"
 
 #: src/components/dialogs/ServerInput.tsx:217
 msgid "Bluesky is an open network where you can choose your hosting provider. If you're a developer, you can host your own server."
@@ -1571,20 +1572,20 @@ msgstr "Boeken"
 msgid "Breaking site rules"
 msgstr ""
 
-#: src/components/FeedInterstitials.tsx:442
+#: src/components/FeedInterstitials.tsx:436
 msgid "Browse more accounts on the Explore page"
 msgstr "Blêdzje troch brûkers op de ûntdekkingsside"
 
-#: src/components/FeedInterstitials.tsx:575
+#: src/components/FeedInterstitials.tsx:569
 msgid "Browse more feeds on the Explore page"
 msgstr "Blêdzje troch feeds op de ûntdekkingsside"
 
-#: src/components/FeedInterstitials.tsx:556
-#: src/components/FeedInterstitials.tsx:559
+#: src/components/FeedInterstitials.tsx:550
+#: src/components/FeedInterstitials.tsx:553
 msgid "Browse more suggestions"
 msgstr "Blêdzje troch mear suggestjes"
 
-#: src/components/FeedInterstitials.tsx:584
+#: src/components/FeedInterstitials.tsx:578
 msgid "Browse more suggestions on the Explore page"
 msgstr "Blêdzje troch mear suggestjes op de ûntdekkingsside"
 
@@ -1613,9 +1614,9 @@ msgstr "Underwerp {0} besjen"
 msgid "Browse topic {displayName}"
 msgstr "It ûnderwerp {displayName} besjen"
 
-#: src/screens/Signup/StepInfo/index.tsx:221
-msgid "bsky.app"
-msgstr ""
+#: src/view/com/auth/SplashScreen.web.tsx:174
+msgid "Business"
+msgstr "Saaklik"
 
 #: src/components/LabelingServiceCard/index.tsx:62
 #: src/components/moderation/ReportDialog/index.tsx:834
@@ -1684,11 +1685,11 @@ msgstr "Kamera"
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:85
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:247
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:253
-#: src/screens/Settings/Settings.tsx:296
+#: src/screens/Settings/Settings.tsx:289
 #: src/screens/Takendown.tsx:108
 #: src/screens/Takendown.tsx:111
-#: src/view/com/composer/Composer.tsx:1049
-#: src/view/com/composer/Composer.tsx:1060
+#: src/view/com/composer/Composer.tsx:1048
+#: src/view/com/composer/Composer.tsx:1059
 #: src/view/com/composer/photos/EditImageDialog.web.tsx:43
 #: src/view/com/composer/photos/EditImageDialog.web.tsx:52
 #: src/view/shell/desktop/LeftNav.tsx:213
@@ -1718,9 +1719,9 @@ msgstr "Weraktivearring annulearje en ôfmelde"
 msgid "Cancel search"
 msgstr "Sykopdracht annulearje"
 
-#: src/components/PostControls/index.tsx:114
-#: src/components/PostControls/index.tsx:145
-#: src/components/PostControls/index.tsx:173
+#: src/components/PostControls/index.tsx:106
+#: src/components/PostControls/index.tsx:137
+#: src/components/PostControls/index.tsx:165
 #: src/state/shell/composer/index.tsx:94
 msgid "Cannot interact with a blocked user"
 msgstr "Do kinst net yn kontakt komme mei in blokkearre brûker"
@@ -1795,9 +1796,9 @@ msgid "Changes saved"
 msgstr "Wizigingen bewarre"
 
 #: src/lib/hooks/useNotificationHandler.ts:99
-#: src/Navigation.tsx:558
+#: src/Navigation.tsx:549
 #: src/view/shell/bottom-bar/BottomBar.tsx:221
-#: src/view/shell/desktop/LeftNav.tsx:610
+#: src/view/shell/desktop/LeftNav.tsx:608
 #: src/view/shell/Drawer.tsx:466
 msgid "Chat"
 msgstr "Chat"
@@ -1821,7 +1822,7 @@ msgctxt "toast"
 msgid "Chat muted"
 msgstr "Chat negearre"
 
-#: src/Navigation.tsx:568
+#: src/Navigation.tsx:559
 #: src/screens/Messages/components/InboxPreview.tsx:22
 msgid "Chat request inbox"
 msgstr "Chatfersyk Postfek YN"
@@ -1833,7 +1834,7 @@ msgid "Chat requests"
 msgstr "Chatfersiken"
 
 #: src/components/dms/ConvoMenu.tsx:78
-#: src/Navigation.tsx:563
+#: src/Navigation.tsx:554
 #: src/screens/Messages/ChatList.tsx:81
 #: src/screens/Messages/ChatList.tsx:85
 #: src/screens/Messages/ChatList.tsx:380
@@ -1860,7 +1861,7 @@ msgstr "Chats"
 msgid "Check my status"
 msgstr "Myn status kontrolearje"
 
-#: src/screens/Login/LoginForm.tsx:314
+#: src/screens/Login/LoginForm.tsx:304
 msgid "Check your email for a sign in code and enter it here."
 msgstr "Kontrolearje dyn e-mail foar in oanmeldkoade en fier dy hjir yn."
 
@@ -1912,24 +1913,24 @@ msgstr "Dyn accountprovider kieze"
 msgid "Choose your own timeline! Feeds built by the community help you find content you love."
 msgstr "Kies dyn eigen tiidline! Feeds makke troch de mienskip helpe dy om ynhâld te finen dêr’tsto wol oer meist."
 
-#: src/screens/Signup/StepInfo/index.tsx:317
+#: src/screens/Signup/StepInfo/index.tsx:244
 msgid "Choose your password"
 msgstr "Dyn wachtwurd kieze"
 
-#: src/screens/Signup/index.tsx:187
+#: src/screens/Signup/index.tsx:181
 msgid "Choose your username"
 msgstr "Dyn brûkershandle kieze"
 
-#: src/screens/Settings/Settings.tsx:497
+#: src/screens/Settings/Settings.tsx:490
 msgid "Clear all storage data"
 msgstr "Alle bewarre gegevens wiskje"
 
-#: src/screens/Settings/Settings.tsx:499
+#: src/screens/Settings/Settings.tsx:492
 msgid "Clear all storage data (restart after this)"
 msgstr "Alle bewarre gegevens wiskje (start de app hjirnei opnij)"
 
-#: src/screens/Settings/AboutSettings.tsx:114
-#: src/screens/Settings/AboutSettings.tsx:118
+#: src/screens/Settings/AboutSettings.tsx:116
+#: src/screens/Settings/AboutSettings.tsx:120
 msgid "Clear image cache"
 msgstr "Ofbyldingsbuffer wiskje"
 
@@ -1996,7 +1997,7 @@ msgstr "Klik 🐴 klak 🐴"
 #: src/components/StarterPack/Wizard/WizardEditListDialog.tsx:118
 #: src/components/StarterPack/Wizard/WizardEditListDialog.tsx:124
 #: src/components/verification/VerificationsDialog.tsx:144
-#: src/components/verification/VerifierDialog.tsx:155
+#: src/components/verification/VerifierDialog.tsx:150
 #: src/components/WhoCanReply.tsx:234
 #: src/components/WhoCanReply.tsx:241
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:287
@@ -2024,7 +2025,7 @@ msgstr "Paniel ûnderoan slute"
 #: src/components/ageAssurance/AgeAssuranceInitDialog.tsx:230
 #: src/components/dialogs/GifSelect.tsx:263
 #: src/components/verification/VerificationsDialog.tsx:136
-#: src/components/verification/VerifierDialog.tsx:147
+#: src/components/verification/VerifierDialog.tsx:142
 #: src/view/com/composer/select-language/PostLanguageSelectDialog.tsx:204
 #: src/view/com/composer/select-language/PostLanguageSelectDialog.tsx:298
 #: src/view/com/composer/select-language/PostLanguageSelectDialog.tsx:330
@@ -2070,7 +2071,7 @@ msgstr ""
 msgid "Closes password update alert"
 msgstr "Slút warskôging foar bywurkjen wachtwurd"
 
-#: src/view/com/composer/Composer.tsx:1057
+#: src/view/com/composer/Composer.tsx:1056
 msgid "Closes post composer and discards post draft"
 msgstr "Slút opstellen berjocht en negearret konsept"
 
@@ -2100,11 +2101,6 @@ msgstr "Kleurmodus"
 msgid "Color theme"
 msgstr "Kleuretema"
 
-#: src/screens/Settings/DeerSettings.tsx:428
-#: src/screens/Settings/DeerSettings.tsx:433
-msgid "Combine reskeets into a horizontal carousel"
-msgstr ""
-
 #: src/lib/interests.ts:55
 #: src/screens/Onboarding/index.tsx:69
 msgid "Comedy"
@@ -2116,7 +2112,7 @@ msgid "Comics"
 msgstr "Strips"
 
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:45
-#: src/Navigation.tsx:342
+#: src/Navigation.tsx:341
 #: src/view/screens/CommunityGuidelines.tsx:37
 msgid "Community Guidelines"
 msgstr "Mienskipsrjochtlinen"
@@ -2126,11 +2122,11 @@ msgstr "Mienskipsrjochtlinen"
 msgid "Complete onboarding and start using your account"
 msgstr "Foltôgje de yntroduksje en begjin mei it brûken fan dyn account"
 
-#: src/screens/Signup/index.tsx:189
+#: src/screens/Signup/index.tsx:183
 msgid "Complete the challenge"
 msgstr "Foltôgje de útdaging"
 
-#: src/view/shell/desktop/LeftNav.tsx:575
+#: src/view/shell/desktop/LeftNav.tsx:573
 msgid "Compose new post"
 msgstr "Nij berjocht opstelle"
 
@@ -2142,7 +2138,7 @@ msgstr "Do kinst berjochten opstelle mei in lingte fan maksimaal {0, plural, oth
 msgid "Compose reply"
 msgstr "Antwurd opstelle"
 
-#: src/view/com/composer/Composer.tsx:1887
+#: src/view/com/composer/Composer.tsx:1886
 msgid "Compressing video..."
 msgstr "Fideo komprimearje…"
 
@@ -2190,7 +2186,7 @@ msgid "Confirm your location with GPS. Your location data is not tracked and doe
 msgstr ""
 
 #: src/components/dialogs/EmailDialog/components/TokenField.tsx:36
-#: src/screens/Login/LoginForm.tsx:287
+#: src/screens/Login/LoginForm.tsx:284
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:186
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:190
 #: src/screens/Settings/components/DisableEmail2FADialog.tsx:144
@@ -2200,7 +2196,7 @@ msgstr ""
 msgid "Confirmation code"
 msgstr "Befêstigingskoade"
 
-#: src/screens/Login/LoginForm.tsx:350
+#: src/screens/Login/LoginForm.tsx:340
 msgid "Connecting..."
 msgstr "Ferbine…"
 
@@ -2208,18 +2204,14 @@ msgstr "Ferbine…"
 msgid "Connection issue"
 msgstr "Ferbiningsprobleem"
 
-#: src/screens/Settings/DeerSettings.tsx:139
-#: src/screens/Settings/DeerSettings.tsx:142
-msgid "Constellations instance URL"
-msgstr ""
-
 #: src/components/ageAssurance/AgeAssuranceAccountCard.tsx:132
 #: src/components/ageAssurance/AgeAssuranceAppealDialog.tsx:29
 msgid "Contact our moderation team"
 msgstr "Nim kontakt op mei ús moderaasjeteam"
 
 #: src/components/ageAssurance/AgeAssuranceInitDialog.tsx:155
-#: src/screens/Signup/index.tsx:231
+#: src/screens/Signup/index.tsx:222
+#: src/screens/Signup/index.tsx:225
 msgid "Contact support"
 msgstr "Kontakt opnimme mei stipe"
 
@@ -2231,12 +2223,12 @@ msgstr "Nim kontakt mei ús op"
 msgid "Content & Media"
 msgstr "Ynhâld & media"
 
-#: src/screens/Settings/Settings.tsx:205
-#: src/screens/Settings/Settings.tsx:208
+#: src/screens/Settings/Settings.tsx:204
+#: src/screens/Settings/Settings.tsx:207
 msgid "Content and media"
 msgstr "Ynhâld en media"
 
-#: src/Navigation.tsx:517
+#: src/Navigation.tsx:508
 msgid "Content and Media"
 msgstr "Ynhâld en media"
 
@@ -2328,15 +2320,14 @@ msgstr "Petear fuortsmiten"
 msgid "Cooking"
 msgstr "Iten siede"
 
-#: src/screens/Settings/AboutSettings.tsx:149
+#: src/screens/Settings/AboutSettings.tsx:151
 msgid "Copied build version to clipboard"
 msgstr "Buildferzje nei klamboerd kopiearre"
 
 #: src/components/dms/MessageContextMenu.tsx:57
 #: src/components/PostControls/DiscoverDebug.tsx:36
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:243
-#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:79
-#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:92
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:235
+#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:72
 #: src/lib/sharing.ts:25
 #: src/lib/sharing.ts:41
 msgid "Copied to clipboard"
@@ -2347,7 +2338,7 @@ msgstr "Nei klamboerd kopiearre"
 msgid "Copied!"
 msgstr "Kopiearre!"
 
-#: src/screens/Settings/AboutSettings.tsx:125
+#: src/screens/Settings/AboutSettings.tsx:127
 msgid "Copies build version to clipboard"
 msgstr "Kopiearret buildferzje nei klamboerd"
 
@@ -2359,13 +2350,13 @@ msgstr "Kopiearje"
 msgid "Copy App Password"
 msgstr "App-wachtwurd kopiearje"
 
-#: src/view/com/profile/ProfileMenu.tsx:499
-#: src/view/com/profile/ProfileMenu.tsx:502
+#: src/view/com/profile/ProfileMenu.tsx:438
+#: src/view/com/profile/ProfileMenu.tsx:441
 msgid "Copy at:// URI"
 msgstr "at:// URI kopiearje"
 
-#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:170
-#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:173
+#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:152
+#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:155
 msgid "Copy author DID"
 msgstr "Auteur-DID kopiearje"
 
@@ -2375,8 +2366,8 @@ msgid "Copy code"
 msgstr "Koade kopiearje"
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:502
-#: src/view/com/profile/ProfileMenu.tsx:508
-#: src/view/com/profile/ProfileMenu.tsx:511
+#: src/view/com/profile/ProfileMenu.tsx:447
+#: src/view/com/profile/ProfileMenu.tsx:450
 msgid "Copy DID"
 msgstr "DID kopiearje"
 
@@ -2398,16 +2389,15 @@ msgstr "Keppeling kopiearje"
 msgid "Copy link to list"
 msgstr "Keppeling nei list kopiearje"
 
-#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:157
-#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:160
-#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:94
-#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:97
-#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:103
+#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:127
+#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:130
+#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:86
+#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:89
 msgid "Copy link to post"
 msgstr "Keppeling nei berjocht kopiearje"
 
-#: src/view/com/profile/ProfileMenu.tsx:264
-#: src/view/com/profile/ProfileMenu.tsx:275
+#: src/view/com/profile/ProfileMenu.tsx:251
+#: src/view/com/profile/ProfileMenu.tsx:262
 msgid "Copy link to profile"
 msgstr "Keppeling nei profyl kopiearje"
 
@@ -2420,13 +2410,13 @@ msgstr "Keppeling nei startpakket kopiearje"
 msgid "Copy message text"
 msgstr "Berjochttekst kopiearje"
 
-#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:161
-#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:164
+#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:143
+#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:146
 msgid "Copy post at:// URI"
 msgstr "Berjocht at:// URI kopiearje"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:582
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:584
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:484
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:486
 msgid "Copy post text"
 msgstr "Berjochttekst kopiearje"
 
@@ -2438,17 +2428,9 @@ msgstr "QR-koade kopiearje"
 msgid "Copy TXT record value"
 msgstr "TXT-recordwearde kopiearje"
 
-#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:167
-#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:170
-#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:106
-#: src/view/com/profile/ProfileMenu.tsx:286
-#: src/view/com/profile/ProfileMenu.tsx:298
-msgid "Copy via bsky.app"
-msgstr ""
-
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:40
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:107
-#: src/Navigation.tsx:347
+#: src/Navigation.tsx:346
 #: src/view/screens/CopyrightPolicy.tsx:34
 msgid "Copyright Policy"
 msgstr "Auteursrjochtbelied"
@@ -2510,7 +2492,7 @@ msgstr "Meitsje in QR-koade foar in startpakket"
 
 #: src/components/StarterPack/ProfileStarterPacks.tsx:174
 #: src/components/StarterPack/ProfileStarterPacks.tsx:283
-#: src/Navigation.tsx:598
+#: src/Navigation.tsx:589
 msgid "Create a starter pack"
 msgstr "Meitsje in startpakket"
 
@@ -2531,14 +2513,14 @@ msgstr "Meitsje in startpakket foar my"
 msgid "Create account"
 msgstr "Registrearje"
 
-#: src/screens/Signup/index.tsx:130
+#: src/screens/Signup/index.tsx:124
 msgid "Create Account"
 msgstr "Registrearje"
 
 #: src/components/dialogs/Signin.tsx:86
 #: src/components/dialogs/Signin.tsx:88
 #: src/screens/Hashtag.tsx:232
-#: src/screens/Search/SearchResults.tsx:270
+#: src/screens/Search/SearchResults.tsx:301
 msgid "Create an account"
 msgstr "In account oanmeitsje"
 
@@ -2633,7 +2615,7 @@ msgstr "Donkere modus"
 msgid "Dark theme"
 msgstr "Donker tema"
 
-#: src/screens/Signup/StepInfo/index.tsx:345
+#: src/screens/Signup/StepInfo/index.tsx:272
 msgid "Date of birth"
 msgstr "Bertedatum"
 
@@ -2643,7 +2625,7 @@ msgstr "Bertedatum"
 msgid "Deactivate account"
 msgstr "Account de-aktivearje"
 
-#: src/screens/Settings/Settings.tsx:462
+#: src/screens/Settings/Settings.tsx:455
 msgid "Debug Moderation"
 msgstr "Moderaasje debugge"
 
@@ -2655,10 +2637,6 @@ msgstr "Paniel debugge"
 msgid "Deepfake adult content"
 msgstr ""
 
-#: src/screens/Settings/Settings.tsx:219
-msgid "Deer"
-msgstr ""
-
 #: src/screens/Settings/AppearanceSettings.tsx:156
 msgid "Default"
 msgstr "Standert"
@@ -2668,7 +2646,7 @@ msgid "Default icons"
 msgstr "Standert piktogrammen"
 
 #: src/components/dms/MessageContextMenu.tsx:202
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:834
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:736
 #: src/screens/Messages/components/ChatStatusInfo.tsx:55
 #: src/screens/ProfileList/components/MoreOptionsMenu.tsx:280
 #: src/screens/Settings/AppPasswords.tsx:211
@@ -2700,7 +2678,7 @@ msgstr "App-wachtwurd fuortsmite?"
 msgid "Delete chat"
 msgstr "Chat fuortsmite"
 
-#: src/screens/Settings/Settings.tsx:469
+#: src/screens/Settings/Settings.tsx:462
 msgid "Delete chat declaration record"
 msgstr "Chatdeklaraasjerecord fuortsmite"
 
@@ -2736,8 +2714,8 @@ msgstr "Berjocht foar my fuortsmite"
 msgid "Delete my account"
 msgstr "Myn account fuortsmite"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:815
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:817
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:717
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:719
 #: src/view/com/composer/Composer.tsx:967
 msgid "Delete post"
 msgstr "Berjocht fuortsmite"
@@ -2755,11 +2733,11 @@ msgstr "Startpakket fuortsmite?"
 msgid "Delete this list?"
 msgstr "Dizze list fuortsmite?"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:829
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:731
 msgid "Delete this post?"
 msgstr "Dit berjocht fuortsmite?"
 
-#: src/components/Post/Embed/index.tsx:196
+#: src/components/Post/Embed/index.tsx:179
 msgid "Deleted"
 msgstr "Fuortsmiten"
 
@@ -2786,27 +2764,27 @@ msgstr "Omskriuwing"
 msgid "Descriptive alt text"
 msgstr "Beskriuwende alt-tekst"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:719
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:729
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:621
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:631
 msgid "Detach quote"
 msgstr "Sitaat loskeppelje"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:865
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:767
 msgid "Detach quote post?"
 msgstr "Sitaat loskeppelje?"
 
-#: src/screens/Settings/AboutSettings.tsx:138
+#: src/screens/Settings/AboutSettings.tsx:140
 msgctxt "toast"
 msgid "Developer mode disabled"
 msgstr "Untwikkelersmodus útskeakele"
 
-#: src/screens/Settings/AboutSettings.tsx:132
+#: src/screens/Settings/AboutSettings.tsx:134
 msgctxt "toast"
 msgid "Developer mode enabled"
 msgstr "Untwikkelersmodus ynskeakele"
 
-#: src/screens/Settings/Settings.tsx:278
-#: src/screens/Settings/Settings.tsx:281
+#: src/screens/Settings/Settings.tsx:271
+#: src/screens/Settings/Settings.tsx:274
 msgid "Developer options"
 msgstr "Untwikkelersopsjes"
 
@@ -2836,47 +2814,17 @@ msgstr "E-mail-2FA útskeakelje"
 msgid "Disable haptic feedback"
 msgstr "Fielbere feedback útskeakelje"
 
-#: src/screens/Settings/DeerSettings.tsx:521
-#: src/screens/Settings/DeerSettings.tsx:526
-msgid "Disable Likes Metrics"
-msgstr ""
-
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:622
 msgid "Disable quote posts of this post"
-msgstr ""
-
-#: src/screens/Settings/DeerSettings.tsx:545
-#: src/screens/Settings/DeerSettings.tsx:550
-msgid "Disable Quotes Metrics"
 msgstr ""
 
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:459
 msgid "Disable replies entirely"
 msgstr ""
 
-#: src/screens/Settings/DeerSettings.tsx:569
-#: src/screens/Settings/DeerSettings.tsx:574
-msgid "Disable Reply Metrics"
-msgstr ""
-
-#: src/screens/Settings/DeerSettings.tsx:533
-#: src/screens/Settings/DeerSettings.tsx:538
-msgid "Disable Reskeets Metrics"
-msgstr ""
-
-#: src/screens/Settings/DeerSettings.tsx:557
-#: src/screens/Settings/DeerSettings.tsx:562
-msgid "Disable Saves Metrics"
-msgstr ""
-
 #: src/components/Post/Embed/VideoEmbed/VideoEmbedInner/web-controls/VideoControls.tsx:388
 msgid "Disable subtitles"
 msgstr "Undertiteling útskeakelje"
-
-#: src/screens/Settings/DeerSettings.tsx:484
-#: src/screens/Settings/DeerSettings.tsx:489
-msgid "Disable via reskeet notifications"
-msgstr ""
 
 #: src/lib/moderation/useLabelBehaviorDescription.ts:35
 #: src/lib/moderation/useLabelBehaviorDescription.ts:45
@@ -2926,7 +2874,7 @@ msgstr "Nije feeds ûntdekke"
 msgid "Dismiss"
 msgstr "Slute"
 
-#: src/view/com/composer/Composer.tsx:1811
+#: src/view/com/composer/Composer.tsx:1810
 msgid "Dismiss error"
 msgstr "Flater negearje"
 
@@ -2941,11 +2889,6 @@ msgstr "Ynteressen negearje"
 #: src/components/interstitials/TrendingVideos.tsx:89
 msgid "Dismiss this section"
 msgstr "Dizze seksje slute"
-
-#: src/screens/Settings/DeerSettings.tsx:452
-#: src/screens/Settings/DeerSettings.tsx:457
-msgid "Display images in higher quality"
-msgstr ""
 
 #: src/screens/Settings/AccessibilitySettings.tsx:69
 #: src/screens/Settings/AccessibilitySettings.tsx:74
@@ -2970,19 +2913,6 @@ msgstr "DNS-paniel"
 msgid "Do not apply this mute word to users you follow"
 msgstr "Dit negearwurd net brûke foar brûkers dy’tsto folgest"
 
-#: src/screens/Settings/DeerSettings.tsx:622
-msgid "Do not declare any app labelers"
-msgstr ""
-
-#: src/screens/Settings/DeerSettings.tsx:627
-msgid "Do not declare any default app labelers"
-msgstr ""
-
-#: src/screens/Settings/DeerSettings.tsx:440
-#: src/screens/Settings/DeerSettings.tsx:445
-msgid "Do not fall back to discover feed"
-msgstr ""
-
 #: src/lib/moderation/useGlobalLabelStrings.ts:39
 msgid "Does not include nudity."
 msgstr "Befettet gjin neakens."
@@ -2994,10 +2924,6 @@ msgstr "Domein ferifiearre!"
 #: src/components/dialogs/EmailDialog/screens/Verify.tsx:380
 msgid "Don't have a code or need a new one? <0>Click here.</0>"
 msgstr "Hasto gjin koade of in nije nedicht? <0>Klik hjir.</0>"
-
-#: src/screens/Signup/StepInfo/index.tsx:216
-msgid "Don't have an account provider or an existing Bluesky account? To create a new account on a Bluesky-hosted PDS, sign up through <0>bsky.app</0> first, then return to Bitchsky and log in with the account you created."
-msgstr ""
 
 #: src/components/dialogs/EmailDialog/components/ResendEmailText.tsx:37
 msgid "Don't see an email? <0>Click here to resend.</0>"
@@ -3065,26 +2991,6 @@ msgstr "Bluesky downloade"
 msgid "Download CAR file"
 msgstr "CAR-bestân downloade"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:559
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:561
-msgid "Download GIF"
-msgstr ""
-
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:544
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:546
-msgid "Download Video"
-msgstr ""
-
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:441
-msgctxt "toast"
-msgid "Downloading GIF..."
-msgstr ""
-
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:428
-msgctxt "toast"
-msgid "Downloading video..."
-msgstr ""
-
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:115
 msgid "Doxxing"
 msgstr ""
@@ -3147,8 +3053,8 @@ msgctxt "action"
 msgid "Edit"
 msgstr "Bewurkje"
 
-#: src/view/com/util/UserAvatar.tsx:451
-#: src/view/com/util/UserBanner.tsx:124
+#: src/view/com/util/UserAvatar.tsx:439
+#: src/view/com/util/UserBanner.tsx:119
 msgid "Edit avatar"
 msgstr "Avatar bewurkje"
 
@@ -3162,8 +3068,8 @@ msgstr "Feeds bewurkje"
 msgid "Edit image"
 msgstr "Ofbylding bewurkje"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:796
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:809
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:698
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:711
 msgid "Edit interaction settings"
 msgstr "Ynteraksje-ynstellingen bewurkje"
 
@@ -3177,8 +3083,8 @@ msgstr "Ynteressen bewurkje"
 msgid "Edit list details"
 msgstr "Listdetails bewurkje"
 
-#: src/view/com/profile/ProfileMenu.tsx:395
-#: src/view/com/profile/ProfileMenu.tsx:401
+#: src/view/com/profile/ProfileMenu.tsx:334
+#: src/view/com/profile/ProfileMenu.tsx:340
 msgid "Edit live status"
 msgstr "Live-status bewurkje"
 
@@ -3186,7 +3092,7 @@ msgstr "Live-status bewurkje"
 msgid "Edit moderation list"
 msgstr ""
 
-#: src/Navigation.tsx:357
+#: src/Navigation.tsx:356
 #: src/view/screens/Feeds.tsx:518
 msgid "Edit My Feeds"
 msgstr "Myn feeds bewurkje"
@@ -3206,13 +3112,13 @@ msgstr "Berjochtynteraksje-ynstellingen bewurkje"
 
 #: src/screens/Profile/Header/EditProfileDialog.tsx:268
 #: src/screens/Profile/Header/EditProfileDialog.tsx:274
-#: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:181
-#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:196
+#: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:292
+#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:321
 msgid "Edit profile"
 msgstr "Profyl bewurkje"
 
-#: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:184
-#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:199
+#: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:295
+#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:323
 msgid "Edit Profile"
 msgstr "Profyl bewurkje"
 
@@ -3228,7 +3134,7 @@ msgstr ""
 msgid "Edit who can reply"
 msgstr "Wa’t reagearje kin bewurkje"
 
-#: src/Navigation.tsx:603
+#: src/Navigation.tsx:594
 msgid "Edit your starter pack"
 msgstr "Dyn startpakket bewurkje"
 
@@ -3242,7 +3148,7 @@ msgid "Either the creator of this list has blocked you or you have blocked the c
 msgstr "De makker fan dizze list hat dy blokkearre, of do hast de makker blokkearre."
 
 #: src/screens/Settings/AccountSettings.tsx:66
-#: src/screens/Signup/StepInfo/index.tsx:269
+#: src/screens/Signup/StepInfo/index.tsx:196
 msgid "Email"
 msgstr "E-mailadres"
 
@@ -3259,7 +3165,7 @@ msgstr "E-mail-2FA ynskeakele"
 msgid "Email address"
 msgstr "E-mailadres"
 
-#: src/components/intents/VerifyEmailIntentDialog.tsx:104
+#: src/components/intents/VerifyEmailIntentDialog.tsx:98
 msgid "Email Resent"
 msgstr "E-mailberjocht opnij ferstjoerd"
 
@@ -3271,7 +3177,7 @@ msgstr "E-mailberjocht ferstjoerd!"
 msgid "Email verification complete!"
 msgstr "E-mailferifikaasje foltôge!"
 
-#: src/components/intents/VerifyEmailIntentDialog.tsx:79
+#: src/components/intents/VerifyEmailIntentDialog.tsx:73
 msgid "Email Verified"
 msgstr "E-mailadres ferifiearre"
 
@@ -3281,8 +3187,8 @@ msgstr "HTML-koade ynslute"
 
 #: src/components/dialogs/Embed.tsx:104
 #: src/components/dialogs/Embed.tsx:108
-#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:136
-#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:141
+#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:118
+#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:123
 msgid "Embed post"
 msgstr "Berjocht ynslute"
 
@@ -3394,7 +3300,7 @@ msgstr "Fier it domein yn datsto brûke wolst"
 msgid "Enter the email you used to create your account. We'll send you a \"reset code\" so you can set a new password."
 msgstr "Fier it e-mailadres yn datsto brûkt hast om dyn account oan te meitsjen. Wy stjoere dy in ‘werstelkoade’, sadatsto in nij wachtwurd ynstelle kinst."
 
-#: src/screens/Login/LoginForm.tsx:222
+#: src/screens/Login/LoginForm.tsx:219
 msgid "Enter the username or email address you used when you created your account"
 msgstr "Fier de brûkersnamme of it e-mailadres yn datso brûkt hast by it oanmeitsjen fan dyn account"
 
@@ -3403,11 +3309,11 @@ msgid "Enter your birth date"
 msgstr "Fier dyn bertedatum yn"
 
 #: src/screens/Login/ForgotPasswordForm.tsx:99
-#: src/screens/Signup/StepInfo/index.tsx:289
+#: src/screens/Signup/StepInfo/index.tsx:216
 msgid "Enter your email address"
 msgstr "Fier dyn e-mailadres yn"
 
-#: src/screens/Login/LoginForm.tsx:246
+#: src/screens/Login/LoginForm.tsx:243
 msgid "Enter your password"
 msgstr "Fier fyn wachtwurd yn"
 
@@ -3423,7 +3329,7 @@ msgstr "Iepenet folslein skerm"
 msgid "Entertainment"
 msgstr "Ferdivedaasje"
 
-#: src/view/com/composer/Composer.tsx:1896
+#: src/view/com/composer/Composer.tsx:1895
 #: src/view/com/util/error/ErrorScreen.tsx:42
 msgid "Error"
 msgstr "Flater"
@@ -3444,7 +3350,7 @@ msgstr "Flaterberjocht"
 msgid "Error occurred while saving file"
 msgstr "Der is in flater bard by it bewarjen fan it bestân"
 
-#: src/screens/Signup/StepCaptcha/index.tsx:124
+#: src/screens/Signup/StepCaptcha/index.tsx:123
 msgid "Error receiving captcha response."
 msgstr "Flater by ûntfangen fan captcha-antwurd."
 
@@ -3520,12 +3426,6 @@ msgstr "Ferwacht waard dat uri omset wurde koe nei in record"
 msgid "Experimental"
 msgstr "Eksperimenteel"
 
-#: src/Navigation.tsx:392
-#: src/screens/Settings/DeerSettings.tsx:309
-#: src/screens/Settings/Settings.tsx:222
-msgid "Experiments"
-msgstr ""
-
 #: src/components/dialogs/MutedWords.tsx:507
 msgid "Expired"
 msgstr "Ferrûn"
@@ -3552,9 +3452,9 @@ msgstr "Eksplisite of mooglik oanstjitjaande media."
 msgid "Explicit sexual images."
 msgstr "Eksplisite seksuele ôfbyldingen."
 
-#: src/Navigation.tsx:768
+#: src/Navigation.tsx:759
 #: src/screens/Search/Shell.tsx:327
-#: src/view/shell/desktop/LeftNav.tsx:692
+#: src/view/shell/desktop/LeftNav.tsx:690
 #: src/view/shell/Drawer.tsx:414
 msgid "Explore"
 msgstr "Untdekke"
@@ -3588,7 +3488,7 @@ msgstr "Eksterne media"
 msgid "External media may allow websites to collect information about you and your device. No information is sent or requested until you press the \"play\" button."
 msgstr "Eksterne media kinne websites tastean om ynformaasje oer dy en dyn apparaat te sammeljen. Der wurdt gjin ynformaasje ferstjoerd of frege oantsto op de knop ‘ôfspylje’ drukst."
 
-#: src/Navigation.tsx:376
+#: src/Navigation.tsx:375
 #: src/screens/Settings/ExternalMediaPreferences.tsx:34
 msgid "External Media Preferences"
 msgstr "Eksterne-mediafoarkarren"
@@ -3638,7 +3538,7 @@ msgstr "Fuortsmiten fan chat mislearre"
 msgid "Failed to delete message"
 msgstr "Priveeberjocht kin net fuorsmiten wurde"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:212
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:204
 msgid "Failed to delete post, please try again"
 msgstr "Berjocht fuortsmiten mislearre, probearje it opnij"
 
@@ -3753,7 +3653,7 @@ msgstr "E-mailberjocht ferstjoere mislearre, probearje it opnij."
 msgid "Failed to submit appeal, please try again."
 msgstr "It yntsjinjen fan beswier is mislearre, probearje it opnij."
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:232
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:224
 msgid "Failed to toggle thread mute, please try again"
 msgstr "It wikseljen tusken wol/net-negearje fan it petear is mislearre, probearje it opnij"
 
@@ -3805,7 +3705,7 @@ msgstr ""
 msgid "False information about elections"
 msgstr ""
 
-#: src/Navigation.tsx:292
+#: src/Navigation.tsx:291
 msgid "Feed"
 msgstr "Feed"
 
@@ -3840,19 +3740,19 @@ msgstr "Feed net beskikber"
 msgid "Feedback"
 msgstr "Feedback"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:284
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:302
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:276
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:294
 msgctxt "toast"
 msgid "Feedback sent to feed operator"
 msgstr ""
 
-#: src/Navigation.tsx:583
+#: src/Navigation.tsx:574
 #: src/screens/SavedFeeds.tsx:108
-#: src/screens/Search/SearchResults.tsx:75
+#: src/screens/Search/SearchResults.tsx:77
 #: src/screens/StarterPack/StarterPackScreen.tsx:190
 #: src/view/screens/Feeds.tsx:511
 #: src/view/screens/Profile.tsx:230
-#: src/view/shell/desktop/LeftNav.tsx:730
+#: src/view/shell/desktop/LeftNav.tsx:728
 #: src/view/shell/Drawer.tsx:530
 msgid "Feeds"
 msgstr "Feeds"
@@ -3870,14 +3770,6 @@ msgstr "Feeds bywurke!"
 #: src/screens/Search/modules/ExploreRecommendations.tsx:65
 msgid "Feeds we think you might like."
 msgstr "Feeds dêr’tsto neffens ús wol oer meist."
-
-#: src/screens/Settings/DeerSettings.tsx:348
-msgid "Fetch records directly from PDS to see contents of blocked and detatched quotes"
-msgstr ""
-
-#: src/screens/Settings/DeerSettings.tsx:342
-msgid "Fetch records directly from PDS to see through quote blocks"
-msgstr ""
 
 #: src/screens/Settings/components/OTAInfo.tsx:58
 msgid "Fetch update"
@@ -3948,22 +3840,37 @@ msgstr "Foltôgje"
 msgid "Fitness"
 msgstr "Fitness"
 
+#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:149
+msgctxt "Name of app icon variant"
+msgid "Flat Black"
+msgstr "Plat swart"
+
+#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:117
+msgctxt "Name of app icon variant"
+msgid "Flat Blue"
+msgstr "Plat blau"
+
+#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:133
+msgctxt "Name of app icon variant"
+msgid "Flat White"
+msgstr "Plat wyt"
+
 #: src/screens/Onboarding/StepFinished/index.tsx:421
 msgid "Flexible"
 msgstr "Fleksibel"
 
 #. User is not following this account, click to follow
-#: src/components/ProfileCard.tsx:542
+#: src/components/ProfileCard.tsx:553
 #: src/components/ProfileHoverCard/index.web.tsx:496
 #: src/components/ProfileHoverCard/index.web.tsx:507
 #: src/screens/PostThread/components/ThreadItemAnchorFollowButton.tsx:131
-#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:258
+#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:378
 #: src/screens/VideoFeed/index.tsx:857
 msgid "Follow"
 msgstr "Folgje"
 
 #: src/screens/PostThread/components/ThreadItemAnchorFollowButton.tsx:113
-#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:243
+#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:366
 msgid "Follow {0}"
 msgstr "{0} folgje"
 
@@ -3980,8 +3887,8 @@ msgstr "10 accounts folgje"
 msgid "Follow 7 accounts"
 msgstr "7 accounts folgje"
 
-#: src/view/com/profile/ProfileMenu.tsx:328
-#: src/view/com/profile/ProfileMenu.tsx:339
+#: src/view/com/profile/ProfileMenu.tsx:292
+#: src/view/com/profile/ProfileMenu.tsx:303
 msgid "Follow account"
 msgstr "Account folgje"
 
@@ -3998,9 +3905,9 @@ msgid "Follow all accounts"
 msgstr ""
 
 #. User is not following this account, click to follow back
-#: src/components/ProfileCard.tsx:536
+#: src/components/ProfileCard.tsx:547
 #: src/screens/PostThread/components/ThreadItemAnchorFollowButton.tsx:129
-#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:256
+#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:376
 #: src/view/com/notifications/NotificationFeedItem.tsx:835
 #: src/view/com/notifications/NotificationFeedItem.tsx:842
 msgid "Follow back"
@@ -4026,7 +3933,7 @@ msgstr "Folge troch <0>{0}</0> en <1>{1}</1>"
 msgid "Followed by <0>{0}</0>, <1>{1}</1>, and {2, plural, one {# other} other {# others}}"
 msgstr "Folge troch <0>{0}</0>, <1>{1}</1> en {2, plural, one {# oar} other {# oaren}}"
 
-#: src/Navigation.tsx:246
+#: src/Navigation.tsx:245
 msgid "Followers of @{0} that you know"
 msgstr "Folgers fan @{0} dy’tsto kinst"
 
@@ -4037,11 +3944,11 @@ msgstr "Folgers dy’tsto kinst"
 
 #. User is following this account, click to unfollow
 #. User is following this account, click to unfollow
-#: src/components/ProfileCard.tsx:529
+#: src/components/ProfileCard.tsx:540
 #: src/components/ProfileHoverCard/index.web.tsx:495
 #: src/components/ProfileHoverCard/index.web.tsx:506
 #: src/screens/PostThread/components/ThreadItemAnchorFollowButton.tsx:134
-#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:254
+#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:374
 #: src/screens/VideoFeed/index.tsx:855
 #: src/view/com/notifications/NotificationFeedItem.tsx:813
 #: src/view/com/notifications/NotificationFeedItem.tsx:830
@@ -4054,8 +3961,8 @@ msgctxt "feed-name"
 msgid "Following"
 msgstr "Folgjend"
 
-#: src/components/ProfileCard.tsx:492
-#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:96
+#: src/components/ProfileCard.tsx:503
+#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:244
 #: src/view/com/notifications/NotificationFeedItem.tsx:767
 msgid "Following {0}"
 msgstr "Folget {0}"
@@ -4069,12 +3976,12 @@ msgstr "Do folgest {handle}"
 msgid "Following feed preferences"
 msgstr "Folchfeedfoarkarren"
 
-#: src/Navigation.tsx:363
+#: src/Navigation.tsx:362
 #: src/screens/Settings/FollowingFeedPreferences.tsx:56
 msgid "Following Feed Preferences"
 msgstr "Folchfeedfoarkarren"
 
-#: src/screens/Profile/Header/Handle.tsx:42
+#: src/screens/Profile/Header/Handle.tsx:32
 msgid "Follows you"
 msgstr "Folget dy"
 
@@ -4116,10 +4023,6 @@ msgstr "Foar de beste ûnderfining riede wy dy oan it temalettertype te brûken.
 msgid "For You"
 msgstr "Foar dy"
 
-#: src/screens/Settings/DeerSettings.tsx:494
-msgid "Forcefully disables the notifications other people receive when you like/reskeet a skeet someone else has reskeeted for privacy."
-msgstr ""
-
 #: src/components/dialogs/MutedWords.tsx:183
 msgid "Forever"
 msgstr "Foar altyd"
@@ -4133,11 +4036,11 @@ msgstr ""
 msgid "Forgot Password"
 msgstr "Wachtwurd ferjitten"
 
-#: src/screens/Login/LoginForm.tsx:261
+#: src/screens/Login/LoginForm.tsx:258
 msgid "Forgot password?"
 msgstr "Wachtwurd ferjitten?"
 
-#: src/screens/Login/LoginForm.tsx:272
+#: src/screens/Login/LoginForm.tsx:269
 msgid "Forgot?"
 msgstr "Ferjitten?"
 
@@ -4157,10 +4060,6 @@ msgstr "Fan @{sanitizedAuthor}"
 msgctxt "from-feed"
 msgid "From <0/>"
 msgstr "Fan <0/>"
-
-#: src/screens/Settings/DeerSettings.tsx:583
-msgid "Gates"
-msgstr ""
 
 #: src/components/StarterPack/ProfileStarterPacks.tsx:303
 msgid "Generate a starter pack"
@@ -4202,7 +4101,7 @@ msgstr "Untfang meldingen wannear’t minsken dyn opnij-pleatsingen opnij pleats
 msgid "Get notifications when people repost your posts."
 msgstr "Untfang meldingen wannear’t minsken dyn berjochten opnij pleatse."
 
-#: src/components/activity-notifications/SubscribeProfileButton.tsx:89
+#: src/components/activity-notifications/SubscribeProfileButton.tsx:91
 msgid "Get notified about new posts"
 msgstr "Meldingen oer nije berjochten ûntfange"
 
@@ -4218,7 +4117,7 @@ msgstr "Meldingen oer nije berjochten fan {name} ûntfange"
 msgid "Get notified of this account’s activity"
 msgstr "In melding ûntfange oer de aktiviteit fan dizze account"
 
-#: src/components/activity-notifications/SubscribeProfileButton.tsx:82
+#: src/components/activity-notifications/SubscribeProfileButton.tsx:84
 msgid "Get notified when {name} posts"
 msgstr "In melding ûntfange wannear’t {name} berjochten pleatst"
 
@@ -4235,13 +4134,9 @@ msgstr "Oan de slach"
 msgid "Getting started"
 msgstr "Oan de slach"
 
-#: src/components/MediaPreview.tsx:123
+#: src/components/MediaPreview.tsx:114
 msgid "GIF"
 msgstr "GIF"
-
-#: src/view/com/auth/SplashScreen.web.tsx:174
-msgid "Github"
-msgstr ""
 
 #: src/screens/Onboarding/StepProfile/index.tsx:235
 msgid "Give your profile a face"
@@ -4298,8 +4193,8 @@ msgstr "Nei startside"
 msgid "Go Home"
 msgstr "Nei startside"
 
-#: src/view/com/profile/ProfileMenu.tsx:396
-#: src/view/com/profile/ProfileMenu.tsx:403
+#: src/view/com/profile/ProfileMenu.tsx:335
+#: src/view/com/profile/ProfileMenu.tsx:342
 msgid "Go live"
 msgstr "Gean live"
 
@@ -4405,7 +4300,7 @@ msgstr ""
 msgid "Harming or endangering minors"
 msgstr ""
 
-#: src/Navigation.tsx:548
+#: src/Navigation.tsx:539
 msgid "Hashtag"
 msgstr "Hashtag"
 
@@ -4422,12 +4317,12 @@ msgstr ""
 msgid "Have a code? <0>Click here.</0>"
 msgstr "Hasto in koade? <0>Klik hjir.</0>"
 
-#: src/screens/Signup/index.tsx:229
+#: src/screens/Signup/index.tsx:220
 msgid "Having trouble?"
 msgstr "Hasto problemen?"
 
-#: src/screens/Settings/Settings.tsx:243
-#: src/screens/Settings/Settings.tsx:247
+#: src/screens/Settings/Settings.tsx:236
+#: src/screens/Settings/Settings.tsx:240
 #: src/view/shell/desktop/RightNav.tsx:123
 #: src/view/shell/desktop/RightNav.tsx:124
 #: src/view/shell/Drawer.tsx:381
@@ -4465,7 +4360,7 @@ msgstr "Ferburgen list"
 #: src/components/moderation/ContentHider.tsx:208
 #: src/components/moderation/LabelPreference.tsx:140
 #: src/components/moderation/PostHider.tsx:137
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:845
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:747
 #: src/lib/moderation/useLabelBehaviorDescription.ts:18
 #: src/lib/moderation/useLabelBehaviorDescription.ts:23
 #: src/lib/moderation/useLabelBehaviorDescription.ts:28
@@ -4479,11 +4374,6 @@ msgctxt "action"
 msgid "Hide"
 msgstr "Ferstopje"
 
-#: src/screens/Settings/DeerSettings.tsx:470
-#: src/screens/Settings/DeerSettings.tsx:475
-msgid "Hide \"Feeds ✨\" tab when only one feed is selected"
-msgstr ""
-
 #: src/components/dialogs/Embed.tsx:128
 msgid "Hide customization options"
 msgstr "Oanpassingsopsjes ferstoppe"
@@ -4492,36 +4382,31 @@ msgstr "Oanpassingsopsjes ferstoppe"
 msgid "Hide lists"
 msgstr ""
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:676
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:682
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:578
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:584
 msgid "Hide post for me"
 msgstr "Berjocht foar my ferstopje"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:693
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:703
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:595
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:605
 msgid "Hide reply for everyone"
 msgstr "Reaksje foar elkenien ferstopje"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:675
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:681
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:577
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:583
 msgid "Hide reply for me"
 msgstr "Reaksje foar my ferstopje"
-
-#: src/screens/Settings/DeerSettings.tsx:502
-#: src/screens/Settings/DeerSettings.tsx:507
-msgid "Hide similar accounts recommendations"
-msgstr ""
 
 #: src/screens/Search/modules/ExploreInterestsCard.tsx:110
 msgid "Hide this card"
 msgstr "Dizze kaart ferstopje"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:840
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:742
 msgid "Hide this post?"
 msgstr "Dit berjocht ferstopje?"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:840
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:875
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:742
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:777
 msgid "Hide this reply?"
 msgstr "Dizze reaksje ferstopje?"
 
@@ -4585,10 +4470,10 @@ msgstr "Hmm, wy koene dy moderaasjetsjinst net lade."
 msgid "Hold up! We’re gradually giving access to video, and you’re still waiting in line. Check back soon!"
 msgstr "Wachtsje even! Wy jouwe stadichoan tagong ta fideo en do stiest noch hieltyd yn de rige. Kom fluch werom!"
 
-#: src/Navigation.tsx:763
-#: src/Navigation.tsx:783
+#: src/Navigation.tsx:754
+#: src/Navigation.tsx:774
 #: src/view/shell/bottom-bar/BottomBar.tsx:178
-#: src/view/shell/desktop/LeftNav.tsx:674
+#: src/view/shell/desktop/LeftNav.tsx:672
 #: src/view/shell/Drawer.tsx:440
 msgid "Home"
 msgstr "Startside"
@@ -4598,7 +4483,7 @@ msgid "Host:"
 msgstr "Host:"
 
 #: src/screens/Login/ForgotPasswordForm.tsx:83
-#: src/screens/Login/LoginForm.tsx:187
+#: src/screens/Login/LoginForm.tsx:184
 msgid "Hosting provider"
 msgstr "Hostingprovider"
 
@@ -4642,10 +4527,6 @@ msgstr "Asto neffens de wetten fan dyn lân noch gjin folwoeksene bist moat dyn 
 msgid "If you delete this list, you won't be able to recover it."
 msgstr "Asto dizze list fuotsmytst, kinsto dizze net mear werstelle."
 
-#: src/screens/Signup/StepInfo/index.tsx:186
-msgid "If you have one, sign in with an existing Bluesky account."
-msgstr ""
-
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:272
 msgid "If you have your own domain, you can use that as your handle. This lets you self-verify your identity. <0>Learn more here.</0>"
 msgstr "Asto in eigen domein hast, kinsto dat as handle brûke. Sa kinsto dyn identiteit sels ferifiearje. <0>Klik hjir foar mear ynformaasje.</0>"
@@ -4654,7 +4535,7 @@ msgstr "Asto in eigen domein hast, kinsto dat as handle brûke. Sa kinsto dyn id
 msgid "If you need to update your email, <0>click here</0>."
 msgstr "Asto dyn e-mailadres bywurkje moatst, <0>klik hjir</0>."
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:831
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:733
 msgid "If you remove this post, you won't be able to recover it."
 msgstr "Asto dit berjocht fuortsmytst, kinsto it net mear werstelle."
 
@@ -4679,16 +4560,16 @@ msgstr "Asto in ûntwikkeler bist, kinsto dyn eigen server hoste."
 msgid "If you're trying to change your handle or email, do so before you deactivate."
 msgstr "Asto dyn handle of e-mailadres probearrest te wizigjen, doch dit dan eardatsto de-aktivearrest."
 
-#: src/view/com/util/images/Gallery.tsx:80
+#: src/view/com/util/images/Gallery.tsx:75
 msgid "Image"
 msgstr "Ofbylding"
 
-#: src/screens/Settings/AboutSettings.tsx:62
+#: src/screens/Settings/AboutSettings.tsx:64
 msgid "Image cache cleared"
 msgstr "Ofbyldingsbuffer wiske"
 
 #. Android-only toast message which includes amount of space freed using localized number formatting
-#: src/screens/Settings/AboutSettings.tsx:48
+#: src/screens/Settings/AboutSettings.tsx:50
 msgid "Image cache cleared, freed {0}"
 msgstr "Ofbyldingsbuffer wiske, {0} frijmakke"
 
@@ -4700,10 +4581,6 @@ msgstr "Ofbylding bewarre"
 #: src/lib/media/save-image.ts:51
 msgid "Images cannot be saved unless permission is granted to access your photo library."
 msgstr "Ofbyldingen kinne net bewarre wurden, útsein as der tastimming is foar tagong ta dyn fotobiblioteek."
-
-#: src/screens/Settings/DeerSettings.tsx:462
-msgid "Images will be served as PNG instead of JPEG. Images will take longer to load and use more bandwidth."
-msgstr ""
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:51
 msgid "Impersonation"
@@ -4742,7 +4619,7 @@ msgstr "Yn-app, pushberjocht, minsken dy’tsto folgest"
 msgid "Inbox zero!"
 msgstr "Postfek YN nul!"
 
-#: src/screens/Login/LoginForm.tsx:167
+#: src/screens/Login/LoginForm.tsx:164
 msgid "Incorrect username or password"
 msgstr "Unjildige brûkersnamme of wachtwurd"
 
@@ -4762,13 +4639,9 @@ msgstr "Fier nij wachtwurd yn"
 msgid "Input password for account deletion"
 msgstr "Fier wachtwurd yn foar fuortsmiten account"
 
-#: src/screens/Login/LoginForm.tsx:302
+#: src/screens/Login/LoginForm.tsx:296
 msgid "Input the code which has been emailed to you"
 msgstr "Fer de koade yn dy’t nei dy e-maild is"
-
-#: src/screens/Settings/DeerSettings.tsx:158
-msgid "Input the url of the constellations instance to use"
-msgstr ""
 
 #: src/view/com/composer/threadgate/ThreadgateBtn.tsx:135
 msgid "Interaction limited"
@@ -4786,7 +4659,7 @@ msgstr "Yntroduksje aktiviteitsmeldingen"
 msgid "Introducing saved posts AKA bookmarks"
 msgstr ""
 
-#: src/screens/Login/LoginForm.tsx:159
+#: src/screens/Login/LoginForm.tsx:156
 #: src/screens/Settings/components/DisableEmail2FADialog.tsx:70
 msgid "Invalid 2FA confirmation code."
 msgstr "Unjildige 2FA-befêstigingskoade."
@@ -4795,7 +4668,7 @@ msgstr "Unjildige 2FA-befêstigingskoade."
 msgid "Invalid handle. Please try a different one."
 msgstr "Unjildige handle. Probearje in oare."
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:373
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:365
 msgctxt "toast"
 msgid "Invalid interaction settings."
 msgstr ""
@@ -4804,11 +4677,11 @@ msgstr ""
 msgid "Invalid report subject"
 msgstr "Unjildich rapportûnderwerp"
 
-#: src/components/intents/VerifyEmailIntentDialog.tsx:91
+#: src/components/intents/VerifyEmailIntentDialog.tsx:85
 msgid "Invalid Verification Code"
 msgstr "Unjildige ferifikaasjekoade"
 
-#: src/screens/Signup/StepInfo/index.tsx:239
+#: src/screens/Signup/StepInfo/index.tsx:166
 msgid "Invite code"
 msgstr "Utnûgingskoade"
 
@@ -4832,7 +4705,7 @@ msgstr "Utnûgingen, mar dan persoanlik"
 msgid "Is your location not accurate? <0>Tap here to confirm your location.</0>"
 msgstr ""
 
-#: src/screens/Signup/StepInfo/index.tsx:367
+#: src/screens/Signup/StepInfo/index.tsx:292
 msgid "It's correct"
 msgstr "Dat is korrekt"
 
@@ -4844,9 +4717,14 @@ msgstr ""
 msgid "It's just you right now! Add more people to your starter pack by searching above."
 msgstr "Do bist no noch de iennige! Foegje mear persoanen ta oan dyn startpakket troch hjirboppe te sykjen."
 
-#: src/view/com/composer/Composer.tsx:1830
+#: src/view/com/composer/Composer.tsx:1829
 msgid "Job ID: {0}"
 msgstr "Taak-ID: {0}"
+
+#. Link to a page with job openings at Bluesky
+#: src/view/com/auth/SplashScreen.web.tsx:184
+msgid "Jobs"
+msgstr "Fakatueres"
 
 #: src/screens/StarterPack/StarterPackLandingScreen.tsx:210
 #: src/screens/StarterPack/StarterPackLandingScreen.tsx:216
@@ -4889,10 +4767,6 @@ msgstr "Labele troch {0}."
 msgid "Labeled by the author."
 msgstr "Labele troch de auteur."
 
-#: src/screens/Settings/DeerSettings.tsx:618
-msgid "Labelers"
-msgstr ""
-
 #: src/view/com/composer/labels/LabelsBtn.tsx:69
 #: src/view/screens/Profile.tsx:223
 msgid "Labels"
@@ -4914,13 +4788,13 @@ msgstr "Labels op dyn account"
 msgid "Labels on your content"
 msgstr "Labels op dyn ynhâld"
 
-#: src/Navigation.tsx:219
+#: src/Navigation.tsx:218
 msgid "Language Settings"
 msgstr "Taalynstellingen"
 
 #: src/screens/Settings/LanguageSettings.tsx:78
-#: src/screens/Settings/Settings.tsx:235
-#: src/screens/Settings/Settings.tsx:238
+#: src/screens/Settings/Settings.tsx:228
+#: src/screens/Settings/Settings.tsx:231
 msgid "Languages"
 msgstr "Talen"
 
@@ -4937,13 +4811,13 @@ msgid "Last initiated just now"
 msgstr "Lêst start, sakrekt"
 
 #: src/screens/Hashtag.tsx:101
-#: src/screens/Search/SearchResults.tsx:59
+#: src/screens/Search/SearchResults.tsx:61
 #: src/screens/Topic.tsx:77
 msgid "Latest"
 msgstr "Lêste"
 
 #: src/components/verification/VerificationsDialog.tsx:170
-#: src/components/verification/VerifierDialog.tsx:143
+#: src/components/verification/VerifierDialog.tsx:138
 #: src/screens/Moderation/VerificationSettings.tsx:48
 #: src/screens/Profile/Header/EditProfileDialog.tsx:349
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:213
@@ -4959,6 +4833,10 @@ msgstr "Mear ynfo"
 #: src/components/ageAssurance/AgeAssuranceDismissibleFeedBanner.tsx:74
 msgid "Learn more about age assurance"
 msgstr "Mear ynfo oer leeftiidsferifikaasje"
+
+#: src/view/com/auth/SplashScreen.web.tsx:172
+msgid "Learn more about Bluesky"
+msgstr "Mear ynfo oer Bluesky"
 
 #: src/components/dialogs/ServerInput.tsx:223
 msgid "Learn more about self hosting your PDS."
@@ -4983,7 +4861,7 @@ msgid "Learn more about this warning"
 msgstr "Mear ynfo oer dizze warskôging"
 
 #: src/components/verification/VerificationsDialog.tsx:151
-#: src/components/verification/VerifierDialog.tsx:124
+#: src/components/verification/VerifierDialog.tsx:119
 msgctxt "english-only-resource"
 msgid "Learn more about verification on Bluesky"
 msgstr ""
@@ -5025,8 +4903,8 @@ msgstr "Lit se allegearre net selektearre om elke taal te sjen."
 
 #: src/components/dialogs/LinkWarning.tsx:67
 #: src/components/dialogs/LinkWarning.tsx:75
-msgid "Leaving Bitchsky"
-msgstr ""
+msgid "Leaving Bluesky"
+msgstr "Bluesky ferlitte"
 
 #: src/screens/SignupQueued.tsx:155
 msgid "left to go."
@@ -5062,7 +4940,7 @@ msgid "Like"
 msgstr "Mei ’k wol oer"
 
 #. Accessibility label for the like button when the post has not been liked, verb form followed by number of likes and noun form
-#: src/components/PostControls/index.tsx:284
+#: src/components/PostControls/index.tsx:270
 msgid "Like ({0, plural, one {# like} other {# likes}})"
 msgstr "Mei ’k wol oer ({0, plural, one {# mei-’k-wol-oer} other {# mei-’k-wol-oers}})"
 
@@ -5075,7 +4953,7 @@ msgstr "Mei wol oer 10 berjochten"
 msgid "Like 10 posts to train the Discover feed"
 msgstr "Mei wol oer 10 berjochten om de Untdekken-feed te trainen"
 
-#: src/Navigation.tsx:461
+#: src/Navigation.tsx:452
 msgid "Like notifications"
 msgstr "Mei-’k-wol-oer-meldingen"
 
@@ -5083,12 +4961,12 @@ msgstr "Mei-’k-wol-oer-meldingen"
 msgid "Like this feed"
 msgstr "Mei wol oer dizze feed"
 
-#: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:270
+#: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:146
 msgid "Like this labeler"
 msgstr "Mei wol oer dizze labeler"
 
-#: src/Navigation.tsx:297
-#: src/Navigation.tsx:302
+#: src/Navigation.tsx:296
+#: src/Navigation.tsx:301
 msgid "Liked by"
 msgstr "Mei hjir wol oer"
 
@@ -5105,8 +4983,8 @@ msgstr "Mei ’k wol oer troch {0, plural, one {# brûker} other {# brûkers}}"
 
 #: src/components/LabelingServiceCard/index.tsx:96
 #: src/screens/Profile/components/ProfileFeedHeader.tsx:490
-#: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:290
-#: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:304
+#: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:166
+#: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:180
 msgid "Liked by {likeCount, plural, one {# user} other {# users}}"
 msgstr "Mei ’k wol oer troch {likeCount, plural, one {# brûker} other {# brûkers}}"
 
@@ -5123,11 +5001,11 @@ msgstr "Mei-’k-wol-oers"
 msgid "Likes of your reposts"
 msgstr "Mei-’k-wol-oers fan dyn opnij-pleatsingen"
 
-#: src/Navigation.tsx:485
+#: src/Navigation.tsx:476
 msgid "Likes of your reposts notifications"
 msgstr "Meldingen oer mei-’k-wol-oers fan dyn opnij-pleatsingen"
 
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:485
+#: src/screens/PostThread/components/ThreadItemAnchor.tsx:470
 msgid "Likes on this post"
 msgstr "Mei-’k-wol-oers op dit berjocht"
 
@@ -5136,7 +5014,7 @@ msgstr "Mei-’k-wol-oers op dit berjocht"
 msgid "Linear"
 msgstr "Lineêr"
 
-#: src/Navigation.tsx:252
+#: src/Navigation.tsx:251
 msgid "List"
 msgstr "List"
 
@@ -5216,11 +5094,11 @@ msgctxt "toast"
 msgid "List unmuted"
 msgstr "List net-negearre"
 
-#: src/Navigation.tsx:173
+#: src/Navigation.tsx:172
 #: src/view/screens/Lists.tsx:67
 #: src/view/screens/Profile.tsx:224
 #: src/view/screens/Profile.tsx:232
-#: src/view/shell/desktop/LeftNav.tsx:748
+#: src/view/shell/desktop/LeftNav.tsx:746
 #: src/view/shell/Drawer.tsx:545
 msgid "Lists"
 msgstr "Listen"
@@ -5277,7 +5155,7 @@ msgstr ""
 msgid "Loading..."
 msgstr "Lade…"
 
-#: src/Navigation.tsx:322
+#: src/Navigation.tsx:321
 msgid "Log"
 msgstr "Lochboek"
 
@@ -5359,10 +5237,6 @@ msgstr "As lêzen markearje"
 msgid "Marked all as read"
 msgstr "Alles as lêzen markearre"
 
-#: src/screens/Settings/DeerSettings.tsx:382
-msgid "May slow down the client or fail to find all labels. Revoke and grant trust in the meatball menu on a profile. {0} trust the following verifiers:"
-msgstr ""
-
 #: src/components/dialogs/EmailDialog/screens/VerificationReminder.tsx:90
 #: src/components/dialogs/EmailDialog/screens/VerificationReminder.tsx:97
 msgid "Maybe later"
@@ -5376,7 +5250,7 @@ msgstr "Media"
 msgid "Media that may be disturbing or inappropriate for some audiences."
 msgstr "Media dy’t foar bepaalde doelgroepen oanstjitjouwend of ûngepast wêze kinne."
 
-#: src/Navigation.tsx:445
+#: src/Navigation.tsx:436
 msgid "Mention notifications"
 msgstr "Meldingen fan fermeldingen"
 
@@ -5429,19 +5303,20 @@ msgstr "Berjocht is te lang"
 msgid "Message options"
 msgstr "Berjochtopsjes"
 
-#: src/Navigation.tsx:778
+#: src/Navigation.tsx:769
 msgid "Messages"
 msgstr "Berjochten"
 
-#: src/screens/Settings/DeerSettings.tsx:516
-msgid "Metrics"
-msgstr ""
+#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:101
+msgctxt "Name of app icon variant"
+msgid "Midnight"
+msgstr "Middernacht"
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:177
 msgid "Minor harassment or bullying"
 msgstr ""
 
-#: src/Navigation.tsx:509
+#: src/Navigation.tsx:500
 msgid "Miscellaneous notifications"
 msgstr "Ferskate meldingen"
 
@@ -5449,10 +5324,10 @@ msgstr "Ferskate meldingen"
 msgid "Misleading"
 msgstr ""
 
-#: src/Navigation.tsx:178
+#: src/Navigation.tsx:177
 #: src/screens/Moderation/index.tsx:100
-#: src/screens/Settings/Settings.tsx:189
-#: src/screens/Settings/Settings.tsx:192
+#: src/screens/Settings/Settings.tsx:188
+#: src/screens/Settings/Settings.tsx:191
 msgid "Moderation"
 msgstr "Moderaasje"
 
@@ -5488,7 +5363,7 @@ msgstr "Moderaasjelist bywurke"
 msgid "Moderation lists"
 msgstr "Moderaasjelisten"
 
-#: src/Navigation.tsx:183
+#: src/Navigation.tsx:182
 #: src/view/screens/ModerationModlists.tsx:67
 msgid "Moderation Lists"
 msgstr "Moderaasjelisten"
@@ -5497,7 +5372,7 @@ msgstr "Moderaasjelisten"
 msgid "moderation settings"
 msgstr "moderaasjeynstellingen"
 
-#: src/Navigation.tsx:312
+#: src/Navigation.tsx:311
 msgid "Moderation states"
 msgstr "Moderaasjetastannen"
 
@@ -5521,8 +5396,8 @@ msgid "More languages..."
 msgstr ""
 
 #: src/screens/ProfileList/components/MoreOptionsMenu.tsx:149
-#: src/view/com/profile/ProfileMenu.tsx:241
-#: src/view/com/profile/ProfileMenu.tsx:247
+#: src/view/com/profile/ProfileMenu.tsx:228
+#: src/view/com/profile/ProfileMenu.tsx:234
 msgid "More options"
 msgstr "Mear opsjes"
 
@@ -5553,10 +5428,10 @@ msgstr "Negearje"
 msgid "Mute {tag}"
 msgstr "{tag} negearje"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:758
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:764
-#: src/view/com/profile/ProfileMenu.tsx:441
-#: src/view/com/profile/ProfileMenu.tsx:448
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:660
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:666
+#: src/view/com/profile/ProfileMenu.tsx:380
+#: src/view/com/profile/ProfileMenu.tsx:387
 msgid "Mute account"
 msgstr "Account negearje"
 
@@ -5606,13 +5481,13 @@ msgstr "Dit wurd allinnich yn tags negearje"
 msgid "Mute this word until you unmute it"
 msgstr "Dit wurd negearje oantsto it negearjen annulearrest"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:642
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:646
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:544
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:548
 msgid "Mute thread"
 msgstr "Petear negearje"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:656
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:658
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:558
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:560
 msgid "Mute words & tags"
 msgstr "Wurden en tags negearje"
 
@@ -5620,7 +5495,7 @@ msgstr "Wurden en tags negearje"
 msgid "Muted accounts"
 msgstr "Negearre accounts"
 
-#: src/Navigation.tsx:188
+#: src/Navigation.tsx:187
 #: src/view/screens/ModerationMutedAccounts.tsx:116
 msgid "Muted Accounts"
 msgstr "Negearre accounts"
@@ -5669,7 +5544,7 @@ msgid "Navigate to starter pack"
 msgstr "Navigearje nei startpakket"
 
 #: src/screens/Login/ForgotPasswordForm.tsx:166
-#: src/screens/Login/LoginForm.tsx:357
+#: src/screens/Login/LoginForm.tsx:347
 msgid "Navigates to the next screen"
 msgstr "Navigearje nei folgjende skerm"
 
@@ -5724,7 +5599,7 @@ msgstr "Nij e-mailadres"
 msgid "New Feature"
 msgstr "Nije funksje"
 
-#: src/Navigation.tsx:477
+#: src/Navigation.tsx:468
 msgid "New follower notifications"
 msgstr "Meldingen oer nije folgers"
 
@@ -5769,7 +5644,7 @@ msgctxt "action"
 msgid "New post"
 msgstr "Nij berjocht"
 
-#: src/view/shell/desktop/LeftNav.tsx:583
+#: src/view/shell/desktop/LeftNav.tsx:581
 msgctxt "action"
 msgid "New Post"
 msgstr "Nij berjocht"
@@ -5805,8 +5680,8 @@ msgstr "Nijs"
 
 #: src/screens/Login/ForgotPasswordForm.tsx:137
 #: src/screens/Login/ForgotPasswordForm.tsx:143
-#: src/screens/Login/LoginForm.tsx:356
-#: src/screens/Login/LoginForm.tsx:363
+#: src/screens/Login/LoginForm.tsx:346
+#: src/screens/Login/LoginForm.tsx:353
 #: src/screens/Login/SetNewPasswordForm.tsx:182
 #: src/screens/Login/SetNewPasswordForm.tsx:188
 #: src/screens/Onboarding/StepFinished/index.tsx:341
@@ -5859,8 +5734,8 @@ msgstr "Gjin ôfbylding"
 msgid "No likes yet"
 msgstr "Noch gjin mei-’k-wol-oers"
 
-#: src/components/ProfileCard.tsx:514
-#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:119
+#: src/components/ProfileCard.tsx:525
+#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:269
 #: src/view/com/notifications/NotificationFeedItem.tsx:787
 msgid "No longer following {0}"
 msgstr "Do folgest {0} net mear"
@@ -5873,7 +5748,7 @@ msgstr "Noch gjin berjochten"
 msgid "No more doomscrolling junk-filled algorithms. Find feeds that work for you, not against you."
 msgstr ""
 
-#: src/view/com/notifications/NotificationFeed.tsx:124
+#: src/view/com/notifications/NotificationFeed.tsx:122
 msgid "No notifications yet!"
 msgstr "Noch gjin meldingen!"
 
@@ -5927,11 +5802,9 @@ msgstr "Gjin resultaten fûn"
 msgid "No results found for \"{query}\""
 msgstr "Gjin resultaten fûn foar ‘{query}’"
 
-#: src/screens/Search/SearchResults.tsx:315
-#: src/screens/Search/SearchResults.tsx:351
-#: src/screens/Search/SearchResults.tsx:396
-msgid "No results found for {query}"
-msgstr "Gjin resultaten fûn foar {query}"
+#: src/screens/Search/SearchResults.tsx:167
+msgid "No results found for \"<0>{query}</0>\"."
+msgstr ""
 
 #: src/screens/Search/Explore.tsx:797
 msgid "No results."
@@ -5983,7 +5856,7 @@ msgstr "Gjin"
 msgid "Not followed by anyone you're following"
 msgstr "Net folge troch ien dy’tsto folgest"
 
-#: src/Navigation.tsx:168
+#: src/Navigation.tsx:167
 #: src/view/screens/Profile.tsx:125
 msgid "Not Found"
 msgstr "Net fûn"
@@ -5992,7 +5865,7 @@ msgstr "Net fûn"
 msgid "Not in Mississippi?"
 msgstr ""
 
-#: src/view/com/profile/ProfileMenu.tsx:563
+#: src/view/com/profile/ProfileMenu.tsx:502
 msgid "Note about sharing"
 msgstr "Opmerking oer diele"
 
@@ -6000,7 +5873,7 @@ msgstr "Opmerking oer diele"
 msgid "Note: Bluesky is an open and public network. This setting only limits the visibility of your content on the Bluesky app and website, and other apps may not respect this setting. Your content may still be shown to logged-out users by other apps and websites."
 msgstr "Opmerking: Bluesky is in iepen en iepenbier netwurk. Dizze ynstelling beheint allinnich de sichtberheid fan dyn ynhâld op de Bluesky-app en -website. Oare apps respektearje dizze ynstelling mooglik net. Dyn ynhâld kin noch hieltyd toand wurde oan ôfmelde brûkers troch oare apps en websites."
 
-#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:151
+#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:133
 msgid "Note: This post is only visible to logged-in users."
 msgstr "Opmerking: dit berjocht is allinnich sichtber foar oanmelde brûkers."
 
@@ -6012,8 +5885,8 @@ msgstr "Neat hjir"
 msgid "Nothing saved yet"
 msgstr ""
 
-#: src/Navigation.tsx:431
-#: src/Navigation.tsx:578
+#: src/Navigation.tsx:422
+#: src/Navigation.tsx:569
 #: src/view/screens/Notifications.tsx:136
 msgid "Notification settings"
 msgstr "Meldingsynstellingen"
@@ -6026,8 +5899,8 @@ msgstr "Meldingslûden"
 msgid "Notification Sounds"
 msgstr "Meldingslûden"
 
-#: src/Navigation.tsx:573
-#: src/Navigation.tsx:773
+#: src/Navigation.tsx:564
+#: src/Navigation.tsx:764
 #: src/screens/Notifications/ActivityList.tsx:29
 #: src/screens/Settings/NotificationSettings/ActivityNotificationSettings.tsx:90
 #: src/screens/Settings/NotificationSettings/index.tsx:92
@@ -6040,11 +5913,11 @@ msgstr "Meldingslûden"
 #: src/screens/Settings/NotificationSettings/ReplyNotificationSettings.tsx:30
 #: src/screens/Settings/NotificationSettings/RepostNotificationSettings.tsx:30
 #: src/screens/Settings/NotificationSettings/RepostsOnRepostsNotificationSettings.tsx:30
-#: src/screens/Settings/Settings.tsx:197
-#: src/screens/Settings/Settings.tsx:200
+#: src/screens/Settings/Settings.tsx:196
+#: src/screens/Settings/Settings.tsx:199
 #: src/view/screens/Notifications.tsx:130
 #: src/view/shell/bottom-bar/BottomBar.tsx:252
-#: src/view/shell/desktop/LeftNav.tsx:711
+#: src/view/shell/desktop/LeftNav.tsx:709
 #: src/view/shell/Drawer.tsx:493
 msgid "Notifications"
 msgstr "Meldingen"
@@ -6078,7 +5951,7 @@ msgid "Oh no!"
 msgstr "Och heden!"
 
 #. Confirm button text.
-#: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:347
+#: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:222
 #: src/screens/Search/modules/ExploreInterestsCard.tsx:48
 #: src/screens/Settings/AppIconSettings/index.tsx:48
 #: src/screens/Settings/AppIconSettings/index.tsx:234
@@ -6086,7 +5959,7 @@ msgid "OK"
 msgstr "OK"
 
 #: src/screens/Login/PasswordUpdatedForm.tsx:37
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:710
+#: src/screens/PostThread/components/ThreadItemAnchor.tsx:693
 msgid "Okay"
 msgstr "Oké"
 
@@ -6097,16 +5970,11 @@ msgstr "Oké"
 msgid "Oldest replies first"
 msgstr "Aldste antwurden earst"
 
-#: src/screens/Settings/DeerSettings.tsx:413
-#: src/screens/Settings/DeerSettings.tsx:419
-msgid "On non-bsky.social handles, show a link to that URL"
-msgstr ""
-
 #: src/components/StarterPack/QrCode.tsx:87
 msgid "on<0><1/><2><3/></2></0>"
 msgstr "op<0><1/><2><3/></2></0>"
 
-#: src/screens/Settings/Settings.tsx:395
+#: src/screens/Settings/Settings.tsx:388
 msgid "Onboarding reset"
 msgstr "Yntroduksje opnij toane"
 
@@ -6169,10 +6037,6 @@ msgstr "Wûpsty!"
 msgid "Open"
 msgstr "Iepenje"
 
-#: src/screens/Signup/index.tsx:234
-msgid "Open a Github Issue"
-msgstr ""
-
 #: src/screens/Onboarding/StepProfile/index.tsx:289
 msgid "Open avatar creator"
 msgstr "Avatar-makker iepenje"
@@ -6187,7 +6051,7 @@ msgid "Open drawer menu"
 msgstr "Menu iepenje"
 
 #: src/screens/Messages/components/MessageInput.web.tsx:181
-#: src/view/com/composer/Composer.tsx:1477
+#: src/view/com/composer/Composer.tsx:1476
 msgid "Open emoji picker"
 msgstr "Emoji-kiezer iepenje"
 
@@ -6212,7 +6076,7 @@ msgstr "Keppeling nei {niceUrl} iepenje"
 msgid "Open message options"
 msgstr "Berjochtopsjes iepenje"
 
-#: src/screens/Settings/Settings.tsx:460
+#: src/screens/Settings/Settings.tsx:453
 msgid "Open moderation debug page"
 msgstr "Moderaasje-debugside iepenje"
 
@@ -6241,12 +6105,12 @@ msgstr "Dielmenu iepenje"
 msgid "Open starter pack menu"
 msgstr "Startpakketmenu iepenje"
 
-#: src/screens/Settings/Settings.tsx:453
-#: src/screens/Settings/Settings.tsx:467
+#: src/screens/Settings/Settings.tsx:446
+#: src/screens/Settings/Settings.tsx:460
 msgid "Open storybook page"
 msgstr "Ferhaleboekside iepenje"
 
-#: src/screens/Settings/Settings.tsx:446
+#: src/screens/Settings/Settings.tsx:439
 msgid "Open system log"
 msgstr "Systeemlochboek iepenje"
 
@@ -6287,7 +6151,7 @@ msgstr "Iepenet composer"
 msgid "Opens device gallery to select up to {MAX_IMAGES, plural, other {# images}}, or a single video or GIF."
 msgstr ""
 
-#: src/view/com/composer/Composer.tsx:1478
+#: src/view/com/composer/Composer.tsx:1477
 msgid "Opens emoji picker"
 msgstr "Iepenet de emoji-kiezer"
 
@@ -6295,10 +6159,6 @@ msgstr "Iepenet de emoji-kiezer"
 #: src/view/com/auth/SplashScreen.web.tsx:115
 msgid "Opens flow to create a new Bluesky account"
 msgstr "Iepenet proses om in nij Bluesky-account oan te meitsjen"
-
-#: src/screens/Signup/StepInfo/index.tsx:196
-msgid "Opens flow to sign in to your existing ATmosphere account"
-msgstr ""
 
 #: src/view/com/auth/SplashScreen.tsx:83
 #: src/view/com/auth/SplashScreen.web.tsx:129
@@ -6309,7 +6169,7 @@ msgstr "Iepenet it proses om dy oan te melden by dyn besteande Bluesky-account"
 msgid "Opens GIF select dialog"
 msgstr "Iepenet dialoochfinster foar GIF-seleksje"
 
-#: src/screens/Settings/Settings.tsx:244
+#: src/screens/Settings/Settings.tsx:237
 msgid "Opens helpdesk in browser"
 msgstr "Iepenet de helpdesk yn dyn browser"
 
@@ -6317,11 +6177,11 @@ msgstr "Iepenet de helpdesk yn dyn browser"
 msgid "Opens link {0}"
 msgstr "Iepenet keppeling {0}"
 
-#: src/view/com/util/UserAvatar.tsx:595
+#: src/view/com/util/UserAvatar.tsx:581
 msgid "Opens live status dialog"
 msgstr "Iepenet live-statusdialooch"
 
-#: src/screens/Login/LoginForm.tsx:262
+#: src/screens/Login/LoginForm.tsx:259
 msgid "Opens password reset form"
 msgstr "Iepenet formulier om it wachtwud opnij yn te stellen"
 
@@ -6330,7 +6190,7 @@ msgid "Opens post language settings"
 msgstr ""
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:1021
-#: src/view/com/util/UserAvatar.tsx:613
+#: src/view/com/util/UserAvatar.tsx:599
 msgid "Opens this profile"
 msgstr "Iepenet dit profyl"
 
@@ -6422,10 +6282,10 @@ msgstr "Side net fûn"
 msgid "Page Not Found"
 msgstr "Side net fûn"
 
-#: src/screens/Login/LoginForm.tsx:232
+#: src/screens/Login/LoginForm.tsx:229
 #: src/screens/Settings/AccountSettings.tsx:121
 #: src/screens/Settings/AccountSettings.tsx:125
-#: src/screens/Signup/StepInfo/index.tsx:304
+#: src/screens/Signup/StepInfo/index.tsx:231
 #: src/view/com/modals/DeleteAccount.tsx:239
 #: src/view/com/modals/DeleteAccount.tsx:246
 msgid "Password"
@@ -6458,16 +6318,16 @@ msgid "Pause video"
 msgstr "Fideo pauzearje"
 
 #: src/screens/ProfileList/index.tsx:166
-#: src/screens/Search/SearchResults.tsx:69
+#: src/screens/Search/SearchResults.tsx:71
 #: src/screens/StarterPack/StarterPackScreen.tsx:189
 msgid "People"
 msgstr "Persoanen"
 
-#: src/Navigation.tsx:239
+#: src/Navigation.tsx:238
 msgid "People followed by @{0}"
 msgstr "Persoanen folge troch @{0}"
 
-#: src/Navigation.tsx:232
+#: src/Navigation.tsx:231
 msgid "People following @{0}"
 msgstr "Persoanen dy’t @{0} folgje"
 
@@ -6524,8 +6384,8 @@ msgstr "Fêstsette op startside"
 msgid "Pin to Home"
 msgstr "Fêstsette op startside"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:520
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:527
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:452
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:459
 msgid "Pin to your profile"
 msgstr "Fêstmeitsje oan dyn profyl"
 
@@ -6589,16 +6449,12 @@ msgstr "Foegje alle belutsene ynhâldswarkôgingen foar de media dy’tsto pleat
 msgid "Please check your email inbox for further instructions. It may take a minute or two to arrive."
 msgstr "Kontrolearje dyn Postfek YN foar fierdere ynstruksjes. It kin efkes duorje eardat dit berjocht binnenkomt."
 
-#: src/screens/Signup/StepInfo/index.tsx:96
-msgid "Please choose a 3rd party service host, or sign up on bsky.app."
-msgstr ""
-
 #: src/screens/Signup/state.ts:289
 msgid "Please choose your handle."
 msgstr "Dyn handle kieze."
 
 #: src/screens/Signup/state.ts:281
-#: src/screens/Signup/StepInfo/index.tsx:140
+#: src/screens/Signup/StepInfo/index.tsx:122
 msgid "Please choose your password."
 msgstr "Kies dyn wachtwurd."
 
@@ -6611,7 +6467,7 @@ msgid "Please complete the verification captcha."
 msgstr "Fier de ferifikaasje-captcha yn."
 
 #: src/components/ageAssurance/AgeAssuranceInitDialog.tsx:101
-#: src/screens/Signup/StepInfo/index.tsx:129
+#: src/screens/Signup/StepInfo/index.tsx:111
 msgid "Please double-check that you have entered your email address correctly."
 msgstr "Kontrolearje nochris oft jo jo e-mailadres korrekt ynfierd hawwe."
 
@@ -6659,11 +6515,11 @@ msgid "Please enter the security code we sent to your previous email address."
 msgstr "Fier de befeiligingskoade dy’t wy nei dyn foarige e-mailadres ferstjoerd hawwe yn."
 
 #: src/screens/Signup/state.ts:265
-#: src/screens/Signup/StepInfo/index.tsx:111
+#: src/screens/Signup/StepInfo/index.tsx:93
 msgid "Please enter your email."
 msgstr "Fier dyn e-mailadres yn."
 
-#: src/screens/Signup/StepInfo/index.tsx:104
+#: src/screens/Signup/StepInfo/index.tsx:86
 msgid "Please enter your invite code."
 msgstr "Fier dyn útnûgingskoade yn."
 
@@ -6671,7 +6527,7 @@ msgstr "Fier dyn útnûgingskoade yn."
 msgid "Please enter your new email address."
 msgstr "Fier dyn nije e-mailadres yn."
 
-#: src/screens/Login/LoginForm.tsx:102
+#: src/screens/Login/LoginForm.tsx:99
 msgid "Please enter your password"
 msgstr "Fier dyn wachtwurd yn"
 
@@ -6679,7 +6535,7 @@ msgstr "Fier dyn wachtwurd yn"
 msgid "Please enter your password as well:"
 msgstr "Fier dyn wachtwurd ek yn:"
 
-#: src/screens/Login/LoginForm.tsx:97
+#: src/screens/Login/LoginForm.tsx:94
 msgid "Please enter your username"
 msgstr "Fier dyn brûkersnamme yn"
 
@@ -6735,17 +6591,17 @@ msgstr "Polityk"
 msgid "Porn"
 msgstr "Porno"
 
-#: src/screens/PostThread/index.tsx:504
+#: src/screens/PostThread/index.tsx:528
 msgctxt "description"
 msgid "Post"
 msgstr "Berjocht"
 
-#: src/view/com/composer/Composer.tsx:1120
+#: src/view/com/composer/Composer.tsx:1119
 msgctxt "action"
 msgid "Post"
 msgstr "Pleatse"
 
-#: src/view/com/composer/Composer.tsx:1118
+#: src/view/com/composer/Composer.tsx:1117
 msgctxt "action"
 msgid "Post All"
 msgstr "Alles pleatse"
@@ -6754,14 +6610,14 @@ msgstr "Alles pleatse"
 msgid "Post blocked"
 msgstr "Berjocht blokkearre"
 
-#: src/Navigation.tsx:265
-#: src/Navigation.tsx:272
-#: src/Navigation.tsx:279
-#: src/Navigation.tsx:286
+#: src/Navigation.tsx:264
+#: src/Navigation.tsx:271
+#: src/Navigation.tsx:278
+#: src/Navigation.tsx:285
 msgid "Post by @{0}"
 msgstr "Berjocht fan @{0}"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:192
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:184
 msgctxt "toast"
 msgid "Post deleted"
 msgstr "Berjocht fuortsmiten"
@@ -6770,7 +6626,7 @@ msgstr "Berjocht fuortsmiten"
 msgid "Post failed to upload. Please check your Internet connection and try again."
 msgstr "Berjocht kin net opladen wurde. Kontrolearje dyn ynternetferbining en probearje it opnij."
 
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:138
+#: src/screens/PostThread/components/ThreadItemAnchor.tsx:134
 #: src/screens/PostThread/components/ThreadItemPost.tsx:112
 #: src/screens/PostThread/components/ThreadItemTreePost.tsx:108
 #: src/screens/VideoFeed/index.tsx:535
@@ -6791,7 +6647,7 @@ msgstr "Berjocht troch dy ferstoppe"
 msgid "Post interaction settings"
 msgstr "Ynstellingen foar berjochtynteraksje"
 
-#: src/Navigation.tsx:199
+#: src/Navigation.tsx:198
 #: src/screens/ModerationInteractionSettings/index.tsx:34
 msgid "Post Interaction Settings"
 msgstr "Ynstellingen foar berjochtynteraksje"
@@ -6877,13 +6733,13 @@ msgstr "Primêre taal"
 msgid "Privacy"
 msgstr "Privacy"
 
-#: src/screens/Settings/Settings.tsx:183
-#: src/screens/Settings/Settings.tsx:186
+#: src/screens/Settings/Settings.tsx:182
+#: src/screens/Settings/Settings.tsx:185
 msgid "Privacy and security"
 msgstr "Privacy en befeiliging"
 
-#: src/Navigation.tsx:416
-#: src/Navigation.tsx:424
+#: src/Navigation.tsx:407
+#: src/Navigation.tsx:415
 #: src/screens/Settings/ActivityPrivacySettings.tsx:40
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:44
 msgid "Privacy and Security"
@@ -6896,9 +6752,9 @@ msgstr "Privacy- en befeiligingsystellingen"
 
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:35
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:102
-#: src/Navigation.tsx:332
-#: src/screens/Settings/AboutSettings.tsx:90
-#: src/screens/Settings/AboutSettings.tsx:93
+#: src/Navigation.tsx:331
+#: src/screens/Settings/AboutSettings.tsx:92
+#: src/screens/Settings/AboutSettings.tsx:95
 #: src/view/screens/PrivacyPolicy.tsx:34
 #: src/view/shell/Drawer.tsx:704
 #: src/view/shell/Drawer.tsx:705
@@ -6909,7 +6765,7 @@ msgstr "Privacybelied"
 msgid "Privacy violation of a minor"
 msgstr ""
 
-#: src/view/com/composer/Composer.tsx:1893
+#: src/view/com/composer/Composer.tsx:1892
 msgid "Processing video..."
 msgstr "Fideo ferwurkje…"
 
@@ -6924,7 +6780,7 @@ msgid "profile"
 msgstr "profyl"
 
 #: src/view/shell/bottom-bar/BottomBar.tsx:316
-#: src/view/shell/desktop/LeftNav.tsx:789
+#: src/view/shell/desktop/LeftNav.tsx:787
 #: src/view/shell/Drawer.tsx:77
 #: src/view/shell/Drawer.tsx:596
 msgid "Profile"
@@ -6956,22 +6812,22 @@ msgid "Public, sharable lists which can be used to drive feeds."
 msgstr "Iepenbiere, dielbere listen dy’t brûkt wurde kinne om reklame te meitsjen."
 
 #. Accessibility label for button to publish a single post
-#: src/view/com/composer/Composer.tsx:1100
+#: src/view/com/composer/Composer.tsx:1099
 msgid "Publish post"
 msgstr "Berjocht pleatse"
 
 #. Accessibility label for button to publish multiple posts in a thread
-#: src/view/com/composer/Composer.tsx:1093
+#: src/view/com/composer/Composer.tsx:1092
 msgid "Publish posts"
 msgstr "Berjochten pleatse"
 
 #. Accessibility label for button to publish multiple replies in a thread
-#: src/view/com/composer/Composer.tsx:1078
+#: src/view/com/composer/Composer.tsx:1077
 msgid "Publish replies"
 msgstr "Antwurden publisearje"
 
 #. Accessibility label for button to publish a single reply
-#: src/view/com/composer/Composer.tsx:1085
+#: src/view/com/composer/Composer.tsx:1084
 msgid "Publish reply"
 msgstr "Antwurd publisearje"
 
@@ -7003,7 +6859,7 @@ msgstr "QR-koade is download!"
 msgid "QR code saved to your camera roll!"
 msgstr "QR-koade bewarre yn dyn fotobiblioteek!"
 
-#: src/Navigation.tsx:453
+#: src/Navigation.tsx:444
 msgid "Quote notifications"
 msgstr "Sitaatmeldingen"
 
@@ -7014,11 +6870,11 @@ msgstr "Sitaatmeldingen"
 msgid "Quote post"
 msgstr "Berjocht sitearje"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:322
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:314
 msgid "Quote post was re-attached"
 msgstr "Sitaatberjocht is opnij tafoege"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:321
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:313
 msgid "Quote post was successfully detached"
 msgstr "Sitaatberjocht is mei sukses losmakke"
 
@@ -7036,7 +6892,7 @@ msgstr "Sitaatberjochten útskeakele"
 msgid "Quotes"
 msgstr "Sitaten"
 
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:467
+#: src/screens/PostThread/components/ThreadItemAnchor.tsx:454
 msgid "Quotes of this post"
 msgstr "Sitaten fan dit berjocht"
 
@@ -7044,8 +6900,8 @@ msgstr "Sitaten fan dit berjocht"
 msgid "Rate limit exceeded – you've tried to change your handle too many times in a short period. Please wait a minute before trying again."
 msgstr "Oer de snelheidslimyt – do hast yn koarte tiid te faak probearre dyn handle te wizigjen. Wachtsje in minút eardatsto it opnij probearrest."
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:718
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:728
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:620
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:630
 msgid "Re-attach quote"
 msgstr "Sitaat opnij tafoegje"
 
@@ -7059,6 +6915,11 @@ msgstr "Dyn account opnij aktivearje"
 
 #: src/screens/PostThread/components/ThreadItemReadMore.tsx:92
 msgid "Read {0, plural, one {# more reply} other {# more replies}}"
+msgstr ""
+
+#: src/screens/Search/SearchResults.tsx:179
+msgctxt "english-only-resource"
+msgid "read about how to use search filters"
 msgstr ""
 
 #: src/components/dialogs/nuxs/InitialVerificationAnnouncement.tsx:158
@@ -7083,6 +6944,10 @@ msgstr "Mear reaksjes lêze"
 msgid "Read our blog post"
 msgstr "Lês ús blogberjocht"
 
+#: src/view/com/auth/SplashScreen.web.tsx:177
+msgid "Read the Bluesky blog"
+msgstr "Lês it Bluesky-blog"
+
 #: src/screens/Signup/StepInfo/Policies.tsx:56
 #: src/screens/Signup/StepInfo/Policies.tsx:82
 msgid "Read the Bluesky Privacy Policy"
@@ -7093,16 +6958,12 @@ msgstr "Lês it Bluesky-privacybelied"
 msgid "Read the Bluesky Terms of Service"
 msgstr "Lês de Bluesky-tsjinstbetingsten"
 
-#: src/view/com/auth/SplashScreen.web.tsx:172
-msgid "Read the patches and contribute"
-msgstr ""
-
 #: src/components/WelcomeModal.tsx:146
-msgid "Real creatures."
+msgid "Real conversations."
 msgstr ""
 
 #: src/components/WelcomeModal.tsx:144
-msgid "Real talk."
+msgid "Real people."
 msgstr ""
 
 #: src/screens/Takendown.tsx:171
@@ -7134,15 +6995,6 @@ msgstr "Oanrekommandearre"
 msgid "Reconnect"
 msgstr "Opnij ferbine"
 
-#: src/screens/Settings/DeerSettings.tsx:323
-#: src/screens/Settings/DeerSettings.tsx:328
-msgid "Redirect through go.bsky.app"
-msgstr ""
-
-#: src/screens/Settings/DeerSettings.tsx:319
-msgid "Redirects"
-msgstr ""
-
 #. Reject a chat request, this opens a menu with options
 #: src/screens/Messages/components/RequestButtons.tsx:124
 msgid "Reject"
@@ -7165,7 +7017,7 @@ msgstr "Petearen opnij lade"
 #: src/components/StarterPack/Wizard/WizardListCard.tsx:105
 #: src/components/StarterPack/Wizard/WizardListCard.tsx:112
 #: src/screens/Bookmarks/index.tsx:255
-#: src/screens/Settings/Settings.tsx:671
+#: src/screens/Settings/Settings.tsx:664
 #: src/view/com/modals/UserAddRemoveLists.tsx:235
 #: src/view/com/posts/PostFeedErrorMessage.tsx:217
 msgid "Remove"
@@ -7179,8 +7031,8 @@ msgstr "{displayName} út startpakket fuortsmite"
 msgid "Remove {historyItem}"
 msgstr "{historyItem} fuortsmite"
 
-#: src/screens/Settings/Settings.tsx:650
-#: src/screens/Settings/Settings.tsx:653
+#: src/screens/Settings/Settings.tsx:643
+#: src/screens/Settings/Settings.tsx:646
 msgid "Remove account"
 msgstr "Account fuortsmite"
 
@@ -7188,13 +7040,13 @@ msgstr "Account fuortsmite"
 msgid "Remove attachment"
 msgstr "Bylage fuortsmite"
 
-#: src/view/com/util/UserAvatar.tsx:512
-#: src/view/com/util/UserAvatar.tsx:515
+#: src/view/com/util/UserAvatar.tsx:498
+#: src/view/com/util/UserAvatar.tsx:501
 msgid "Remove Avatar"
 msgstr "Avatar fuortsmite"
 
-#: src/view/com/util/UserBanner.tsx:196
-#: src/view/com/util/UserBanner.tsx:199
+#: src/view/com/util/UserBanner.tsx:186
+#: src/view/com/util/UserBanner.tsx:189
 msgid "Remove Banner"
 msgstr "Banner fuortsmite"
 
@@ -7220,7 +7072,7 @@ msgstr "Feed fuortsmite?"
 msgid "Remove from my feeds"
 msgstr "Ut myn feeds fuortsmite"
 
-#: src/screens/Settings/Settings.tsx:663
+#: src/screens/Settings/Settings.tsx:656
 msgid "Remove from quick access?"
 msgstr "Ut flugge tagong fuortsmite?"
 
@@ -7268,19 +7120,14 @@ msgstr "Undertitelbestân fuortsmite"
 msgid "Remove this feed from your saved feeds"
 msgstr "Dizze feed út dyn bewarre feeds fuortsmite"
 
-#: src/view/com/profile/ProfileMenu.tsx:370
-#: src/view/com/profile/ProfileMenu.tsx:375
-msgid "Remove trust"
-msgstr ""
-
 #: src/components/dialogs/lists/ListAddRemoveUsersDialog.tsx:157
 msgid "Remove user from list"
 msgstr "Brûker út list fuortsmite"
 
 #: src/components/verification/VerificationRemovePrompt.tsx:46
 #: src/components/verification/VerificationsDialog.tsx:252
-#: src/view/com/profile/ProfileMenu.tsx:414
-#: src/view/com/profile/ProfileMenu.tsx:417
+#: src/view/com/profile/ProfileMenu.tsx:353
+#: src/view/com/profile/ProfileMenu.tsx:356
 msgid "Remove verification"
 msgstr "Ferifikaasje fuortsmite"
 
@@ -7288,12 +7135,11 @@ msgstr "Ferifikaasje fuortsmite"
 msgid "Remove your verification for this account?"
 msgstr "Dyn ferifikaasje foar dizze account fuortsmite?"
 
-#: src/components/Post/Embed/index.tsx:225
-#: src/components/Post/Embed/index.tsx:299
+#: src/components/Post/Embed/index.tsx:214
 msgid "Removed by author"
 msgstr "Troch auteur fuortsmiten"
 
-#: src/components/Post/Embed/index.tsx:297
+#: src/components/Post/Embed/index.tsx:212
 msgid "Removed by you"
 msgstr "Troch dy fuortsmiten"
 
@@ -7368,13 +7214,13 @@ msgstr "Antwurden útskeakele"
 msgid "Replies to this post are disabled."
 msgstr "Antwurden op dit berjocht binne útskeakele."
 
-#: src/view/com/composer/Composer.tsx:1116
+#: src/view/com/composer/Composer.tsx:1115
 msgctxt "action"
 msgid "Reply"
 msgstr "Reagearje"
 
 #. Accessibility label for the reply button, verb form followed by number of replies and noun form
-#: src/components/PostControls/index.tsx:232
+#: src/components/PostControls/index.tsx:224
 msgid "Reply ({0, plural, one {# reply} other {# replies}})"
 msgstr "Beäntwurdzje ({0, plural, one {# antwurd} other {# antwurden}})"
 
@@ -7388,7 +7234,7 @@ msgstr "Reaksje ferstoppe troch auteur fan petear"
 msgid "Reply Hidden by You"
 msgstr "Reaksje ferstoppe troch dy"
 
-#: src/Navigation.tsx:437
+#: src/Navigation.tsx:428
 msgid "Reply notifications"
 msgstr "Meldingen fan reaksjes"
 
@@ -7400,12 +7246,12 @@ msgstr "Reaksjeynstellingen wurde keazen troch de auteur fan it petear"
 msgid "Reply sorting"
 msgstr "Reaksjsortearring"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:359
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:351
 msgctxt "toast"
 msgid "Reply visibility updated"
 msgstr "Sichtberheid fan reaksje bywurke"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:358
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:350
 msgid "Reply was successfully hidden"
 msgstr "Reaksje is mei sukses ferstoppe"
 
@@ -7415,8 +7261,8 @@ msgstr "Reaksje is mei sukses ferstoppe"
 msgid "Report"
 msgstr "Melde"
 
-#: src/view/com/profile/ProfileMenu.tsx:481
-#: src/view/com/profile/ProfileMenu.tsx:484
+#: src/view/com/profile/ProfileMenu.tsx:420
+#: src/view/com/profile/ProfileMenu.tsx:423
 msgid "Report account"
 msgstr "Account melde"
 
@@ -7447,8 +7293,8 @@ msgstr "List melde"
 msgid "Report message"
 msgstr "Priveeberjocht melde"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:784
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:786
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:686
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:688
 msgid "Report post"
 msgstr "Berjocht melde"
 
@@ -7503,7 +7349,7 @@ msgstr "Opnij pleatse"
 msgid "Repost ({0, plural, one {# repost} other {# reposts}})"
 msgstr "Opnij pleatse ({0, plural, one {# werpleatsing} other {# werpleatsingen}})"
 
-#: src/Navigation.tsx:469
+#: src/Navigation.tsx:460
 msgid "Repost notifications"
 msgstr "Meldingen fan opnij-pleatsingen"
 
@@ -7537,7 +7383,7 @@ msgstr "Opnij pleatst troch dy"
 msgid "Reposts"
 msgstr "Opnij-pleatsingen"
 
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:448
+#: src/screens/PostThread/components/ThreadItemAnchor.tsx:436
 msgid "Reposts of this post"
 msgstr "Opnij-pleatsingen fan dit berjocht"
 
@@ -7547,7 +7393,7 @@ msgstr "Opnij-pleatsingen fan dit berjocht"
 msgid "Reposts of your reposts"
 msgstr "Opnij-pleatsingen fan dyn opnij-pleatsingen"
 
-#: src/Navigation.tsx:493
+#: src/Navigation.tsx:484
 msgid "Reposts of your reposts notifications"
 msgstr "Meldingen oer opnij-pleatsingen fan dyn opnij-pleatsingen"
 
@@ -7565,7 +7411,7 @@ msgstr "Alt-tekst fereaskje foar it pleatsen"
 msgid "Require an email code to sign in to your account."
 msgstr "In e-mailkoade is nedig om dy oan te melden by dyn account."
 
-#: src/screens/Signup/StepInfo/index.tsx:253
+#: src/screens/Signup/StepInfo/index.tsx:180
 msgid "Required for this provider"
 msgstr "Fereaske foar dizze provider"
 
@@ -7582,16 +7428,16 @@ msgstr "Opnij ferstjoere"
 msgid "Resend email"
 msgstr "E-mailberocht opnij ferstjoere"
 
-#: src/components/intents/VerifyEmailIntentDialog.tsx:130
+#: src/components/intents/VerifyEmailIntentDialog.tsx:123
 msgid "Resend Email"
 msgstr "E-mailberocht opnij ferstjoere"
 
-#: src/components/intents/VerifyEmailIntentDialog.tsx:122
+#: src/components/intents/VerifyEmailIntentDialog.tsx:116
 msgid "Resend Verification Email"
 msgstr "Ferifikaasje-e-mailberocht opnij ferstjoere"
 
-#: src/screens/Settings/Settings.tsx:489
-#: src/screens/Settings/Settings.tsx:491
+#: src/screens/Settings/Settings.tsx:482
+#: src/screens/Settings/Settings.tsx:484
 msgid "Reset activity subscription nudge"
 msgstr "Aktiviteitstawizing foar abonnemint opnij ynstelle"
 
@@ -7599,12 +7445,8 @@ msgstr "Aktiviteitstawizing foar abonnemint opnij ynstelle"
 msgid "Reset code"
 msgstr "Koade opnij ynstelle"
 
-#: src/screens/Settings/DeerSettings.tsx:598
-msgid "Reset gates"
-msgstr ""
-
-#: src/screens/Settings/Settings.tsx:474
-#: src/screens/Settings/Settings.tsx:476
+#: src/screens/Settings/Settings.tsx:467
+#: src/screens/Settings/Settings.tsx:469
 msgid "Reset onboarding state"
 msgstr "Yntroduksje-status opnij ynstelle"
 
@@ -7612,11 +7454,7 @@ msgstr "Yntroduksje-status opnij ynstelle"
 msgid "Reset password"
 msgstr "Wachtwurd opnij ynstelle"
 
-#: src/screens/Settings/DeerSettings.tsx:635
-msgid "Restart the app after changing this setting."
-msgstr ""
-
-#: src/screens/Login/LoginForm.tsx:337
+#: src/screens/Login/LoginForm.tsx:327
 msgid "Retries signing in"
 msgstr "Nij besykjen oan te melden"
 
@@ -7632,8 +7470,8 @@ msgstr "Werhellet de lêste aksje, dêr’t in flater by barde"
 #: src/components/Post/Embed/VideoEmbed/VideoEmbedInner/VideoFallback.tsx:55
 #: src/components/Post/Embed/VideoEmbed/VideoEmbedInner/VideoFallback.tsx:58
 #: src/components/StarterPack/ProfileStarterPacks.tsx:342
-#: src/screens/Login/LoginForm.tsx:336
-#: src/screens/Login/LoginForm.tsx:343
+#: src/screens/Login/LoginForm.tsx:326
+#: src/screens/Login/LoginForm.tsx:333
 #: src/screens/Messages/ChatList.tsx:292
 #: src/screens/Messages/components/MessageListError.tsx:25
 #: src/screens/Messages/Inbox.tsx:219
@@ -7689,8 +7527,6 @@ msgstr "Tebek nei de foarige stap"
 #: src/screens/Profile/Header/EditProfileDialog.tsx:250
 #: src/screens/SavedFeeds.tsx:120
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:267
-#: src/screens/Settings/DeerSettings.tsx:164
-#: src/screens/Settings/DeerSettings.tsx:171
 #: src/view/com/composer/GifAltText.tsx:193
 #: src/view/com/composer/GifAltText.tsx:202
 #: src/view/com/composer/photos/EditImageDialog.web.tsx:62
@@ -7739,7 +7575,7 @@ msgstr ""
 msgid "Save to my feeds"
 msgstr "Yn myn feeds bewarje"
 
-#: src/view/shell/desktop/LeftNav.tsx:767
+#: src/view/shell/desktop/LeftNav.tsx:765
 #: src/view/shell/Drawer.tsx:571
 msgctxt "link to bookmarks screen"
 msgid "Saved"
@@ -7750,7 +7586,7 @@ msgid "Saved Feeds"
 msgstr "Feeds bewarje"
 
 #: src/components/dialogs/nuxs/BookmarksAnnouncement.tsx:143
-#: src/Navigation.tsx:617
+#: src/Navigation.tsx:608
 #: src/screens/Bookmarks/index.tsx:55
 msgid "Saved Posts"
 msgstr ""
@@ -7776,14 +7612,6 @@ msgstr ""
 msgid "Science"
 msgstr "Wittenskip"
 
-#: src/view/com/posts/PostFeedItemCarousel.tsx:67
-msgid "Scroll carousel left"
-msgstr ""
-
-#: src/view/com/posts/PostFeedItemCarousel.tsx:76
-msgid "Scroll carousel right"
-msgstr ""
-
 #: src/components/InterestTabs.tsx:255
 msgid "Scroll left"
 msgstr ""
@@ -7805,7 +7633,7 @@ msgstr "Nei boppe"
 msgid "Search"
 msgstr "Sykje"
 
-#: src/Navigation.tsx:258
+#: src/Navigation.tsx:257
 #: src/screens/Profile/ProfileSearch.tsx:37
 msgid "Search @{0}'s posts"
 msgstr "Berjochten fan @{0} trochsykje"
@@ -7828,11 +7656,11 @@ msgstr ""
 msgid "Search for \"{interestsDisplayName}\" (active)"
 msgstr ""
 
-#: src/view/shell/desktop/Search.tsx:132
+#: src/view/shell/desktop/Search.tsx:131
 msgid "Search for \"{query}\""
 msgstr "Sykje nei ‘{query}’"
 
-#: src/screens/Search/components/AutocompleteResults.tsx:46
+#: src/screens/Search/components/AutocompleteResults.tsx:45
 msgid "Search for \"{searchText}\""
 msgstr "Sykje nei ‘{searchText}’"
 
@@ -7857,7 +7685,7 @@ msgid "Search GIFs"
 msgstr "GIF’s sykje"
 
 #: src/screens/Hashtag.tsx:221
-#: src/screens/Search/SearchResults.tsx:257
+#: src/screens/Search/SearchResults.tsx:290
 msgid "Search is currently unavailable when logged out"
 msgstr "Sykjen is op dit stuit net beskikber wannear ôfmeld"
 
@@ -7870,8 +7698,8 @@ msgstr ""
 msgid "Search my posts"
 msgstr "Myn berjochten trochsykje"
 
-#: src/view/com/profile/ProfileMenu.tsx:307
-#: src/view/com/profile/ProfileMenu.tsx:310
+#: src/view/com/profile/ProfileMenu.tsx:271
+#: src/view/com/profile/ProfileMenu.tsx:274
 msgid "Search posts"
 msgstr "Berjochten trochsykje"
 
@@ -7913,12 +7741,16 @@ msgstr "#{tag}-berjochten besjen"
 msgid "See #{tag} posts by user"
 msgstr "#{tag}-berjochten fan brûker besjen"
 
-#: src/components/FeedInterstitials.tsx:404
-#: src/components/FeedInterstitials.tsx:461
+#: src/view/com/auth/SplashScreen.web.tsx:182
+msgid "See jobs at Bluesky"
+msgstr "Fakatueres by Bluesky bejen"
+
+#: src/components/FeedInterstitials.tsx:399
+#: src/components/FeedInterstitials.tsx:455
 msgid "See more"
 msgstr "Mear toane"
 
-#: src/components/FeedInterstitials.tsx:397
+#: src/components/FeedInterstitials.tsx:392
 msgid "See more suggested profiles on the Explore page"
 msgstr "Mear foarstelde profilen op de side Untdekke toane"
 
@@ -8059,7 +7891,7 @@ msgstr "Selektearje de taal dy’t brûkt wurde moat foar de brûkersinterface f
 msgid "Select which languages you want your subscribed feeds to include. If none are selected, all languages will be shown."
 msgstr "Selektearje hokker talen asto opnimme wolst yn dyn abonnearre feeds. Alle talen wurde werjûn as der gjin talen selektearre binne."
 
-#: src/screens/Signup/StepInfo/index.tsx:346
+#: src/screens/Signup/StepInfo/index.tsx:273
 msgid "Select your date of birth"
 msgstr "Dyn bertedatum selektearje"
 
@@ -8067,11 +7899,6 @@ msgstr "Dyn bertedatum selektearje"
 #: src/screens/Settings/InterestsSettings.tsx:165
 msgid "Select your interests from the options below"
 msgstr "Selektearje dyn ynteressen út de ûndersteande opsjes"
-
-#: src/screens/Settings/DeerSettings.tsx:365
-#: src/screens/Settings/DeerSettings.tsx:371
-msgid "Select your own set of trusted verifiers, and operate as a verifier"
-msgstr ""
 
 #: src/screens/Settings/LanguageSettings.tsx:124
 msgid "Select your preferred language for translations in your feed."
@@ -8132,10 +7959,10 @@ msgstr "Melding nei {title} ferstjoere"
 msgid "Send verification email"
 msgstr "Ferifikaasje-e-mailberjocht ferstjoere"
 
-#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:121
-#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:127
-#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:121
-#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:127
+#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:101
+#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:107
+#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:103
+#: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:109
 msgid "Send via direct message"
 msgstr "As priveeberjocht ferstjoere"
 
@@ -8175,9 +8002,9 @@ msgstr ""
 msgid "Sets email for password reset"
 msgstr "Stelt e-mail yn foar it opnij ynstellen fan wachtwurden"
 
-#: src/Navigation.tsx:214
-#: src/screens/Settings/Settings.tsx:100
-#: src/view/shell/desktop/LeftNav.tsx:807
+#: src/Navigation.tsx:213
+#: src/screens/Settings/Settings.tsx:99
+#: src/view/shell/desktop/LeftNav.tsx:805
 #: src/view/shell/Drawer.tsx:609
 msgid "Settings"
 msgstr "Ynstellingen"
@@ -8259,12 +8086,12 @@ msgstr "In aardich ferhaal diele!"
 msgid "Share a fun fact!"
 msgstr "In aardichheidsje diele!"
 
-#: src/view/com/profile/ProfileMenu.tsx:568
+#: src/view/com/profile/ProfileMenu.tsx:507
 msgid "Share anyway"
 msgstr "Dochs diele"
 
-#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:201
-#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:204
+#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:161
+#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:164
 msgid "Share author DID"
 msgstr "Auteurs-DID diele"
 
@@ -8279,8 +8106,8 @@ msgstr "Keppeling diele"
 msgid "Share link dialog"
 msgstr "Keppelingdialooch diele"
 
-#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:192
-#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:195
+#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:152
+#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:155
 msgid "Share post at:// URI"
 msgstr "Berjocht at:// URI diele"
 
@@ -8301,21 +8128,14 @@ msgstr "Dit startpakket diele"
 msgid "Share this starter pack and help people join your community on Bluesky."
 msgstr "Diel dit startpakket en help minsken lid te wurden fan dyn mienskip op Bluesky."
 
-#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:147
-#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:150
-#: src/view/com/profile/ProfileMenu.tsx:287
-#: src/view/com/profile/ProfileMenu.tsx:300
-msgid "Share via bsky.app..."
-msgstr ""
-
-#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:137
-#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:140
+#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:117
+#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:120
 #: src/screens/ProfileList/components/MoreOptionsMenu.tsx:165
 #: src/screens/ProfileList/components/MoreOptionsMenu.tsx:171
 #: src/screens/StarterPack/StarterPackScreen.tsx:613
 #: src/screens/StarterPack/StarterPackScreen.tsx:621
+#: src/view/com/profile/ProfileMenu.tsx:251
 #: src/view/com/profile/ProfileMenu.tsx:264
-#: src/view/com/profile/ProfileMenu.tsx:277
 msgid "Share via..."
 msgstr "Diele fia…"
 
@@ -8323,7 +8143,7 @@ msgstr "Diele fia…"
 msgid "Share your favorite feed!"
 msgstr "Dyn favorite feed diele!"
 
-#: src/Navigation.tsx:317
+#: src/Navigation.tsx:316
 msgid "Shared Preferences Tester"
 msgstr "Dielde foarkarren-tester"
 
@@ -8358,8 +8178,8 @@ msgstr "Badge en filter út feeds toane"
 msgid "Show customization options"
 msgstr "Oanpassingsopsjes toane"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:613
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:615
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:515
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:517
 msgid "Show less like this"
 msgstr "Minder hjirfan toane"
 
@@ -8375,8 +8195,8 @@ msgstr ""
 msgid "Show More"
 msgstr "Mear toane"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:605
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:607
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:507
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:509
 msgid "Show more like this"
 msgstr "Mear hjirfan toane"
 
@@ -8402,8 +8222,8 @@ msgstr "Antwurden toane"
 msgid "Show replies as"
 msgstr "Antwurden toane as"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:692
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:702
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:594
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:604
 msgid "Show reply for everyone"
 msgstr "Reaksje foar elkenien toane"
 
@@ -8425,11 +8245,11 @@ msgstr "Warskôging toane"
 msgid "Show warning and filter from feeds"
 msgstr "Warskôging en filter út feeds toane"
 
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:646
+#: src/screens/PostThread/components/ThreadItemAnchor.tsx:629
 msgid "Shows information about when this post was created"
 msgstr "Toant ynformaasje oer wannear’t dit bejoicht oanmakke is"
 
-#: src/screens/Settings/Settings.tsx:126
+#: src/screens/Settings/Settings.tsx:125
 msgid "Shows other accounts you can switch to"
 msgstr "Toant oare accounts wêrneisto wikselje kinst"
 
@@ -8445,8 +8265,8 @@ msgstr "Toant de ynhâld"
 #: src/screens/Hashtag.tsx:225
 #: src/screens/Login/index.tsx:136
 #: src/screens/Login/index.tsx:157
-#: src/screens/Login/LoginForm.tsx:184
-#: src/screens/Search/SearchResults.tsx:262
+#: src/screens/Login/LoginForm.tsx:181
+#: src/screens/Search/SearchResults.tsx:294
 #: src/view/com/auth/SplashScreen.tsx:81
 #: src/view/com/auth/SplashScreen.tsx:89
 #: src/view/com/auth/SplashScreen.web.tsx:127
@@ -8485,19 +8305,14 @@ msgstr "Oanmelde by in account dat net yn de list stiet"
 msgid "Sign in to Bluesky or create a new account"
 msgstr "Meld dy oan by Bluesky of meitsje in nij account"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:591
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:593
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:493
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:495
 msgid "Sign in to view post"
 msgstr "Meld dy oan om berjocht te besjen"
 
-#: src/screens/Signup/StepInfo/index.tsx:194
-#: src/screens/Signup/StepInfo/index.tsx:202
-msgid "Sign in with ATmosphere"
-msgstr ""
-
-#: src/screens/Settings/Settings.tsx:261
-#: src/screens/Settings/Settings.tsx:263
-#: src/screens/Settings/Settings.tsx:295
+#: src/screens/Settings/Settings.tsx:254
+#: src/screens/Settings/Settings.tsx:256
+#: src/screens/Settings/Settings.tsx:288
 #: src/screens/SignupQueued.tsx:93
 #: src/screens/SignupQueued.tsx:96
 #: src/screens/Takendown.tsx:94
@@ -8511,7 +8326,7 @@ msgstr "Ofmelde"
 msgid "Sign Out"
 msgstr "Ofmelde"
 
-#: src/screens/Settings/Settings.tsx:292
+#: src/screens/Settings/Settings.tsx:285
 #: src/view/shell/desktop/LeftNav.tsx:209
 msgid "Sign out?"
 msgstr "Ofmelde?"
@@ -8526,7 +8341,7 @@ msgstr "Oanmelden fereaske"
 msgid "Signed in as @{0}"
 msgstr "Oanmeld as @{0}"
 
-#: src/components/FeedInterstitials.tsx:392
+#: src/components/FeedInterstitials.tsx:387
 msgid "Similar accounts"
 msgstr "Fergelykbere accounts"
 
@@ -8557,7 +8372,7 @@ msgid "Snoozes the reminder"
 msgstr "Snûzet it omtinken"
 
 #: src/components/WelcomeModal.tsx:148
-msgid "Social media if it was good."
+msgid "Social media you control."
 msgstr ""
 
 #: src/lib/interests.ts:58
@@ -8565,15 +8380,11 @@ msgstr ""
 msgid "Software Dev"
 msgstr "Softwareûntwikkeler"
 
-#: src/screens/Settings/DeerSettings.tsx:640
-msgid "Some App Views will default to using an app labeler if you have no labelers, so consider subscribing to at least one labeler if you have issues."
-msgstr ""
-
 #: src/components/verification/VerificationsDialog.tsx:120
 msgid "Some of your verifications are invalid."
 msgstr "Guon fan dyn ferifikaasjes binne ûnjildich."
 
-#: src/components/FeedInterstitials.tsx:538
+#: src/components/FeedInterstitials.tsx:532
 msgid "Some other feeds you might like"
 msgstr "Inkelde oare feeds dêr’tsto miskien wol oer meist"
 
@@ -8688,8 +8499,8 @@ msgstr "Begjin mei minsken ta te foegjen!"
 msgid "Start chat with {displayName}"
 msgstr "Chat starte mei {displayName}"
 
-#: src/Navigation.tsx:588
-#: src/Navigation.tsx:593
+#: src/Navigation.tsx:579
+#: src/Navigation.tsx:584
 #: src/screens/StarterPack/Wizard/index.tsx:209
 msgid "Starter Pack"
 msgstr "Startpakket"
@@ -8720,21 +8531,21 @@ msgstr "Startpakketten"
 msgid "Starter packs let you easily share your favorite feeds and people with your friends."
 msgstr "Mei startpakketten kinsto ienfâldich dyn favorite feeds en persoanen met dyn freonen diele."
 
-#: src/screens/Settings/AboutSettings.tsx:98
-#: src/screens/Settings/AboutSettings.tsx:101
+#: src/screens/Settings/AboutSettings.tsx:100
+#: src/screens/Settings/AboutSettings.tsx:103
 msgid "Status Page"
 msgstr "Statusside"
 
-#: src/screens/Signup/index.tsx:175
+#: src/screens/Signup/index.tsx:169
 msgid "Step {0} of {1}"
 msgstr "Stap {0} fan {1}"
 
-#: src/screens/Settings/Settings.tsx:400
+#: src/screens/Settings/Settings.tsx:393
 msgid "Storage cleared, you need to restart the app now."
 msgstr "Unthâld wiske, do moatst de app no opnij opstarte."
 
-#: src/Navigation.tsx:307
-#: src/screens/Settings/Settings.tsx:455
+#: src/Navigation.tsx:306
+#: src/screens/Settings/Settings.tsx:448
 msgid "Storybook"
 msgstr "Ferhaleboek"
 
@@ -8773,11 +8584,11 @@ msgstr "Abonnearje dy op @{0} om dizze labels te brûken:"
 msgid "Subscribe to account activity"
 msgstr "Abonnearje op accountaktiviteit"
 
-#: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:233
+#: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:343
 msgid "Subscribe to Labeler"
 msgstr "Abonnearje op labeler"
 
-#: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:199
+#: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:309
 msgid "Subscribe to this labeler"
 msgstr "Abonnearje op dizze labeler"
 
@@ -8804,7 +8615,7 @@ msgstr "Foarstelde accounts"
 
 #. Accounts suggested to the user for them to follow
 #. Accounts suggested to the user for them to follow
-#: src/components/FeedInterstitials.tsx:390
+#: src/components/FeedInterstitials.tsx:385
 #: src/screens/Onboarding/StepSuggestedAccounts/index.tsx:129
 #: src/screens/Onboarding/StepSuggestedStarterpacks/index.tsx:39
 msgid "Suggested for you"
@@ -8815,15 +8626,25 @@ msgstr "Foarsteld foar dy"
 msgid "Suggestive"
 msgstr "Suggestyf"
 
-#: src/Navigation.tsx:327
+#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:72
+msgctxt "Name of app icon variant"
+msgid "Sunrise"
+msgstr "Sinneopgong"
+
+#: src/screens/Settings/AppIconSettings/useAppIconSets.ts:86
+msgctxt "Name of app icon variant"
+msgid "Sunset"
+msgstr "Sinneûndergong"
+
+#: src/Navigation.tsx:326
 #: src/view/screens/Support.tsx:34
 #: src/view/screens/Support.tsx:37
 msgid "Support"
 msgstr "Stipe"
 
-#: src/screens/Settings/Settings.tsx:124
-#: src/screens/Settings/Settings.tsx:138
-#: src/screens/Settings/Settings.tsx:613
+#: src/screens/Settings/Settings.tsx:123
+#: src/screens/Settings/Settings.tsx:137
+#: src/screens/Settings/Settings.tsx:606
 #: src/view/shell/desktop/LeftNav.tsx:247
 msgid "Switch account"
 msgstr "Fan account wikselje"
@@ -8849,9 +8670,9 @@ msgid "System"
 msgstr "Systeem"
 
 #: src/screens/Log.tsx:58
-#: src/screens/Settings/AboutSettings.tsx:105
-#: src/screens/Settings/AboutSettings.tsx:108
-#: src/screens/Settings/Settings.tsx:448
+#: src/screens/Settings/AboutSettings.tsx:107
+#: src/screens/Settings/AboutSettings.tsx:110
+#: src/screens/Settings/Settings.tsx:441
 msgid "System log"
 msgstr "Systeemlochboek"
 
@@ -8926,9 +8747,9 @@ msgstr "Betingsten"
 #: src/components/dialogs/BirthDateSettings.tsx:135
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:30
 #: src/components/PolicyUpdateOverlay/updates/202508/index.tsx:97
-#: src/Navigation.tsx:337
-#: src/screens/Settings/AboutSettings.tsx:82
-#: src/screens/Settings/AboutSettings.tsx:85
+#: src/Navigation.tsx:336
+#: src/screens/Settings/AboutSettings.tsx:84
+#: src/screens/Settings/AboutSettings.tsx:87
 #: src/view/screens/TermsOfService.tsx:34
 #: src/view/shell/Drawer.tsx:697
 #: src/view/shell/Drawer.tsx:699
@@ -8948,7 +8769,7 @@ msgstr "Tekstynfierfjild"
 msgid "Thank you for your feedback! It has been sent to the feed operator."
 msgstr "Dank foar dyn kommentaar! It is nei de feedbehearder stjoerd."
 
-#: src/components/intents/VerifyEmailIntentDialog.tsx:82
+#: src/components/intents/VerifyEmailIntentDialog.tsx:76
 msgid "Thanks, you have successfully verified your email address. You can close this dialog."
 msgstr "Tank, do hast dyn e-mailadres mei sukses ferifiearre. Do kinst dit dialoochfinster slute."
 
@@ -8982,8 +8803,9 @@ msgstr "Dat is alles minsken!"
 msgid "That's everything!"
 msgstr "Dat wie alles!"
 
-#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:332
-#: src/view/com/profile/ProfileMenu.tsx:544
+#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:186
+#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:391
+#: src/view/com/profile/ProfileMenu.tsx:483
 msgid "The account will be able to interact with you after unblocking."
 msgstr "De account kin nei it deblokkearjen mei dy kommunisearje."
 
@@ -8991,10 +8813,6 @@ msgstr "De account kin nei it deblokkearjen mei dy kommunisearje."
 #: src/screens/Settings/AppIconSettings/index.tsx:227
 msgid "The app will be restarted"
 msgstr "De app wurdt opnij opstart"
-
-#: src/screens/Signup/index.tsx:185
-msgid "The ATmosphere ✨"
-msgstr ""
 
 #: src/components/moderation/ModerationDetailsDialog.tsx:121
 #: src/lib/moderation/useModerationCauseDescription.ts:129
@@ -9087,7 +8905,7 @@ msgstr "It stipeformulier is ferpleatst. Asto help nedich hast, kom by <0/> of b
 msgid "The Terms of Service have been moved to"
 msgstr "De Tsjinstbetingsten binne ferpleatst nei"
 
-#: src/components/intents/VerifyEmailIntentDialog.tsx:94
+#: src/components/intents/VerifyEmailIntentDialog.tsx:88
 msgid "The verification code you have provided is invalid. Please make sure that you have used the correct verification link or request a new one."
 msgstr "De ferifikaasjekoade dy’tsto opjûn hast is ûnjildich. Kontrolearje oftsto de krekte ferifikaasjekeppeling brûkt hast of freegje in nije oan."
 
@@ -9111,16 +8929,16 @@ msgid "There was an issue contacting the server"
 msgstr "Der is in probleem bard by it ferbinen mei de server"
 
 #: src/screens/Profile/components/ProfileFeedHeader.tsx:419
-#: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:109
+#: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:98
 msgid "There was an issue contacting the server, please check your internet connection and try again."
 msgstr "Der is in probleem bard by it ferbinen mei de server. Kontrolearje dyn ynternetferbining en probearje it opnij."
 
-#: src/view/com/notifications/NotificationFeed.tsx:132
+#: src/view/com/notifications/NotificationFeed.tsx:130
 msgid "There was an issue fetching notifications. Tap here to try again."
 msgstr "Der is in probleem bard by it opheljen fan meldingen. Tik hjir om it opnij te probearjen."
 
 #: src/screens/Search/Explore.tsx:992
-#: src/view/com/posts/PostFeed.tsx:798
+#: src/view/com/posts/PostFeed.tsx:712
 msgid "There was an issue fetching posts. Tap here to try again."
 msgstr "Der is in probleem bard by it opheljen fan berjochten. Tik hjir om it opnij te probearjen."
 
@@ -9151,20 +8969,21 @@ msgstr "Der is in probleem bard by it fuortsmiten fan dizze feed. Kontrolearje d
 msgid "There was an issue updating your feeds, please check your internet connection and try again."
 msgstr "Der is in probleem bard by it bywurkjen fan dyn feeds. Kontrolearje dyn ynternetferbining en probearje it opnij."
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:465
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:478
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:488
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:397
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:410
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:420
 #: src/screens/PostThread/components/ThreadItemAnchorFollowButton.tsx:90
 #: src/screens/PostThread/components/ThreadItemAnchorFollowButton.tsx:101
-#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:105
-#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:128
-#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:142
-#: src/view/com/profile/ProfileMenu.tsx:149
-#: src/view/com/profile/ProfileMenu.tsx:159
-#: src/view/com/profile/ProfileMenu.tsx:173
+#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:88
+#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:253
+#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:279
+#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:294
+#: src/view/com/profile/ProfileMenu.tsx:136
+#: src/view/com/profile/ProfileMenu.tsx:146
+#: src/view/com/profile/ProfileMenu.tsx:160
+#: src/view/com/profile/ProfileMenu.tsx:170
 #: src/view/com/profile/ProfileMenu.tsx:183
-#: src/view/com/profile/ProfileMenu.tsx:196
-#: src/view/com/profile/ProfileMenu.tsx:208
+#: src/view/com/profile/ProfileMenu.tsx:195
 msgid "There was an issue! {0}"
 msgstr "Der is in probleem bard! {0}"
 
@@ -9193,10 +9012,6 @@ msgstr "Der is in grutte oanrin fan nije brûkers nei Bluesky! Wy aktivearje dyn
 
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:654
 msgid "These are your default settings"
-msgstr ""
-
-#: src/screens/Settings/DeerSettings.tsx:608
-msgid "These settings might summon nasal demons! Restart the app after changing if anything breaks."
 msgstr ""
 
 #: src/screens/Settings/FollowingFeedPreferences.tsx:65
@@ -9351,7 +9166,7 @@ msgstr "Dizze list is leech."
 msgid "This moderation service is unavailable. See below for more details. If this issue persists, contact us."
 msgstr "Dizze moderaasjetsjinst is net beskikber. Sjoch hjirûnder foar mear details. Nim kontakt mei ús op as dit probleem bliuwt."
 
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:686
+#: src/screens/PostThread/components/ThreadItemAnchor.tsx:669
 msgid "This post claims to have been created on <0>{0}</0>, but was first seen by Bluesky on <1>{1}</1>."
 msgstr "Dit berjocht beweart makke te wêzen op <0>{0}</0>, mar waard foar it earst sjoen troch Bluesky op <1>{1}</1>."
 
@@ -9359,7 +9174,7 @@ msgstr "Dit berjocht beweart makke te wêzen op <0>{0}</0>, mar waard foar it ea
 msgid "This post has an unknown type of threadgate on it. Your app may be out of date."
 msgstr "Der sit in ûnbekend type reaksjebeheining op dit berjocht. Mooglik is dyn app ferâldere."
 
-#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:182
+#: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:142
 msgid "This post is only visible to logged-in users."
 msgstr "Dit berjocht is allinnich sichtber foar oanmelde brûkers."
 
@@ -9367,7 +9182,7 @@ msgstr "Dit berjocht is allinnich sichtber foar oanmelde brûkers."
 msgid "This post was deleted by its author"
 msgstr ""
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:842
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:744
 msgid "This post will be hidden from feeds and threads. This cannot be undone."
 msgstr "Dit berjocht wurdt ferstoppe foar feeds en petearen. Dit kin net ûngedien makke wurde."
 
@@ -9375,11 +9190,11 @@ msgstr "Dit berjocht wurdt ferstoppe foar feeds en petearen. Dit kin net ûngedi
 msgid "This post's author has disabled quote posts."
 msgstr "De auteur fan dit berjocht hat it pleatsen fan sitaten útskeakele."
 
-#: src/view/com/profile/ProfileMenu.tsx:565
+#: src/view/com/profile/ProfileMenu.tsx:504
 msgid "This profile is only visible to logged-in users. It won't be visible to people who aren't signed in."
 msgstr "Dit profyl is allinnich sichtber foar oanmelde brûkers. It is net sichtber foar minsken dy’t net oanmeld binne."
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:877
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:779
 msgid "This reply will be sorted into a hidden section at the bottom of your thread and will mute notifications for subsequent replies - both for yourself and others."
 msgstr "Dizze reaksje wurdt sortearre yn in ferstoppe seksje ûnderoan it petear en negearret meldingen foar folgjende reaksjes – sawol foar dy as foar oaren."
 
@@ -9436,11 +9251,11 @@ msgstr "Dizze brûker folget net ien."
 msgid "This will delete \"{0}\" from your muted words. You can always add it back later."
 msgstr "Hjirmei wurdt ‘{0}’ út dyn negearre wurden fuortsmiten. Do kinst it letter altyd wer tafoegje."
 
-#: src/screens/Settings/Settings.tsx:665
+#: src/screens/Settings/Settings.tsx:658
 msgid "This will remove @{0} from the quick access list."
 msgstr "Hjirmei wurdt @{0} fuortsmiten út de flugge tagongslist."
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:867
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:769
 msgid "This will remove your post from this quote post for all users, and replace it with a placeholder."
 msgstr "Hjirmei wurdt dyn berjocht foar alle brûkers út it sitaat fuortsmiten en ferfongen troch in plakhâlder."
 
@@ -9463,7 +9278,7 @@ msgstr "Petearfoarkarren"
 msgid "Threaded"
 msgstr "As petear"
 
-#: src/Navigation.tsx:370
+#: src/Navigation.tsx:369
 msgid "Threads Preferences"
 msgstr "Petearfoarkarren"
 
@@ -9501,7 +9316,7 @@ msgid "Toggles the sound"
 msgstr "Set it lûd oan of út"
 
 #: src/screens/Hashtag.tsx:90
-#: src/screens/Search/SearchResults.tsx:49
+#: src/screens/Search/SearchResults.tsx:51
 #: src/screens/Topic.tsx:71
 msgid "Top"
 msgstr "Populêr"
@@ -9513,16 +9328,16 @@ msgstr "Populêr"
 msgid "Top replies first"
 msgstr "Populêre reaksjes earst"
 
-#: src/Navigation.tsx:553
+#: src/Navigation.tsx:544
 msgid "Topic"
 msgstr "Underwerp"
 
 #: src/components/dms/MessageContextMenu.tsx:139
 #: src/components/dms/MessageContextMenu.tsx:141
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:574
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:576
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:608
-#: src/screens/PostThread/components/ThreadItemAnchor.tsx:611
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:476
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:478
+#: src/screens/PostThread/components/ThreadItemAnchor.tsx:591
+#: src/screens/PostThread/components/ThreadItemAnchor.tsx:594
 msgid "Translate"
 msgstr "Oersette"
 
@@ -9547,15 +9362,9 @@ msgstr ""
 msgid "Trust emerges from relationships, communities, and shared context, so we’re also enabling <0>trusted verifiers</0>: organizations that can directly issue verification."
 msgstr "Fertrouwen ûntstiet út relaasjes, mienskippen en dielde kontekst, dus wy starte ek mei <0>fertroude ferifiearders</0>: organisaasjes dy’t daliks ferifikaasje útjaan kinne."
 
-#: src/view/com/profile/ProfileMenu.tsx:382
-#: src/view/com/profile/ProfileMenu.tsx:385
-msgid "Trust verifier"
-msgstr ""
-
-#: src/screens/Settings/DeerSettings.tsx:193
-#: src/screens/Settings/DeerSettings.tsx:196
-#: src/screens/Settings/DeerSettings.tsx:396
-msgid "Trusted Verifiers"
+#: src/screens/Search/SearchResults.tsx:175
+msgctxt "english-only-resource"
+msgid "Try a different search term, or <0>read about how to use search filters</0>."
 msgstr ""
 
 #: src/view/com/util/error/ErrorScreen.tsx:103
@@ -9566,10 +9375,6 @@ msgstr "Probearje opnij"
 #: src/lib/interests.ts:74
 msgid "TV"
 msgstr "TV"
-
-#: src/screens/Settings/DeerSettings.tsx:407
-msgid "Tweaks"
-msgstr ""
 
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:64
 msgid "Two-factor authentication (2FA)"
@@ -9599,9 +9404,9 @@ msgstr ""
 
 #: src/screens/Login/ForgotPasswordForm.tsx:68
 #: src/screens/Login/index.tsx:93
-#: src/screens/Login/LoginForm.tsx:172
+#: src/screens/Login/LoginForm.tsx:169
 #: src/screens/Login/SetNewPasswordForm.tsx:81
-#: src/screens/Signup/index.tsx:83
+#: src/screens/Signup/index.tsx:77
 msgid "Unable to contact your service. Please check your Internet connection."
 msgstr "Kin gjin kontakt meitsje mei dyn tsjinst. Kontrolearje dyn ynternetferbining."
 
@@ -9609,11 +9414,11 @@ msgstr "Kin gjin kontakt meitsje mei dyn tsjinst. Kontrolearje dyn ynternetferbi
 msgid "Unable to delete"
 msgstr "Kin net fuortsmite"
 
-#: src/screens/Settings/Settings.tsx:514
+#: src/screens/Settings/Settings.tsx:507
 msgid "Unapply Pull Request"
 msgstr "Pull-fersyk net mear tapasse"
 
-#: src/screens/Settings/Settings.tsx:516
+#: src/screens/Settings/Settings.tsx:509
 msgid "Unapply Pull Request {currentChannel}"
 msgstr "Pull-fersyk net mear tapasse {currentChannel}"
 
@@ -9629,28 +9434,30 @@ msgstr "Feedynformaasje net beskikber"
 #: src/components/dms/MessagesListBlockedFooter.tsx:104
 #: src/components/dms/MessagesListBlockedFooter.tsx:112
 #: src/components/dms/MessagesListBlockedFooter.tsx:119
-#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:214
-#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:336
+#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:190
+#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:334
+#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:394
 #: src/screens/ProfileList/components/Header.tsx:171
 #: src/screens/ProfileList/components/Header.tsx:178
-#: src/view/com/profile/ProfileMenu.tsx:556
+#: src/view/com/profile/ProfileMenu.tsx:495
 msgid "Unblock"
 msgstr "Deblokkearje"
 
-#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:219
+#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:338
 msgctxt "action"
 msgid "Unblock"
 msgstr "Deblokkearje"
 
 #: src/components/dms/ConvoMenu.tsx:261
 #: src/components/dms/ConvoMenu.tsx:264
-#: src/view/com/profile/ProfileMenu.tsx:461
-#: src/view/com/profile/ProfileMenu.tsx:467
+#: src/view/com/profile/ProfileMenu.tsx:400
+#: src/view/com/profile/ProfileMenu.tsx:406
 msgid "Unblock account"
 msgstr "Account deblokkearje"
 
-#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:330
-#: src/view/com/profile/ProfileMenu.tsx:538
+#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:184
+#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:389
+#: src/view/com/profile/ProfileMenu.tsx:477
 msgid "Unblock Account?"
 msgstr "Account deblokkearje?"
 
@@ -9674,12 +9481,12 @@ msgstr "Opnij pleatsen ûngedien meitsje"
 msgid "Undo repost ({0, plural, one {# repost} other {# reposts}})"
 msgstr "Opnij pleatsen ûngedien meitsje ({0, plural, one {# opnijpleatsing} other {# opnijpleatsingen}})"
 
-#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:242
+#: src/screens/Profile/Header/ProfileHeaderStandard.tsx:365
 msgid "Unfollow {0}"
 msgstr "{0} ûntfolgje"
 
-#: src/view/com/profile/ProfileMenu.tsx:327
-#: src/view/com/profile/ProfileMenu.tsx:337
+#: src/view/com/profile/ProfileMenu.tsx:291
+#: src/view/com/profile/ProfileMenu.tsx:301
 msgid "Unfollow account"
 msgstr "Account ûntfolgje"
 
@@ -9712,7 +9519,7 @@ msgid "Unlike"
 msgstr "Mei ’k net mear oer"
 
 #. Accessibility label for the like button when the post has been liked, verb followed by number of likes and noun
-#: src/components/PostControls/index.tsx:274
+#: src/components/PostControls/index.tsx:260
 msgid "Unlike ({0, plural, one {# like} other {# likes}})"
 msgstr "Mei ik net mear oer ({0, plural, one {# mei-’k-net-mear-oer} other {# mei-’k-net-mear-oers}})"
 
@@ -9732,10 +9539,10 @@ msgstr "Net mear negearje"
 msgid "Unmute {tag}"
 msgstr "{tag} net mear negearje"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:757
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:763
-#: src/view/com/profile/ProfileMenu.tsx:440
-#: src/view/com/profile/ProfileMenu.tsx:446
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:659
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:665
+#: src/view/com/profile/ProfileMenu.tsx:379
+#: src/view/com/profile/ProfileMenu.tsx:385
 msgid "Unmute account"
 msgstr "Account net mear negearje"
 
@@ -9748,8 +9555,8 @@ msgstr "Petear net mear negearje"
 msgid "Unmute list"
 msgstr "List net mear negearje"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:642
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:646
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:544
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:548
 msgid "Unmute thread"
 msgstr "Petear net mear negearje"
 
@@ -9777,8 +9584,8 @@ msgstr "Feed losmeitsje"
 msgid "Unpin from home"
 msgstr "Fan startside losmeitsje"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:519
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:526
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:451
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:458
 msgid "Unpin from profile"
 msgstr "Fan profyl losmeitsje"
 
@@ -9799,12 +9606,12 @@ msgstr "Fan dyn feeds losmakke"
 msgid "Unpinned list"
 msgstr ""
 
-#: src/screens/Settings/Settings.tsx:481
-#: src/screens/Settings/Settings.tsx:483
+#: src/screens/Settings/Settings.tsx:474
+#: src/screens/Settings/Settings.tsx:476
 msgid "Unsnooze email reminder"
 msgstr "E-mailomtinken aktyf meitsje"
 
-#: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:231
+#: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:341
 msgid "Unsubscribe"
 msgstr "Ofmelde"
 
@@ -9813,7 +9620,7 @@ msgstr "Ofmelde"
 msgid "Unsubscribe from list"
 msgstr "Fan list ôfmelde"
 
-#: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:198
+#: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:308
 msgid "Unsubscribe from this labeler"
 msgstr "Fan dizze labeler ôfmelde"
 
@@ -9850,12 +9657,12 @@ msgstr "Bywurkje nei {domain}"
 msgid "Update your email"
 msgstr "Dyn e-mailadres bywurkje"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:326
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:318
 msgctxt "toast"
 msgid "Updating quote attachment failed"
 msgstr "Bywurkjen fan sitaatbylage is mislearre"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:378
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:370
 msgctxt "toast"
 msgid "Updating reply visibility failed"
 msgstr "Bywurkjen fan sichtberheid fan reaksje is mislearre"
@@ -9872,22 +9679,22 @@ msgstr "Laad yn stee dêrfan in foto op"
 msgid "Upload a text file to:"
 msgstr "Laad in tekstbestân op nei:"
 
-#: src/view/com/util/UserAvatar.tsx:483
-#: src/view/com/util/UserAvatar.tsx:486
-#: src/view/com/util/UserBanner.tsx:167
-#: src/view/com/util/UserBanner.tsx:170
+#: src/view/com/util/UserAvatar.tsx:469
+#: src/view/com/util/UserAvatar.tsx:472
+#: src/view/com/util/UserBanner.tsx:157
+#: src/view/com/util/UserBanner.tsx:160
 msgid "Upload from Camera"
 msgstr "Fan kamera ôf oplade"
 
-#: src/view/com/util/UserAvatar.tsx:500
-#: src/view/com/util/UserBanner.tsx:184
+#: src/view/com/util/UserAvatar.tsx:486
+#: src/view/com/util/UserBanner.tsx:174
 msgid "Upload from Files"
 msgstr "Fan bestannen út oplade"
 
-#: src/view/com/util/UserAvatar.tsx:494
-#: src/view/com/util/UserAvatar.tsx:498
-#: src/view/com/util/UserBanner.tsx:178
-#: src/view/com/util/UserBanner.tsx:182
+#: src/view/com/util/UserAvatar.tsx:480
+#: src/view/com/util/UserAvatar.tsx:484
+#: src/view/com/util/UserBanner.tsx:168
+#: src/view/com/util/UserBanner.tsx:172
 msgid "Upload from Library"
 msgstr "Fan bibloteek út oplade"
 
@@ -9900,7 +9707,7 @@ msgstr "Ofbyldingen oplade…"
 msgid "Uploading link thumbnail..."
 msgstr "Keppelingminiatuer oplade…"
 
-#: src/view/com/composer/Composer.tsx:1890
+#: src/view/com/composer/Composer.tsx:1889
 msgid "Uploading video..."
 msgstr "Fideo oplade…"
 
@@ -9999,7 +9806,7 @@ msgstr "Brûkersnamme mei net mei in keppelteken begjinne of einigje"
 msgid "Username must only contain letters (a-z), numbers, and hyphens"
 msgstr "Brûkersnamme mei allinnich letters (a-z), sifers en keppeltekens befetsje"
 
-#: src/screens/Login/LoginForm.tsx:205
+#: src/screens/Login/LoginForm.tsx:202
 msgid "Username or email address"
 msgstr "Brûkersnamme of e-mailadres"
 
@@ -10020,10 +9827,6 @@ msgstr "Brûkers dy’t ik folgje"
 msgid "Value:"
 msgstr "Wearde:"
 
-#: src/screens/Settings/DeerSettings.tsx:360
-msgid "Verification"
-msgstr ""
-
 #: src/components/verification/VerificationCreatePrompt.tsx:39
 msgid "Verification failed, please try again."
 msgstr "Ferifikaasje mislearre, probearje it opnij."
@@ -10032,7 +9835,7 @@ msgstr "Ferifikaasje mislearre, probearje it opnij."
 msgid "Verification settings"
 msgstr "Ferifikaasjeynstellingen"
 
-#: src/Navigation.tsx:207
+#: src/Navigation.tsx:206
 #: src/screens/Moderation/VerificationSettings.tsx:32
 msgid "Verification Settings"
 msgstr "Ferifikaasjeynstellingen"
@@ -10047,8 +9850,8 @@ msgstr "Ferifiearre troch:"
 
 #: src/components/verification/VerificationCreatePrompt.tsx:84
 #: src/components/verification/VerificationCreatePrompt.tsx:86
-#: src/view/com/profile/ProfileMenu.tsx:424
-#: src/view/com/profile/ProfileMenu.tsx:427
+#: src/view/com/profile/ProfileMenu.tsx:363
+#: src/view/com/profile/ProfileMenu.tsx:366
 msgid "Verify account"
 msgstr "Account ferifiearje"
 
@@ -10074,7 +9877,7 @@ msgstr "DNS-record ferifiearje"
 msgid "Verify email code"
 msgstr "E-mailkoade ferifiearje"
 
-#: src/components/intents/VerifyEmailIntentDialog.tsx:67
+#: src/components/intents/VerifyEmailIntentDialog.tsx:61
 msgid "Verify email dialog"
 msgstr "Dialoochfinster E-mailadres ferifiearje"
 
@@ -10110,8 +9913,8 @@ msgstr "Ferifiearje"
 msgid "Verifying your age assurance status"
 msgstr "Status fan leeftiidsferifikaasje"
 
-#: src/screens/Settings/AboutSettings.tsx:124
-#: src/screens/Settings/AboutSettings.tsx:153
+#: src/screens/Settings/AboutSettings.tsx:126
+#: src/screens/Settings/AboutSettings.tsx:155
 msgid "Version {0}"
 msgstr "Ferzje {0}"
 
@@ -10124,7 +9927,7 @@ msgstr "Fideo"
 msgid "Video failed to process"
 msgstr "Fideo kin net ferwurke wurde"
 
-#: src/Navigation.tsx:609
+#: src/Navigation.tsx:600
 msgid "Video Feed"
 msgstr "Fideofeed"
 
@@ -10154,7 +9957,7 @@ msgstr "Fideo net fûn."
 msgid "Video settings"
 msgstr "Fideo-ynstellingen"
 
-#: src/view/com/composer/Composer.tsx:1900
+#: src/view/com/composer/Composer.tsx:1899
 msgid "Video uploaded"
 msgstr "Fideo opladen"
 
@@ -10170,24 +9973,16 @@ msgstr "Fideo’s"
 msgid "Videos must be less than 3 minutes long."
 msgstr ""
 
-#: src/screens/Settings/DeerSettings.tsx:399
-msgid "View"
-msgstr ""
-
 #: src/view/com/composer/Composer.tsx:585
 msgctxt "Action to view the post the user just created"
 msgid "View"
 msgstr ""
 
-#: src/screens/Profile/Header/Shell.tsx:309
+#: src/screens/Profile/Header/Shell.tsx:241
 msgid "View {0}'s avatar"
 msgstr "Avatar fan {0} besjen"
 
-#: src/screens/Profile/Header/Shell.tsx:261
-msgid "View {0}'s banner"
-msgstr ""
-
-#: src/components/ProfileCard.tsx:136
+#: src/components/ProfileCard.tsx:142
 #: src/screens/Profile/components/ProfileFeedHeader.tsx:456
 #: src/screens/Search/components/SearchProfileCard.tsx:36
 #: src/screens/VideoFeed/index.tsx:797
@@ -10293,8 +10088,8 @@ msgstr "Dyn negearre accounts besjen"
 msgid "View your verifications"
 msgstr "Dyn ferifikaasjes besjen"
 
-#: src/view/com/util/images/AutoSizedImage.tsx:210
-#: src/view/com/util/images/AutoSizedImage.tsx:237
+#: src/view/com/util/images/AutoSizedImage.tsx:205
+#: src/view/com/util/images/AutoSizedImage.tsx:232
 msgid "Views full image"
 msgstr "Toant folsleine ôfbylding"
 
@@ -10308,10 +10103,6 @@ msgstr ""
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:127
 msgid "Violent or threatening content"
-msgstr ""
-
-#: src/screens/Settings/DeerSettings.tsx:337
-msgid "Visibility"
 msgstr ""
 
 #: src/components/dialogs/LinkWarning.tsx:96
@@ -10374,7 +10165,7 @@ msgstr "Wy skatte {estimatedTime} oant dat dyn account klear is."
 msgid "We have partnered with <0>KWS</0> to verify that you’re an adult. When you click \"Begin\" below, KWS will check if you have previously verified your age using this email address for other games/services powered by KWS technology. If not, KWS will email you instructions for verifying your age. When you’re done, you'll be brought back to continue using Bluesky."
 msgstr "Wy wurkje gear mei <0>KWS</0> om te kontrolearjen oftsto in folwoeksene bist. Wannear’tsto hjirûnder op ‘Starte’ klikst, sil KWS kontrolearje oftsto earder dyn leeftiid ferifiearre hast mei help fan dit e-mailadres foar oare spultsjes/tsjinsten oandreaun troch KWS-technology. Sa net, dan sil KWS dy ynstruksjes maile om dyn leeftiid te ferifiearjen. Wannear’tsto klear bist, wurdsto werombrocht om Bluesky brûke te bliuwen."
 
-#: src/components/intents/VerifyEmailIntentDialog.tsx:107
+#: src/components/intents/VerifyEmailIntentDialog.tsx:101
 msgid "We have sent another verification email to <0>{0}</0>."
 msgstr "Wy hawwe in nije ferifikaasje-e-mailberjocht ferstjoerd nei <0>{0}</0>."
 
@@ -10447,6 +10238,10 @@ msgstr "Der binne netwurkproblemen, probearje it opnij"
 msgid "We’re introducing a new layer of verification on Bluesky — an easy-to-see checkmark."
 msgstr "Wy yntrodusearje in nije ferifikaasjelaach op Bluesky – in iefâldich-te-sjen finkje."
 
+#: src/screens/Signup/index.tsx:125
+msgid "We're so excited to have you join us!"
+msgstr "Wy binne och sa bliid datsto by ús bist!"
+
 #: src/components/ageAssurance/AgeAssuranceAccountCard.tsx:105
 msgid "We're sorry, but based on your device's location, you are currently located in a region that requires age assurance."
 msgstr ""
@@ -10463,7 +10258,8 @@ msgstr "It spyt ús, mar wy kinne dizze list net ophelje. Nim kontakt op mei de 
 msgid "We're sorry, but we weren't able to load your muted words at this time. Please try again."
 msgstr "It spyt ús, mar wy koene dyn negearre wurden op dit stuit net lade. Probearje it opnij."
 
-#: src/screens/Search/SearchResults.tsx:289
+#: src/screens/Search/SearchResults.tsx:320
+#: src/screens/Search/SearchResults.tsx:406
 msgid "We're sorry, but your search could not be completed. Please try again in a few minutes."
 msgstr "It spyt ús, mar dyn sykopdracht kin net foltôge wurde. Probearje it oer in pear minuten opnij."
 
@@ -10476,7 +10272,7 @@ msgstr "It spyt ús! It berjocht wêropsto reagearrest is fuortsmiten."
 msgid "We're sorry! We can't find the page you were looking for."
 msgstr "It spyt ús! Wy kinne de side dy’tsto sochtst net fine."
 
-#: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:341
+#: src/screens/Profile/Header/ProfileHeaderLabeler.tsx:216
 msgid "We're sorry! You can only subscribe to twenty labelers, and you've reached your limit of twenty."
 msgstr "It spyt ús! Do kinst dy mar op tweintich labelers abonnearje en do hast dizze limyt berikt."
 
@@ -10503,10 +10299,6 @@ msgstr "Wy hawwe de status fan dyn leeftiidsbewiis befêstige. Do kinst dit dial
 #: src/screens/Deactivated.tsx:125
 msgid "Welcome back!"
 msgstr "Wolkom werom!"
-
-#: src/screens/Signup/index.tsx:131
-msgid "Welcome to the ATmosphere!"
-msgstr ""
 
 #: src/components/NewskieDialog.tsx:139
 msgid "Welcome, friend!"
@@ -10635,11 +10427,11 @@ msgstr "Ja, de-aktivearje"
 msgid "Yes, delete this starter pack"
 msgstr "Ja, smyt dit startpakket fuort"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:870
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:772
 msgid "Yes, detach"
 msgstr "Ja, losmeitsje"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:880
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:782
 msgid "Yes, hide"
 msgstr "Ja, ferstopje"
 
@@ -10651,7 +10443,7 @@ msgstr "Ja, myn account opnij aktivearje"
 msgid "Yesterday"
 msgstr "Juster"
 
-#: src/components/verification/VerifierDialog.tsx:60
+#: src/components/verification/VerifierDialog.tsx:59
 msgid "You are a trusted verifier"
 msgstr "Do bist in fertroude ferifiearder"
 
@@ -10725,7 +10517,7 @@ msgstr "Do kinst yn de chatynstellingen yn de app kieze oft chatmeldingen lûd h
 msgid "You can continue ongoing conversations regardless of which setting you choose."
 msgstr "Do kinst rinnende petearen trochsette, nettsjinsteande hokker ynstelling do kiest."
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:365
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:357
 msgctxt "toast"
 msgid "You can hide a maximum of {MAX_HIDDEN_REPLIES} replies."
 msgstr ""
@@ -10942,7 +10734,7 @@ msgstr "Do moatst dyn e-mailadres ferifiearje eardatsto e-mail-2FA ynskeakelje k
 msgid "You previously deactivated @{0}."
 msgstr "Do hast @{0} earder de-aktivearre."
 
-#: src/screens/Settings/Settings.tsx:411
+#: src/screens/Settings/Settings.tsx:404
 msgid "You probably want to restart the app now."
 msgstr "Do wolst de app wierskynlik no opnij starte."
 
@@ -10954,7 +10746,7 @@ msgstr "Do hast mei {0} reagearre"
 msgid "You reacted {0} to {1}"
 msgstr "Do hast mei {0} op {1} reagearre"
 
-#: src/screens/Settings/Settings.tsx:293
+#: src/screens/Settings/Settings.tsx:286
 #: src/view/shell/desktop/LeftNav.tsx:210
 msgid "You will be signed out of all your accounts."
 msgstr "Do wurdst by al dyn accounts ôfmeld."
@@ -10963,11 +10755,11 @@ msgstr "Do wurdst by al dyn accounts ôfmeld."
 msgid "You will no longer receive notifications for {0}"
 msgstr "Do ûntfangst gjin meldingen mear foar {0}"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:225
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:217
 msgid "You will no longer receive notifications for this thread"
 msgstr "Do ûntfangst gjin meldingen mear foar dit petear"
 
-#: src/components/PostControls/PostMenu/PostMenuItems.tsx:221
+#: src/components/PostControls/PostMenu/PostMenuItems.tsx:213
 msgid "You will now receive notifications for this thread"
 msgstr "Do ûntfangst no meldingen foar dit petear"
 
@@ -10987,11 +10779,11 @@ msgstr "Do: {defaultEmbeddedContentMessage}"
 msgid "You: {short}"
 msgstr "Do: {short}"
 
-#: src/screens/Signup/index.tsx:147
+#: src/screens/Signup/index.tsx:141
 msgid "You'll follow the suggested users and feeds once you finish creating your account!"
 msgstr "Do folgest de foarstelde brûkers en feeds, sa gau asto klear bist mei it oanmeitsjen fan dyn account!"
 
-#: src/screens/Signup/index.tsx:152
+#: src/screens/Signup/index.tsx:146
 msgid "You'll follow the suggested users once you finish creating your account!"
 msgstr "Do folgest de foarstelde brûkers, sa gau asto klear bist mei it oanmeitsjen fan dyn account!"
 
@@ -11065,6 +10857,10 @@ msgstr "Do bist oer dyn deistige limyt foar fideo-oplaads (te folle fideo’s)"
 msgid "You've run out of videos to watch. Maybe it's a good time to take a break?"
 msgstr "Do hast gjin fideo’s mear om te besjen. Miskien is it in goed momint om skoft te hâlden?"
 
+#: src/screens/Signup/index.tsx:179
+msgid "Your account"
+msgstr "Dyn account"
+
 #: src/view/com/modals/DeleteAccount.tsx:84
 msgid "Your account has been deleted"
 msgstr "Dyn account is fuortsmiten"
@@ -11089,7 +10885,7 @@ msgstr "Dyn account is yn striid mei de <0>Tsjinstbetingsten fan Bluesky Social<
 msgid "Your appeal has been submitted. If your appeal succeeds, you will receive an email."
 msgstr "Dyn beswier is yntsjinne. Asto yn it gelyk stelst wurdst, ûntfangsto in e-mailberjocht."
 
-#: src/screens/Signup/StepInfo/index.tsx:333
+#: src/screens/Signup/StepInfo/index.tsx:260
 msgid "Your birth date"
 msgstr "Dyn bertedatum"
 
@@ -11122,7 +10918,7 @@ msgstr "Jouw e-mailadres"
 #: src/screens/Login/ForgotPasswordForm.tsx:51
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:81
 #: src/screens/Signup/state.ts:273
-#: src/screens/Signup/StepInfo/index.tsx:118
+#: src/screens/Signup/StepInfo/index.tsx:100
 msgid "Your email appears to be invalid."
 msgstr "Dyn e-mailadres liket ûnjildich te wêzen."
 
@@ -11146,7 +10942,7 @@ msgstr "Dyn folgjende feed is leech! Folgje mear brûkers om te sjen wat der bar
 msgid "Your full handle will be <0>@{0}</0>"
 msgstr "Dyn folsleine handle wurdt <0>@{0}</0>"
 
-#: src/Navigation.tsx:525
+#: src/Navigation.tsx:516
 #: src/screens/Search/modules/ExploreInterestsCard.tsx:67
 #: src/screens/Settings/ContentAndMediaSettings.tsx:92
 #: src/screens/Settings/ContentAndMediaSettings.tsx:95
@@ -11175,7 +10971,7 @@ msgstr "Dyn negearre wurden"
 msgid "Your password has been changed successfully! Please use your new password when you sign in to Bluesky from now on."
 msgstr ""
 
-#: src/screens/Signup/StepInfo/index.tsx:147
+#: src/screens/Signup/StepInfo/index.tsx:129
 msgid "Your password must be at least 8 characters long."
 msgstr "Dyn wachtwurd moat op syn minst 8 tekens lang wêze."
 

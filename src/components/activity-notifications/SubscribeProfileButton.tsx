@@ -5,6 +5,7 @@ import {useLingui} from '@lingui/react'
 
 import {useRequireEmailVerification} from '#/lib/hooks/useRequireEmailVerification'
 import {createSanitizedDisplayName} from '#/lib/moderation/create-sanitized-display-name'
+import {useEnableSquareButtons} from '#/state/preferences/enable-square-buttons'
 import {Button, ButtonIcon} from '#/components/Button'
 import {useDialogControl} from '#/components/Dialog'
 import {BellPlus_Stroke2_Corner0_Rounded as BellPlusIcon} from '#/components/icons/BellPlus'
@@ -18,9 +19,11 @@ import {SubscribeProfileDialog} from './SubscribeProfileDialog'
 export function SubscribeProfileButton({
   profile,
   moderationOpts,
+  disableHint,
 }: {
   profile: bsky.profile.AnyProfileView
   moderationOpts: ModerationOpts
+  disableHint?: boolean
 }) {
   const {_} = useLingui()
   const requireEmailVerification = useRequireEmailVerification()
@@ -66,10 +69,12 @@ export function SubscribeProfileButton({
 
   const Icon = isSubscribed ? BellRingingIcon : BellPlusIcon
 
+  const enableSquareButtons = useEnableSquareButtons()
+
   return (
     <>
       <Tooltip.Outer
-        visible={showTooltip}
+        visible={showTooltip && !disableHint}
         onVisibleChange={onDismissTooltip}
         position="bottom">
         <Tooltip.Target>
@@ -78,7 +83,7 @@ export function SubscribeProfileButton({
             testID="dmBtn"
             size="small"
             color="secondary"
-            shape="round"
+            shape={enableSquareButtons ? 'square' : 'round'}
             label={_(msg`Get notified when ${name} skeets`)}
             onPress={wrappedOnPress}>
             <ButtonIcon icon={Icon} size="md" />
